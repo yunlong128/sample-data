@@ -1,0 +1,35 @@
+{
+  "fields": [
+    {
+      "associationToOutcome": {
+        "value": 0.03907301722386558
+      },
+      "name": "Quantity"
+    },
+    {
+      "associationToOutcome": {
+        "value": 0.19923225440322767
+      },
+      "name": "Sub_Category"
+    },
+    {
+      "associationToOutcome": {
+        "value": 0.050406387597317304
+      },
+      "name": "Category"
+    },
+    {
+      "associationToOutcome": {
+        "value": 0.4179076391876323
+      },
+      "name": "Sales"
+    },
+    {
+      "associationToOutcome": {
+        "value": 0.25446011273825886
+      },
+      "name": "Profit_per_Order"
+    }
+  ],
+  "url": "/services/data/v53.0/smartdatadiscovery/analyses/9B45f0000009T5LCAU/input-profile"
+}
