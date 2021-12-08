@@ -1,0 +1,5319 @@
+{
+  "Body": {
+    "metadata": {
+      "outcome": {
+        "label": "Sales per Customer"
+      },
+      "fields": [
+        {
+          "label": "Quantity",
+          "property": {
+            "type": "Field",
+            "field": "Quantity"
+          },
+          "values": [
+            {
+              "property": {
+                "type": "Range",
+                "field": "Quantity",
+                "start": 1,
+                "end": 2
+              },
+              "label": "1 to 2"
+            },
+            {
+              "property": {
+                "type": "Range",
+                "field": "Quantity",
+                "start": 2,
+                "end": 3
+              },
+              "label": "2 to 3"
+            },
+            {
+              "property": {
+                "type": "Range",
+                "field": "Quantity",
+                "start": 3,
+                "end": 4
+              },
+              "label": "3 to 4"
+            },
+            {
+              "property": {
+                "type": "Range",
+                "field": "Quantity",
+                "start": 4,
+                "end": 5
+              },
+              "label": "4 to 5"
+            },
+            {
+              "property": {
+                "type": "Range",
+                "field": "Quantity",
+                "start": 5,
+                "end": 7
+              },
+              "label": "6 to 7"
+            },
+            {
+              "property": {
+                "type": "Range",
+                "field": "Quantity",
+                "start": 7,
+                "end": 17
+              },
+              "label": "8 to 17"
+            }
+          ]
+        },
+        {
+          "label": "Sub-Category",
+          "property": {
+            "type": "Field",
+            "field": "Sub_Category"
+          },
+          "values": [
+            {
+              "property": {
+                "type": "String",
+                "field": "Sub_Category",
+                "value": "Binders"
+              },
+              "label": "Binders"
+            },
+            {
+              "property": {
+                "type": "String",
+                "field": "Sub_Category",
+                "value": "Paper"
+              },
+              "label": "Paper"
+            },
+            {
+              "property": {
+                "type": "String",
+                "field": "Sub_Category",
+                "value": "Furnishings"
+              },
+              "label": "Furnishings"
+            },
+            {
+              "property": {
+                "type": "String",
+                "field": "Sub_Category",
+                "value": "Phones"
+              },
+              "label": "Phones"
+            },
+            {
+              "property": {
+                "type": "String",
+                "field": "Sub_Category",
+                "value": "Storage"
+              },
+              "label": "Storage"
+            },
+            {
+              "property": {
+                "type": "String",
+                "field": "Sub_Category",
+                "value": "Art"
+              },
+              "label": "Art"
+            },
+            {
+              "property": {
+                "type": "String",
+                "field": "Sub_Category",
+                "value": "Accessories"
+              },
+              "label": "Accessories"
+            },
+            {
+              "property": {
+                "type": "String",
+                "field": "Sub_Category",
+                "value": "Chairs"
+              },
+              "label": "Chairs"
+            },
+            {
+              "property": {
+                "type": "String",
+                "field": "Sub_Category",
+                "value": "Appliances"
+              },
+              "label": "Appliances"
+            },
+            {
+              "property": {
+                "type": "String",
+                "field": "Sub_Category",
+                "value": "Labels"
+              },
+              "label": "Labels"
+            },
+            {
+              "property": {
+                "type": "String",
+                "field": "Sub_Category",
+                "value": "Tables"
+              },
+              "label": "Tables"
+            },
+            {
+              "property": {
+                "type": "String",
+                "field": "Sub_Category",
+                "value": "Envelopes"
+              },
+              "label": "Envelopes"
+            },
+            {
+              "property": {
+                "type": "String",
+                "field": "Sub_Category",
+                "value": "Bookcases"
+              },
+              "label": "Bookcases"
+            },
+            {
+              "property": {
+                "type": "String",
+                "field": "Sub_Category",
+                "value": "Fasteners"
+              },
+              "label": "Fasteners"
+            },
+            {
+              "property": {
+                "type": "String",
+                "field": "Sub_Category",
+                "value": "Supplies"
+              },
+              "label": "Supplies"
+            },
+            {
+              "property": {
+                "type": "String",
+                "field": "Sub_Category",
+                "value": "Machines"
+              },
+              "label": "Machines"
+            },
+            {
+              "property": {
+                "type": "String",
+                "field": "Sub_Category",
+                "value": "Copiers"
+              },
+              "label": "Copiers"
+            }
+          ]
+        },
+        {
+          "label": "Category",
+          "property": {
+            "type": "Field",
+            "field": "Category"
+          },
+          "values": [
+            {
+              "property": {
+                "type": "String",
+                "field": "Category",
+                "value": "Office Supplies"
+              },
+              "label": "Office Supplies"
+            },
+            {
+              "property": {
+                "type": "String",
+                "field": "Category",
+                "value": "Furniture"
+              },
+              "label": "Furniture"
+            },
+            {
+              "property": {
+                "type": "String",
+                "field": "Category",
+                "value": "Technology"
+              },
+              "label": "Technology"
+            }
+          ]
+        },
+        {
+          "label": "Sales",
+          "property": {
+            "type": "Field",
+            "field": "Sales"
+          },
+          "values": [
+            {
+              "property": {
+                "type": "Range",
+                "field": "Sales",
+                "start": 0,
+                "end": 8
+              },
+              "label": "0 to 8"
+            },
+            {
+              "property": {
+                "type": "Range",
+                "field": "Sales",
+                "start": 8,
+                "end": 14
+              },
+              "label": "9 to 14"
+            },
+            {
+              "property": {
+                "type": "Range",
+                "field": "Sales",
+                "start": 14,
+                "end": 22
+              },
+              "label": "15 to 22"
+            },
+            {
+              "property": {
+                "type": "Range",
+                "field": "Sales",
+                "start": 22,
+                "end": 34
+              },
+              "label": "23 to 34"
+            },
+            {
+              "property": {
+                "type": "Range",
+                "field": "Sales",
+                "start": 34,
+                "end": 54
+              },
+              "label": "35 to 54"
+            },
+            {
+              "property": {
+                "type": "Range",
+                "field": "Sales",
+                "start": 54,
+                "end": 89
+              },
+              "label": "55 to 89"
+            },
+            {
+              "property": {
+                "type": "Range",
+                "field": "Sales",
+                "start": 89,
+                "end": 157
+              },
+              "label": "90 to 157"
+            },
+            {
+              "property": {
+                "type": "Range",
+                "field": "Sales",
+                "start": 157,
+                "end": 280
+              },
+              "label": "158 to 280"
+            },
+            {
+              "property": {
+                "type": "Range",
+                "field": "Sales",
+                "start": 280,
+                "end": 572
+              },
+              "label": "281 to 572"
+            },
+            {
+              "property": {
+                "type": "Range",
+                "field": "Sales",
+                "start": 572,
+                "end": 22638
+              },
+              "label": "573 to 22,640"
+            }
+          ]
+        },
+        {
+          "label": "Profit per Order",
+          "property": {
+            "type": "Field",
+            "field": "Profit_per_Order"
+          },
+          "values": [
+            {
+              "property": {
+                "type": "Range",
+                "field": "Profit_per_Order",
+                "start": -6599.98,
+                "end": -15.78
+              },
+              "label": "-6,600 to -15.78"
+            },
+            {
+              "property": {
+                "type": "Range",
+                "field": "Profit_per_Order",
+                "start": -15.78,
+                "end": 0.32
+              },
+              "label": "-15.77 to 0.32"
+            },
+            {
+              "property": {
+                "type": "Range",
+                "field": "Profit_per_Order",
+                "start": 0.32,
+                "end": 2.96
+              },
+              "label": "0.33 to 2.96"
+            },
+            {
+              "property": {
+                "type": "Range",
+                "field": "Profit_per_Order",
+                "start": 2.96,
+                "end": 5.41
+              },
+              "label": "2.97 to 5.41"
+            },
+            {
+              "property": {
+                "type": "Range",
+                "field": "Profit_per_Order",
+                "start": 5.41,
+                "end": 8.58
+              },
+              "label": "5.42 to 8.58"
+            },
+            {
+              "property": {
+                "type": "Range",
+                "field": "Profit_per_Order",
+                "start": 8.58,
+                "end": 13.5
+              },
+              "label": "8.59 to 13.5"
+            },
+            {
+              "property": {
+                "type": "Range",
+                "field": "Profit_per_Order",
+                "start": 13.5,
+                "end": 22.05
+              },
+              "label": "13.51 to 22.05"
+            },
+            {
+              "property": {
+                "type": "Range",
+                "field": "Profit_per_Order",
+                "start": 22.05,
+                "end": 40.7
+              },
+              "label": "22.06 to 40.7"
+            },
+            {
+              "property": {
+                "type": "Range",
+                "field": "Profit_per_Order",
+                "start": 40.7,
+                "end": 88.93
+              },
+              "label": "40.71 to 88.93"
+            },
+            {
+              "property": {
+                "type": "Range",
+                "field": "Profit_per_Order",
+                "start": 88.93,
+                "end": 8399.98
+              },
+              "label": "88.94 to 8,400"
+            }
+          ]
+        }
+      ]
+    },
+    "model": {
+      "meetsBasicRequirements": true,
+      "metrics": {
+        "training": {
+          "type": "RegressionGLM",
+          "r2": 0.4750566580980613,
+          "mse": 203101.36519027476,
+          "rmse": 450.66768820304255,
+          "nobs": 9973,
+          "meanResidualDeviance": 203101.36519027476,
+          "mae": 142.5223869928248,
+          "rmsle": 1.390731360286434,
+          "residualDeviance": 2025529915.0426102,
+          "nullDeviance": 3858568636.5767576,
+          "aic": 150214.7732437282,
+          "nullDegreesOfFreedom": 9972,
+          "residualDegreesOfFreedom": 9960
+        },
+        "validation": {
+          "type": "RegressionGLM",
+          "r2": 0.4649905162856609,
+          "mse": 206995.97053356775,
+          "rmse": 454.96809836907,
+          "nobs": 9973,
+          "meanResidualDeviance": 206995.97053356775,
+          "mae": 142.97463675734327,
+          "rmsle": 1.3922298110117717,
+          "residualDeviance": 2064370814.1312712,
+          "nullDeviance": 3859450917.846711,
+          "aic": 150404.2017693037,
+          "nullDegreesOfFreedom": 9972,
+          "residualDegreesOfFreedom": 9960
+        },
+        "crossValidation": [
+          {
+            "type": "RegressionGLM",
+            "r2": 0.4689756349843477,
+            "mse": 203165.49459022899,
+            "rmse": 450.73883190848889,
+            "nobs": 2486,
+            "meanResidualDeviance": 203165.49459022899,
+            "mae": 140.5357618647762,
+            "rmsle": 1.391717971160665,
+            "residualDeviance": 505069419.5513092,
+            "nullDeviance": 951292258.0227356,
+            "aic": 37466.29794616022,
+            "nullDegreesOfFreedom": 2485,
+            "residualDegreesOfFreedom": 2473
+          },
+          {
+            "type": "RegressionGLM",
+            "r2": 0.4886177690731738,
+            "mse": 160734.03245113299,
+            "rmse": 400.9164906200953,
+            "nobs": 2480,
+            "meanResidualDeviance": 160734.03245113299,
+            "mae": 141.74721499598832,
+            "rmsle": 1.4121367703442623,
+            "residualDeviance": 398620400.4788098,
+            "nullDeviance": 780222835.8310301,
+            "aic": 36794.950762589244,
+            "nullDegreesOfFreedom": 2479,
+            "residualDegreesOfFreedom": 2467
+          },
+          {
+            "type": "RegressionGLM",
+            "r2": 0.4271669099720502,
+            "mse": 283559.3421463644,
+            "rmse": 532.502903415901,
+            "nobs": 2492,
+            "meanResidualDeviance": 283559.3421463644,
+            "mae": 140.33144920711363,
+            "rmsle": 1.3860606428165097,
+            "residualDeviance": 706629880.6287401,
+            "nullDeviance": 1233623493.1644068,
+            "aic": 38387.48998585692,
+            "nullDegreesOfFreedom": 2491,
+            "residualDegreesOfFreedom": 2479
+          },
+          {
+            "type": "RegressionGLM",
+            "r2": 0.5196298571231514,
+            "mse": 170612.4422648557,
+            "rmse": 413.0525901926481,
+            "nobs": 2515,
+            "meanResidualDeviance": 170612.4422648557,
+            "mae": 148.14401781097289,
+            "rmsle": 1.4023881233922105,
+            "residualDeviance": 429090292.29611209,
+            "nullDeviance": 894312330.8285391,
+            "aic": 37463.842679088804,
+            "nullDegreesOfFreedom": 2514,
+            "residualDegreesOfFreedom": 2502
+          }
+        ]
+      },
+      "modelAlgType": "GLM"
+    },
+    "improvements": [
+      {
+        "name": "OBVIOUS_PREDICTOR",
+        "messages": [
+          {
+            "prompt": "Sales",
+            "details": "Sales explains 41.8% of the variation in Sales per Customer",
+            "directives": [
+              {
+                "factories": [
+                  {
+                    "FIELDS": {
+                      "fields": [
+                        {
+                          "name": "Sales",
+                          "displayName": "Sales",
+                          "factory": {
+                            "factories": [
+                              {
+                                "ENUM": "IGNORE"
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "prototype": {
+                  "outcome": {
+                    "type": "number",
+                    "name": "Sales_per_Customer",
+                    "displayName": "Sales per Customer",
+                    "predictionType": "Numeric",
+                    "goal": "Maximize",
+                    "max": 22638.48,
+                    "min": 0.44
+                  },
+                  "fields": [
+                    {
+                      "type": "number",
+                      "name": "Sales",
+                      "displayName": "Sales",
+                      "ignored": true,
+                      "protected": false,
+                      "sensitive": false,
+                      "min": 0.0,
+                      "max": 22638.0,
+                      "bucketingStrategy": "PERCENTILE",
+                      "numBuckets": 10,
+                      "uniqueEquivalent": false,
+                      "highCardinality": false
+                    }
+                  ],
+                  "modelConfiguration": {
+                    "modelAlgType": "GLM"
+                  },
+                  "transformations": [],
+                  "overrides": {
+                    "outcome": {
+                      "type": "number",
+                      "name": "Sales_per_Customer",
+                      "displayName": "Sales per Customer",
+                      "predictionType": "Numeric",
+                      "goal": "Maximize"
+                    },
+                    "fields": [
+                      {
+                        "type": "number",
+                        "name": "Profit_per_Order",
+                        "protected": false,
+                        "uniqueEquivalent": false,
+                        "highCardinality": false
+                      },
+                      {
+                        "type": "number",
+                        "name": "Quantity",
+                        "protected": false,
+                        "uniqueEquivalent": false,
+                        "highCardinality": false
+                      },
+                      {
+                        "type": "number",
+                        "name": "Sales",
+                        "protected": false,
+                        "uniqueEquivalent": false,
+                        "highCardinality": false
+                      },
+                      {
+                        "type": "number",
+                        "name": "Sales_per_Customer",
+                        "protected": false,
+                        "uniqueEquivalent": false,
+                        "highCardinality": false
+                      },
+                      {
+                        "type": "text",
+                        "name": "Sub_Category",
+                        "protected": false,
+                        "highCardinality": false,
+                        "uniqueEquivalent": false
+                      },
+                      {
+                        "type": "text",
+                        "name": "Category",
+                        "protected": false,
+                        "highCardinality": false,
+                        "uniqueEquivalent": false
+                      }
+                    ],
+                    "modelConfiguration": {
+                      "modelAlgType": "GLM"
+                    },
+                    "transformations": [],
+                    "downSampleSize": -1
+                  },
+                  "downSampleSize": -1
+                },
+                "previewText": [
+                  "Ignore Sales"
+                ]
+              }
+            ],
+            "alertKey": "Sales",
+            "data": {
+              "rsq": 0.4179076391876323,
+              "fieldLabel": "Sales",
+              "outcomeLabel": "Sales per Customer"
+            }
+          }
+        ]
+      },
+      {
+        "name": "EXTREME_VALUES",
+        "messages": [
+          {
+            "prompt": "Sales per Customer",
+            "details": "Removing values below 0.44 and above 3,339",
+            "directives": [
+              {
+                "factories": [
+                  {
+                    "ENUM": "OUTCOME_NUMERIC_MAX"
+                  }
+                ],
+                "prototype": {
+                  "outcome": {
+                    "type": "number",
+                    "name": "Sales_per_Customer",
+                    "displayName": "Sales per Customer",
+                    "predictionType": "Numeric",
+                    "goal": "Maximize",
+                    "max": 3339.2979847997055,
+                    "min": 0.44
+                  },
+                  "fields": [],
+                  "modelConfiguration": {
+                    "modelAlgType": "GLM"
+                  },
+                  "transformations": [],
+                  "overrides": {
+                    "outcome": {
+                      "type": "number",
+                      "name": "Sales_per_Customer",
+                      "displayName": "Sales per Customer",
+                      "predictionType": "Numeric",
+                      "goal": "Maximize"
+                    },
+                    "fields": [
+                      {
+                        "type": "number",
+                        "name": "Profit_per_Order",
+                        "protected": false,
+                        "uniqueEquivalent": false,
+                        "highCardinality": false
+                      },
+                      {
+                        "type": "number",
+                        "name": "Quantity",
+                        "protected": false,
+                        "uniqueEquivalent": false,
+                        "highCardinality": false
+                      },
+                      {
+                        "type": "number",
+                        "name": "Sales",
+                        "protected": false,
+                        "uniqueEquivalent": false,
+                        "highCardinality": false
+                      },
+                      {
+                        "type": "number",
+                        "name": "Sales_per_Customer",
+                        "protected": false,
+                        "uniqueEquivalent": false,
+                        "highCardinality": false
+                      },
+                      {
+                        "type": "text",
+                        "name": "Sub_Category",
+                        "protected": false,
+                        "highCardinality": false,
+                        "uniqueEquivalent": false
+                      },
+                      {
+                        "type": "text",
+                        "name": "Category",
+                        "protected": false,
+                        "highCardinality": false,
+                        "uniqueEquivalent": false
+                      }
+                    ],
+                    "modelConfiguration": {
+                      "modelAlgType": "GLM"
+                    },
+                    "transformations": [],
+                    "downSampleSize": -1
+                  },
+                  "downSampleSize": -1
+                },
+                "previewText": [
+                  "Remove outliers"
+                ]
+              }
+            ],
+            "alertKey": "Sales per Customer",
+            "data": {
+              "outcomeLabel": "Sales per Customer",
+              "effectiveMin": 0.44,
+              "effectiveMax": 3339.2979847997055
+            }
+          }
+        ]
+      },
+      {
+        "name": "COLLINEAR_FIELDS",
+        "messages": [
+          {
+            "prompt": "Sub-Category",
+            "details": "Sub-Category and Category are 99.9% similar and might have a redundant impact on Sales per Customer. Investigate these variables for multicollinearity. If found, keep the one that best explains the outcome and exclude the other from the story. To improve results and make insights easier to interpret, consider removing the least descriptive variable from the story.",
+            "directives": [
+              {
+                "factories": [
+                  {
+                    "FIELDS": {
+                      "fields": [
+                        {
+                          "name": "Sub_Category",
+                          "displayName": "Sub-Category",
+                          "factory": {
+                            "factories": [
+                              {
+                                "ENUM": "IGNORE"
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "prototype": {
+                  "outcome": {
+                    "type": "number",
+                    "name": "Sales_per_Customer",
+                    "displayName": "Sales per Customer",
+                    "predictionType": "Numeric",
+                    "goal": "Maximize",
+                    "max": 22638.48,
+                    "min": 0.44
+                  },
+                  "fields": [
+                    {
+                      "type": "text",
+                      "name": "Sub_Category",
+                      "displayName": "Sub-Category",
+                      "ignored": true,
+                      "protected": false,
+                      "sensitive": false,
+                      "highCardinality": false,
+                      "ordering": "OCCURRENCE",
+                      "includeOther": true,
+                      "support": 24,
+                      "balanced": false,
+                      "values": [],
+                      "uniqueEquivalent": false
+                    }
+                  ],
+                  "modelConfiguration": {
+                    "modelAlgType": "GLM"
+                  },
+                  "transformations": [],
+                  "overrides": {
+                    "outcome": {
+                      "type": "number",
+                      "name": "Sales_per_Customer",
+                      "displayName": "Sales per Customer",
+                      "predictionType": "Numeric",
+                      "goal": "Maximize"
+                    },
+                    "fields": [
+                      {
+                        "type": "number",
+                        "name": "Profit_per_Order",
+                        "protected": false,
+                        "uniqueEquivalent": false,
+                        "highCardinality": false
+                      },
+                      {
+                        "type": "number",
+                        "name": "Quantity",
+                        "protected": false,
+                        "uniqueEquivalent": false,
+                        "highCardinality": false
+                      },
+                      {
+                        "type": "number",
+                        "name": "Sales",
+                        "protected": false,
+                        "uniqueEquivalent": false,
+                        "highCardinality": false
+                      },
+                      {
+                        "type": "number",
+                        "name": "Sales_per_Customer",
+                        "protected": false,
+                        "uniqueEquivalent": false,
+                        "highCardinality": false
+                      },
+                      {
+                        "type": "text",
+                        "name": "Sub_Category",
+                        "protected": false,
+                        "highCardinality": false,
+                        "uniqueEquivalent": false
+                      },
+                      {
+                        "type": "text",
+                        "name": "Category",
+                        "protected": false,
+                        "highCardinality": false,
+                        "uniqueEquivalent": false
+                      }
+                    ],
+                    "modelConfiguration": {
+                      "modelAlgType": "GLM"
+                    },
+                    "transformations": [],
+                    "downSampleSize": -1
+                  },
+                  "downSampleSize": -1
+                },
+                "previewText": [
+                  "Exclude Sub-Category"
+                ]
+              }
+            ],
+            "alertKey": "Sub_Category",
+            "data": {
+              "associationScores": [
+                0.9992976470311967
+              ],
+              "otherFieldLabels": [
+                "Category"
+              ],
+              "fieldLabel": "Sub-Category",
+              "outcomeLabel": "Sales per Customer"
+            }
+          },
+          {
+            "prompt": "Category",
+            "details": "Category and Sub-Category are 99.9% similar and might have a redundant impact on Sales per Customer. Investigate these variables for multicollinearity. If found, keep the one that best explains the outcome and exclude the other from the story. To improve results and make insights easier to interpret, consider removing the least descriptive variable from the story.",
+            "directives": [
+              {
+                "factories": [
+                  {
+                    "FIELDS": {
+                      "fields": [
+                        {
+                          "name": "Category",
+                          "displayName": "Category",
+                          "factory": {
+                            "factories": [
+                              {
+                                "ENUM": "IGNORE"
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "prototype": {
+                  "outcome": {
+                    "type": "number",
+                    "name": "Sales_per_Customer",
+                    "displayName": "Sales per Customer",
+                    "predictionType": "Numeric",
+                    "goal": "Maximize",
+                    "max": 22638.48,
+                    "min": 0.44
+                  },
+                  "fields": [
+                    {
+                      "type": "text",
+                      "name": "Category",
+                      "displayName": "Category",
+                      "ignored": true,
+                      "protected": false,
+                      "sensitive": false,
+                      "highCardinality": false,
+                      "ordering": "OCCURRENCE",
+                      "includeOther": true,
+                      "support": 24,
+                      "balanced": false,
+                      "values": [],
+                      "uniqueEquivalent": false
+                    }
+                  ],
+                  "modelConfiguration": {
+                    "modelAlgType": "GLM"
+                  },
+                  "transformations": [],
+                  "overrides": {
+                    "outcome": {
+                      "type": "number",
+                      "name": "Sales_per_Customer",
+                      "displayName": "Sales per Customer",
+                      "predictionType": "Numeric",
+                      "goal": "Maximize"
+                    },
+                    "fields": [
+                      {
+                        "type": "number",
+                        "name": "Profit_per_Order",
+                        "protected": false,
+                        "uniqueEquivalent": false,
+                        "highCardinality": false
+                      },
+                      {
+                        "type": "number",
+                        "name": "Quantity",
+                        "protected": false,
+                        "uniqueEquivalent": false,
+                        "highCardinality": false
+                      },
+                      {
+                        "type": "number",
+                        "name": "Sales",
+                        "protected": false,
+                        "uniqueEquivalent": false,
+                        "highCardinality": false
+                      },
+                      {
+                        "type": "number",
+                        "name": "Sales_per_Customer",
+                        "protected": false,
+                        "uniqueEquivalent": false,
+                        "highCardinality": false
+                      },
+                      {
+                        "type": "text",
+                        "name": "Sub_Category",
+                        "protected": false,
+                        "highCardinality": false,
+                        "uniqueEquivalent": false
+                      },
+                      {
+                        "type": "text",
+                        "name": "Category",
+                        "protected": false,
+                        "highCardinality": false,
+                        "uniqueEquivalent": false
+                      }
+                    ],
+                    "modelConfiguration": {
+                      "modelAlgType": "GLM"
+                    },
+                    "transformations": [],
+                    "downSampleSize": -1
+                  },
+                  "downSampleSize": -1
+                },
+                "previewText": [
+                  "Exclude Category"
+                ]
+              }
+            ],
+            "alertKey": "Category",
+            "data": {
+              "associationScores": [
+                0.9992976470311967
+              ],
+              "otherFieldLabels": [
+                "Sub-Category"
+              ],
+              "fieldLabel": "Category",
+              "outcomeLabel": "Sales per Customer"
+            }
+          }
+        ]
+      },
+      {
+        "name": "RECOMMENDED_BUCKETS",
+        "messages": [
+          {
+            "prompt": "Profit per Order",
+            "details": "Recommended buckets: [-6,600 to -177.4, -177.4 to -113.8, -113.8 to -62.13, -62.12 to -41.85, -41.84 to -23.63, -23.62 to 72.27, 72.28 to 104.8, 104.8 to 131.8, 131.8 to 157.3, 157.3 to 232.3, 232.3 to 321.3, 321.3 to 531.8, 531.8 to 8,400]",
+            "directives": [
+              {
+                "factories": [
+                  {
+                    "FIELDS": {
+                      "fields": [
+                        {
+                          "name": "Profit_per_Order",
+                          "displayName": "Profit per Order",
+                          "factory": {
+                            "factories": [
+                              {
+                                "ENUM": "NUMBER_BUCKETING_STRATEGY"
+                              },
+                              {
+                                "ENUM": "NUMBER_MANUAL_BUCKETS"
+                              },
+                              {
+                                "ENUM": "NUMBER_BUCKETS"
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "prototype": {
+                  "outcome": {
+                    "type": "number",
+                    "name": "Sales_per_Customer",
+                    "displayName": "Sales per Customer",
+                    "predictionType": "Numeric",
+                    "goal": "Maximize",
+                    "max": 22638.48,
+                    "min": 0.44
+                  },
+                  "fields": [
+                    {
+                      "type": "number",
+                      "name": "Profit_per_Order",
+                      "displayName": "Profit per Order",
+                      "ignored": false,
+                      "protected": false,
+                      "sensitive": false,
+                      "min": -6599.98,
+                      "max": 8399.98,
+                      "bucketingStrategy": "MANUAL",
+                      "numBuckets": 12,
+                      "buckets": [
+                        -177.36,
+                        -113.82,
+                        -62.13,
+                        -41.85,
+                        -23.63,
+                        72.27,
+                        104.79,
+                        131.79,
+                        157.31,
+                        232.32,
+                        321.25,
+                        531.82
+                      ],
+                      "uniqueEquivalent": false,
+                      "highCardinality": false
+                    }
+                  ],
+                  "modelConfiguration": {
+                    "modelAlgType": "GLM"
+                  },
+                  "transformations": [],
+                  "overrides": {
+                    "outcome": {
+                      "type": "number",
+                      "name": "Sales_per_Customer",
+                      "displayName": "Sales per Customer",
+                      "predictionType": "Numeric",
+                      "goal": "Maximize"
+                    },
+                    "fields": [
+                      {
+                        "type": "number",
+                        "name": "Profit_per_Order",
+                        "protected": false,
+                        "uniqueEquivalent": false,
+                        "highCardinality": false
+                      },
+                      {
+                        "type": "number",
+                        "name": "Quantity",
+                        "protected": false,
+                        "uniqueEquivalent": false,
+                        "highCardinality": false
+                      },
+                      {
+                        "type": "number",
+                        "name": "Sales",
+                        "protected": false,
+                        "uniqueEquivalent": false,
+                        "highCardinality": false
+                      },
+                      {
+                        "type": "number",
+                        "name": "Sales_per_Customer",
+                        "protected": false,
+                        "uniqueEquivalent": false,
+                        "highCardinality": false
+                      },
+                      {
+                        "type": "text",
+                        "name": "Sub_Category",
+                        "protected": false,
+                        "highCardinality": false,
+                        "uniqueEquivalent": false
+                      },
+                      {
+                        "type": "text",
+                        "name": "Category",
+                        "protected": false,
+                        "highCardinality": false,
+                        "uniqueEquivalent": false
+                      }
+                    ],
+                    "modelConfiguration": {
+                      "modelAlgType": "GLM"
+                    },
+                    "transformations": [],
+                    "downSampleSize": -1
+                  },
+                  "downSampleSize": -1
+                },
+                "previewText": [
+                  "Apply the new buckets"
+                ]
+              }
+            ],
+            "alertKey": "Profit_per_Order",
+            "data": {
+              "cutoffs": [
+                -6599.98,
+                -177.36,
+                -113.82,
+                -62.13,
+                -41.85,
+                -23.63,
+                72.27,
+                104.79,
+                131.79,
+                157.31,
+                232.32,
+                321.25,
+                531.82,
+                8399.98
+              ],
+              "valueLabels": [
+                "-6,600 to -177.4",
+                "-177.4 to -113.8",
+                "-113.8 to -62.13",
+                "-62.12 to -41.85",
+                "-41.84 to -23.63",
+                "-23.62 to 72.27",
+                "72.28 to 104.8",
+                "104.8 to 131.8",
+                "131.8 to 157.3",
+                "157.3 to 232.3",
+                "232.3 to 321.3",
+                "321.3 to 531.8",
+                "531.8 to 8,400"
+              ],
+              "fieldLabel": "Profit per Order"
+            }
+          },
+          {
+            "prompt": "Sales",
+            "details": "Recommended buckets: [0 to 422, 423 to 589, 590 to 819, 820 to 952, 953 to 1,237, 1,238 to 1,538, 1,539 to 2,198, 2,199 to 22,640]",
+            "directives": [
+              {
+                "factories": [
+                  {
+                    "FIELDS": {
+                      "fields": [
+                        {
+                          "name": "Sales",
+                          "displayName": "Sales",
+                          "factory": {
+                            "factories": [
+                              {
+                                "ENUM": "NUMBER_BUCKETING_STRATEGY"
+                              },
+                              {
+                                "ENUM": "NUMBER_MANUAL_BUCKETS"
+                              },
+                              {
+                                "ENUM": "NUMBER_BUCKETS"
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "prototype": {
+                  "outcome": {
+                    "type": "number",
+                    "name": "Sales_per_Customer",
+                    "displayName": "Sales per Customer",
+                    "predictionType": "Numeric",
+                    "goal": "Maximize",
+                    "max": 22638.48,
+                    "min": 0.44
+                  },
+                  "fields": [
+                    {
+                      "type": "number",
+                      "name": "Sales",
+                      "displayName": "Sales",
+                      "ignored": false,
+                      "protected": false,
+                      "sensitive": false,
+                      "min": 0.0,
+                      "max": 22638.0,
+                      "bucketingStrategy": "MANUAL",
+                      "numBuckets": 7,
+                      "buckets": [
+                        422.0,
+                        589.0,
+                        819.0,
+                        952.0,
+                        1237.0,
+                        1538.0,
+                        2198.0
+                      ],
+                      "uniqueEquivalent": false,
+                      "highCardinality": false
+                    }
+                  ],
+                  "modelConfiguration": {
+                    "modelAlgType": "GLM"
+                  },
+                  "transformations": [],
+                  "overrides": {
+                    "outcome": {
+                      "type": "number",
+                      "name": "Sales_per_Customer",
+                      "displayName": "Sales per Customer",
+                      "predictionType": "Numeric",
+                      "goal": "Maximize"
+                    },
+                    "fields": [
+                      {
+                        "type": "number",
+                        "name": "Profit_per_Order",
+                        "protected": false,
+                        "uniqueEquivalent": false,
+                        "highCardinality": false
+                      },
+                      {
+                        "type": "number",
+                        "name": "Quantity",
+                        "protected": false,
+                        "uniqueEquivalent": false,
+                        "highCardinality": false
+                      },
+                      {
+                        "type": "number",
+                        "name": "Sales",
+                        "protected": false,
+                        "uniqueEquivalent": false,
+                        "highCardinality": false
+                      },
+                      {
+                        "type": "number",
+                        "name": "Sales_per_Customer",
+                        "protected": false,
+                        "uniqueEquivalent": false,
+                        "highCardinality": false
+                      },
+                      {
+                        "type": "text",
+                        "name": "Sub_Category",
+                        "protected": false,
+                        "highCardinality": false,
+                        "uniqueEquivalent": false
+                      },
+                      {
+                        "type": "text",
+                        "name": "Category",
+                        "protected": false,
+                        "highCardinality": false,
+                        "uniqueEquivalent": false
+                      }
+                    ],
+                    "modelConfiguration": {
+                      "modelAlgType": "GLM"
+                    },
+                    "transformations": [],
+                    "downSampleSize": -1
+                  },
+                  "downSampleSize": -1
+                },
+                "previewText": [
+                  "Apply the new buckets"
+                ]
+              }
+            ],
+            "alertKey": "Sales",
+            "data": {
+              "cutoffs": [
+                0,
+                422,
+                589,
+                819,
+                952,
+                1237,
+                1538,
+                2198,
+                22638
+              ],
+              "valueLabels": [
+                "0 to 422",
+                "423 to 589",
+                "590 to 819",
+                "820 to 952",
+                "953 to 1,237",
+                "1,238 to 1,538",
+                "1,539 to 2,198",
+                "2,199 to 22,640"
+              ],
+              "fieldLabel": "Sales"
+            }
+          }
+        ]
+      }
+    ],
+    "insights": [
+      {
+        "others": [],
+        "chart": {
+          "metricLabel": "Sales per Customer",
+          "categoryLabel": "Sales",
+          "values": [
+            {
+              "label": "0 to 8",
+              "value": 5.105274223034736,
+              "properties": [
+                {
+                  "type": "Range",
+                  "field": "Sales",
+                  "start": 0,
+                  "end": 8
+                }
+              ],
+              "dimensions": [
+                {
+                  "field": "Sales",
+                  "value": "0 to 8"
+                }
+              ],
+              "details": {
+                "Total": 5585.170000000001,
+                "Average": 5.105274223034736,
+                "Standard Deviation": 1.9975707267926546,
+                "Count": 1094,
+                "Difference from Average": -223.96644241187534
+              },
+              "isHighlighted": true
+            },
+            {
+              "label": "9 to 14",
+              "value": 11.386669990029896,
+              "properties": [
+                {
+                  "type": "Range",
+                  "field": "Sales",
+                  "start": 8,
+                  "end": 14
+                }
+              ],
+              "dimensions": [
+                {
+                  "field": "Sales",
+                  "value": "9 to 14"
+                }
+              ],
+              "details": {
+                "Total": 11420.829999999985,
+                "Average": 11.386669990029896,
+                "Standard Deviation": 1.714200254562384,
+                "Count": 1003,
+                "Difference from Average": -217.68504664488018
+              },
+              "isHighlighted": true
+            },
+            {
+              "label": "15 to 22",
+              "value": 18.061709053916567,
+              "properties": [
+                {
+                  "type": "Range",
+                  "field": "Sales",
+                  "start": 14,
+                  "end": 22
+                }
+              ],
+              "dimensions": [
+                {
+                  "field": "Sales",
+                  "value": "15 to 22"
+                }
+              ],
+              "details": {
+                "Total": 17754.659999999985,
+                "Average": 18.061709053916567,
+                "Standard Deviation": 2.298527051772435,
+                "Count": 983,
+                "Difference from Average": -211.01000758099353
+              },
+              "isHighlighted": true
+            },
+            {
+              "label": "23 to 34",
+              "value": 28.08333693304534,
+              "properties": [
+                {
+                  "type": "Range",
+                  "field": "Sales",
+                  "start": 22,
+                  "end": 34
+                }
+              ],
+              "dimensions": [
+                {
+                  "field": "Sales",
+                  "value": "23 to 34"
+                }
+              ],
+              "details": {
+                "Total": 26005.169999999987,
+                "Average": 28.08333693304534,
+                "Standard Deviation": 3.4969080070253879,
+                "Count": 926,
+                "Difference from Average": -200.98837970186475
+              },
+              "isHighlighted": true
+            },
+            {
+              "label": "35 to 54",
+              "value": 43.176220871327227,
+              "properties": [
+                {
+                  "type": "Range",
+                  "field": "Sales",
+                  "start": 34,
+                  "end": 54
+                }
+              ],
+              "dimensions": [
+                {
+                  "field": "Sales",
+                  "value": "35 to 54"
+                }
+              ],
+              "details": {
+                "Total": 42614.92999999997,
+                "Average": 43.176220871327227,
+                "Standard Deviation": 5.603931212491246,
+                "Count": 987,
+                "Difference from Average": -185.89549576358287
+              },
+              "isHighlighted": true
+            },
+            {
+              "label": "55 to 89",
+              "value": 70.06259634888434,
+              "properties": [
+                {
+                  "type": "Range",
+                  "field": "Sales",
+                  "start": 54,
+                  "end": 89
+                }
+              ],
+              "dimensions": [
+                {
+                  "field": "Sales",
+                  "value": "55 to 89"
+                }
+              ],
+              "details": {
+                "Total": 69081.71999999996,
+                "Average": 70.06259634888434,
+                "Standard Deviation": 9.89958516042894,
+                "Count": 986,
+                "Difference from Average": -159.00912028602574
+              },
+              "isHighlighted": true
+            },
+            {
+              "label": "90 to 157",
+              "value": 118.42746238716154,
+              "properties": [
+                {
+                  "type": "Range",
+                  "field": "Sales",
+                  "start": 89,
+                  "end": 157
+                }
+              ],
+              "dimensions": [
+                {
+                  "field": "Sales",
+                  "value": "90 to 157"
+                }
+              ],
+              "details": {
+                "Total": 118072.18000000005,
+                "Average": 118.42746238716154,
+                "Standard Deviation": 19.676058431031703,
+                "Count": 997,
+                "Difference from Average": -110.64425424774854
+              },
+              "isHighlighted": true
+            },
+            {
+              "label": "158 to 280",
+              "value": 212.99947158524493,
+              "properties": [
+                {
+                  "type": "Range",
+                  "field": "Sales",
+                  "start": 157,
+                  "end": 280
+                }
+              ],
+              "dimensions": [
+                {
+                  "field": "Sales",
+                  "value": "158 to 280"
+                }
+              ],
+              "details": {
+                "Total": 213638.47000000065,
+                "Average": 212.99947158524493,
+                "Standard Deviation": 35.556703128172369,
+                "Count": 1003,
+                "Difference from Average": -16.072245049665157
+              },
+              "isHighlighted": false
+            },
+            {
+              "label": "281 to 572",
+              "value": 402.2620340681361,
+              "properties": [
+                {
+                  "type": "Range",
+                  "field": "Sales",
+                  "start": 280,
+                  "end": 572
+                }
+              ],
+              "dimensions": [
+                {
+                  "field": "Sales",
+                  "value": "281 to 572"
+                }
+              ],
+              "details": {
+                "Total": 401457.5099999998,
+                "Average": 402.2620340681361,
+                "Standard Deviation": 83.44525848880739,
+                "Count": 998,
+                "Difference from Average": 173.190317433226
+              },
+              "isHighlighted": true
+            },
+            {
+              "label": "573 to 22,640",
+              "value": 1384.439347389553,
+              "properties": [
+                {
+                  "type": "Range",
+                  "field": "Sales",
+                  "start": 572,
+                  "end": 22638
+                }
+              ],
+              "dimensions": [
+                {
+                  "field": "Sales",
+                  "value": "573 to 22,640"
+                }
+              ],
+              "details": {
+                "Total": 1378901.5899999948,
+                "Average": 1384.439347389553,
+                "Standard Deviation": 1498.8338143061865,
+                "Count": 996,
+                "Difference from Average": 1155.367630754643
+              },
+              "isHighlighted": true
+            }
+          ]
+        },
+        "narrative": {
+          "title": {
+            "type": "HEADING",
+            "elements": [
+              {
+                "type": "PARAGRAPH",
+                "value": "Sales per Customer by "
+              },
+              {
+                "type": "PARAGRAPH",
+                "value": "Sales",
+                "properties": [
+                  {
+                    "type": "Field",
+                    "field": "Sales"
+                  }
+                ]
+              }
+            ]
+          },
+          "header": {
+            "type": "SUB_HEADING",
+            "elements": [
+              {
+                "type": "PARAGRAPH",
+                "value": "Sales",
+                "properties": [
+                  {
+                    "type": "Field",
+                    "field": "Sales"
+                  }
+                ]
+              },
+              {
+                "type": "PARAGRAPH",
+                "value": ": "
+              },
+              {
+                "type": "PARAGRAPH",
+                "value": "573 to 22,640",
+                "properties": [
+                  {
+                    "type": "Range",
+                    "field": "Sales",
+                    "start": 572,
+                    "end": 22638
+                  }
+                ]
+              },
+              {
+                "type": "PARAGRAPH",
+                "value": " does better than average"
+              }
+            ]
+          },
+          "body": {
+            "type": "BODY",
+            "elements": [
+              {
+                "type": "PARAGRAPH",
+                "elements": [
+                  {
+                    "type": "PARAGRAPH",
+                    "value": "Sales",
+                    "properties": [
+                      {
+                        "type": "Field",
+                        "field": "Sales"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "PARAGRAPH",
+                    "value": " explains 41.8% of the variation in Sales per Customer."
+                  }
+                ]
+              },
+              {
+                "type": "PARAGRAPH",
+                "elements": [
+                  {
+                    "type": "GOOD_SECTION",
+                    "elements": [
+                      {
+                        "type": "PARAGRAPH",
+                        "value": "Here are some cases where Sales per Customer was better than average: "
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST",
+                    "elements": [
+                      {
+                        "type": "PARAGRAPH",
+                        "elements": [
+                          {
+                            "type": "PARAGRAPH",
+                            "value": "Sales",
+                            "properties": [
+                              {
+                                "type": "Field",
+                                "field": "Sales"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": ": "
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": "573 to 22,640",
+                            "properties": [
+                              {
+                                "type": "Range",
+                                "field": "Sales",
+                                "start": 572,
+                                "end": 22638
+                              }
+                            ]
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": " is 1,155 above average"
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": ". This result may have been worsened by "
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": "Sub-Category is Chairs",
+                            "properties": [
+                              {
+                                "type": "String",
+                                "field": "Sub_Category",
+                                "value": "Chairs"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": "."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PARAGRAPH",
+                "elements": [
+                  {
+                    "type": "BAD_SECTION",
+                    "elements": [
+                      {
+                        "type": "PARAGRAPH",
+                        "value": "Here are some cases where Sales per Customer was worse than average: "
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST",
+                    "elements": [
+                      {
+                        "type": "PARAGRAPH",
+                        "elements": [
+                          {
+                            "type": "PARAGRAPH",
+                            "value": "Sales",
+                            "properties": [
+                              {
+                                "type": "Field",
+                                "field": "Sales"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": ": "
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": "0 to 8",
+                            "properties": [
+                              {
+                                "type": "Range",
+                                "field": "Sales",
+                                "start": 0,
+                                "end": 8
+                              }
+                            ]
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": " is 224 below average"
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": ". This result may have been worsened by "
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": "Sub-Category is Binders",
+                            "properties": [
+                              {
+                                "type": "String",
+                                "field": "Sub_Category",
+                                "value": "Binders"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": "."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PARAGRAPH",
+                        "elements": [
+                          {
+                            "type": "PARAGRAPH",
+                            "value": "Sales",
+                            "properties": [
+                              {
+                                "type": "Field",
+                                "field": "Sales"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": ": "
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": "9 to 14",
+                            "properties": [
+                              {
+                                "type": "Range",
+                                "field": "Sales",
+                                "start": 8,
+                                "end": 14
+                              }
+                            ]
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": " is 217.7 below average"
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": ". This result may have been worsened by "
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": "Sub-Category is Binders",
+                            "properties": [
+                              {
+                                "type": "String",
+                                "field": "Sub_Category",
+                                "value": "Binders"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": "."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PARAGRAPH",
+                        "elements": [
+                          {
+                            "type": "PARAGRAPH",
+                            "value": "Sales",
+                            "properties": [
+                              {
+                                "type": "Field",
+                                "field": "Sales"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": ": "
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": "15 to 22",
+                            "properties": [
+                              {
+                                "type": "Range",
+                                "field": "Sales",
+                                "start": 14,
+                                "end": 22
+                              }
+                            ]
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": " is 211 below average"
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": ". This result may have been worsened by "
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": "Sub-Category is Paper",
+                            "properties": [
+                              {
+                                "type": "String",
+                                "field": "Sub_Category",
+                                "value": "Paper"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": "."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PARAGRAPH",
+                        "elements": [
+                          {
+                            "type": "PARAGRAPH",
+                            "value": "Sales",
+                            "properties": [
+                              {
+                                "type": "Field",
+                                "field": "Sales"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": ": "
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": "23 to 34",
+                            "properties": [
+                              {
+                                "type": "Range",
+                                "field": "Sales",
+                                "start": 22,
+                                "end": 34
+                              }
+                            ]
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": " is 201 below average"
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": ". This result may have been worsened by "
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": "Sub-Category is Paper",
+                            "properties": [
+                              {
+                                "type": "String",
+                                "field": "Sub_Category",
+                                "value": "Paper"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": "."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PARAGRAPH",
+                        "elements": [
+                          {
+                            "type": "PARAGRAPH",
+                            "value": "Sales",
+                            "properties": [
+                              {
+                                "type": "Field",
+                                "field": "Sales"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": ": "
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": "35 to 54",
+                            "properties": [
+                              {
+                                "type": "Range",
+                                "field": "Sales",
+                                "start": 34,
+                                "end": 54
+                              }
+                            ]
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": " is 185.9 below average"
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": ". This result may have been worsened by "
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": "Sub-Category is Paper",
+                            "properties": [
+                              {
+                                "type": "String",
+                                "field": "Sub_Category",
+                                "value": "Paper"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": "."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "insightValues": {
+          "diagnosticInsightRecord": {},
+          "descriptiveInsightRecord": {
+            "filterField": {
+              "label": "Sales",
+              "property": {
+                "type": "Field",
+                "field": "Sales"
+              }
+            },
+            "correlation": 0.4179076391876323,
+            "details": [
+              {
+                "category": "POSITIVE",
+                "comparedWith": "AVERAGE",
+                "caseDetails": [
+                  {
+                    "fieldValue": "573 to 22,640",
+                    "score": 1155.367630754643,
+                    "rating": "aboveAverage",
+                    "impact": "worsened",
+                    "impactDetails": [
+                      {
+                        "label": "Sub-Category",
+                        "property": {
+                          "type": "String",
+                          "field": "Sub_Category",
+                          "value": "Chairs"
+                        },
+                        "value": "Chairs"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "category": "NEGATIVE",
+                "comparedWith": "AVERAGE",
+                "caseDetails": [
+                  {
+                    "fieldValue": "0 to 8",
+                    "score": 223.96644241187534,
+                    "rating": "belowAverage",
+                    "impact": "worsened",
+                    "impactDetails": [
+                      {
+                        "label": "Sub-Category",
+                        "property": {
+                          "type": "String",
+                          "field": "Sub_Category",
+                          "value": "Binders"
+                        },
+                        "value": "Binders"
+                      }
+                    ]
+                  },
+                  {
+                    "fieldValue": "9 to 14",
+                    "score": 217.68504664488018,
+                    "rating": "belowAverage",
+                    "impact": "worsened",
+                    "impactDetails": [
+                      {
+                        "label": "Sub-Category",
+                        "property": {
+                          "type": "String",
+                          "field": "Sub_Category",
+                          "value": "Binders"
+                        },
+                        "value": "Binders"
+                      }
+                    ]
+                  },
+                  {
+                    "fieldValue": "15 to 22",
+                    "score": 211.01000758099353,
+                    "rating": "belowAverage",
+                    "impact": "worsened",
+                    "impactDetails": [
+                      {
+                        "label": "Sub-Category",
+                        "property": {
+                          "type": "String",
+                          "field": "Sub_Category",
+                          "value": "Paper"
+                        },
+                        "value": "Paper"
+                      }
+                    ]
+                  },
+                  {
+                    "fieldValue": "23 to 34",
+                    "score": 200.98837970186475,
+                    "rating": "belowAverage",
+                    "impact": "worsened",
+                    "impactDetails": [
+                      {
+                        "label": "Sub-Category",
+                        "property": {
+                          "type": "String",
+                          "field": "Sub_Category",
+                          "value": "Paper"
+                        },
+                        "value": "Paper"
+                      }
+                    ]
+                  },
+                  {
+                    "fieldValue": "35 to 54",
+                    "score": 185.89549576358287,
+                    "rating": "belowAverage",
+                    "impact": "worsened",
+                    "impactDetails": [
+                      {
+                        "label": "Sub-Category",
+                        "property": {
+                          "type": "String",
+                          "field": "Sub_Category",
+                          "value": "Paper"
+                        },
+                        "value": "Paper"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "values": {
+          "elements": []
+        },
+        "metadata": {
+          "type": "WHAT_HAPPENED",
+          "properties": [
+            {
+              "type": "Field",
+              "field": "Sales"
+            }
+          ]
+        },
+        "type": "Descriptive"
+      },
+      {
+        "others": [],
+        "chart": {
+          "metricLabel": "Sales per Customer",
+          "categoryLabel": "Sales",
+          "values": [
+            {
+              "label": "9 to 14 when Machines",
+              "value": 12.075,
+              "properties": [
+                {
+                  "type": "String",
+                  "field": "Sub_Category",
+                  "value": "Machines"
+                },
+                {
+                  "type": "Range",
+                  "field": "Sales",
+                  "start": 8,
+                  "end": 14
+                }
+              ],
+              "dimensions": [
+                {
+                  "field": "Sales",
+                  "value": "9 to 14"
+                },
+                {
+                  "field": "Sub-Category",
+                  "value": "Machines"
+                }
+              ],
+              "details": {
+                "Difference in Average for Other Buckets": 0.6897052947053091,
+                "Total": 24.15,
+                "Average": 12.075,
+                "Standard Deviation": 0.7283199846222038,
+                "Count": 2,
+                "Difference from Average": -216.9967166349101
+              },
+              "isHighlighted": false
+            },
+            {
+              "label": "9 to 14 when all other Sub-Category",
+              "value": 11.38529470529469,
+              "properties": [
+                {
+                  "type": "Range",
+                  "field": "Sales",
+                  "start": 8,
+                  "end": 14
+                }
+              ],
+              "dimensions": [
+                {
+                  "field": "Sales",
+                  "value": "9 to 14"
+                },
+                {
+                  "field": "Sub-Category",
+                  "value": "All Other Sub-Category"
+                }
+              ],
+              "details": {
+                "Difference From Overall": -217.6864219296154,
+                "Total": 11396.679999999986,
+                "Average": 11.38529470529469,
+                "Standard Deviation": 1.7154823047943298,
+                "Count": 1001
+              },
+              "isHighlighted": false
+            },
+            {
+              "label": "23 to 34 when Machines",
+              "value": 31.086666666666664,
+              "properties": [
+                {
+                  "type": "String",
+                  "field": "Sub_Category",
+                  "value": "Machines"
+                },
+                {
+                  "type": "Range",
+                  "field": "Sales",
+                  "start": 22,
+                  "end": 34
+                }
+              ],
+              "dimensions": [
+                {
+                  "field": "Sales",
+                  "value": "23 to 34"
+                },
+                {
+                  "field": "Sub-Category",
+                  "value": "Machines"
+                }
+              ],
+              "details": {
+                "Difference in Average for Other Buckets": 3.0130913687251779,
+                "Total": 93.25999999999999,
+                "Average": 31.086666666666664,
+                "Standard Deviation": 1.6530678550300118,
+                "Count": 3,
+                "Difference from Average": -197.9850499682434
+              },
+              "isHighlighted": false
+            },
+            {
+              "label": "23 to 34 when all other Sub-Category",
+              "value": 28.073575297941486,
+              "properties": [
+                {
+                  "type": "Range",
+                  "field": "Sales",
+                  "start": 22,
+                  "end": 34
+                }
+              ],
+              "dimensions": [
+                {
+                  "field": "Sales",
+                  "value": "23 to 34"
+                },
+                {
+                  "field": "Sub-Category",
+                  "value": "All Other Sub-Category"
+                }
+              ],
+              "details": {
+                "Difference From Overall": -200.9981413369686,
+                "Total": 25911.90999999999,
+                "Average": 28.073575297941486,
+                "Standard Deviation": 3.4975394204080589,
+                "Count": 923
+              },
+              "isHighlighted": false
+            },
+            {
+              "label": "35 to 54 when Machines",
+              "value": 52.44,
+              "properties": [
+                {
+                  "type": "String",
+                  "field": "Sub_Category",
+                  "value": "Machines"
+                },
+                {
+                  "type": "Range",
+                  "field": "Sales",
+                  "start": 34,
+                  "end": 54
+                }
+              ],
+              "dimensions": [
+                {
+                  "field": "Sales",
+                  "value": "35 to 54"
+                },
+                {
+                  "field": "Sub-Category",
+                  "value": "Machines"
+                }
+              ],
+              "details": {
+                "Difference in Average for Other Buckets": 9.273174442190701,
+                "Total": 52.44,
+                "Average": 52.44,
+                "Standard Deviation": "NaN",
+                "Count": 1,
+                "Difference from Average": -176.63171663491009
+              },
+              "isHighlighted": false
+            },
+            {
+              "label": "35 to 54 when all other Sub-Category",
+              "value": 43.1668255578093,
+              "properties": [
+                {
+                  "type": "Range",
+                  "field": "Sales",
+                  "start": 34,
+                  "end": 54
+                }
+              ],
+              "dimensions": [
+                {
+                  "field": "Sales",
+                  "value": "35 to 54"
+                },
+                {
+                  "field": "Sub-Category",
+                  "value": "All Other Sub-Category"
+                }
+              ],
+              "details": {
+                "Difference From Overall": -185.90489107710079,
+                "Total": 42562.48999999997,
+                "Average": 43.1668255578093,
+                "Standard Deviation": 5.598992273723732,
+                "Count": 986
+              },
+              "isHighlighted": false
+            },
+            {
+              "label": "55 to 89 when Machines",
+              "value": 71.74833333333334,
+              "properties": [
+                {
+                  "type": "String",
+                  "field": "Sub_Category",
+                  "value": "Machines"
+                },
+                {
+                  "type": "Range",
+                  "field": "Sales",
+                  "start": 54,
+                  "end": 89
+                }
+              ],
+              "dimensions": [
+                {
+                  "field": "Sales",
+                  "value": "55 to 89"
+                },
+                {
+                  "field": "Sub-Category",
+                  "value": "Machines"
+                }
+              ],
+              "details": {
+                "Difference in Average for Other Buckets": 1.6960578231293085,
+                "Total": 430.49,
+                "Average": 71.74833333333334,
+                "Standard Deviation": 8.604964652261291,
+                "Count": 6,
+                "Difference from Average": -157.32338330157675
+              },
+              "isHighlighted": false
+            },
+            {
+              "label": "55 to 89 when all other Sub-Category",
+              "value": 70.05227551020403,
+              "properties": [
+                {
+                  "type": "Range",
+                  "field": "Sales",
+                  "start": 54,
+                  "end": 89
+                }
+              ],
+              "dimensions": [
+                {
+                  "field": "Sales",
+                  "value": "55 to 89"
+                },
+                {
+                  "field": "Sub-Category",
+                  "value": "All Other Sub-Category"
+                }
+              ],
+              "details": {
+                "Difference From Overall": -159.01944112470606,
+                "Total": 68651.22999999995,
+                "Average": 70.05227551020403,
+                "Standard Deviation": 9.909930318776445,
+                "Count": 980
+              },
+              "isHighlighted": false
+            },
+            {
+              "label": "90 to 157 when Machines",
+              "value": 103.0,
+              "properties": [
+                {
+                  "type": "String",
+                  "field": "Sub_Category",
+                  "value": "Machines"
+                },
+                {
+                  "type": "Range",
+                  "field": "Sales",
+                  "start": 89,
+                  "end": 157
+                }
+              ],
+              "dimensions": [
+                {
+                  "field": "Sales",
+                  "value": "90 to 157"
+                },
+                {
+                  "field": "Sub-Category",
+                  "value": "Machines"
+                }
+              ],
+              "details": {
+                "Difference in Average for Other Buckets": -15.5052217741936,
+                "Total": 515.0,
+                "Average": 103.0,
+                "Standard Deviation": 10.938505382363742,
+                "Count": 5,
+                "Difference from Average": -126.07171663491008
+              },
+              "isHighlighted": false
+            },
+            {
+              "label": "90 to 157 when all other Sub-Category",
+              "value": 118.5052217741936,
+              "properties": [
+                {
+                  "type": "Range",
+                  "field": "Sales",
+                  "start": 89,
+                  "end": 157
+                }
+              ],
+              "dimensions": [
+                {
+                  "field": "Sales",
+                  "value": "90 to 157"
+                },
+                {
+                  "field": "Sub-Category",
+                  "value": "All Other Sub-Category"
+                }
+              ],
+              "details": {
+                "Difference From Overall": -110.56649486071648,
+                "Total": 117557.18000000005,
+                "Average": 118.5052217741936,
+                "Standard Deviation": 19.682752558669099,
+                "Count": 992
+              },
+              "isHighlighted": false
+            },
+            {
+              "label": "158 to 280 when Machines",
+              "value": 228.846,
+              "properties": [
+                {
+                  "type": "String",
+                  "field": "Sub_Category",
+                  "value": "Machines"
+                },
+                {
+                  "type": "Range",
+                  "field": "Sales",
+                  "start": 157,
+                  "end": 280
+                }
+              ],
+              "dimensions": [
+                {
+                  "field": "Sales",
+                  "value": "158 to 280"
+                },
+                {
+                  "field": "Sub-Category",
+                  "value": "Machines"
+                }
+              ],
+              "details": {
+                "Difference in Average for Other Buckets": 16.006110775427346,
+                "Total": 2288.46,
+                "Average": 228.846,
+                "Standard Deviation": 27.93792452324784,
+                "Count": 10,
+                "Difference from Average": -0.22571663491007144
+              },
+              "isHighlighted": false
+            },
+            {
+              "label": "158 to 280 when all other Sub-Category",
+              "value": 212.83988922457267,
+              "properties": [
+                {
+                  "type": "Range",
+                  "field": "Sales",
+                  "start": 157,
+                  "end": 280
+                }
+              ],
+              "dimensions": [
+                {
+                  "field": "Sales",
+                  "value": "158 to 280"
+                },
+                {
+                  "field": "Sub-Category",
+                  "value": "All Other Sub-Category"
+                }
+              ],
+              "details": {
+                "Difference From Overall": -16.231827410337418,
+                "Total": 211350.01000000066,
+                "Average": 212.83988922457267,
+                "Standard Deviation": 35.60035981615716,
+                "Count": 993
+              },
+              "isHighlighted": false
+            },
+            {
+              "label": "281 to 572 when Machines",
+              "value": 420.6085714285714,
+              "properties": [
+                {
+                  "type": "String",
+                  "field": "Sub_Category",
+                  "value": "Machines"
+                },
+                {
+                  "type": "Range",
+                  "field": "Sales",
+                  "start": 280,
+                  "end": 572
+                }
+              ],
+              "dimensions": [
+                {
+                  "field": "Sales",
+                  "value": "281 to 572"
+                },
+                {
+                  "field": "Sub-Category",
+                  "value": "Machines"
+                }
+              ],
+              "details": {
+                "Difference in Average for Other Buckets": 18.876128129602536,
+                "Total": 11777.039999999999,
+                "Average": 420.6085714285714,
+                "Standard Deviation": 84.64244910490355,
+                "Count": 28,
+                "Difference from Average": 191.53685479366133
+              },
+              "isHighlighted": false
+            },
+            {
+              "label": "281 to 572 when all other Sub-Category",
+              "value": 401.73244329896888,
+              "properties": [
+                {
+                  "type": "Range",
+                  "field": "Sales",
+                  "start": 280,
+                  "end": 572
+                }
+              ],
+              "dimensions": [
+                {
+                  "field": "Sales",
+                  "value": "281 to 572"
+                },
+                {
+                  "field": "Sub-Category",
+                  "value": "All Other Sub-Category"
+                }
+              ],
+              "details": {
+                "Difference From Overall": 172.66072666405879,
+                "Total": 389680.4699999998,
+                "Average": 401.73244329896888,
+                "Standard Deviation": 83.39474195454567,
+                "Count": 970
+              },
+              "isHighlighted": false
+            },
+            {
+              "label": "573 to 22,640 when Machines",
+              "value": 2900.963666666667,
+              "properties": [
+                {
+                  "type": "String",
+                  "field": "Sub_Category",
+                  "value": "Machines"
+                },
+                {
+                  "type": "Range",
+                  "field": "Sales",
+                  "start": 572,
+                  "end": 22638
+                }
+              ],
+              "dimensions": [
+                {
+                  "field": "Sales",
+                  "value": "573 to 22,640"
+                },
+                {
+                  "field": "Sub-Category",
+                  "value": "Machines"
+                }
+              ],
+              "details": {
+                "Difference in Average for Other Buckets": 1613.7374166666728,
+                "Total": 174057.82,
+                "Average": 2900.963666666667,
+                "Standard Deviation": 3375.681920109244,
+                "Count": 60,
+                "Difference from Average": 2671.891950031757
+              },
+              "isHighlighted": true
+            },
+            {
+              "label": "573 to 22,640 when all other Sub-Category",
+              "value": 1287.2262499999943,
+              "properties": [
+                {
+                  "type": "Range",
+                  "field": "Sales",
+                  "start": 572,
+                  "end": 22638
+                }
+              ],
+              "dimensions": [
+                {
+                  "field": "Sales",
+                  "value": "573 to 22,640"
+                },
+                {
+                  "field": "Sub-Category",
+                  "value": "All Other Sub-Category"
+                }
+              ],
+              "details": {
+                "Difference From Overall": 1058.1545333650843,
+                "Total": 1204843.7699999947,
+                "Average": 1287.2262499999943,
+                "Standard Deviation": 1230.675432798446,
+                "Count": 936
+              },
+              "isHighlighted": true
+            }
+          ]
+        },
+        "narrative": {
+          "title": {
+            "type": "HEADING",
+            "elements": [
+              {
+                "type": "PARAGRAPH",
+                "value": "Sales per Customer by "
+              },
+              {
+                "type": "PARAGRAPH",
+                "value": "Sales",
+                "properties": [
+                  {
+                    "type": "Field",
+                    "field": "Sales"
+                  }
+                ]
+              },
+              {
+                "type": "PARAGRAPH",
+                "value": " when "
+              },
+              {
+                "type": "PARAGRAPH",
+                "value": "Sub-Category is Machines",
+                "properties": [
+                  {
+                    "type": "String",
+                    "field": "Sub_Category",
+                    "value": "Machines"
+                  }
+                ]
+              }
+            ]
+          },
+          "header": {
+            "type": "SUB_HEADING",
+            "elements": [
+              {
+                "type": "PARAGRAPH",
+                "value": "When "
+              },
+              {
+                "type": "PARAGRAPH",
+                "value": "Sub-Category is Machines",
+                "properties": [
+                  {
+                    "type": "String",
+                    "field": "Sub_Category",
+                    "value": "Machines"
+                  }
+                ]
+              },
+              {
+                "type": "PARAGRAPH",
+                "value": ", "
+              },
+              {
+                "type": "PARAGRAPH",
+                "value": "Sales",
+                "properties": [
+                  {
+                    "type": "Field",
+                    "field": "Sales"
+                  }
+                ]
+              },
+              {
+                "type": "PARAGRAPH",
+                "value": ": "
+              },
+              {
+                "type": "PARAGRAPH",
+                "value": "573 to 22,640",
+                "properties": [
+                  {
+                    "type": "Range",
+                    "field": "Sales",
+                    "start": 572,
+                    "end": 22638
+                  }
+                ]
+              },
+              {
+                "type": "PARAGRAPH",
+                "value": " does better"
+              }
+            ]
+          },
+          "body": {
+            "type": "BODY",
+            "elements": [
+              {
+                "type": "PARAGRAPH",
+                "elements": [
+                  {
+                    "type": "PARAGRAPH",
+                    "value": "You should also be aware of the case when "
+                  },
+                  {
+                    "type": "PARAGRAPH",
+                    "value": "Sub-Category is Machines",
+                    "properties": [
+                      {
+                        "type": "String",
+                        "field": "Sub_Category",
+                        "value": "Machines"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "PARAGRAPH",
+                    "value": ", because the Sales per Customer looks different here. If you compare the two graphs, you will see for example: "
+                  }
+                ]
+              },
+              {
+                "type": "PARAGRAPH",
+                "elements": [
+                  {
+                    "type": "GOOD_SECTION",
+                    "elements": [
+                      {
+                        "type": "PARAGRAPH",
+                        "value": "Cases where "
+                      },
+                      {
+                        "type": "PARAGRAPH",
+                        "value": "Machines",
+                        "properties": [
+                          {
+                            "type": "String",
+                            "field": "Sub_Category",
+                            "value": "Machines"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PARAGRAPH",
+                        "value": " did better than others:"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST",
+                    "elements": [
+                      {
+                        "type": "PARAGRAPH",
+                        "elements": [
+                          {
+                            "type": "PARAGRAPH",
+                            "value": "Sales",
+                            "properties": [
+                              {
+                                "type": "Field",
+                                "field": "Sales"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": ": "
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": "573 to 22,640",
+                            "properties": [
+                              {
+                                "type": "Range",
+                                "field": "Sales",
+                                "start": 572,
+                                "end": 22638
+                              }
+                            ]
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": " is 1,614 higher"
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": ". This result may have been worsened by "
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": "Sub-Category is Chairs",
+                            "properties": [
+                              {
+                                "type": "String",
+                                "field": "Sub_Category",
+                                "value": "Chairs"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": "."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "insightValues": {
+          "diagnosticInsightRecord": {},
+          "descriptiveInsightRecord": {
+            "filterField": {
+              "label": "Sales",
+              "property": {
+                "type": "Field",
+                "field": "Sales"
+              }
+            },
+            "conditionField": {
+              "label": "Sub-Category",
+              "property": {
+                "type": "String",
+                "field": "Sub_Category",
+                "value": "Machines"
+              },
+              "value": "Machines"
+            },
+            "details": [
+              {
+                "category": "POSITIVE",
+                "comparedWith": "OTHER",
+                "caseDetails": [
+                  {
+                    "fieldValue": "573 to 22,640",
+                    "score": 1613.7374166666728,
+                    "rating": " higher",
+                    "impact": "worsened",
+                    "impactDetails": [
+                      {
+                        "label": "Sub-Category",
+                        "property": {
+                          "type": "String",
+                          "field": "Sub_Category",
+                          "value": "Chairs"
+                        },
+                        "value": "Chairs"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "values": {
+          "elements": []
+        },
+        "metadata": {
+          "type": "WHAT_HAPPENED",
+          "properties": [
+            {
+              "type": "Field",
+              "field": "Sales"
+            },
+            {
+              "type": "String",
+              "field": "Sub_Category",
+              "value": "Machines"
+            }
+          ]
+        },
+        "type": "Descriptive"
+      },
+      {
+        "others": [],
+        "chart": {
+          "metricLabel": "Sales per Customer",
+          "categoryLabel": "Sales",
+          "values": [
+            {
+              "label": "281 to 572 when Copiers",
+              "value": 466.65066666666658,
+              "properties": [
+                {
+                  "type": "String",
+                  "field": "Sub_Category",
+                  "value": "Copiers"
+                },
+                {
+                  "type": "Range",
+                  "field": "Sales",
+                  "start": 280,
+                  "end": 572
+                }
+              ],
+              "dimensions": [
+                {
+                  "field": "Sales",
+                  "value": "281 to 572"
+                },
+                {
+                  "field": "Sub-Category",
+                  "value": "Copiers"
+                }
+              ],
+              "details": {
+                "Difference in Average for Other Buckets": 65.3711651407258,
+                "Total": 6999.759999999998,
+                "Average": 466.65066666666658,
+                "Standard Deviation": 73.0626608238898,
+                "Count": 15,
+                "Difference from Average": 237.57895003175649
+              },
+              "isHighlighted": true
+            },
+            {
+              "label": "281 to 572 when all other Sub-Category",
+              "value": 401.27950152594078,
+              "properties": [
+                {
+                  "type": "Range",
+                  "field": "Sales",
+                  "start": 280,
+                  "end": 572
+                }
+              ],
+              "dimensions": [
+                {
+                  "field": "Sales",
+                  "value": "281 to 572"
+                },
+                {
+                  "field": "Sub-Category",
+                  "value": "All Other Sub-Category"
+                }
+              ],
+              "details": {
+                "Difference From Overall": 172.20778489103069,
+                "Total": 394457.74999999979,
+                "Average": 401.27950152594078,
+                "Standard Deviation": 83.24105731713778,
+                "Count": 983
+              },
+              "isHighlighted": true
+            },
+            {
+              "label": "573 to 22,640 when Copiers",
+              "value": 2689.212264150944,
+              "properties": [
+                {
+                  "type": "String",
+                  "field": "Sub_Category",
+                  "value": "Copiers"
+                },
+                {
+                  "type": "Range",
+                  "field": "Sales",
+                  "start": 572,
+                  "end": 22638
+                }
+              ],
+              "dimensions": [
+                {
+                  "field": "Sales",
+                  "value": "573 to 22,640"
+                },
+                {
+                  "field": "Sub-Category",
+                  "value": "Copiers"
+                }
+              ],
+              "details": {
+                "Difference in Average for Other Buckets": 1378.1058590608118,
+                "Total": 142528.25000000004,
+                "Average": 2689.212264150944,
+                "Standard Deviation": 3447.013140682949,
+                "Count": 53,
+                "Difference from Average": 2460.140547516034
+              },
+              "isHighlighted": true
+            },
+            {
+              "label": "573 to 22,640 when all other Sub-Category",
+              "value": 1311.1064050901323,
+              "properties": [
+                {
+                  "type": "Range",
+                  "field": "Sales",
+                  "start": 572,
+                  "end": 22638
+                }
+              ],
+              "dimensions": [
+                {
+                  "field": "Sales",
+                  "value": "573 to 22,640"
+                },
+                {
+                  "field": "Sub-Category",
+                  "value": "All Other Sub-Category"
+                }
+              ],
+              "details": {
+                "Difference From Overall": 1082.0346884552224,
+                "Total": 1236373.3399999948,
+                "Average": 1311.1064050901323,
+                "Standard Deviation": 1271.1528296734285,
+                "Count": 943
+              },
+              "isHighlighted": true
+            }
+          ]
+        },
+        "narrative": {
+          "title": {
+            "type": "HEADING",
+            "elements": [
+              {
+                "type": "PARAGRAPH",
+                "value": "Sales per Customer by "
+              },
+              {
+                "type": "PARAGRAPH",
+                "value": "Sales",
+                "properties": [
+                  {
+                    "type": "Field",
+                    "field": "Sales"
+                  }
+                ]
+              },
+              {
+                "type": "PARAGRAPH",
+                "value": " when "
+              },
+              {
+                "type": "PARAGRAPH",
+                "value": "Sub-Category is Copiers",
+                "properties": [
+                  {
+                    "type": "String",
+                    "field": "Sub_Category",
+                    "value": "Copiers"
+                  }
+                ]
+              }
+            ]
+          },
+          "header": {
+            "type": "SUB_HEADING",
+            "elements": [
+              {
+                "type": "PARAGRAPH",
+                "value": "When "
+              },
+              {
+                "type": "PARAGRAPH",
+                "value": "Sub-Category is Copiers",
+                "properties": [
+                  {
+                    "type": "String",
+                    "field": "Sub_Category",
+                    "value": "Copiers"
+                  }
+                ]
+              },
+              {
+                "type": "PARAGRAPH",
+                "value": ", "
+              },
+              {
+                "type": "PARAGRAPH",
+                "value": "Sales",
+                "properties": [
+                  {
+                    "type": "Field",
+                    "field": "Sales"
+                  }
+                ]
+              },
+              {
+                "type": "PARAGRAPH",
+                "value": ": "
+              },
+              {
+                "type": "PARAGRAPH",
+                "value": "573 to 22,640",
+                "properties": [
+                  {
+                    "type": "Range",
+                    "field": "Sales",
+                    "start": 572,
+                    "end": 22638
+                  }
+                ]
+              },
+              {
+                "type": "PARAGRAPH",
+                "value": " and "
+              },
+              {
+                "type": "PARAGRAPH",
+                "value": "281 to 572",
+                "properties": [
+                  {
+                    "type": "Range",
+                    "field": "Sales",
+                    "start": 280,
+                    "end": 572
+                  }
+                ]
+              },
+              {
+                "type": "PARAGRAPH",
+                "value": " do better"
+              }
+            ]
+          },
+          "body": {
+            "type": "BODY",
+            "elements": [
+              {
+                "type": "PARAGRAPH",
+                "elements": [
+                  {
+                    "type": "PARAGRAPH",
+                    "value": "You should also be aware of the case when "
+                  },
+                  {
+                    "type": "PARAGRAPH",
+                    "value": "Sub-Category is Copiers",
+                    "properties": [
+                      {
+                        "type": "String",
+                        "field": "Sub_Category",
+                        "value": "Copiers"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "PARAGRAPH",
+                    "value": ", because the Sales per Customer looks different here. If you compare the two graphs, you will see for example: "
+                  }
+                ]
+              },
+              {
+                "type": "PARAGRAPH",
+                "elements": [
+                  {
+                    "type": "GOOD_SECTION",
+                    "elements": [
+                      {
+                        "type": "PARAGRAPH",
+                        "value": "Cases where "
+                      },
+                      {
+                        "type": "PARAGRAPH",
+                        "value": "Copiers",
+                        "properties": [
+                          {
+                            "type": "String",
+                            "field": "Sub_Category",
+                            "value": "Copiers"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PARAGRAPH",
+                        "value": " did better than others:"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST",
+                    "elements": [
+                      {
+                        "type": "PARAGRAPH",
+                        "elements": [
+                          {
+                            "type": "PARAGRAPH",
+                            "value": "Sales",
+                            "properties": [
+                              {
+                                "type": "Field",
+                                "field": "Sales"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": ": "
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": "573 to 22,640",
+                            "properties": [
+                              {
+                                "type": "Range",
+                                "field": "Sales",
+                                "start": 572,
+                                "end": 22638
+                              }
+                            ]
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": " is 1,378 higher"
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": ". This result may have been worsened by "
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": "Sub-Category is Chairs",
+                            "properties": [
+                              {
+                                "type": "String",
+                                "field": "Sub_Category",
+                                "value": "Chairs"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": "."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PARAGRAPH",
+                        "elements": [
+                          {
+                            "type": "PARAGRAPH",
+                            "value": "Sales",
+                            "properties": [
+                              {
+                                "type": "Field",
+                                "field": "Sales"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": ": "
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": "281 to 572",
+                            "properties": [
+                              {
+                                "type": "Range",
+                                "field": "Sales",
+                                "start": 280,
+                                "end": 572
+                              }
+                            ]
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": " is 65.37 higher"
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": ". This result may have been worsened by "
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": "Sub-Category is Phones",
+                            "properties": [
+                              {
+                                "type": "String",
+                                "field": "Sub_Category",
+                                "value": "Phones"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": "."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "insightValues": {
+          "diagnosticInsightRecord": {},
+          "descriptiveInsightRecord": {
+            "filterField": {
+              "label": "Sales",
+              "property": {
+                "type": "Field",
+                "field": "Sales"
+              }
+            },
+            "conditionField": {
+              "label": "Sub-Category",
+              "property": {
+                "type": "String",
+                "field": "Sub_Category",
+                "value": "Copiers"
+              },
+              "value": "Copiers"
+            },
+            "details": [
+              {
+                "category": "POSITIVE",
+                "comparedWith": "OTHER",
+                "caseDetails": [
+                  {
+                    "fieldValue": "573 to 22,640",
+                    "score": 1378.1058590608118,
+                    "rating": " higher",
+                    "impact": "worsened",
+                    "impactDetails": [
+                      {
+                        "label": "Sub-Category",
+                        "property": {
+                          "type": "String",
+                          "field": "Sub_Category",
+                          "value": "Chairs"
+                        },
+                        "value": "Chairs"
+                      }
+                    ]
+                  },
+                  {
+                    "fieldValue": "281 to 572",
+                    "score": 65.3711651407258,
+                    "rating": " higher",
+                    "impact": "worsened",
+                    "impactDetails": [
+                      {
+                        "label": "Sub-Category",
+                        "property": {
+                          "type": "String",
+                          "field": "Sub_Category",
+                          "value": "Phones"
+                        },
+                        "value": "Phones"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "values": {
+          "elements": []
+        },
+        "metadata": {
+          "type": "WHAT_HAPPENED",
+          "properties": [
+            {
+              "type": "Field",
+              "field": "Sales"
+            },
+            {
+              "type": "String",
+              "field": "Sub_Category",
+              "value": "Copiers"
+            }
+          ]
+        },
+        "type": "Descriptive"
+      },
+      {
+        "others": [],
+        "chart": {
+          "metricLabel": "Sales per Customer",
+          "categoryLabel": "Sales",
+          "values": [
+            {
+              "label": "55 to 89 when 40.71 to 88.93",
+              "value": 87.011,
+              "properties": [
+                {
+                  "type": "Range",
+                  "field": "Sales",
+                  "start": 54,
+                  "end": 89
+                },
+                {
+                  "type": "Range",
+                  "field": "Profit_per_Order",
+                  "start": 40.7,
+                  "end": 88.93
+                }
+              ],
+              "dimensions": [
+                {
+                  "field": "Sales",
+                  "value": "55 to 89"
+                },
+                {
+                  "field": "Profit per Order",
+                  "value": "40.71 to 88.93"
+                }
+              ],
+              "details": {
+                "Difference in Average for Other Buckets": 17.122055327868894,
+                "Total": 870.11,
+                "Average": 87.011,
+                "Standard Deviation": 1.6895656904136614,
+                "Count": 10,
+                "Difference from Average": -142.06071663491009
+              },
+              "isHighlighted": true
+            },
+            {
+              "label": "55 to 89 when all other Profit per Order",
+              "value": 69.8889446721311,
+              "properties": [
+                {
+                  "type": "Range",
+                  "field": "Sales",
+                  "start": 54,
+                  "end": 89
+                }
+              ],
+              "dimensions": [
+                {
+                  "field": "Sales",
+                  "value": "55 to 89"
+                },
+                {
+                  "field": "Profit per Order",
+                  "value": "All Other Profit per Order"
+                }
+              ],
+              "details": {
+                "Difference From Overall": -159.182771962779,
+                "Total": 68211.60999999996,
+                "Average": 69.8889446721311,
+                "Standard Deviation": 9.798176324980489,
+                "Count": 976
+              },
+              "isHighlighted": true
+            },
+            {
+              "label": "90 to 157 when 40.71 to 88.93",
+              "value": 124.85585714285719,
+              "properties": [
+                {
+                  "type": "Range",
+                  "field": "Sales",
+                  "start": 89,
+                  "end": 157
+                },
+                {
+                  "type": "Range",
+                  "field": "Profit_per_Order",
+                  "start": 40.7,
+                  "end": 88.93
+                }
+              ],
+              "dimensions": [
+                {
+                  "field": "Sales",
+                  "value": "90 to 157"
+                },
+                {
+                  "field": "Profit per Order",
+                  "value": "40.71 to 88.93"
+                }
+              ],
+              "details": {
+                "Difference in Average for Other Buckets": 8.938786013150022,
+                "Total": 34959.640000000014,
+                "Average": 124.85585714285719,
+                "Standard Deviation": 20.003005884714985,
+                "Count": 280,
+                "Difference from Average": -104.21585949205289
+              },
+              "isHighlighted": true
+            },
+            {
+              "label": "90 to 157 when all other Profit per Order",
+              "value": 115.91707112970717,
+              "properties": [
+                {
+                  "type": "Range",
+                  "field": "Sales",
+                  "start": 89,
+                  "end": 157
+                }
+              ],
+              "dimensions": [
+                {
+                  "field": "Sales",
+                  "value": "90 to 157"
+                },
+                {
+                  "field": "Profit per Order",
+                  "value": "All Other Profit per Order"
+                }
+              ],
+              "details": {
+                "Difference From Overall": -113.15464550520291,
+                "Total": 83112.54000000004,
+                "Average": 115.91707112970717,
+                "Standard Deviation": 18.97792621938783,
+                "Count": 717
+              },
+              "isHighlighted": true
+            },
+            {
+              "label": "158 to 280 when 40.71 to 88.93",
+              "value": 207.34148648648663,
+              "properties": [
+                {
+                  "type": "Range",
+                  "field": "Sales",
+                  "start": 157,
+                  "end": 280
+                },
+                {
+                  "type": "Range",
+                  "field": "Profit_per_Order",
+                  "start": 40.7,
+                  "end": 88.93
+                }
+              ],
+              "dimensions": [
+                {
+                  "field": "Sales",
+                  "value": "158 to 280"
+                },
+                {
+                  "field": "Profit per Order",
+                  "value": "40.71 to 88.93"
+                }
+              ],
+              "details": {
+                "Difference in Average for Other Buckets": -8.965180180180966,
+                "Total": 76716.35000000005,
+                "Average": 207.34148648648663,
+                "Standard Deviation": 36.99059803207799,
+                "Count": 370,
+                "Difference from Average": -21.73023014842346
+              },
+              "isHighlighted": true
+            },
+            {
+              "label": "158 to 280 when all other Profit per Order",
+              "value": 216.30666666666759,
+              "properties": [
+                {
+                  "type": "Range",
+                  "field": "Sales",
+                  "start": 157,
+                  "end": 280
+                }
+              ],
+              "dimensions": [
+                {
+                  "field": "Sales",
+                  "value": "158 to 280"
+                },
+                {
+                  "field": "Profit per Order",
+                  "value": "All Other Profit per Order"
+                }
+              ],
+              "details": {
+                "Difference From Overall": -12.765049968242494,
+                "Total": 136922.12000000059,
+                "Average": 216.30666666666759,
+                "Standard Deviation": 34.290623060130247,
+                "Count": 633
+              },
+              "isHighlighted": true
+            },
+            {
+              "label": "281 to 572 when 40.71 to 88.93",
+              "value": 395.81994949494949,
+              "properties": [
+                {
+                  "type": "Range",
+                  "field": "Sales",
+                  "start": 280,
+                  "end": 572
+                },
+                {
+                  "type": "Range",
+                  "field": "Profit_per_Order",
+                  "start": 40.7,
+                  "end": 88.93
+                }
+              ],
+              "dimensions": [
+                {
+                  "field": "Sales",
+                  "value": "281 to 572"
+                },
+                {
+                  "field": "Profit per Order",
+                  "value": "40.71 to 88.93"
+                }
+              ],
+              "details": {
+                "Difference in Average for Other Buckets": -8.036500505050299,
+                "Total": 78372.34999999999,
+                "Average": 395.81994949494949,
+                "Standard Deviation": 86.29330694703569,
+                "Count": 198,
+                "Difference from Average": 166.7482328600394
+              },
+              "isHighlighted": false
+            },
+            {
+              "label": "281 to 572 when all other Profit per Order",
+              "value": 403.85644999999979,
+              "properties": [
+                {
+                  "type": "Range",
+                  "field": "Sales",
+                  "start": 280,
+                  "end": 572
+                }
+              ],
+              "dimensions": [
+                {
+                  "field": "Sales",
+                  "value": "281 to 572"
+                },
+                {
+                  "field": "Profit per Order",
+                  "value": "All Other Profit per Order"
+                }
+              ],
+              "details": {
+                "Difference From Overall": 174.7847333650897,
+                "Total": 323085.1599999998,
+                "Average": 403.85644999999979,
+                "Standard Deviation": 82.70310948837808,
+                "Count": 800
+              },
+              "isHighlighted": false
+            },
+            {
+              "label": "573 to 22,640 when 40.71 to 88.93",
+              "value": 880.1215277777778,
+              "properties": [
+                {
+                  "type": "Range",
+                  "field": "Sales",
+                  "start": 572,
+                  "end": 22638
+                },
+                {
+                  "type": "Range",
+                  "field": "Profit_per_Order",
+                  "start": 40.7,
+                  "end": 88.93
+                }
+              ],
+              "dimensions": [
+                {
+                  "field": "Sales",
+                  "value": "573 to 22,640"
+                },
+                {
+                  "field": "Profit per Order",
+                  "value": "40.71 to 88.93"
+                }
+              ],
+              "details": {
+                "Difference in Average for Other Buckets": -589.5546341940469,
+                "Total": 126737.50000000002,
+                "Average": 880.1215277777778,
+                "Standard Deviation": 465.13278571382298,
+                "Count": 144,
+                "Difference from Average": 651.0498111428677
+              },
+              "isHighlighted": true
+            },
+            {
+              "label": "573 to 22,640 when all other Profit per Order",
+              "value": 1469.6761619718248,
+              "properties": [
+                {
+                  "type": "Range",
+                  "field": "Sales",
+                  "start": 572,
+                  "end": 22638
+                }
+              ],
+              "dimensions": [
+                {
+                  "field": "Sales",
+                  "value": "573 to 22,640"
+                },
+                {
+                  "field": "Profit per Order",
+                  "value": "All Other Profit per Order"
+                }
+              ],
+              "details": {
+                "Difference From Overall": 1240.6044453369148,
+                "Total": 1252164.0899999948,
+                "Average": 1469.6761619718248,
+                "Standard Deviation": 1593.7296174118463,
+                "Count": 852
+              },
+              "isHighlighted": true
+            }
+          ]
+        },
+        "narrative": {
+          "title": {
+            "type": "HEADING",
+            "elements": [
+              {
+                "type": "PARAGRAPH",
+                "value": "Sales per Customer by "
+              },
+              {
+                "type": "PARAGRAPH",
+                "value": "Sales",
+                "properties": [
+                  {
+                    "type": "Field",
+                    "field": "Sales"
+                  }
+                ]
+              },
+              {
+                "type": "PARAGRAPH",
+                "value": " when "
+              },
+              {
+                "type": "PARAGRAPH",
+                "value": "Profit per Order is 40.71 to 88.93",
+                "properties": [
+                  {
+                    "type": "Range",
+                    "field": "Profit_per_Order",
+                    "start": 40.7,
+                    "end": 88.93
+                  }
+                ]
+              }
+            ]
+          },
+          "header": {
+            "type": "SUB_HEADING",
+            "elements": [
+              {
+                "type": "PARAGRAPH",
+                "value": "When "
+              },
+              {
+                "type": "PARAGRAPH",
+                "value": "Profit per Order is 40.71 to 88.93",
+                "properties": [
+                  {
+                    "type": "Range",
+                    "field": "Profit_per_Order",
+                    "start": 40.7,
+                    "end": 88.93
+                  }
+                ]
+              },
+              {
+                "type": "PARAGRAPH",
+                "value": ", "
+              },
+              {
+                "type": "PARAGRAPH",
+                "value": "Sales",
+                "properties": [
+                  {
+                    "type": "Field",
+                    "field": "Sales"
+                  }
+                ]
+              },
+              {
+                "type": "PARAGRAPH",
+                "value": ": "
+              },
+              {
+                "type": "PARAGRAPH",
+                "value": "55 to 89",
+                "properties": [
+                  {
+                    "type": "Range",
+                    "field": "Sales",
+                    "start": 54,
+                    "end": 89
+                  }
+                ]
+              },
+              {
+                "type": "PARAGRAPH",
+                "value": " and "
+              },
+              {
+                "type": "PARAGRAPH",
+                "value": "90 to 157",
+                "properties": [
+                  {
+                    "type": "Range",
+                    "field": "Sales",
+                    "start": 89,
+                    "end": 157
+                  }
+                ]
+              },
+              {
+                "type": "PARAGRAPH",
+                "value": " do better"
+              }
+            ]
+          },
+          "body": {
+            "type": "BODY",
+            "elements": [
+              {
+                "type": "PARAGRAPH",
+                "elements": [
+                  {
+                    "type": "PARAGRAPH",
+                    "value": "You should also be aware of the case when "
+                  },
+                  {
+                    "type": "PARAGRAPH",
+                    "value": "Profit per Order is 40.71 to 88.93",
+                    "properties": [
+                      {
+                        "type": "Range",
+                        "field": "Profit_per_Order",
+                        "start": 40.7,
+                        "end": 88.93
+                      }
+                    ]
+                  },
+                  {
+                    "type": "PARAGRAPH",
+                    "value": ", because the Sales per Customer looks different here. If you compare the two graphs, you will see for example: "
+                  }
+                ]
+              },
+              {
+                "type": "PARAGRAPH",
+                "elements": [
+                  {
+                    "type": "GOOD_SECTION",
+                    "elements": [
+                      {
+                        "type": "PARAGRAPH",
+                        "value": "Cases where "
+                      },
+                      {
+                        "type": "PARAGRAPH",
+                        "value": "40.71 to 88.93",
+                        "properties": [
+                          {
+                            "type": "Range",
+                            "field": "Profit_per_Order",
+                            "start": 40.7,
+                            "end": 88.93
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PARAGRAPH",
+                        "value": " did better than others:"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST",
+                    "elements": [
+                      {
+                        "type": "PARAGRAPH",
+                        "elements": [
+                          {
+                            "type": "PARAGRAPH",
+                            "value": "Sales",
+                            "properties": [
+                              {
+                                "type": "Field",
+                                "field": "Sales"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": ": "
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": "55 to 89",
+                            "properties": [
+                              {
+                                "type": "Range",
+                                "field": "Sales",
+                                "start": 54,
+                                "end": 89
+                              }
+                            ]
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": " is 17.12 higher"
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": ". This result may have been worsened by "
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": "Sub-Category is Furnishings",
+                            "properties": [
+                              {
+                                "type": "String",
+                                "field": "Sub_Category",
+                                "value": "Furnishings"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": "."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PARAGRAPH",
+                        "elements": [
+                          {
+                            "type": "PARAGRAPH",
+                            "value": "Sales",
+                            "properties": [
+                              {
+                                "type": "Field",
+                                "field": "Sales"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": ": "
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": "90 to 157",
+                            "properties": [
+                              {
+                                "type": "Range",
+                                "field": "Sales",
+                                "start": 89,
+                                "end": 157
+                              }
+                            ]
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": " is 8.939 higher"
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": ". This result may have been worsened by "
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": "Sub-Category is Accessories",
+                            "properties": [
+                              {
+                                "type": "String",
+                                "field": "Sub_Category",
+                                "value": "Accessories"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": "."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PARAGRAPH",
+                "elements": [
+                  {
+                    "type": "BAD_SECTION",
+                    "elements": [
+                      {
+                        "type": "PARAGRAPH",
+                        "value": "Cases where "
+                      },
+                      {
+                        "type": "PARAGRAPH",
+                        "value": "40.71 to 88.93",
+                        "properties": [
+                          {
+                            "type": "Range",
+                            "field": "Profit_per_Order",
+                            "start": 40.7,
+                            "end": 88.93
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PARAGRAPH",
+                        "value": " did worse than others:"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST",
+                    "elements": [
+                      {
+                        "type": "PARAGRAPH",
+                        "elements": [
+                          {
+                            "type": "PARAGRAPH",
+                            "value": "Sales",
+                            "properties": [
+                              {
+                                "type": "Field",
+                                "field": "Sales"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": ": "
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": "573 to 22,640",
+                            "properties": [
+                              {
+                                "type": "Range",
+                                "field": "Sales",
+                                "start": 572,
+                                "end": 22638
+                              }
+                            ]
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": " is 589.6 lower"
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": ". This result may have been worsened by "
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": "Sub-Category is Chairs",
+                            "properties": [
+                              {
+                                "type": "String",
+                                "field": "Sub_Category",
+                                "value": "Chairs"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": "."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PARAGRAPH",
+                        "elements": [
+                          {
+                            "type": "PARAGRAPH",
+                            "value": "Sales",
+                            "properties": [
+                              {
+                                "type": "Field",
+                                "field": "Sales"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": ": "
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": "158 to 280",
+                            "properties": [
+                              {
+                                "type": "Range",
+                                "field": "Sales",
+                                "start": 157,
+                                "end": 280
+                              }
+                            ]
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": " is 8.965 lower"
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": ". This result may have been worsened by "
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": "Sub-Category is Phones",
+                            "properties": [
+                              {
+                                "type": "String",
+                                "field": "Sub_Category",
+                                "value": "Phones"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": "."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "insightValues": {
+          "diagnosticInsightRecord": {},
+          "descriptiveInsightRecord": {
+            "filterField": {
+              "label": "Sales",
+              "property": {
+                "type": "Field",
+                "field": "Sales"
+              }
+            },
+            "conditionField": {
+              "label": "Profit per Order",
+              "property": {
+                "type": "Range",
+                "field": "Profit_per_Order",
+                "start": 40.7,
+                "end": 88.93
+              },
+              "value": "40.71 to 88.93"
+            },
+            "details": [
+              {
+                "category": "POSITIVE",
+                "comparedWith": "OTHER",
+                "caseDetails": [
+                  {
+                    "fieldValue": "55 to 89",
+                    "score": 17.122055327868894,
+                    "rating": " higher",
+                    "impact": "worsened",
+                    "impactDetails": [
+                      {
+                        "label": "Sub-Category",
+                        "property": {
+                          "type": "String",
+                          "field": "Sub_Category",
+                          "value": "Furnishings"
+                        },
+                        "value": "Furnishings"
+                      }
+                    ]
+                  },
+                  {
+                    "fieldValue": "90 to 157",
+                    "score": 8.938786013150022,
+                    "rating": " higher",
+                    "impact": "worsened",
+                    "impactDetails": [
+                      {
+                        "label": "Sub-Category",
+                        "property": {
+                          "type": "String",
+                          "field": "Sub_Category",
+                          "value": "Accessories"
+                        },
+                        "value": "Accessories"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "category": "NEGATIVE",
+                "comparedWith": "OTHER",
+                "caseDetails": [
+                  {
+                    "fieldValue": "573 to 22,640",
+                    "score": 589.5546341940469,
+                    "rating": " lower",
+                    "impact": "worsened",
+                    "impactDetails": [
+                      {
+                        "label": "Sub-Category",
+                        "property": {
+                          "type": "String",
+                          "field": "Sub_Category",
+                          "value": "Chairs"
+                        },
+                        "value": "Chairs"
+                      }
+                    ]
+                  },
+                  {
+                    "fieldValue": "158 to 280",
+                    "score": 8.965180180180966,
+                    "rating": " lower",
+                    "impact": "worsened",
+                    "impactDetails": [
+                      {
+                        "label": "Sub-Category",
+                        "property": {
+                          "type": "String",
+                          "field": "Sub_Category",
+                          "value": "Phones"
+                        },
+                        "value": "Phones"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "values": {
+          "elements": []
+        },
+        "metadata": {
+          "type": "WHAT_HAPPENED",
+          "properties": [
+            {
+              "type": "Field",
+              "field": "Sales"
+            },
+            {
+              "type": "Range",
+              "field": "Profit_per_Order",
+              "start": 40.7,
+              "end": 88.93
+            }
+          ]
+        },
+        "type": "Descriptive"
+      },
+      {
+        "others": [],
+        "chart": {
+          "metricLabel": "Sales per Customer",
+          "categoryLabel": "Profit per Order",
+          "values": [
+            {
+              "label": "-6,600 to -15.78",
+              "value": 418.26131180625637,
+              "properties": [
+                {
+                  "type": "Range",
+                  "field": "Profit_per_Order",
+                  "start": -6599.98,
+                  "end": -15.78
+                }
+              ],
+              "dimensions": [
+                {
+                  "field": "Profit per Order",
+                  "value": "-6,600 to -15.78"
+                }
+              ],
+              "details": {
+                "Total": 414496.96,
+                "Average": 418.26131180625637,
+                "Standard Deviation": 944.1224067332863,
+                "Count": 991,
+                "Difference from Average": 189.18959517134628
+              },
+              "isHighlighted": true
+            },
+            {
+              "label": "-15.77 to 0.32",
+              "value": 82.92123356926189,
+              "properties": [
+                {
+                  "type": "Range",
+                  "field": "Profit_per_Order",
+                  "start": -15.78,
+                  "end": 0.32
+                }
+              ],
+              "dimensions": [
+                {
+                  "field": "Profit per Order",
+                  "value": "-15.77 to 0.32"
+                }
+              ],
+              "details": {
+                "Total": 82009.1,
+                "Average": 82.92123356926189,
+                "Standard Deviation": 202.96621273861437,
+                "Count": 989,
+                "Difference from Average": -146.1504830656482
+              },
+              "isHighlighted": true
+            },
+            {
+              "label": "0.33 to 2.96",
+              "value": 16.046051080550087,
+              "properties": [
+                {
+                  "type": "Range",
+                  "field": "Profit_per_Order",
+                  "start": 0.32,
+                  "end": 2.96
+                }
+              ],
+              "dimensions": [
+                {
+                  "field": "Profit per Order",
+                  "value": "0.33 to 2.96"
+                }
+              ],
+              "details": {
+                "Total": 16334.879999999986,
+                "Average": 16.046051080550087,
+                "Standard Deviation": 28.20925918142381,
+                "Count": 1018,
+                "Difference from Average": -213.02566555436
+              },
+              "isHighlighted": true
+            },
+            {
+              "label": "2.97 to 5.41",
+              "value": 26.50199592668022,
+              "properties": [
+                {
+                  "type": "Range",
+                  "field": "Profit_per_Order",
+                  "start": 2.96,
+                  "end": 5.41
+                }
+              ],
+              "dimensions": [
+                {
+                  "field": "Profit per Order",
+                  "value": "2.97 to 5.41"
+                }
+              ],
+              "details": {
+                "Total": 26024.959999999977,
+                "Average": 26.50199592668022,
+                "Standard Deviation": 50.20951181748367,
+                "Count": 982,
+                "Difference from Average": -202.56972070822986
+              },
+              "isHighlighted": true
+            },
+            {
+              "label": "5.42 to 8.58",
+              "value": 38.81419999999994,
+              "properties": [
+                {
+                  "type": "Range",
+                  "field": "Profit_per_Order",
+                  "start": 5.41,
+                  "end": 8.58
+                }
+              ],
+              "dimensions": [
+                {
+                  "field": "Profit per Order",
+                  "value": "5.42 to 8.58"
+                }
+              ],
+              "details": {
+                "Total": 38814.199999999946,
+                "Average": 38.81419999999994,
+                "Standard Deviation": 68.49529825501199,
+                "Count": 1000,
+                "Difference from Average": -190.25751663491014
+              },
+              "isHighlighted": true
+            },
+            {
+              "label": "8.59 to 13.5",
+              "value": 60.393178677196519,
+              "properties": [
+                {
+                  "type": "Range",
+                  "field": "Profit_per_Order",
+                  "start": 8.58,
+                  "end": 13.5
+                }
+              ],
+              "dimensions": [
+                {
+                  "field": "Profit per Order",
+                  "value": "8.59 to 13.5"
+                }
+              ],
+              "details": {
+                "Total": 61178.290000000074,
+                "Average": 60.393178677196519,
+                "Standard Deviation": 92.89560568348237,
+                "Count": 1013,
+                "Difference from Average": -168.67853795771357
+              },
+              "isHighlighted": true
+            },
+            {
+              "label": "13.51 to 22.05",
+              "value": 89.28549238578676,
+              "properties": [
+                {
+                  "type": "Range",
+                  "field": "Profit_per_Order",
+                  "start": 13.5,
+                  "end": 22.05
+                }
+              ],
+              "dimensions": [
+                {
+                  "field": "Profit per Order",
+                  "value": "13.51 to 22.05"
+                }
+              ],
+              "details": {
+                "Total": 87946.20999999995,
+                "Average": 89.28549238578676,
+                "Standard Deviation": 104.46406098455285,
+                "Count": 985,
+                "Difference from Average": -139.78622424912335
+              },
+              "isHighlighted": true
+            },
+            {
+              "label": "22.06 to 40.7",
+              "value": 152.36175350701425,
+              "properties": [
+                {
+                  "type": "Range",
+                  "field": "Profit_per_Order",
+                  "start": 22.05,
+                  "end": 40.7
+                }
+              ],
+              "dimensions": [
+                {
+                  "field": "Profit per Order",
+                  "value": "22.06 to 40.7"
+                }
+              ],
+              "details": {
+                "Total": 152057.0300000002,
+                "Average": 152.36175350701425,
+                "Standard Deviation": 144.6322146049623,
+                "Count": 998,
+                "Difference from Average": -76.70996312789583
+              },
+              "isHighlighted": true
+            },
+            {
+              "label": "40.71 to 88.93",
+              "value": 317.02190618762458,
+              "properties": [
+                {
+                  "type": "Range",
+                  "field": "Profit_per_Order",
+                  "start": 40.7,
+                  "end": 88.93
+                }
+              ],
+              "dimensions": [
+                {
+                  "field": "Profit per Order",
+                  "value": "40.71 to 88.93"
+                }
+              ],
+              "details": {
+                "Total": 317655.9499999998,
+                "Average": 317.02190618762458,
+                "Standard Deviation": 308.43992345362735,
+                "Count": 1002,
+                "Difference from Average": 87.95018955271448
+              },
+              "isHighlighted": true
+            },
+            {
+              "label": "88.94 to 8,400",
+              "value": 1093.482060301503,
+              "properties": [
+                {
+                  "type": "Range",
+                  "field": "Profit_per_Order",
+                  "start": 88.93,
+                  "end": 8399.98
+                }
+              ],
+              "dimensions": [
+                {
+                  "field": "Profit per Order",
+                  "value": "88.94 to 8,400"
+                }
+              ],
+              "details": {
+                "Total": 1088014.6499999955,
+                "Average": 1093.482060301503,
+                "Standard Deviation": 1348.4619386765967,
+                "Count": 995,
+                "Difference from Average": 864.4103436665929
+              },
+              "isHighlighted": true
+            }
+          ]
+        },
+        "narrative": {
+          "title": {
+            "type": "HEADING",
+            "elements": [
+              {
+                "type": "PARAGRAPH",
+                "value": "Sales per Customer by "
+              },
+              {
+                "type": "PARAGRAPH",
+                "value": "Profit per Order",
+                "properties": [
+                  {
+                    "type": "Field",
+                    "field": "Profit_per_Order"
+                  }
+                ]
+              }
+            ]
+          },
+          "header": {
+            "type": "SUB_HEADING",
+            "elements": [
+              {
+                "type": "PARAGRAPH",
+                "value": "Profit per Order",
+                "properties": [
+                  {
+                    "type": "Field",
+                    "field": "Profit_per_Order"
+                  }
+                ]
+              },
+              {
+                "type": "PARAGRAPH",
+                "value": ": "
+              },
+              {
+                "type": "PARAGRAPH",
+                "value": "88.94 to 8,400",
+                "properties": [
+                  {
+                    "type": "Range",
+                    "field": "Profit_per_Order",
+                    "start": 88.93,
+                    "end": 8399.98
+                  }
+                ]
+              },
+              {
+                "type": "PARAGRAPH",
+                "value": " does better than average"
+              }
+            ]
+          },
+          "body": {
+            "type": "BODY",
+            "elements": [
+              {
+                "type": "PARAGRAPH",
+                "elements": [
+                  {
+                    "type": "PARAGRAPH",
+                    "value": "Profit per Order",
+                    "properties": [
+                      {
+                        "type": "Field",
+                        "field": "Profit_per_Order"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "PARAGRAPH",
+                    "value": " explains 25.4% of the variation in Sales per Customer."
+                  }
+                ]
+              },
+              {
+                "type": "PARAGRAPH",
+                "elements": [
+                  {
+                    "type": "GOOD_SECTION",
+                    "elements": [
+                      {
+                        "type": "PARAGRAPH",
+                        "value": "Here are some cases where Sales per Customer was better than average: "
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST",
+                    "elements": [
+                      {
+                        "type": "PARAGRAPH",
+                        "elements": [
+                          {
+                            "type": "PARAGRAPH",
+                            "value": "Profit per Order",
+                            "properties": [
+                              {
+                                "type": "Field",
+                                "field": "Profit_per_Order"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": ": "
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": "88.94 to 8,400",
+                            "properties": [
+                              {
+                                "type": "Range",
+                                "field": "Profit_per_Order",
+                                "start": 88.93,
+                                "end": 8399.98
+                              }
+                            ]
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": " is 864.4 above average"
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": ". This result may have been improved by "
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": "Sales is 573 to 22,640",
+                            "properties": [
+                              {
+                                "type": "Range",
+                                "field": "Sales",
+                                "start": 572,
+                                "end": 22638
+                              }
+                            ]
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": "."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PARAGRAPH",
+                        "elements": [
+                          {
+                            "type": "PARAGRAPH",
+                            "value": "Profit per Order",
+                            "properties": [
+                              {
+                                "type": "Field",
+                                "field": "Profit_per_Order"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": ": "
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": "-6,600 to -15.78",
+                            "properties": [
+                              {
+                                "type": "Range",
+                                "field": "Profit_per_Order",
+                                "start": -6599.98,
+                                "end": -15.78
+                              }
+                            ]
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": " is 189.2 above average"
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": ". This result may have been improved by "
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": "Sales is 281 to 572",
+                            "properties": [
+                              {
+                                "type": "Range",
+                                "field": "Sales",
+                                "start": 280,
+                                "end": 572
+                              }
+                            ]
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": "."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PARAGRAPH",
+                "elements": [
+                  {
+                    "type": "BAD_SECTION",
+                    "elements": [
+                      {
+                        "type": "PARAGRAPH",
+                        "value": "Here are some cases where Sales per Customer was worse than average: "
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST",
+                    "elements": [
+                      {
+                        "type": "PARAGRAPH",
+                        "elements": [
+                          {
+                            "type": "PARAGRAPH",
+                            "value": "Profit per Order",
+                            "properties": [
+                              {
+                                "type": "Field",
+                                "field": "Profit_per_Order"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": ": "
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": "0.33 to 2.96",
+                            "properties": [
+                              {
+                                "type": "Range",
+                                "field": "Profit_per_Order",
+                                "start": 0.32,
+                                "end": 2.96
+                              }
+                            ]
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": " is 213 below average"
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": ". This result may have been improved by "
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": "Sales is 0 to 8",
+                            "properties": [
+                              {
+                                "type": "Range",
+                                "field": "Sales",
+                                "start": 0,
+                                "end": 8
+                              }
+                            ]
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": "."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PARAGRAPH",
+                        "elements": [
+                          {
+                            "type": "PARAGRAPH",
+                            "value": "Profit per Order",
+                            "properties": [
+                              {
+                                "type": "Field",
+                                "field": "Profit_per_Order"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": ": "
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": "2.97 to 5.41",
+                            "properties": [
+                              {
+                                "type": "Range",
+                                "field": "Profit_per_Order",
+                                "start": 2.96,
+                                "end": 5.41
+                              }
+                            ]
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": " is 202.6 below average"
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": ". This result may have been improved by "
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": "Sales is 9 to 14",
+                            "properties": [
+                              {
+                                "type": "Range",
+                                "field": "Sales",
+                                "start": 8,
+                                "end": 14
+                              }
+                            ]
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": "."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PARAGRAPH",
+                        "elements": [
+                          {
+                            "type": "PARAGRAPH",
+                            "value": "Profit per Order",
+                            "properties": [
+                              {
+                                "type": "Field",
+                                "field": "Profit_per_Order"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": ": "
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": "5.42 to 8.58",
+                            "properties": [
+                              {
+                                "type": "Range",
+                                "field": "Profit_per_Order",
+                                "start": 5.41,
+                                "end": 8.58
+                              }
+                            ]
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": " is 190.3 below average"
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": ". This result may have been improved by "
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": "Sales is 15 to 22",
+                            "properties": [
+                              {
+                                "type": "Range",
+                                "field": "Sales",
+                                "start": 14,
+                                "end": 22
+                              }
+                            ]
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": "."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PARAGRAPH",
+                        "elements": [
+                          {
+                            "type": "PARAGRAPH",
+                            "value": "Profit per Order",
+                            "properties": [
+                              {
+                                "type": "Field",
+                                "field": "Profit_per_Order"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": ": "
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": "8.59 to 13.5",
+                            "properties": [
+                              {
+                                "type": "Range",
+                                "field": "Profit_per_Order",
+                                "start": 8.58,
+                                "end": 13.5
+                              }
+                            ]
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": " is 168.7 below average"
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": ". This result may have been improved by "
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": "Sales is 23 to 34",
+                            "properties": [
+                              {
+                                "type": "Range",
+                                "field": "Sales",
+                                "start": 22,
+                                "end": 34
+                              }
+                            ]
+                          },
+                          {
+                            "type": "PARAGRAPH",
+                            "value": "."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "insightValues": {
+          "diagnosticInsightRecord": {},
+          "descriptiveInsightRecord": {
+            "filterField": {
+              "label": "Profit per Order",
+              "property": {
+                "type": "Field",
+                "field": "Profit_per_Order"
+              }
+            },
+            "correlation": 0.25446011273825888,
+            "details": [
+              {
+                "category": "POSITIVE",
+                "comparedWith": "AVERAGE",
+                "caseDetails": [
+                  {
+                    "fieldValue": "88.94 to 8,400",
+                    "score": 864.4103436665929,
+                    "rating": "aboveAverage",
+                    "impact": "improved",
+                    "impactDetails": [
+                      {
+                        "label": "Sales",
+                        "property": {
+                          "type": "Range",
+                          "field": "Sales",
+                          "start": 572,
+                          "end": 22638
+                        },
+                        "value": "573 to 22,640"
+                      }
+                    ]
+                  },
+                  {
+                    "fieldValue": "-6,600 to -15.78",
+                    "score": 189.18959517134628,
+                    "rating": "aboveAverage",
+                    "impact": "improved",
+                    "impactDetails": [
+                      {
+                        "label": "Sales",
+                        "property": {
+                          "type": "Range",
+                          "field": "Sales",
+                          "start": 280,
+                          "end": 572
+                        },
+                        "value": "281 to 572"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "category": "NEGATIVE",
+                "comparedWith": "AVERAGE",
+                "caseDetails": [
+                  {
+                    "fieldValue": "0.33 to 2.96",
+                    "score": 213.02566555436,
+                    "rating": "belowAverage",
+                    "impact": "improved",
+                    "impactDetails": [
+                      {
+                        "label": "Sales",
+                        "property": {
+                          "type": "Range",
+                          "field": "Sales",
+                          "start": 0,
+                          "end": 8
+                        },
+                        "value": "0 to 8"
+                      }
+                    ]
+                  },
+                  {
+                    "fieldValue": "2.97 to 5.41",
+                    "score": 202.56972070822986,
+                    "rating": "belowAverage",
+                    "impact": "improved",
+                    "impactDetails": [
+                      {
+                        "label": "Sales",
+                        "property": {
+                          "type": "Range",
+                          "field": "Sales",
+                          "start": 8,
+                          "end": 14
+                        },
+                        "value": "9 to 14"
+                      }
+                    ]
+                  },
+                  {
+                    "fieldValue": "5.42 to 8.58",
+                    "score": 190.25751663491014,
+                    "rating": "belowAverage",
+                    "impact": "improved",
+                    "impactDetails": [
+                      {
+                        "label": "Sales",
+                        "property": {
+                          "type": "Range",
+                          "field": "Sales",
+                          "start": 14,
+                          "end": 22
+                        },
+                        "value": "15 to 22"
+                      }
+                    ]
+                  },
+                  {
+                    "fieldValue": "8.59 to 13.5",
+                    "score": 168.67853795771357,
+                    "rating": "belowAverage",
+                    "impact": "improved",
+                    "impactDetails": [
+                      {
+                        "label": "Sales",
+                        "property": {
+                          "type": "Range",
+                          "field": "Sales",
+                          "start": 22,
+                          "end": 34
+                        },
+                        "value": "23 to 34"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "values": {
+          "elements": []
+        },
+        "metadata": {
+          "type": "WHAT_HAPPENED",
+          "properties": [
+            {
+              "type": "Field",
+              "field": "Profit_per_Order"
+            }
+          ]
+        },
+        "type": "Descriptive"
+      }
+    ],
+    "insightsCount": 20,
+    "insightsOffset": 0,
+    "resultCode": 200,
+    "transformations": [],
+    "needsNewCacheBucket": false,
+    "summary": {
+      "count": 9973,
+      "mean": 229.07171663491008
+    }
+  }
+}
