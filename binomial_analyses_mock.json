@@ -1,0 +1,584 @@
+{
+  "alertsUrl": "/services/data/v53.0/smartdatadiscovery/stories/1Y35f0000008nO5CAI/histories/9B45f0000009UtJCAU/alerts",
+  "createdBy": {
+    "id": "0055f0000042CLKAA2",
+    "name": "Johnny ZHANG",
+    "profilePhotoUrl": "https://tableau676-dev-ed--c.documentforce.com/profilephoto/005/T"
+  },
+  "createdDate": "2021-12-02T19:26:56.000Z",
+  "folder": {
+    "id": "0055f0000042CLKAA2",
+    "label": "Johnny ZHANG",
+    "url": "/services/data/v53.0/wave/folders/0055f0000042CLKAA2"
+  },
+  "id": "9B45f0000009UtJCAU",
+  "input": {
+    "dataset": {
+      "id": "0Fb5f000000tgbaCAA",
+      "url": "/services/data/v53.0/wave/datasets/0Fb5f000000tgbaCAA"
+    },
+    "datasetVersion": {
+      "id": "0Fc5f000001Ik24CAC",
+      "url": "/services/data/v53.0/wave/datasets/0Fb5f000000tgbaCAA/versions/0Fc5f000001Ik24CAC"
+    },
+    "type": "AnalyticsDataset"
+  },
+  "inputProfile": {
+    "url": "/services/data/v53.0/smartdatadiscovery/analyses/9B45f0000009UtJCAU/input-profile"
+  },
+  "label": "AcquiredAccount",
+  "lastModifiedBy": {
+    "id": "0055f000004z8tqAAA",
+    "name": "Integration User",
+    "profilePhotoUrl": "https://tableau676-dev-ed--c.documentforce.com/profilephoto/005/T"
+  },
+  "lastModifiedDate": "2021-12-02T19:35:46.000Z",
+  "outcome": {
+    "failureValue": "Private",
+    "goal": "Maximize",
+    "label": "Ownership",
+    "name": "Ownership",
+    "successValue": "Public",
+    "type": "Text"
+  },
+  "setup": {
+    "fields": [
+      {
+        "displayName": "Account Id",
+        "ignored": true,
+        "protected": false,
+        "sensitive": false,
+        "min": 2,
+        "max": 54670,
+        "bucketingStrategy": "PERCENTILE",
+        "numBuckets": 10,
+        "uniqueEquivalent": false,
+        "highCardinality": false,
+        "name": "Account_Id",
+        "type": "number"
+      },
+      {
+        "displayName": "CLV",
+        "ignored": false,
+        "protected": false,
+        "sensitive": false,
+        "min": -420,
+        "max": 45986,
+        "bucketingStrategy": "PERCENTILE",
+        "numBuckets": 10,
+        "uniqueEquivalent": false,
+        "highCardinality": false,
+        "name": "CLV",
+        "type": "number"
+      },
+      {
+        "displayName": "StartDate",
+        "ignored": false,
+        "protected": false,
+        "sensitive": false,
+        "min": "2014-01-01",
+        "max": "2015-12-31",
+        "interval": "MONTH",
+        "periodicIntervals": [],
+        "pattern": "yyyy-MM-dd",
+        "uniqueEquivalent": false,
+        "highCardinality": false,
+        "isTrend": true,
+        "name": "StartDate",
+        "type": "date"
+      },
+      {
+        "displayName": "CloseDate",
+        "ignored": false,
+        "protected": false,
+        "sensitive": false,
+        "min": "2014-01-26",
+        "max": "2016-03-28",
+        "interval": "MONTH",
+        "periodicIntervals": [],
+        "pattern": "yyyy-MM-dd",
+        "uniqueEquivalent": false,
+        "highCardinality": false,
+        "isTrend": true,
+        "name": "CloseDate",
+        "type": "date"
+      },
+      {
+        "displayName": "Industry",
+        "ignored": false,
+        "protected": false,
+        "sensitive": false,
+        "highCardinality": false,
+        "ordering": "OCCURRENCE",
+        "includeOther": true,
+        "support": 24,
+        "balanced": false,
+        "uniqueEquivalent": false,
+        "name": "Industry",
+        "type": "text",
+        "values": [
+          {
+            "name": "Hospitality",
+            "displayName": "Hospitality",
+            "ignored": false,
+            "count": 1737
+          },
+          {
+            "name": "Retail",
+            "displayName": "Retail",
+            "ignored": false,
+            "count": 1537
+          },
+          {
+            "name": "Shipping",
+            "displayName": "Shipping",
+            "ignored": false,
+            "count": 1313
+          },
+          {
+            "name": "Banking",
+            "displayName": "Banking",
+            "ignored": false,
+            "count": 1226
+          },
+          {
+            "name": "Apparel",
+            "displayName": "Apparel",
+            "ignored": false,
+            "count": 1122
+          },
+          {
+            "name": "Consulting",
+            "displayName": "Consulting",
+            "ignored": false,
+            "count": 1077
+          },
+          {
+            "name": "Manufacturing",
+            "displayName": "Manufacturing",
+            "ignored": false,
+            "count": 811
+          },
+          {
+            "name": "Technology",
+            "displayName": "Technology",
+            "ignored": false,
+            "count": 663
+          },
+          {
+            "name": "Biotechnology",
+            "displayName": "Biotechnology",
+            "ignored": false,
+            "count": 514
+          }
+        ]
+      },
+      {
+        "displayName": "Type",
+        "ignored": false,
+        "protected": false,
+        "sensitive": false,
+        "highCardinality": false,
+        "ordering": "OCCURRENCE",
+        "includeOther": true,
+        "support": 24,
+        "balanced": false,
+        "uniqueEquivalent": false,
+        "name": "Type",
+        "type": "text",
+        "values": [
+          {
+            "name": "Customer",
+            "displayName": "Customer",
+            "ignored": false,
+            "count": 6645
+          },
+          {
+            "name": "Competitor",
+            "displayName": "Competitor",
+            "ignored": false,
+            "count": 1456
+          },
+          {
+            "name": "Consulting",
+            "displayName": "Consulting",
+            "ignored": false,
+            "count": 1136
+          },
+          {
+            "name": "Partner",
+            "displayName": "Partner",
+            "ignored": false,
+            "count": 542
+          },
+          {
+            "name": "Reseller",
+            "displayName": "Reseller",
+            "ignored": false,
+            "count": 221
+          }
+        ]
+      },
+      {
+        "displayName": "Ownership",
+        "ignored": false,
+        "protected": false,
+        "sensitive": false,
+        "highCardinality": false,
+        "ordering": "OCCURRENCE",
+        "includeOther": true,
+        "support": 24,
+        "balanced": false,
+        "uniqueEquivalent": false,
+        "name": "Ownership",
+        "type": "text",
+        "values": [
+          {
+            "name": "Public",
+            "displayName": "Public",
+            "ignored": false,
+            "count": 5534
+          },
+          {
+            "name": "Private",
+            "displayName": "Private",
+            "ignored": false,
+            "count": 4466
+          }
+        ]
+      },
+      {
+        "displayName": "Rating",
+        "ignored": false,
+        "protected": false,
+        "sensitive": false,
+        "highCardinality": false,
+        "ordering": "OCCURRENCE",
+        "includeOther": true,
+        "support": 24,
+        "balanced": false,
+        "uniqueEquivalent": false,
+        "name": "Rating",
+        "type": "text",
+        "values": [
+          {
+            "name": "Hot",
+            "displayName": "Hot",
+            "ignored": false,
+            "count": 5298
+          },
+          {
+            "name": "Cold",
+            "displayName": "Cold",
+            "ignored": false,
+            "count": 2901
+          },
+          {
+            "name": "Warm",
+            "displayName": "Warm",
+            "ignored": false,
+            "count": 1801
+          }
+        ]
+      },
+      {
+        "displayName": "Division",
+        "ignored": false,
+        "protected": false,
+        "sensitive": false,
+        "highCardinality": false,
+        "ordering": "OCCURRENCE",
+        "includeOther": true,
+        "support": 24,
+        "balanced": false,
+        "uniqueEquivalent": false,
+        "name": "Division",
+        "type": "text",
+        "values": [
+          {
+            "name": "Ground Vehicle",
+            "displayName": "Ground Vehicle",
+            "ignored": false,
+            "count": 3178
+          },
+          {
+            "name": "Standard Materials",
+            "displayName": "Standard Materials",
+            "ignored": false,
+            "count": 1251
+          },
+          {
+            "name": "Standard Hardware",
+            "displayName": "Standard Hardware",
+            "ignored": false,
+            "count": 1050
+          },
+          {
+            "name": "Compliance",
+            "displayName": "Compliance",
+            "ignored": false,
+            "count": 1038
+          },
+          {
+            "name": "Mapping",
+            "displayName": "Mapping",
+            "ignored": false,
+            "count": 734
+          },
+          {
+            "name": "Miniaturized Parts",
+            "displayName": "Miniaturized Parts",
+            "ignored": false,
+            "count": 455
+          },
+          {
+            "name": "Frames",
+            "displayName": "Frames",
+            "ignored": false,
+            "count": 420
+          },
+          {
+            "name": "Raw Materials",
+            "displayName": "Raw Materials",
+            "ignored": false,
+            "count": 417
+          },
+          {
+            "name": "Engine Parts",
+            "displayName": "Engine Parts",
+            "ignored": false,
+            "count": 410
+          },
+          {
+            "name": "Standard Mounts",
+            "displayName": "Standard Mounts",
+            "ignored": false,
+            "count": 376
+          },
+          {
+            "name": "Navigation",
+            "displayName": "Navigation",
+            "ignored": false,
+            "count": 343
+          },
+          {
+            "name": "Naval",
+            "displayName": "Naval",
+            "ignored": false,
+            "count": 328
+          }
+        ]
+      },
+      {
+        "displayName": "AccountScore",
+        "ignored": false,
+        "protected": false,
+        "sensitive": false,
+        "highCardinality": false,
+        "ordering": "OCCURRENCE",
+        "includeOther": true,
+        "support": 24,
+        "balanced": false,
+        "uniqueEquivalent": false,
+        "name": "AccountScore",
+        "type": "text",
+        "values": [
+          {
+            "name": "B",
+            "displayName": "B",
+            "ignored": false,
+            "count": 3095
+          },
+          {
+            "name": "A",
+            "displayName": "A",
+            "ignored": false,
+            "count": 1434
+          },
+          {
+            "name": "F",
+            "displayName": "F",
+            "ignored": false,
+            "count": 1382
+          },
+          {
+            "name": "C",
+            "displayName": "C",
+            "ignored": false,
+            "count": 907
+          },
+          {
+            "name": "D",
+            "displayName": "D",
+            "ignored": false,
+            "count": 785
+          },
+          {
+            "name": "G",
+            "displayName": "G",
+            "ignored": false,
+            "count": 704
+          },
+          {
+            "name": "E",
+            "displayName": "E",
+            "ignored": false,
+            "count": 696
+          },
+          {
+            "name": "I",
+            "displayName": "I",
+            "ignored": false,
+            "count": 304
+          },
+          {
+            "name": "H",
+            "displayName": "H",
+            "ignored": false,
+            "count": 281
+          },
+          {
+            "name": "K",
+            "displayName": "K",
+            "ignored": false,
+            "count": 170
+          },
+          {
+            "name": "J",
+            "displayName": "J",
+            "ignored": false,
+            "count": 123
+          },
+          {
+            "name": "M",
+            "displayName": "M",
+            "ignored": false,
+            "count": 119
+          }
+        ]
+      },
+      {
+        "displayName": "BillingState",
+        "ignored": false,
+        "protected": false,
+        "sensitive": false,
+        "highCardinality": false,
+        "ordering": "OCCURRENCE",
+        "includeOther": true,
+        "support": 24,
+        "balanced": false,
+        "uniqueEquivalent": false,
+        "name": "BillingState",
+        "type": "text",
+        "values": [
+          {
+            "name": "Texas",
+            "displayName": "Texas",
+            "ignored": false,
+            "count": 5373
+          },
+          {
+            "name": "California",
+            "displayName": "California",
+            "ignored": false,
+            "count": 2017
+          },
+          {
+            "name": "New York",
+            "displayName": "New York",
+            "ignored": false,
+            "count": 1793
+          },
+          {
+            "name": "Boston",
+            "displayName": "Boston",
+            "ignored": false,
+            "count": 817
+          }
+        ]
+      }
+    ],
+    "name": "AcquiredAccount",
+    "outcome": {
+      "name": "Ownership",
+      "displayName": "Ownership",
+      "type": "text",
+      "goal": "MAXIMIZE",
+      "success": "Public",
+      "failure": "Private",
+      "predictionType": "Binary"
+    },
+    "validationDataConfiguration": null,
+    "downSampleSize": -1,
+    "modelConfiguration": {
+      "modelAlgType": "GLM"
+    },
+    "transformations": [],
+    "overrides": {
+      "fields": [
+        {
+          "name": "Account_Id",
+          "type": "number",
+          "ignored": true
+        },
+        {
+          "name": "CLV",
+          "type": "number"
+        },
+        {
+          "name": "StartDate",
+          "type": "date"
+        },
+        {
+          "name": "CloseDate",
+          "type": "date"
+        },
+        {
+          "name": "Industry",
+          "type": "text"
+        },
+        {
+          "name": "Type",
+          "type": "text"
+        },
+        {
+          "name": "Ownership",
+          "type": "text"
+        },
+        {
+          "name": "Rating",
+          "type": "text"
+        },
+        {
+          "name": "Division",
+          "type": "text"
+        },
+        {
+          "name": "AccountScore",
+          "type": "text"
+        },
+        {
+          "name": "BillingState",
+          "type": "text"
+        }
+      ],
+      "outcome": {
+        "name": "Ownership",
+        "displayName": "Ownership",
+        "type": "text",
+        "goal": "MAXIMIZE",
+        "success": "Public",
+        "failure": "Private",
+        "predictionType": "Binary"
+      },
+      "transformations": [],
+      "downSampleSize": -1,
+      "validationDataConfiguration": null,
+      "modelConfiguration": {
+        "modelAlgType": "GLM"
+      }
+    }
+  },
+  "status": "Success",
+  "url": "/services/data/v53.0/smartdatadiscovery/analyses/9B45f0000009UtJCAU"
+}
