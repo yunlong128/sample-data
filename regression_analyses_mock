@@ -1,0 +1,313 @@
+{
+  "alertsUrl": "/services/data/v53.0/smartdatadiscovery/stories/1Y35f0000008mksCAA/histories/9B45f0000009T5LCAU/alerts",
+  "createdBy": {
+    "id": "0055f0000042CLKAA2",
+    "name": "Johnny ZHANG",
+    "profilePhotoUrl": "https://tableau676-dev-ed--c.documentforce.com/profilephoto/005/T"
+  },
+  "createdDate": "2021-11-30T19:09:58.000Z",
+  "folder": {
+    "id": "0055f0000042CLKAA2",
+    "label": "Johnny ZHANG",
+    "url": "/services/data/v53.0/wave/folders/0055f0000042CLKAA2"
+  },
+  "id": "9B45f0000009T5LCAU",
+  "input": {
+    "dataset": {
+      "id": "0Fb5f000000tgtZCAQ",
+      "url": "/services/data/v53.0/wave/datasets/0Fb5f000000tgtZCAQ"
+    },
+    "datasetVersion": {
+      "id": "0Fc5f000001IpeICAS",
+      "url": "/services/data/v53.0/wave/datasets/0Fb5f000000tgtZCAQ/versions/0Fc5f000001IpeICAS"
+    },
+    "type": "AnalyticsDataset"
+  },
+  "inputProfile": {
+    "url": "/services/data/v53.0/smartdatadiscovery/analyses/9B45f0000009T5LCAU/input-profile"
+  },
+  "label": "superstore-orders",
+  "lastModifiedBy": {
+    "id": "0055f000004z8tqAAA",
+    "name": "Integration User",
+    "profilePhotoUrl": "https://tableau676-dev-ed--c.documentforce.com/profilephoto/005/T"
+  },
+  "lastModifiedDate": "2021-11-30T19:11:22.000Z",
+  "outcome": {
+    "goal": "Maximize",
+    "label": "Sales per Customer",
+    "name": "Sales_per_Customer",
+    "type": "Number"
+  },
+  "setup": {
+    "fields": [
+      {
+        "displayName": "Profit per Order",
+        "ignored": false,
+        "protected": false,
+        "sensitive": false,
+        "min": -6599.98,
+        "max": 8399.98,
+        "bucketingStrategy": "PERCENTILE",
+        "numBuckets": 10,
+        "uniqueEquivalent": false,
+        "highCardinality": false,
+        "name": "Profit_per_Order",
+        "type": "number"
+      },
+      {
+        "displayName": "Quantity",
+        "ignored": false,
+        "protected": false,
+        "sensitive": false,
+        "min": 1,
+        "max": 17,
+        "bucketingStrategy": "PERCENTILE",
+        "numBuckets": 10,
+        "uniqueEquivalent": false,
+        "highCardinality": false,
+        "name": "Quantity",
+        "type": "number"
+      },
+      {
+        "displayName": "Sales",
+        "ignored": false,
+        "protected": false,
+        "sensitive": false,
+        "min": 0,
+        "max": 22638,
+        "bucketingStrategy": "PERCENTILE",
+        "numBuckets": 10,
+        "uniqueEquivalent": false,
+        "highCardinality": false,
+        "name": "Sales",
+        "type": "number"
+      },
+      {
+        "displayName": "Sales per Customer",
+        "ignored": false,
+        "protected": false,
+        "sensitive": false,
+        "min": 0.44,
+        "max": 22638.48,
+        "bucketingStrategy": "PERCENTILE",
+        "numBuckets": 10,
+        "uniqueEquivalent": false,
+        "highCardinality": false,
+        "name": "Sales_per_Customer",
+        "type": "number"
+      },
+      {
+        "displayName": "Sub-Category",
+        "ignored": false,
+        "protected": false,
+        "sensitive": false,
+        "highCardinality": false,
+        "ordering": "OCCURRENCE",
+        "includeOther": true,
+        "support": 24,
+        "balanced": false,
+        "uniqueEquivalent": false,
+        "name": "Sub_Category",
+        "type": "text",
+        "values": [
+          {
+            "name": "Binders",
+            "displayName": "Binders",
+            "ignored": false,
+            "count": 1522
+          },
+          {
+            "name": "Paper",
+            "displayName": "Paper",
+            "ignored": false,
+            "count": 1366
+          },
+          {
+            "name": "Furnishings",
+            "displayName": "Furnishings",
+            "ignored": false,
+            "count": 956
+          },
+          {
+            "name": "Phones",
+            "displayName": "Phones",
+            "ignored": false,
+            "count": 888
+          },
+          {
+            "name": "Storage",
+            "displayName": "Storage",
+            "ignored": false,
+            "count": 844
+          },
+          {
+            "name": "Art",
+            "displayName": "Art",
+            "ignored": false,
+            "count": 795
+          },
+          {
+            "name": "Accessories",
+            "displayName": "Accessories",
+            "ignored": false,
+            "count": 771
+          },
+          {
+            "name": "Chairs",
+            "displayName": "Chairs",
+            "ignored": false,
+            "count": 613
+          },
+          {
+            "name": "Appliances",
+            "displayName": "Appliances",
+            "ignored": false,
+            "count": 465
+          },
+          {
+            "name": "Labels",
+            "displayName": "Labels",
+            "ignored": false,
+            "count": 364
+          },
+          {
+            "name": "Tables",
+            "displayName": "Tables",
+            "ignored": false,
+            "count": 319
+          },
+          {
+            "name": "Envelopes",
+            "displayName": "Envelopes",
+            "ignored": false,
+            "count": 253
+          },
+          {
+            "name": "Bookcases",
+            "displayName": "Bookcases",
+            "ignored": false,
+            "count": 227
+          },
+          {
+            "name": "Fasteners",
+            "displayName": "Fasteners",
+            "ignored": false,
+            "count": 217
+          },
+          {
+            "name": "Supplies",
+            "displayName": "Supplies",
+            "ignored": false,
+            "count": 190
+          },
+          {
+            "name": "Machines",
+            "displayName": "Machines",
+            "ignored": false,
+            "count": 115
+          },
+          {
+            "name": "Copiers",
+            "displayName": "Copiers",
+            "ignored": false,
+            "count": 68
+          }
+        ]
+      },
+      {
+        "displayName": "Category",
+        "ignored": false,
+        "protected": false,
+        "sensitive": false,
+        "highCardinality": false,
+        "ordering": "OCCURRENCE",
+        "includeOther": true,
+        "support": 24,
+        "balanced": false,
+        "uniqueEquivalent": false,
+        "name": "Category",
+        "type": "text",
+        "values": [
+          {
+            "name": "Office Supplies",
+            "displayName": "Office Supplies",
+            "ignored": false,
+            "count": 6016
+          },
+          {
+            "name": "Furniture",
+            "displayName": "Furniture",
+            "ignored": false,
+            "count": 2115
+          },
+          {
+            "name": "Technology",
+            "displayName": "Technology",
+            "ignored": false,
+            "count": 1842
+          }
+        ]
+      }
+    ],
+    "name": "superstore-orders",
+    "outcome": {
+      "name": "Sales_per_Customer",
+      "displayName": "Sales per Customer",
+      "type": "number",
+      "goal": "MAXIMIZE",
+      "min": 0.44,
+      "max": 22638.48,
+      "predictionType": "Numeric"
+    },
+    "validationDataConfiguration": null,
+    "downSampleSize": -1,
+    "modelConfiguration": {
+      "modelAlgType": "GLM"
+    },
+    "transformations": [],
+    "overrides": {
+      "fields": [
+        {
+          "name": "Profit_per_Order",
+          "type": "number"
+        },
+        {
+          "name": "Quantity",
+          "type": "number"
+        },
+        {
+          "name": "Sales",
+          "type": "number"
+        },
+        {
+          "name": "Sales_per_Customer",
+          "type": "number"
+        },
+        {
+          "name": "Sub_Category",
+          "type": "text"
+        },
+        {
+          "name": "Category",
+          "type": "text"
+        }
+      ],
+      "outcome": {
+        "name": "Sales_per_Customer",
+        "displayName": "Sales per Customer",
+        "type": "number",
+        "goal": "MAXIMIZE",
+        "predictionType": "Numeric"
+      },
+      "transformations": [],
+      "downSampleSize": -1,
+      "validationDataConfiguration": null,
+      "modelConfiguration": {
+        "modelAlgType": "GLM"
+      }
+    }
+  },
+  "status": "Success",
+  "url": "/services/data/v53.0/smartdatadiscovery/analyses/9B45f0000009T5LCAU"
+}
