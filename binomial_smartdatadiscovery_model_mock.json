@@ -1,0 +1,100 @@
+{
+	"models": [
+		{
+			"createdBy": {
+				"id": "0055f000004z8tqAAA",
+				"name": "Integration User",
+				"profilePhotoUrl": "https://tableau676-dev-ed--c.documentforce.com/profilephoto/005/T"
+			},
+			"createdDate": "2021-12-02T19:35:43.000Z",
+			"id": "1OT5f000000DhILGA0",
+			"input": {
+				"story": {
+					"id": "1Y35f0000008nO5CAI"
+				},
+				"storyHistory": {
+					"id": "9B45f0000009UtJCAU"
+				},
+				"type": "Discovery"
+			},
+			"label": "Maximize Ownership",
+			"lastModifiedBy": {
+				"id": "0055f000004z8tqAAA",
+				"name": "Integration User",
+				"profilePhotoUrl": "https://tableau676-dev-ed--c.documentforce.com/profilephoto/005/T"
+			},
+			"lastModifiedDate": "2021-12-02T19:35:44.000Z",
+			"modelFields": [
+				{
+					"label": "Division",
+					"name": "Division",
+					"type": "Text"
+				},
+				{
+					"label": "AccountScore",
+					"name": "AccountScore",
+					"type": "Text"
+				},
+				{
+					"label": "BillingState",
+					"name": "BillingState",
+					"type": "Text"
+				},
+				{
+					"label": "Rating",
+					"name": "Rating",
+					"type": "Text"
+				},
+				{
+					"label": "Type",
+					"name": "Type",
+					"type": "Text"
+				},
+				{
+					"label": "Industry",
+					"name": "Industry",
+					"type": "Text"
+				},
+				{
+					"label": "StartDate",
+					"name": "StartDate",
+					"type": "Date"
+				},
+				{
+					"label": "CLV",
+					"name": "CLV",
+					"type": "Number"
+				},
+				{
+					"label": "CloseDate",
+					"name": "CloseDate",
+					"type": "Date"
+				},
+				{
+					"label": "Ownership",
+					"name": "Ownership",
+					"type": "Text"
+				}
+			],
+			"modelFileUrl": "/services/data/v53.0/smartdatadiscovery/models/1OT5f000000DhILGA0/file",
+			"modelRuntime": {
+				"type": "Discovery"
+			},
+			"name": "Maximize_Ownership",
+			"predictedField": "Ownership",
+			"predictionProperty": {
+				"algorithmType": "Glm",
+				"classificationThreshold": {
+					"type": "Binary",
+					"value": 0.5483006504865808
+				},
+				"type": "Classification"
+			},
+			"status": "Enabled",
+			"url": "/services/data/v53.0/smartdatadiscovery/models/1OT5f000000DhILGA0",
+			"validationResult": {}
+		}
+	],
+	"totalSize": 1,
+	"url": "/services/data/v53.0/smartdatadiscovery/models?storyHistoryId=9B45f0000009UtJCAU"
+}
