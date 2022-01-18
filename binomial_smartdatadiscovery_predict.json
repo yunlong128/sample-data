@@ -1,0 +1,5534 @@
+{
+	"predictions": [
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Ground Vehicle"
+							}
+						],
+						"value": -9.868952103790477
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Ground Vehicle"
+							},
+							{
+								"columnLabel": "Type",
+								"columnName": "Type",
+								"columnValue": "Customer"
+							}
+						],
+						"value": -7.354332168942051
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Ground Vehicle"
+							},
+							{
+								"columnLabel": "Rating",
+								"columnName": "Rating",
+								"columnValue": "Cold"
+							}
+						],
+						"value": -6.323150681620234
+					}
+				],
+				"other": -37.0017076510274,
+				"smallTermCount": 41,
+				"total": 21.30282306407264
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Standard Materials"
+							}
+						],
+						"value": 8.55791433332449
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Standard Materials"
+							},
+							{
+								"columnLabel": "Rating",
+								"columnName": "Rating",
+								"columnValue": "Cold"
+							}
+						],
+						"value": 2.8022891972725576
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Standard Materials"
+							},
+							{
+								"columnLabel": "AccountScore",
+								"columnName": "AccountScore",
+								"columnValue": "A"
+							}
+						],
+						"value": 1.2150355904614685
+					}
+				],
+				"other": 4.583509756931292,
+				"smallTermCount": 41,
+				"total": 99.00971454744261
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Compliance"
+							}
+						],
+						"value": -9.826014573420679
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Compliance"
+							},
+							{
+								"columnLabel": "StartDate",
+								"columnName": "StartDate",
+								"columnValue": "2015/12"
+							}
+						],
+						"value": -4.936793957583596
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "BillingState",
+								"columnName": "BillingState",
+								"columnValue": "Texas"
+							},
+							{
+								"columnLabel": "StartDate",
+								"columnName": "StartDate",
+								"columnValue": "2015/12"
+							}
+						],
+						"value": -4.8075773879745189
+					}
+				],
+				"other": -36.64251709901098,
+				"smallTermCount": 41,
+				"total": 25.638062651463028
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Ground Vehicle"
+							}
+						],
+						"value": -9.868952103790477
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Ground Vehicle"
+							},
+							{
+								"columnLabel": "Type",
+								"columnName": "Type",
+								"columnValue": "Customer"
+							}
+						],
+						"value": -7.288811459408684
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Ground Vehicle"
+							},
+							{
+								"columnLabel": "Rating",
+								"columnName": "Rating",
+								"columnValue": "Cold"
+							}
+						],
+						"value": -6.19074980817647
+					}
+				],
+				"other": -33.65137339261113,
+				"smallTermCount": 41,
+				"total": 24.851078905466048
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Compliance"
+							}
+						],
+						"value": -9.826014573420679
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Compliance"
+							},
+							{
+								"columnLabel": "CLV",
+								"columnName": "CLV",
+								"columnValue": "19640"
+							}
+						],
+						"value": -6.880704837555292
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Compliance"
+							},
+							{
+								"columnLabel": "Industry",
+								"columnName": "Industry",
+								"columnValue": "Apparel"
+							}
+						],
+						"value": -6.436627674542017
+					}
+				],
+				"other": -30.754692629996158,
+				"smallTermCount": 41,
+				"total": 27.952925953938665
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Standard Hardware"
+							},
+							{
+								"columnLabel": "Industry",
+								"columnName": "Industry",
+								"columnValue": "Retail"
+							}
+						],
+						"value": -5.608312273546346
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "BillingState",
+								"columnName": "BillingState",
+								"columnValue": "Texas"
+							},
+							{
+								"columnLabel": "StartDate",
+								"columnName": "StartDate",
+								"columnValue": "2015/6"
+							}
+						],
+						"value": -4.776158180035274
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Standard Hardware"
+							},
+							{
+								"columnLabel": "StartDate",
+								"columnName": "StartDate",
+								"columnValue": "2015/6"
+							}
+						],
+						"value": -4.716351046147771
+					}
+				],
+				"other": -20.855078845039885,
+				"smallTermCount": 41,
+				"total": 45.89506532468353
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "BillingState",
+								"columnName": "BillingState",
+								"columnValue": "Texas"
+							},
+							{
+								"columnLabel": "CloseDate",
+								"columnName": "CloseDate",
+								"columnValue": "2015/11"
+							}
+						],
+						"value": -4.609025376191035
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "BillingState",
+								"columnName": "BillingState",
+								"columnValue": "Texas"
+							},
+							{
+								"columnLabel": "StartDate",
+								"columnName": "StartDate",
+								"columnValue": "2015/9"
+							}
+						],
+						"value": -4.192107711975098
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Rating",
+								"columnName": "Rating",
+								"columnValue": "Cold"
+							},
+							{
+								"columnLabel": "CloseDate",
+								"columnName": "CloseDate",
+								"columnValue": "2015/11"
+							}
+						],
+						"value": 3.8826380744991697
+					}
+				],
+				"other": -13.452480898768656,
+				"smallTermCount": 41,
+				"total": 63.47998975701719
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Ground Vehicle"
+							}
+						],
+						"value": -9.868952103790477
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Ground Vehicle"
+							},
+							{
+								"columnLabel": "Type",
+								"columnName": "Type",
+								"columnValue": "Customer"
+							}
+						],
+						"value": -7.046677983370856
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "CLV",
+								"columnName": "CLV",
+								"columnValue": "19200"
+							}
+						],
+						"value": -6.6861333782970508
+					}
+				],
+				"other": -8.117042011655017,
+				"smallTermCount": 41,
+				"total": 50.132160192339409
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Frames"
+							},
+							{
+								"columnLabel": "Industry",
+								"columnName": "Industry",
+								"columnValue": "Apparel"
+							}
+						],
+						"value": -5.731637261951704
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "BillingState",
+								"columnName": "BillingState",
+								"columnValue": "New York"
+							}
+						],
+						"value": 4.878494408964585
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Frames"
+							},
+							{
+								"columnLabel": "StartDate",
+								"columnName": "StartDate",
+								"columnValue": "2015/8"
+							}
+						],
+						"value": -4.790074074944592
+					}
+				],
+				"other": -8.981685245972848,
+				"smallTermCount": 41,
+				"total": 67.22606349554825
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Raw Materials"
+							},
+							{
+								"columnLabel": "Industry",
+								"columnName": "Industry",
+								"columnValue": "Hospitality"
+							}
+						],
+						"value": -5.64380607141328
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Raw Materials"
+							},
+							{
+								"columnLabel": "StartDate",
+								"columnName": "StartDate",
+								"columnValue": "2015/11"
+							}
+						],
+						"value": -4.737886581304338
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "BillingState",
+								"columnName": "BillingState",
+								"columnValue": "Texas"
+							},
+							{
+								"columnLabel": "StartDate",
+								"columnName": "StartDate",
+								"columnValue": "2015/11"
+							}
+						],
+						"value": -4.730334690907696
+					}
+				],
+				"other": -20.654691505117208,
+				"smallTermCount": 41,
+				"total": 46.084246820710287
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Compliance"
+							}
+						],
+						"value": -9.826014573420679
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "AccountScore",
+								"columnName": "AccountScore",
+								"columnValue": "B"
+							},
+							{
+								"columnLabel": "Rating",
+								"columnName": "Rating",
+								"columnValue": "Hot"
+							}
+						],
+						"value": 5.622019692465102
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Compliance"
+							},
+							{
+								"columnLabel": "Rating",
+								"columnName": "Rating",
+								"columnValue": "Hot"
+							}
+						],
+						"value": -5.045565641134303
+					}
+				],
+				"other": -15.358628531471226,
+				"smallTermCount": 41,
+				"total": 57.2427766158917
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Standard Hardware"
+							},
+							{
+								"columnLabel": "Industry",
+								"columnName": "Industry",
+								"columnValue": "Retail"
+							}
+						],
+						"value": -5.020692412680873
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "BillingState",
+								"columnName": "BillingState",
+								"columnValue": "Texas"
+							},
+							{
+								"columnLabel": "StartDate",
+								"columnName": "StartDate",
+								"columnValue": "2014/12"
+							}
+						],
+						"value": -4.617126295272158
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Standard Hardware"
+							},
+							{
+								"columnLabel": "StartDate",
+								"columnName": "StartDate",
+								"columnValue": "2014/12"
+							}
+						],
+						"value": -4.330773492814501
+					}
+				],
+				"other": -15.693533717420018,
+				"smallTermCount": 41,
+				"total": 52.188839751265259
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Ground Vehicle"
+							}
+						],
+						"value": -9.868952103790477
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Ground Vehicle"
+							},
+							{
+								"columnLabel": "BillingState",
+								"columnName": "BillingState",
+								"columnValue": "Texas"
+							}
+						],
+						"value": -5.88178301001534
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Ground Vehicle"
+							},
+							{
+								"columnLabel": "CloseDate",
+								"columnName": "CloseDate",
+								"columnValue": "2014/10"
+							}
+						],
+						"value": -5.312463711151416
+					}
+				],
+				"other": -17.930205253723189,
+				"smallTermCount": 41,
+				"total": 42.857561590772387
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Navigation"
+							}
+						],
+						"value": 6.244144915259611
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Navigation"
+							},
+							{
+								"columnLabel": "BillingState",
+								"columnName": "BillingState",
+								"columnValue": "Texas"
+							}
+						],
+						"value": 2.59039257437081
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Navigation"
+							},
+							{
+								"columnLabel": "Type",
+								"columnName": "Type",
+								"columnValue": "Customer"
+							}
+						],
+						"value": 1.9712988586583294
+					}
+				],
+				"other": 0.7668685914444353,
+				"smallTermCount": 41,
+				"total": 93.42367060918599
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Ground Vehicle"
+							}
+						],
+						"value": -9.868952103790477
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Ground Vehicle"
+							},
+							{
+								"columnLabel": "Type",
+								"columnName": "Type",
+								"columnValue": "Customer"
+							}
+						],
+						"value": -7.0009695008511489
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "BillingState",
+								"columnName": "BillingState",
+								"columnValue": "Boston"
+							},
+							{
+								"columnLabel": "CLV",
+								"columnName": "CLV",
+								"columnValue": "19200"
+							}
+						],
+						"value": -5.15839547302766
+					}
+				],
+				"other": -40.0359086774711,
+				"smallTermCount": 41,
+				"total": 19.78673991431242
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Ground Vehicle"
+							}
+						],
+						"value": -9.868952103790477
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Ground Vehicle"
+							},
+							{
+								"columnLabel": "Type",
+								"columnName": "Type",
+								"columnValue": "Customer"
+							}
+						],
+						"value": -7.073825453950796
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "CLV",
+								"columnName": "CLV",
+								"columnValue": "19200"
+							}
+						],
+						"value": -5.643058546329161
+					}
+				],
+				"other": -34.06496441863563,
+				"smallTermCount": 41,
+				"total": 25.200165146746739
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Ground Vehicle"
+							}
+						],
+						"value": -9.868952103790477
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Ground Vehicle"
+							},
+							{
+								"columnLabel": "Type",
+								"columnName": "Type",
+								"columnValue": "Customer"
+							}
+						],
+						"value": -7.217846148057312
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "CLV",
+								"columnName": "CLV",
+								"columnValue": "19200"
+							}
+						],
+						"value": -6.456900300750661
+					}
+				],
+				"other": -25.071746941776014,
+				"smallTermCount": 41,
+				"total": 33.23552017507834
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Ground Vehicle"
+							}
+						],
+						"value": -9.868952103790477
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "CLV",
+								"columnName": "CLV",
+								"columnValue": "19200"
+							}
+						],
+						"value": -5.870060414808478
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "BillingState",
+								"columnName": "BillingState",
+								"columnValue": "Boston"
+							},
+							{
+								"columnLabel": "CLV",
+								"columnName": "CLV",
+								"columnValue": "19200"
+							}
+						],
+						"value": -5.172872258316097
+					}
+				],
+				"other": -30.828146282458627,
+				"smallTermCount": 41,
+				"total": 30.11093461007913
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Standard Materials"
+							}
+						],
+						"value": 8.55791433332449
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Standard Materials"
+							},
+							{
+								"columnLabel": "Rating",
+								"columnName": "Rating",
+								"columnValue": "Cold"
+							}
+						],
+						"value": 2.8256500883447019
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Standard Materials"
+							},
+							{
+								"columnLabel": "Type",
+								"columnName": "Type",
+								"columnValue": "Customer"
+							}
+						],
+						"value": 1.9662369640607836
+					}
+				],
+				"other": 4.125264183970003,
+				"smallTermCount": 41,
+				"total": 99.32603123915279
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Engine Parts"
+							}
+						],
+						"value": 7.125873801385609
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Engine Parts"
+							},
+							{
+								"columnLabel": "Type",
+								"columnName": "Type",
+								"columnValue": "Customer"
+							}
+						],
+						"value": 2.139917528562819
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Engine Parts"
+							},
+							{
+								"columnLabel": "Rating",
+								"columnName": "Rating",
+								"columnValue": "Cold"
+							}
+						],
+						"value": 2.0900821590434477
+					}
+				],
+				"other": 3.8667716820126829,
+				"smallTermCount": 41,
+				"total": 97.07361084045736
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Standard Materials"
+							}
+						],
+						"value": 8.55791433332449
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Standard Materials"
+							},
+							{
+								"columnLabel": "Rating",
+								"columnName": "Rating",
+								"columnValue": "Cold"
+							}
+						],
+						"value": 2.9287942947131428
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Standard Materials"
+							},
+							{
+								"columnLabel": "Type",
+								"columnName": "Type",
+								"columnValue": "Customer"
+							}
+						],
+						"value": 2.042114212426256
+					}
+				],
+				"other": 3.101268318484216,
+				"smallTermCount": 41,
+				"total": 98.48105682840091
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Frames"
+							},
+							{
+								"columnLabel": "Industry",
+								"columnName": "Industry",
+								"columnValue": "Shipping"
+							}
+						],
+						"value": -5.731637261951704
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Frames"
+							},
+							{
+								"columnLabel": "StartDate",
+								"columnName": "StartDate",
+								"columnValue": "2014/3"
+							}
+						],
+						"value": -4.790074074944592
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "AccountScore",
+								"columnName": "AccountScore",
+								"columnValue": "A"
+							},
+							{
+								"columnLabel": "BillingState",
+								"columnName": "BillingState",
+								"columnValue": "Texas"
+							}
+						],
+						"value": 4.473140498444479
+					}
+				],
+				"other": -17.89503954353311,
+				"smallTermCount": 41,
+				"total": 57.90735528746788
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Standard Materials"
+							}
+						],
+						"value": 8.55791433332449
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Standard Materials"
+							},
+							{
+								"columnLabel": "BillingState",
+								"columnName": "BillingState",
+								"columnValue": "Texas"
+							}
+						],
+						"value": 2.6826685757062167
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Standard Materials"
+							},
+							{
+								"columnLabel": "Rating",
+								"columnName": "Rating",
+								"columnValue": "Cold"
+							}
+						],
+						"value": 2.082052224563199
+					}
+				],
+				"other": 2.5393802276219477,
+				"smallTermCount": 41,
+				"total": 97.71298103066866
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Standard Hardware"
+							},
+							{
+								"columnLabel": "Industry",
+								"columnName": "Industry",
+								"columnValue": "Retail"
+							}
+						],
+						"value": -5.295684899276324
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "BillingState",
+								"columnName": "BillingState",
+								"columnValue": "Boston"
+							},
+							{
+								"columnLabel": "StartDate",
+								"columnName": "StartDate",
+								"columnValue": "2014/5"
+							}
+						],
+						"value": -4.760216045235261
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Standard Hardware"
+							},
+							{
+								"columnLabel": "StartDate",
+								"columnName": "StartDate",
+								"columnValue": "2014/5"
+							}
+						],
+						"value": -4.517297080783706
+					}
+				],
+				"other": -16.646058565352165,
+				"smallTermCount": 41,
+				"total": 50.63170907880535
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Ground Vehicle"
+							}
+						],
+						"value": -9.868952103790477
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Ground Vehicle"
+							},
+							{
+								"columnLabel": "Type",
+								"columnName": "Type",
+								"columnValue": "Customer"
+							}
+						],
+						"value": -7.2833892704004559
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Ground Vehicle"
+							},
+							{
+								"columnLabel": "Rating",
+								"columnName": "Rating",
+								"columnValue": "Cold"
+							}
+						],
+						"value": -6.181108766055885
+					}
+				],
+				"other": -34.14799466002304,
+				"smallTermCount": 41,
+				"total": 24.36952086918295
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Mapping"
+							},
+							{
+								"columnLabel": "Industry",
+								"columnName": "Industry",
+								"columnValue": "Banking"
+							}
+						],
+						"value": -5.965750192664487
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Mapping"
+							},
+							{
+								"columnLabel": "StartDate",
+								"columnName": "StartDate",
+								"columnValue": "2014/4"
+							}
+						],
+						"value": -4.919960343350944
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "BillingState",
+								"columnName": "BillingState",
+								"columnValue": "Texas"
+							},
+							{
+								"columnLabel": "StartDate",
+								"columnName": "StartDate",
+								"columnValue": "2014/4"
+							}
+						],
+						"value": -4.583132843970326
+					}
+				],
+				"other": -21.578840436188814,
+				"smallTermCount": 41,
+				"total": 44.803281853278239
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Ground Vehicle"
+							}
+						],
+						"value": -9.868952103790477
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Ground Vehicle"
+							},
+							{
+								"columnLabel": "Type",
+								"columnName": "Type",
+								"columnValue": "Customer"
+							}
+						],
+						"value": -7.197013202229428
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "CLV",
+								"columnName": "CLV",
+								"columnValue": "19200"
+							}
+						],
+						"value": -6.709158161190764
+					}
+				],
+				"other": -17.910446497093539,
+				"smallTermCount": 41,
+				"total": 40.1653957051486
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Ground Vehicle"
+							}
+						],
+						"value": -9.868952103790477
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Ground Vehicle"
+							},
+							{
+								"columnLabel": "Type",
+								"columnName": "Type",
+								"columnValue": "Customer"
+							}
+						],
+						"value": -7.098711866168898
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Ground Vehicle"
+							},
+							{
+								"columnLabel": "BillingState",
+								"columnName": "BillingState",
+								"columnValue": "Texas"
+							}
+						],
+						"value": -5.88178301001534
+					}
+				],
+				"other": -16.80421733795476,
+				"smallTermCount": 41,
+				"total": 42.19730135152333
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Compliance"
+							}
+						],
+						"value": -9.826014573420679
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Compliance"
+							},
+							{
+								"columnLabel": "CLV",
+								"columnName": "CLV",
+								"columnValue": "19640"
+							}
+						],
+						"value": -6.961561747587389
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Compliance"
+							},
+							{
+								"columnLabel": "Rating",
+								"columnName": "Rating",
+								"columnValue": "Hot"
+							}
+						],
+						"value": -5.38390476097247
+					}
+				],
+				"other": -37.10634164488574,
+				"smallTermCount": 41,
+				"total": 22.573142942586526
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Ground Vehicle"
+							}
+						],
+						"value": -9.868952103790477
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Ground Vehicle"
+							},
+							{
+								"columnLabel": "Type",
+								"columnName": "Type",
+								"columnValue": "Customer"
+							}
+						],
+						"value": -7.381657677892832
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Ground Vehicle"
+							},
+							{
+								"columnLabel": "CLV",
+								"columnName": "CLV",
+								"columnValue": "20200"
+							}
+						],
+						"value": -6.494085234058474
+					}
+				],
+				"other": -39.43448358438101,
+				"smallTermCount": 41,
+				"total": 18.67178706933001
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Ground Vehicle"
+							}
+						],
+						"value": -9.868952103790477
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Ground Vehicle"
+							},
+							{
+								"columnLabel": "Industry",
+								"columnName": "Industry",
+								"columnValue": "Technology"
+							}
+						],
+						"value": -6.354412760736935
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "AccountScore",
+								"columnName": "AccountScore",
+								"columnValue": "B"
+							},
+							{
+								"columnLabel": "Rating",
+								"columnName": "Rating",
+								"columnValue": "Hot"
+							}
+						],
+						"value": 5.649829345561841
+					}
+				],
+				"other": -9.402742027890647,
+				"smallTermCount": 41,
+				"total": 61.87468812259659
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Ground Vehicle"
+							}
+						],
+						"value": -9.868952103790477
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "BillingState",
+								"columnName": "BillingState",
+								"columnValue": "California"
+							},
+							{
+								"columnLabel": "StartDate",
+								"columnName": "StartDate",
+								"columnValue": "2014/3"
+							}
+						],
+						"value": -4.73359659537995
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Ground Vehicle"
+							},
+							{
+								"columnLabel": "Rating",
+								"columnName": "Rating",
+								"columnValue": "Hot"
+							}
+						],
+						"value": -4.638446809503861
+					}
+				],
+				"other": -33.59787130993486,
+				"smallTermCount": 41,
+				"total": 29.01209885084366
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Naval"
+							},
+							{
+								"columnLabel": "Industry",
+								"columnName": "Industry",
+								"columnValue": "Shipping"
+							}
+						],
+						"value": -5.725707929404976
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Naval"
+							},
+							{
+								"columnLabel": "StartDate",
+								"columnName": "StartDate",
+								"columnValue": "2015/7"
+							}
+						],
+						"value": -4.786603127973805
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "BillingState",
+								"columnName": "BillingState",
+								"columnValue": "Texas"
+							},
+							{
+								"columnLabel": "StartDate",
+								"columnName": "StartDate",
+								"columnValue": "2015/7"
+							}
+						],
+						"value": -4.518395302025063
+					}
+				],
+				"other": -27.09305195007392,
+				"smallTermCount": 41,
+				"total": 39.72720735997504
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Ground Vehicle"
+							}
+						],
+						"value": -9.868952103790477
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Ground Vehicle"
+							},
+							{
+								"columnLabel": "Type",
+								"columnName": "Type",
+								"columnValue": "Customer"
+							}
+						],
+						"value": -7.217846148057312
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "CLV",
+								"columnName": "CLV",
+								"columnValue": "19200"
+							}
+						],
+						"value": -6.566596415118468
+					}
+				],
+				"other": -23.349563098832868,
+				"smallTermCount": 41,
+				"total": 34.84800790365368
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Standard Materials"
+							}
+						],
+						"value": 8.55791433332449
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Standard Materials"
+							},
+							{
+								"columnLabel": "BillingState",
+								"columnName": "BillingState",
+								"columnValue": "Texas"
+							}
+						],
+						"value": 2.6826685757062167
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Standard Materials"
+							},
+							{
+								"columnLabel": "Rating",
+								"columnName": "Rating",
+								"columnValue": "Cold"
+							}
+						],
+						"value": 2.082052224563199
+					}
+				],
+				"other": 3.5367979220410747,
+				"smallTermCount": 41,
+				"total": 98.71039872508779
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Navigation"
+							}
+						],
+						"value": 6.244144915259611
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Navigation"
+							},
+							{
+								"columnLabel": "CLV",
+								"columnName": "CLV",
+								"columnValue": "19640"
+							}
+						],
+						"value": 1.9969145900008983
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Navigation"
+							},
+							{
+								"columnLabel": "Rating",
+								"columnName": "Rating",
+								"columnValue": "Hot"
+							}
+						],
+						"value": 1.723755275367722
+					}
+				],
+				"other": 2.4551572814504398,
+				"smallTermCount": 41,
+				"total": 94.27093773153148
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Ground Vehicle"
+							}
+						],
+						"value": -9.868952103790477
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "CLV",
+								"columnName": "CLV",
+								"columnValue": "19200"
+							}
+						],
+						"value": -6.7528317698163609
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Ground Vehicle"
+							},
+							{
+								"columnLabel": "Type",
+								"columnName": "Type",
+								"columnValue": "Customer"
+							}
+						],
+						"value": -6.741542905076592
+					}
+				],
+				"other": -17.278122841507085,
+				"smallTermCount": 41,
+				"total": 41.20951604926229
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Naval"
+							},
+							{
+								"columnLabel": "Industry",
+								"columnName": "Industry",
+								"columnValue": "Hospitality"
+							}
+						],
+						"value": -5.758374613500138
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Naval"
+							},
+							{
+								"columnLabel": "StartDate",
+								"columnName": "StartDate",
+								"columnValue": "2015/10"
+							}
+						],
+						"value": -4.805626737078725
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "BillingState",
+								"columnName": "BillingState",
+								"columnValue": "Texas"
+							},
+							{
+								"columnLabel": "StartDate",
+								"columnName": "StartDate",
+								"columnValue": "2015/10"
+							}
+						],
+						"value": -4.6057686103421109
+					}
+				],
+				"other": -8.788519020327606,
+				"smallTermCount": 41,
+				"total": 57.892676688204229
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Ground Vehicle"
+							}
+						],
+						"value": -9.868952103790477
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Ground Vehicle"
+							},
+							{
+								"columnLabel": "Type",
+								"columnName": "Type",
+								"columnValue": "Customer"
+							}
+						],
+						"value": -7.079382765945049
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "AccountScore",
+								"columnName": "AccountScore",
+								"columnValue": "B"
+							},
+							{
+								"columnLabel": "Rating",
+								"columnName": "Rating",
+								"columnValue": "Hot"
+							}
+						],
+						"value": 5.781585652805013
+					}
+				],
+				"other": -7.891605052714141,
+				"smallTermCount": 41,
+				"total": 62.79261139980815
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Ground Vehicle"
+							}
+						],
+						"value": -9.868952103790477
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Ground Vehicle"
+							},
+							{
+								"columnLabel": "Type",
+								"columnName": "Type",
+								"columnValue": "Customer"
+							}
+						],
+						"value": -7.3328317293795639
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Ground Vehicle"
+							},
+							{
+								"columnLabel": "BillingState",
+								"columnName": "BillingState",
+								"columnValue": "Texas"
+							}
+						],
+						"value": -6.322304484524047
+					}
+				],
+				"other": -41.989411172209738,
+				"smallTermCount": 41,
+				"total": 16.337466179548984
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Ground Vehicle"
+							}
+						],
+						"value": -9.868952103790477
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Ground Vehicle"
+							},
+							{
+								"columnLabel": "Type",
+								"columnName": "Type",
+								"columnValue": "Customer"
+							}
+						],
+						"value": -7.208530726999655
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "CLV",
+								"columnName": "CLV",
+								"columnValue": "19200"
+							}
+						],
+						"value": -6.630520344161489
+					}
+				],
+				"other": -20.749589299666554,
+				"smallTermCount": 41,
+				"total": 37.39337319483463
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Naval"
+							},
+							{
+								"columnLabel": "Industry",
+								"columnName": "Industry",
+								"columnValue": "Hospitality"
+							}
+						],
+						"value": -5.503545266683261
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "AccountScore",
+								"columnName": "AccountScore",
+								"columnValue": "B"
+							},
+							{
+								"columnLabel": "Rating",
+								"columnName": "Rating",
+								"columnValue": "Hot"
+							}
+						],
+						"value": 5.285081342005483
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Naval"
+							},
+							{
+								"columnLabel": "StartDate",
+								"columnName": "StartDate",
+								"columnValue": "2015/2"
+							}
+						],
+						"value": -4.651423924313718
+					}
+				],
+				"other": -16.570093226531456,
+				"smallTermCount": 41,
+				"total": 60.410984593929857
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Ground Vehicle"
+							}
+						],
+						"value": -9.868952103790477
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "CLV",
+								"columnName": "CLV",
+								"columnValue": "19200"
+							}
+						],
+						"value": -5.479639689343731
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "BillingState",
+								"columnName": "BillingState",
+								"columnValue": "California"
+							},
+							{
+								"columnLabel": "StartDate",
+								"columnName": "StartDate",
+								"columnValue": "2015/10"
+							}
+						],
+						"value": -4.756097759985444
+					}
+				],
+				"other": -36.95809542574476,
+				"smallTermCount": 41,
+				"total": 24.788180690588395
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Compliance"
+							}
+						],
+						"value": -9.826014573420679
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Compliance"
+							},
+							{
+								"columnLabel": "CLV",
+								"columnName": "CLV",
+								"columnValue": "18640"
+							}
+						],
+						"value": -5.925717622085962
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Compliance"
+							},
+							{
+								"columnLabel": "Rating",
+								"columnName": "Rating",
+								"columnValue": "Hot"
+							}
+						],
+						"value": -5.445190420066808
+					}
+				],
+				"other": -24.884373519488045,
+				"smallTermCount": 41,
+				"total": 35.76966953439131
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Compliance"
+							}
+						],
+						"value": -9.826014573420679
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Compliance"
+							},
+							{
+								"columnLabel": "Rating",
+								"columnName": "Rating",
+								"columnValue": "Hot"
+							}
+						],
+						"value": -5.329256504335227
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Compliance"
+							},
+							{
+								"columnLabel": "Type",
+								"columnName": "Type",
+								"columnValue": "Competitor"
+							}
+						],
+						"value": -5.145327623881322
+					}
+				],
+				"other": -26.42971831023383,
+				"smallTermCount": 41,
+				"total": 35.12064865758175
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Mapping"
+							},
+							{
+								"columnLabel": "Industry",
+								"columnName": "Industry",
+								"columnValue": "Retail"
+							}
+						],
+						"value": -5.567064651765818
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "BillingState",
+								"columnName": "BillingState",
+								"columnValue": "New York"
+							}
+						],
+						"value": 5.445315424359585
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Mapping"
+							},
+							{
+								"columnLabel": "StartDate",
+								"columnName": "StartDate",
+								"columnValue": "2015/3"
+							}
+						],
+						"value": -4.691024002530682
+					}
+				],
+				"other": -1.7427174096940306,
+				"smallTermCount": 41,
+				"total": 75.29547502982186
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Standard Hardware"
+							},
+							{
+								"columnLabel": "Industry",
+								"columnName": "Industry",
+								"columnValue": "Shipping"
+							}
+						],
+						"value": -5.193658547849395
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "BillingState",
+								"columnName": "BillingState",
+								"columnValue": "New York"
+							}
+						],
+						"value": 4.597296102955184
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Standard Hardware"
+							},
+							{
+								"columnLabel": "StartDate",
+								"columnName": "StartDate",
+								"columnValue": "2014/8"
+							}
+						],
+						"value": -4.44920006983601
+					}
+				],
+				"other": -13.312323795943172,
+				"smallTermCount": 41,
+				"total": 63.49307935877941
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Compliance"
+							}
+						],
+						"value": -9.826014573420679
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "AccountScore",
+								"columnName": "AccountScore",
+								"columnValue": "B"
+							},
+							{
+								"columnLabel": "Rating",
+								"columnName": "Rating",
+								"columnValue": "Hot"
+							}
+						],
+						"value": 6.003976102322916
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Compliance"
+							},
+							{
+								"columnLabel": "CLV",
+								"columnName": "CLV",
+								"columnValue": "18640"
+							}
+						],
+						"value": -5.86213443600176
+					}
+				],
+				"other": -22.136483169672098,
+				"smallTermCount": 41,
+				"total": 50.030309592681188
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Standard Materials"
+							}
+						],
+						"value": 8.55791433332449
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Standard Materials"
+							},
+							{
+								"columnLabel": "BillingState",
+								"columnName": "BillingState",
+								"columnValue": "Texas"
+							}
+						],
+						"value": 2.6826685757062167
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Standard Materials"
+							},
+							{
+								"columnLabel": "Rating",
+								"columnName": "Rating",
+								"columnValue": "Cold"
+							}
+						],
+						"value": 2.082052224563199
+					}
+				],
+				"other": 2.3211374238818225,
+				"smallTermCount": 41,
+				"total": 97.49473822692853
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Standard Mounts"
+							},
+							{
+								"columnLabel": "Type",
+								"columnName": "Type",
+								"columnValue": "Customer"
+							}
+						],
+						"value": -7.474990246026408
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "CLV",
+								"columnName": "CLV",
+								"columnValue": "19200"
+							}
+						],
+						"value": -5.831357946840541
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Standard Mounts"
+							},
+							{
+								"columnLabel": "Rating",
+								"columnName": "Rating",
+								"columnValue": "Cold"
+							}
+						],
+						"value": -5.191508403208985
+					}
+				],
+				"other": -35.6155718835923,
+				"smallTermCount": 41,
+				"total": 27.737537189784569
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Compliance"
+							}
+						],
+						"value": -9.826014573420679
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Compliance"
+							},
+							{
+								"columnLabel": "Rating",
+								"columnName": "Rating",
+								"columnValue": "Hot"
+							}
+						],
+						"value": -5.454521605885056
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Compliance"
+							},
+							{
+								"columnLabel": "StartDate",
+								"columnName": "StartDate",
+								"columnValue": "2015/12"
+							}
+						],
+						"value": -5.079911112137239
+					}
+				],
+				"other": -36.012906650672,
+				"smallTermCount": 41,
+				"total": 25.47761172733783
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Ground Vehicle"
+							}
+						],
+						"value": -9.868952103790477
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "CLV",
+								"columnName": "CLV",
+								"columnValue": "19200"
+							}
+						],
+						"value": -6.700058199074228
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "BillingState",
+								"columnName": "BillingState",
+								"columnValue": "Boston"
+							},
+							{
+								"columnLabel": "CLV",
+								"columnName": "CLV",
+								"columnValue": "19200"
+							}
+						],
+						"value": -4.803130361190313
+					}
+				],
+				"other": -20.066961590444728,
+				"smallTermCount": 41,
+				"total": 40.41186341495306
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Engine Parts"
+							}
+						],
+						"value": 7.125873801385609
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Engine Parts"
+							},
+							{
+								"columnLabel": "Type",
+								"columnName": "Type",
+								"columnValue": "Customer"
+							}
+						],
+						"value": 2.0326430624281928
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Engine Parts"
+							},
+							{
+								"columnLabel": "Rating",
+								"columnName": "Rating",
+								"columnValue": "Cold"
+							}
+						],
+						"value": 1.9900579618044816
+					}
+				],
+				"other": 5.884283933780111,
+				"smallTermCount": 41,
+				"total": 98.8838244288512
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Ground Vehicle"
+							}
+						],
+						"value": -9.868952103790477
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Ground Vehicle"
+							},
+							{
+								"columnLabel": "Type",
+								"columnName": "Type",
+								"columnValue": "Customer"
+							}
+						],
+						"value": -7.150048233148446
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "CLV",
+								"columnName": "CLV",
+								"columnValue": "19200"
+							}
+						],
+						"value": -5.336474771179059
+					}
+				],
+				"other": -38.56841864616339,
+				"smallTermCount": 41,
+				"total": 20.927071915171444
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Mapping"
+							},
+							{
+								"columnLabel": "Industry",
+								"columnName": "Industry",
+								"columnValue": "Manufacturing"
+							}
+						],
+						"value": -5.965750192664487
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "AccountScore",
+								"columnName": "AccountScore",
+								"columnValue": "B"
+							},
+							{
+								"columnLabel": "Rating",
+								"columnName": "Rating",
+								"columnValue": "Hot"
+							}
+						],
+						"value": 5.583024961865476
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Mapping"
+							},
+							{
+								"columnLabel": "StartDate",
+								"columnName": "StartDate",
+								"columnValue": "2015/7"
+							}
+						],
+						"value": -4.919960343350944
+					}
+				],
+				"other": -29.639313944468314,
+				"smallTermCount": 41,
+				"total": 46.90896615083454
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Standard Hardware"
+							},
+							{
+								"columnLabel": "Industry",
+								"columnName": "Industry",
+								"columnValue": "Consulting"
+							}
+						],
+						"value": -5.291842808959203
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "AccountScore",
+								"columnName": "AccountScore",
+								"columnValue": "K"
+							}
+						],
+						"value": -4.914459991707318
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "BillingState",
+								"columnName": "BillingState",
+								"columnValue": "Texas"
+							},
+							{
+								"columnLabel": "StartDate",
+								"columnName": "StartDate",
+								"columnValue": "2015/10"
+							}
+						],
+						"value": -4.783765050228283
+					}
+				],
+				"other": -20.235405665980495,
+				"smallTermCount": 41,
+				"total": 46.62549215257751
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Compliance"
+							}
+						],
+						"value": -9.826014573420679
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Compliance"
+							},
+							{
+								"columnLabel": "StartDate",
+								"columnName": "StartDate",
+								"columnValue": "2015/7"
+							}
+						],
+						"value": -4.929398471168213
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "BillingState",
+								"columnName": "BillingState",
+								"columnValue": "Texas"
+							},
+							{
+								"columnLabel": "StartDate",
+								"columnName": "StartDate",
+								"columnValue": "2015/7"
+							}
+						],
+						"value": -4.622184485053062
+					}
+				],
+				"other": -10.786372866958054,
+				"smallTermCount": 41,
+				"total": 51.6869952728528
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Ground Vehicle"
+							}
+						],
+						"value": -9.868952103790477
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Ground Vehicle"
+							},
+							{
+								"columnLabel": "Type",
+								"columnName": "Type",
+								"columnValue": "Customer"
+							}
+						],
+						"value": -7.325701274886157
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Ground Vehicle"
+							},
+							{
+								"columnLabel": "BillingState",
+								"columnName": "BillingState",
+								"columnValue": "Texas"
+							}
+						],
+						"value": -6.127322937581745
+					}
+				],
+				"other": -40.62663015629183,
+				"smallTermCount": 41,
+				"total": 17.902359196902596
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Miniaturized Parts"
+							},
+							{
+								"columnLabel": "StartDate",
+								"columnName": "StartDate",
+								"columnValue": "2014/7"
+							}
+						],
+						"value": -3.6427124391157976
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "AccountScore",
+								"columnName": "AccountScore",
+								"columnValue": "B"
+							},
+							{
+								"columnLabel": "Rating",
+								"columnName": "Rating",
+								"columnValue": "Hot"
+							}
+						],
+						"value": 3.6409849642417244
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "AccountScore",
+								"columnName": "AccountScore",
+								"columnValue": "B"
+							}
+						],
+						"value": 2.809366746877515
+					}
+				],
+				"other": -0.7599243547765298,
+				"smallTermCount": 41,
+				"total": 83.89868058667972
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Mapping"
+							},
+							{
+								"columnLabel": "Industry",
+								"columnName": "Industry",
+								"columnValue": "Retail"
+							}
+						],
+						"value": -5.812906894552832
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "AccountScore",
+								"columnName": "AccountScore",
+								"columnValue": "B"
+							},
+							{
+								"columnLabel": "Rating",
+								"columnName": "Rating",
+								"columnValue": "Hot"
+							}
+						],
+						"value": 5.525652997901702
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Mapping"
+							},
+							{
+								"columnLabel": "StartDate",
+								"columnName": "StartDate",
+								"columnValue": "2014/3"
+							}
+						],
+						"value": -4.836821995733857
+					}
+				],
+				"other": -11.497358828001048,
+				"smallTermCount": 41,
+				"total": 65.22953094906677
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Standard Materials"
+							}
+						],
+						"value": 8.55791433332449
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Standard Materials"
+							},
+							{
+								"columnLabel": "BillingState",
+								"columnName": "BillingState",
+								"columnValue": "Texas"
+							}
+						],
+						"value": 2.6826685757062167
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Standard Materials"
+							},
+							{
+								"columnLabel": "Rating",
+								"columnName": "Rating",
+								"columnValue": "Cold"
+							}
+						],
+						"value": 2.082052224563199
+					}
+				],
+				"other": 2.9180103740085885,
+				"smallTermCount": 41,
+				"total": 98.0916111770553
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Ground Vehicle"
+							}
+						],
+						"value": -9.868952103790477
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Ground Vehicle"
+							},
+							{
+								"columnLabel": "Type",
+								"columnName": "Type",
+								"columnValue": "Customer"
+							}
+						],
+						"value": -7.288811459408684
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "CLV",
+								"columnName": "CLV",
+								"columnValue": "19200"
+							}
+						],
+						"value": -6.281115873174414
+					}
+				],
+				"other": -27.819722132552294,
+				"smallTermCount": 41,
+				"total": 30.592364100526934
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Raw Materials"
+							},
+							{
+								"columnLabel": "Industry",
+								"columnName": "Industry",
+								"columnValue": "Banking"
+							}
+						],
+						"value": -5.834777223459106
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "AccountScore",
+								"columnName": "AccountScore",
+								"columnValue": "B"
+							},
+							{
+								"columnLabel": "Rating",
+								"columnName": "Rating",
+								"columnValue": "Hot"
+							}
+						],
+						"value": 5.819612128846245
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Raw Materials"
+							},
+							{
+								"columnLabel": "StartDate",
+								"columnName": "StartDate",
+								"columnValue": "2014/5"
+							}
+						],
+						"value": -4.849123782703202
+					}
+				],
+				"other": -40.97747921780043,
+				"smallTermCount": 41,
+				"total": 36.00919757433631
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Ground Vehicle"
+							}
+						],
+						"value": -9.868952103790477
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "BillingState",
+								"columnName": "BillingState",
+								"columnValue": "New York"
+							}
+						],
+						"value": 5.97343561443774
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "BillingState",
+								"columnName": "BillingState",
+								"columnValue": "New York"
+							},
+							{
+								"columnLabel": "StartDate",
+								"columnName": "StartDate",
+								"columnValue": "2015/11"
+							}
+						],
+						"value": -4.699655879303116
+					}
+				],
+				"other": -37.76678537459596,
+				"smallTermCount": 41,
+				"total": 35.48900792620099
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Ground Vehicle"
+							}
+						],
+						"value": -9.868952103790477
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Ground Vehicle"
+							},
+							{
+								"columnLabel": "Type",
+								"columnName": "Type",
+								"columnValue": "Customer"
+							}
+						],
+						"value": -7.288811459408684
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Ground Vehicle"
+							},
+							{
+								"columnLabel": "Rating",
+								"columnName": "Rating",
+								"columnValue": "Cold"
+							}
+						],
+						"value": -6.19074980817647
+					}
+				],
+				"other": -36.56760575383545,
+				"smallTermCount": 41,
+				"total": 21.93484654424172
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Standard Materials"
+							}
+						],
+						"value": 8.55791433332449
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Standard Materials"
+							},
+							{
+								"columnLabel": "BillingState",
+								"columnName": "BillingState",
+								"columnValue": "Texas"
+							}
+						],
+						"value": 2.6923887693987327
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Standard Materials"
+							},
+							{
+								"columnLabel": "Type",
+								"columnName": "Type",
+								"columnValue": "Customer"
+							}
+						],
+						"value": 1.9028410719917873
+					}
+				],
+				"other": 3.205735088800523,
+				"smallTermCount": 41,
+				"total": 98.20984493296834
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Standard Materials"
+							}
+						],
+						"value": 8.55791433332449
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Standard Materials"
+							},
+							{
+								"columnLabel": "Rating",
+								"columnName": "Rating",
+								"columnValue": "Cold"
+							}
+						],
+						"value": 2.7681449415572247
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Standard Materials"
+							},
+							{
+								"columnLabel": "Type",
+								"columnName": "Type",
+								"columnValue": "Customer"
+							}
+						],
+						"value": 1.9240736096884348
+					}
+				],
+				"other": 3.7013944411140899,
+				"smallTermCount": 41,
+				"total": 98.80249299513705
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Ground Vehicle"
+							}
+						],
+						"value": -9.868952103790477
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Ground Vehicle"
+							},
+							{
+								"columnLabel": "Type",
+								"columnName": "Type",
+								"columnValue": "Customer"
+							}
+						],
+						"value": -7.079382765945049
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "AccountScore",
+								"columnName": "AccountScore",
+								"columnValue": "B"
+							},
+							{
+								"columnLabel": "Rating",
+								"columnName": "Rating",
+								"columnValue": "Hot"
+							}
+						],
+						"value": 6.198061426591281
+					}
+				],
+				"other": -34.44746518364204,
+				"smallTermCount": 41,
+				"total": 36.65322704266652
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Standard Hardware"
+							},
+							{
+								"columnLabel": "Industry",
+								"columnName": "Industry",
+								"columnValue": "Retail"
+							}
+						],
+						"value": -5.548593545103756
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Rating",
+								"columnName": "Rating",
+								"columnValue": "Cold"
+							},
+							{
+								"columnLabel": "CLV",
+								"columnName": "CLV",
+								"columnValue": "10230"
+							}
+						],
+						"value": -4.794097302657676
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Standard Hardware"
+							},
+							{
+								"columnLabel": "StartDate",
+								"columnName": "StartDate",
+								"columnValue": "2014/4"
+							}
+						],
+						"value": -4.679581528254481
+					}
+				],
+				"other": -25.262103837458775,
+				"smallTermCount": 41,
+				"total": 41.56658945597812
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Naval"
+							},
+							{
+								"columnLabel": "Industry",
+								"columnName": "Industry",
+								"columnValue": "Biotechnology"
+							}
+						],
+						"value": -6.024477114976335
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Naval"
+							},
+							{
+								"columnLabel": "StartDate",
+								"columnName": "StartDate",
+								"columnValue": "2014/4"
+							}
+						],
+						"value": -4.949906258446077
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "BillingState",
+								"columnName": "BillingState",
+								"columnValue": "Texas"
+							},
+							{
+								"columnLabel": "StartDate",
+								"columnName": "StartDate",
+								"columnValue": "2014/4"
+							}
+						],
+						"value": -4.823297959798317
+					}
+				],
+				"other": -27.584900776391117,
+				"smallTermCount": 41,
+				"total": 38.46838355984096
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Standard Materials"
+							}
+						],
+						"value": 8.55791433332449
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Standard Materials"
+							},
+							{
+								"columnLabel": "Type",
+								"columnName": "Type",
+								"columnValue": "Customer"
+							}
+						],
+						"value": 2.8218764056655205
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Standard Materials"
+							},
+							{
+								"columnLabel": "AccountScore",
+								"columnName": "AccountScore",
+								"columnValue": "D"
+							}
+						],
+						"value": 1.0326592363506109
+					}
+				],
+				"other": 4.077430770178708,
+				"smallTermCount": 41,
+				"total": 98.34084641497214
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Compliance"
+							}
+						],
+						"value": -9.826014573420679
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Compliance"
+							},
+							{
+								"columnLabel": "CLV",
+								"columnName": "CLV",
+								"columnValue": "18640"
+							}
+						],
+						"value": -5.8546968455928269
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Compliance"
+							},
+							{
+								"columnLabel": "StartDate",
+								"columnName": "StartDate",
+								"columnValue": "2014/5"
+							}
+						],
+						"value": -5.480958725681695
+					}
+				],
+				"other": -24.484308035480724,
+				"smallTermCount": 41,
+				"total": 36.20498748927688
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Ground Vehicle"
+							}
+						],
+						"value": -9.868952103790477
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Ground Vehicle"
+							},
+							{
+								"columnLabel": "Type",
+								"columnName": "Type",
+								"columnValue": "Customer"
+							}
+						],
+						"value": -7.197013202229428
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "CLV",
+								"columnName": "CLV",
+								"columnValue": "19200"
+							}
+						],
+						"value": -6.582227874953297
+					}
+				],
+				"other": -24.660503577370066,
+				"smallTermCount": 41,
+				"total": 33.54226891110954
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Miniaturized Parts"
+							},
+							{
+								"columnLabel": "Industry",
+								"columnName": "Industry",
+								"columnValue": "Apparel"
+							}
+						],
+						"value": -4.256775477551088
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "BillingState",
+								"columnName": "BillingState",
+								"columnValue": "New York"
+							}
+						],
+						"value": 3.94070091283524
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Miniaturized Parts"
+							},
+							{
+								"columnLabel": "StartDate",
+								"columnName": "StartDate",
+								"columnValue": "2015/3"
+							}
+						],
+						"value": -3.7713654840524528
+					}
+				],
+				"other": 2.7849119384436848,
+				"smallTermCount": 41,
+				"total": 80.54843755912819
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Raw Materials"
+							},
+							{
+								"columnLabel": "Industry",
+								"columnName": "Industry",
+								"columnValue": "Retail"
+							}
+						],
+						"value": -5.448091815330258
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Raw Materials"
+							},
+							{
+								"columnLabel": "StartDate",
+								"columnName": "StartDate",
+								"columnValue": "2015/3"
+							}
+						],
+						"value": -4.616294116233142
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "BillingState",
+								"columnName": "BillingState",
+								"columnValue": "California"
+							},
+							{
+								"columnLabel": "StartDate",
+								"columnName": "StartDate",
+								"columnValue": "2015/3"
+							}
+						],
+						"value": -4.579213975881885
+					}
+				],
+				"other": -26.75490971711448,
+				"smallTermCount": 41,
+				"total": 40.45245604489304
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Ground Vehicle"
+							}
+						],
+						"value": -9.868952103790477
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Ground Vehicle"
+							},
+							{
+								"columnLabel": "Type",
+								"columnName": "Type",
+								"columnValue": "Customer"
+							}
+						],
+						"value": -7.1076584869740959
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "CLV",
+								"columnName": "CLV",
+								"columnValue": "19200"
+							}
+						],
+						"value": -6.774314488104942
+					}
+				],
+				"other": -16.946822043733599,
+				"smallTermCount": 41,
+				"total": 41.15321854684969
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "AccountScore",
+								"columnName": "AccountScore",
+								"columnValue": "B"
+							},
+							{
+								"columnLabel": "Rating",
+								"columnName": "Rating",
+								"columnValue": "Hot"
+							}
+						],
+						"value": 5.553098194039812
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Standard Hardware"
+							},
+							{
+								"columnLabel": "Industry",
+								"columnName": "Industry",
+								"columnValue": "Consulting"
+							}
+						],
+						"value": -5.548593545103756
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Standard Hardware"
+							},
+							{
+								"columnLabel": "StartDate",
+								"columnName": "StartDate",
+								"columnValue": "2014/11"
+							}
+						],
+						"value": -4.679581528254481
+					}
+				],
+				"other": -25.908772051369078,
+				"smallTermCount": 41,
+				"total": 51.2671167387653
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Ground Vehicle"
+							}
+						],
+						"value": -9.868952103790477
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Ground Vehicle"
+							},
+							{
+								"columnLabel": "Type",
+								"columnName": "Type",
+								"columnValue": "Customer"
+							}
+						],
+						"value": -7.325500444403396
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "CLV",
+								"columnName": "CLV",
+								"columnValue": "19200"
+							}
+						],
+						"value": -5.066285846222058
+					}
+				],
+				"other": -35.003015165124377,
+				"smallTermCount": 41,
+				"total": 24.587212109912497
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Standard Materials"
+							}
+						],
+						"value": 8.55791433332449
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Standard Materials"
+							},
+							{
+								"columnLabel": "Rating",
+								"columnName": "Rating",
+								"columnValue": "Cold"
+							}
+						],
+						"value": 2.7681449415572247
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Standard Materials"
+							},
+							{
+								"columnLabel": "Type",
+								"columnName": "Type",
+								"columnValue": "Customer"
+							}
+						],
+						"value": 1.9240736096884348
+					}
+				],
+				"other": 4.234660597394523,
+				"smallTermCount": 41,
+				"total": 99.33575915141748
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Standard Hardware"
+							},
+							{
+								"columnLabel": "Industry",
+								"columnName": "Industry",
+								"columnValue": "Consulting"
+							}
+						],
+						"value": -5.031821909409217
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "BillingState",
+								"columnName": "BillingState",
+								"columnValue": "New York"
+							}
+						],
+						"value": 4.641283315268353
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Industry",
+								"columnName": "Industry",
+								"columnValue": "Consulting"
+							},
+							{
+								"columnLabel": "CLV",
+								"columnName": "CLV",
+								"columnValue": "7230"
+							}
+						],
+						"value": -4.4371257095317919
+					}
+				],
+				"other": -13.803697864030305,
+				"smallTermCount": 41,
+				"total": 63.219603501749848
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Standard Materials"
+							}
+						],
+						"value": 8.55791433332449
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Standard Materials"
+							},
+							{
+								"columnLabel": "BillingState",
+								"columnName": "BillingState",
+								"columnValue": "Texas"
+							}
+						],
+						"value": 2.748126242987155
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Standard Materials"
+							},
+							{
+								"columnLabel": "Rating",
+								"columnName": "Rating",
+								"columnValue": "Cold"
+							}
+						],
+						"value": 2.1357472444906735
+					}
+				],
+				"other": 3.8374541550951024,
+				"smallTermCount": 41,
+				"total": 99.13020764535023
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Raw Materials"
+							},
+							{
+								"columnLabel": "Industry",
+								"columnName": "Industry",
+								"columnValue": "Banking"
+							}
+						],
+						"value": -5.2751197293302429
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "BillingState",
+								"columnName": "BillingState",
+								"columnValue": "Texas"
+							},
+							{
+								"columnLabel": "StartDate",
+								"columnName": "StartDate",
+								"columnValue": "2015/7"
+							}
+						],
+						"value": -4.8093873483335589
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Raw Materials"
+							},
+							{
+								"columnLabel": "StartDate",
+								"columnName": "StartDate",
+								"columnValue": "2015/7"
+							}
+						],
+						"value": -4.503682952669351
+					}
+				],
+				"other": -40.607585829493718,
+				"smallTermCount": 41,
+				"total": 26.65518980962594
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Ground Vehicle"
+							}
+						],
+						"value": -9.868952103790477
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Ground Vehicle"
+							},
+							{
+								"columnLabel": "Type",
+								"columnName": "Type",
+								"columnValue": "Customer"
+							}
+						],
+						"value": -7.354332168942051
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Ground Vehicle"
+							},
+							{
+								"columnLabel": "Rating",
+								"columnName": "Rating",
+								"columnValue": "Cold"
+							}
+						],
+						"value": -6.323150681620234
+					}
+				],
+				"other": -38.59049183647795,
+				"smallTermCount": 41,
+				"total": 19.714038878622096
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Compliance"
+							}
+						],
+						"value": -9.826014573420679
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Compliance"
+							},
+							{
+								"columnLabel": "CLV",
+								"columnName": "CLV",
+								"columnValue": "19640"
+							}
+						],
+						"value": -6.964859125964892
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Compliance"
+							},
+							{
+								"columnLabel": "Rating",
+								"columnName": "Rating",
+								"columnValue": "Hot"
+							}
+						],
+						"value": -5.38390476097247
+					}
+				],
+				"other": -35.546082518611168,
+				"smallTermCount": 41,
+				"total": 24.1301046904836
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Standard Mounts"
+							},
+							{
+								"columnLabel": "Type",
+								"columnName": "Type",
+								"columnValue": "Customer"
+							}
+						],
+						"value": -7.084604506136728
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Standard Mounts"
+							}
+						],
+						"value": -5.094679954317471
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Standard Mounts"
+							},
+							{
+								"columnLabel": "StartDate",
+								"columnName": "StartDate",
+								"columnValue": "2015/9"
+							}
+						],
+						"value": -4.950124889149507
+					}
+				],
+				"other": -51.1829826155048,
+				"smallTermCount": 41,
+				"total": 13.538573704344298
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Standard Materials"
+							}
+						],
+						"value": 8.55791433332449
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Standard Materials"
+							},
+							{
+								"columnLabel": "BillingState",
+								"columnName": "BillingState",
+								"columnValue": "Texas"
+							}
+						],
+						"value": 2.747293304360838
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Standard Materials"
+							},
+							{
+								"columnLabel": "Rating",
+								"columnName": "Rating",
+								"columnValue": "Cold"
+							}
+						],
+						"value": 2.1350630043738905
+					}
+				],
+				"other": 2.7826080126564536,
+				"smallTermCount": 41,
+				"total": 98.07384432416848
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Standard Mounts"
+							},
+							{
+								"columnLabel": "Rating",
+								"columnName": "Rating",
+								"columnValue": "Cold"
+							}
+						],
+						"value": -5.162556919633971
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Standard Mounts"
+							}
+						],
+						"value": -5.094679954317471
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Standard Mounts"
+							},
+							{
+								"columnLabel": "StartDate",
+								"columnName": "StartDate",
+								"columnValue": "2015/4"
+							}
+						],
+						"value": -4.732597790090239
+					}
+				],
+				"other": -5.267060065940889,
+				"smallTermCount": 41,
+				"total": 61.594070939470238
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Ground Vehicle"
+							}
+						],
+						"value": -9.868952103790477
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Ground Vehicle"
+							},
+							{
+								"columnLabel": "Type",
+								"columnName": "Type",
+								"columnValue": "Customer"
+							}
+						],
+						"value": -7.098711866168898
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Ground Vehicle"
+							},
+							{
+								"columnLabel": "BillingState",
+								"columnName": "BillingState",
+								"columnValue": "Texas"
+							}
+						],
+						"value": -5.88178301001534
+					}
+				],
+				"other": -32.189468191484397,
+				"smallTermCount": 41,
+				"total": 26.8120504979937
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Standard Hardware"
+							},
+							{
+								"columnLabel": "Industry",
+								"columnName": "Industry",
+								"columnValue": "Consulting"
+							}
+						],
+						"value": -5.325610147880099
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Standard Hardware"
+							},
+							{
+								"columnLabel": "StartDate",
+								"columnName": "StartDate",
+								"columnValue": "2015/3"
+							}
+						],
+						"value": -4.537002819858316
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "BillingState",
+								"columnName": "BillingState",
+								"columnValue": "California"
+							},
+							{
+								"columnLabel": "StartDate",
+								"columnName": "StartDate",
+								"columnValue": "2015/3"
+							}
+						],
+						"value": -4.435965392781647
+					}
+				],
+				"other": -12.511494260504712,
+				"smallTermCount": 41,
+				"total": 55.04089304842803
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Ground Vehicle"
+							}
+						],
+						"value": -9.868952103790477
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Ground Vehicle"
+							},
+							{
+								"columnLabel": "Type",
+								"columnName": "Type",
+								"columnValue": "Customer"
+							}
+						],
+						"value": -7.273535395974427
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "CLV",
+								"columnName": "CLV",
+								"columnValue": "19200"
+							}
+						],
+						"value": -6.363155463044521
+					}
+				],
+				"other": -24.94034652303239,
+				"smallTermCount": 41,
+				"total": 33.40497618361099
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Ground Vehicle"
+							}
+						],
+						"value": -9.868952103790477
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Ground Vehicle"
+							},
+							{
+								"columnLabel": "Type",
+								"columnName": "Type",
+								"columnValue": "Customer"
+							}
+						],
+						"value": -6.92636391163839
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Ground Vehicle"
+							},
+							{
+								"columnLabel": "Rating",
+								"columnName": "Rating",
+								"columnValue": "Cold"
+							}
+						],
+						"value": -5.677243201138509
+					}
+				],
+				"other": -40.36743273520774,
+				"smallTermCount": 41,
+				"total": 19.010973717677684
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Ground Vehicle"
+							}
+						],
+						"value": -9.868952103790477
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Ground Vehicle"
+							},
+							{
+								"columnLabel": "Type",
+								"columnName": "Type",
+								"columnValue": "Customer"
+							}
+						],
+						"value": -7.358713936936304
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Ground Vehicle"
+							},
+							{
+								"columnLabel": "Rating",
+								"columnName": "Rating",
+								"columnValue": "Cold"
+							}
+						],
+						"value": -6.333760094394172
+					}
+				],
+				"other": -20.29789618772066,
+				"smallTermCount": 41,
+				"total": 37.99164334661119
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Ground Vehicle"
+							}
+						],
+						"value": -9.868952103790477
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Ground Vehicle"
+							},
+							{
+								"columnLabel": "Type",
+								"columnName": "Type",
+								"columnValue": "Customer"
+							}
+						],
+						"value": -7.305391720682387
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Ground Vehicle"
+							},
+							{
+								"columnLabel": "BillingState",
+								"columnName": "BillingState",
+								"columnValue": "Texas"
+							}
+						],
+						"value": -6.074043680604916
+					}
+				],
+				"other": -40.228060324206108,
+				"smallTermCount": 41,
+				"total": 18.374517840168925
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Standard Mounts"
+							},
+							{
+								"columnLabel": "Type",
+								"columnName": "Type",
+								"columnValue": "Customer"
+							}
+						],
+						"value": -7.2828380636543958
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "CLV",
+								"columnName": "CLV",
+								"columnValue": "19200"
+							}
+						],
+						"value": -6.400953397981958
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "AccountScore",
+								"columnName": "AccountScore",
+								"columnValue": "B"
+							},
+							{
+								"columnLabel": "Rating",
+								"columnName": "Rating",
+								"columnValue": "Hot"
+							}
+						],
+						"value": 5.933652695860303
+					}
+				],
+				"other": -40.999012160364539,
+				"smallTermCount": 41,
+				"total": 33.10181474331222
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Frames"
+							},
+							{
+								"columnLabel": "Industry",
+								"columnName": "Industry",
+								"columnValue": "Banking"
+							}
+						],
+						"value": -5.095505389321843
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Frames"
+							},
+							{
+								"columnLabel": "StartDate",
+								"columnName": "StartDate",
+								"columnValue": "2015/5"
+							}
+						],
+						"value": -4.382434398093366
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "StartDate",
+								"columnName": "StartDate",
+								"columnValue": "2015/5"
+							},
+							{
+								"columnLabel": "CloseDate",
+								"columnName": "CloseDate",
+								"columnValue": "2015/7"
+							}
+						],
+						"value": -4.12300414569453
+					}
+				],
+				"other": -8.058424272800039,
+				"smallTermCount": 41,
+				"total": 60.191597463543029
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Ground Vehicle"
+							}
+						],
+						"value": -9.868952103790477
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Ground Vehicle"
+							},
+							{
+								"columnLabel": "CLV",
+								"columnName": "CLV",
+								"columnValue": "20200"
+							}
+						],
+						"value": -6.565152418293607
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "BillingState",
+								"columnName": "BillingState",
+								"columnValue": "Boston"
+							},
+							{
+								"columnLabel": "StartDate",
+								"columnName": "StartDate",
+								"columnValue": "2014/3"
+							}
+						],
+						"value": -4.814380960897537
+					}
+				],
+				"other": -26.03754484608249,
+				"smallTermCount": 41,
+				"total": 34.56493534038869
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Ground Vehicle"
+							}
+						],
+						"value": -9.868952103790477
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Ground Vehicle"
+							},
+							{
+								"columnLabel": "CLV",
+								"columnName": "CLV",
+								"columnValue": "20200"
+							}
+						],
+						"value": -6.596863243080264
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Ground Vehicle"
+							},
+							{
+								"columnLabel": "Rating",
+								"columnName": "Rating",
+								"columnValue": "Cold"
+							}
+						],
+						"value": -6.283480077368367
+					}
+				],
+				"other": -14.440855700395261,
+				"smallTermCount": 41,
+				"total": 44.660814544818439
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Ground Vehicle"
+							}
+						],
+						"value": -9.868952103790477
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Ground Vehicle"
+							},
+							{
+								"columnLabel": "Type",
+								"columnName": "Type",
+								"columnValue": "Customer"
+							}
+						],
+						"value": -7.157042321535421
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Ground Vehicle"
+							},
+							{
+								"columnLabel": "BillingState",
+								"columnName": "BillingState",
+								"columnValue": "Texas"
+							}
+						],
+						"value": -5.975432850528804
+					}
+				],
+				"other": -39.262701660078047,
+				"smallTermCount": 41,
+				"total": 19.586836733520064
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Mapping"
+							},
+							{
+								"columnLabel": "Industry",
+								"columnName": "Industry",
+								"columnValue": "Hospitality"
+							}
+						],
+						"value": -5.965750192664487
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Mapping"
+							},
+							{
+								"columnLabel": "StartDate",
+								"columnName": "StartDate",
+								"columnValue": "2014/3"
+							}
+						],
+						"value": -4.919960343350944
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "BillingState",
+								"columnName": "BillingState",
+								"columnValue": "Texas"
+							},
+							{
+								"columnLabel": "StartDate",
+								"columnName": "StartDate",
+								"columnValue": "2014/3"
+							}
+						],
+						"value": -4.817431058903999
+					}
+				],
+				"other": 4.060178132998757,
+				"smallTermCount": 41,
+				"total": 70.20800220753213
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DhILGA0"
+			},
+			"prediction": {
+				"baseLine": 81.8509656694528,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Miniaturized Parts"
+							},
+							{
+								"columnLabel": "Industry",
+								"columnName": "Industry",
+								"columnValue": "Retail"
+							}
+						],
+						"value": -4.9063748938595499
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "AccountScore",
+								"columnName": "AccountScore",
+								"columnValue": "B"
+							},
+							{
+								"columnLabel": "Rating",
+								"columnName": "Rating",
+								"columnValue": "Hot"
+							}
+						],
+						"value": 4.417289809388535
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Division",
+								"columnName": "Division",
+								"columnValue": "Miniaturized Parts"
+							},
+							{
+								"columnLabel": "StartDate",
+								"columnName": "StartDate",
+								"columnValue": "2015/1"
+							}
+						],
+						"value": -4.250624498768545
+					}
+				],
+				"other": -6.435237832980718,
+				"smallTermCount": 41,
+				"total": 70.67601825323253
+			},
+			"prescriptions": [],
+			"status": "Success"
+		}
+	],
+	"settings": {
+		"maxMiddleValues": 3,
+		"maxPrescriptions": 0,
+		"prescriptionImpactPercentage": 0
+	}
+}
