@@ -1,0 +1,553 @@
+{
+	"action": "query",
+	"responseId": "4gi2Bp-0pxot1Vl1cN1wdV",
+	"results": {
+		"metadata": [
+			{
+				"lineage": {
+					"type": "foreach",
+					"projections": [
+						{
+							"field": {
+								"id": "q.Profit_per_Order",
+								"type": "numeric"
+							},
+							"inputs": [
+								{
+									"id": "q.Profit_per_Order"
+								}
+							]
+						},
+						{
+							"field": {
+								"id": "q.Quantity",
+								"type": "numeric"
+							},
+							"inputs": [
+								{
+									"id": "q.Quantity"
+								}
+							]
+						},
+						{
+							"field": {
+								"id": "q.Sales",
+								"type": "numeric"
+							},
+							"inputs": [
+								{
+									"id": "q.Sales"
+								}
+							]
+						}
+					]
+				},
+				"queryLanguage": "SAQL"
+			}
+		],
+		"records": [
+			{
+				"Profit_per_Order": 85.31,
+				"Quantity": 9,
+				"Sales": 1706
+			},
+			{
+				"Profit_per_Order": 132.59,
+				"Quantity": 3,
+				"Sales": 408
+			},
+			{
+				"Profit_per_Order": -123.86,
+				"Quantity": 5,
+				"Sales": 69
+			},
+			{
+				"Profit_per_Order": 2.48,
+				"Quantity": 2,
+				"Sales": 9
+			},
+			{
+				"Profit_per_Order": 16.01,
+				"Quantity": 3,
+				"Sales": 213
+			},
+			{
+				"Profit_per_Order": 4.22,
+				"Quantity": 2,
+				"Sales": 12
+			},
+			{
+				"Profit_per_Order": -46.98,
+				"Quantity": 3,
+				"Sales": 532
+			},
+			{
+				"Profit_per_Order": -15.15,
+				"Quantity": 3,
+				"Sales": 212
+			},
+			{
+				"Profit_per_Order": 16.56,
+				"Quantity": 4,
+				"Sales": 147
+			},
+			{
+				"Profit_per_Order": 6.1,
+				"Quantity": 2,
+				"Sales": 22
+			},
+			{
+				"Profit_per_Order": 2.96,
+				"Quantity": 2,
+				"Sales": 6
+			},
+			{
+				"Profit_per_Order": 52.14,
+				"Quantity": 6,
+				"Sales": 209
+			},
+			{
+				"Profit_per_Order": 15.55,
+				"Quantity": 5,
+				"Sales": 32
+			},
+			{
+				"Profit_per_Order": 3.3,
+				"Quantity": 2,
+				"Sales": 30
+			},
+			{
+				"Profit_per_Order": 111.3,
+				"Quantity": 8,
+				"Sales": 1113
+			},
+			{
+				"Profit_per_Order": 35.66,
+				"Quantity": 2,
+				"Sales": 76
+			},
+			{
+				"Profit_per_Order": -114.39,
+				"Quantity": 8,
+				"Sales": 832
+			},
+			{
+				"Profit_per_Order": 1.21,
+				"Quantity": 2,
+				"Sales": 97
+			},
+			{
+				"Profit_per_Order": 62.81,
+				"Quantity": 7,
+				"Sales": 201
+			},
+			{
+				"Profit_per_Order": 8.28,
+				"Quantity": 2,
+				"Sales": 74
+			},
+			{
+				"Profit_per_Order": 44.03,
+				"Quantity": 6,
+				"Sales": 130
+			},
+			{
+				"Profit_per_Order": 165.38,
+				"Quantity": 3,
+				"Sales": 788
+			},
+			{
+				"Profit_per_Order": 13.88,
+				"Quantity": 4,
+				"Sales": 31
+			},
+			{
+				"Profit_per_Order": -407.68,
+				"Quantity": 6,
+				"Sales": 618
+			},
+			{
+				"Profit_per_Order": 30.5,
+				"Quantity": 7,
+				"Sales": 244
+			},
+			{
+				"Profit_per_Order": 6.97,
+				"Quantity": 9,
+				"Sales": 21
+			},
+			{
+				"Profit_per_Order": 5.1,
+				"Quantity": 3,
+				"Sales": 11
+			},
+			{
+				"Profit_per_Order": 218.25,
+				"Quantity": 3,
+				"Sales": 839
+			},
+			{
+				"Profit_per_Order": 26.27,
+				"Quantity": 7,
+				"Sales": 58
+			},
+			{
+				"Profit_per_Order": 48.54,
+				"Quantity": 4,
+				"Sales": 106
+			},
+			{
+				"Profit_per_Order": 1.36,
+				"Quantity": 2,
+				"Sales": 54
+			},
+			{
+				"Profit_per_Order": 6.81,
+				"Quantity": 6,
+				"Sales": 32
+			},
+			{
+				"Profit_per_Order": 1.86,
+				"Quantity": 2,
+				"Sales": 25
+			},
+			{
+				"Profit_per_Order": 7.25,
+				"Quantity": 2,
+				"Sales": 29
+			},
+			{
+				"Profit_per_Order": 24.88,
+				"Quantity": 8,
+				"Sales": 52
+			},
+			{
+				"Profit_per_Order": 6.79,
+				"Quantity": 3,
+				"Sales": 22
+			},
+			{
+				"Profit_per_Order": -161.88,
+				"Quantity": 2,
+				"Sales": 219
+			},
+			{
+				"Profit_per_Order": 35.63,
+				"Quantity": 2,
+				"Sales": 132
+			},
+			{
+				"Profit_per_Order": 8.88,
+				"Quantity": 2,
+				"Sales": 24
+			},
+			{
+				"Profit_per_Order": 4.48,
+				"Quantity": 2,
+				"Sales": 90
+			},
+			{
+				"Profit_per_Order": 0.97,
+				"Quantity": 1,
+				"Sales": 2
+			},
+			{
+				"Profit_per_Order": -12.43,
+				"Quantity": 7,
+				"Sales": 19
+			},
+			{
+				"Profit_per_Order": -4.68,
+				"Quantity": 3,
+				"Sales": 12
+			},
+			{
+				"Profit_per_Order": -120.51,
+				"Quantity": 5,
+				"Sales": 177
+			},
+			{
+				"Profit_per_Order": 1.2,
+				"Quantity": 2,
+				"Sales": 7
+			},
+			{
+				"Profit_per_Order": 41.68,
+				"Quantity": 2,
+				"Sales": 167
+			},
+			{
+				"Profit_per_Order": 12.44,
+				"Quantity": 4,
+				"Sales": 26
+			},
+			{
+				"Profit_per_Order": 3.58,
+				"Quantity": 1,
+				"Sales": 8
+			},
+			{
+				"Profit_per_Order": -8.49,
+				"Quantity": 9,
+				"Sales": 12
+			},
+			{
+				"Profit_per_Order": 6.65,
+				"Quantity": 3,
+				"Sales": 222
+			},
+			{
+				"Profit_per_Order": 92.37,
+				"Quantity": 7,
+				"Sales": 210
+			},
+			{
+				"Profit_per_Order": 2.32,
+				"Quantity": 3,
+				"Sales": 5
+			},
+			{
+				"Profit_per_Order": 47.84,
+				"Quantity": 5,
+				"Sales": 142
+			},
+			{
+				"Profit_per_Order": 10.89,
+				"Quantity": 6,
+				"Sales": 31
+			},
+			{
+				"Profit_per_Order": -204.31,
+				"Quantity": 5,
+				"Sales": 961
+			},
+			{
+				"Profit_per_Order": -24.56,
+				"Quantity": 3,
+				"Sales": 218
+			},
+			{
+				"Profit_per_Order": -131.45,
+				"Quantity": 3,
+				"Sales": 219
+			},
+			{
+				"Profit_per_Order": 12.86,
+				"Quantity": 2,
+				"Sales": 27
+			},
+			{
+				"Profit_per_Order": 20.92,
+				"Quantity": 3,
+				"Sales": 45
+			},
+			{
+				"Profit_per_Order": 3.59,
+				"Quantity": 4,
+				"Sales": 15
+			},
+			{
+				"Profit_per_Order": 1.71,
+				"Quantity": 1,
+				"Sales": 15
+			},
+			{
+				"Profit_per_Order": 129.6,
+				"Quantity": 4,
+				"Sales": 360
+			},
+			{
+				"Profit_per_Order": 1.0,
+				"Quantity": 1,
+				"Sales": 16
+			},
+			{
+				"Profit_per_Order": 4.49,
+				"Quantity": 4,
+				"Sales": 14
+			},
+			{
+				"Profit_per_Order": -17.46,
+				"Quantity": 3,
+				"Sales": 698
+			},
+			{
+				"Profit_per_Order": 4.8,
+				"Quantity": 3,
+				"Sales": 48
+			},
+			{
+				"Profit_per_Order": 11.54,
+				"Quantity": 2,
+				"Sales": 25
+			},
+			{
+				"Profit_per_Order": 1.07,
+				"Quantity": 1,
+				"Sales": 3
+			},
+			{
+				"Profit_per_Order": 15.82,
+				"Quantity": 5,
+				"Sales": 34
+			},
+			{
+				"Profit_per_Order": 0.15,
+				"Quantity": 2,
+				"Sales": 7
+			},
+			{
+				"Profit_per_Order": 271.42,
+				"Quantity": 4,
+				"Sales": 1044
+			},
+			{
+				"Profit_per_Order": 0.92,
+				"Quantity": 1,
+				"Sales": 9
+			},
+			{
+				"Profit_per_Order": 9.77,
+				"Quantity": 6,
+				"Sales": 39
+			},
+			{
+				"Profit_per_Order": 13.3,
+				"Quantity": 5,
+				"Sales": 27
+			},
+			{
+				"Profit_per_Order": 4.65,
+				"Quantity": 1,
+				"Sales": 10
+			},
+			{
+				"Profit_per_Order": 27.43,
+				"Quantity": 1,
+				"Sales": 56
+			},
+			{
+				"Profit_per_Order": 14.71,
+				"Quantity": 4,
+				"Sales": 57
+			},
+			{
+				"Profit_per_Order": 30.1,
+				"Quantity": 1,
+				"Sales": 70
+			},
+			{
+				"Profit_per_Order": 0.5,
+				"Quantity": 6,
+				"Sales": 7
+			},
+			{
+				"Profit_per_Order": 76.64,
+				"Quantity": 7,
+				"Sales": 409
+			},
+			{
+				"Profit_per_Order": -3.69,
+				"Quantity": 2,
+				"Sales": 5
+			},
+			{
+				"Profit_per_Order": 43.2,
+				"Quantity": 3,
+				"Sales": 1008
+			},
+			{
+				"Profit_per_Order": 29.15,
+				"Quantity": 3,
+				"Sales": 243
+			},
+			{
+				"Profit_per_Order": 10.58,
+				"Quantity": 7,
+				"Sales": 22
+			},
+			{
+				"Profit_per_Order": 2.85,
+				"Quantity": 3,
+				"Sales": 10
+			},
+			{
+				"Profit_per_Order": -75.83,
+				"Quantity": 2,
+				"Sales": 284
+			},
+			{
+				"Profit_per_Order": 24.91,
+				"Quantity": 4,
+				"Sales": 64
+			},
+			{
+				"Profit_per_Order": 3.35,
+				"Quantity": 2,
+				"Sales": 9
+			},
+			{
+				"Profit_per_Order": -20.89,
+				"Quantity": 5,
+				"Sales": 28
+			},
+			{
+				"Profit_per_Order": -34.76,
+				"Quantity": 2,
+				"Sales": 185
+			},
+			{
+				"Profit_per_Order": 5.87,
+				"Quantity": 2,
+				"Sales": 78
+			},
+			{
+				"Profit_per_Order": 10.48,
+				"Quantity": 2,
+				"Sales": 223
+			},
+			{
+				"Profit_per_Order": 7.18,
+				"Quantity": 6,
+				"Sales": 96
+			},
+			{
+				"Profit_per_Order": 17.5,
+				"Quantity": 5,
+				"Sales": 280
+			},
+			{
+				"Profit_per_Order": 10.4,
+				"Quantity": 2,
+				"Sales": 64
+			},
+			{
+				"Profit_per_Order": 8.98,
+				"Quantity": 5,
+				"Sales": 449
+			},
+			{
+				"Profit_per_Order": 5.09,
+				"Quantity": 3,
+				"Sales": 11
+			},
+			{
+				"Profit_per_Order": 13.16,
+				"Quantity": 2,
+				"Sales": 94
+			},
+			{
+				"Profit_per_Order": 51.66,
+				"Quantity": 2,
+				"Sales": 105
+			},
+			{
+				"Profit_per_Order": 22.87,
+				"Quantity": 9,
+				"Sales": 69
+			}
+		]
+	},
+	"query": "\n\t\tq = load \"0Fb5f000000tgtZCAQ/0Fc5f000001IpeICAS\" sample(20);\n\t\tq = foreach q generate 'Profit_per_Order', 'Quantity', 'Sales';\n\t\t\n\t\tq = filter q by 'Profit_per_Order' in [-3701.89..1480.47] || 'Profit_per_Order' is null; q = filter q by 'Quantity' in [1..17] || 'Quantity' is null; q = filter q by 'Sales' in [0..3339.3324948066424]; \n\t\t\n\t\tq = limit q 100;\n\t",
+	"responseTime": 39
+}
