@@ -2,361 +2,466 @@
 	"predictions": [
 		{
 			"model": {
-				"id": "1OT5f000000E2MKGA0"
+				"id": "1OT5f000000DfO3GAK"
 			},
 			"prediction": {
-				"baseLine": 200.5658084432794,
+				"baseLine": 375.5394915444182,
 				"middleValues": [
 					{
 						"columns": [
 							{
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Labels"
+							},
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "15"
+							}
+						],
+						"value": -719.0887368417715
+					},
+					{
+						"columns": [
+							{
 								"columnLabel": "Profit per Order",
 								"columnName": "Profit_per_Order",
-								"columnValue": "85.31"
+								"columnValue": "6.87"
 							}
 						],
-						"value": 498.8380346240619
+						"value": 240.9947845312264
 					},
 					{
 						"columns": [
 							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "9"
-							}
-						],
-						"value": 140.51697603388252
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "9"
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "15"
 							},
 							{
 								"columnLabel": "Profit per Order",
 								"columnName": "Profit_per_Order",
-								"columnValue": "85.31"
+								"columnValue": "6.87"
 							}
 						],
-						"value": -10.164341490834488
+						"value": 135.13027160632397
 					}
 				],
-				"other": -5.684341886080802e-14,
-				"smallTermCount": 0,
-				"total": 829.7564776103893
+				"other": 56.52780627732261,
+				"smallTermCount": 2,
+				"total": 89.10361711751972
 			},
 			"prescriptions": [],
 			"status": "Success"
 		},
 		{
 			"model": {
-				"id": "1OT5f000000E2MKGA0"
+				"id": "1OT5f000000DfO3GAK"
 			},
 			"prediction": {
-				"baseLine": 200.5658084432794,
+				"baseLine": 375.5394915444182,
 				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Storage"
+							},
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "22"
+							}
+						],
+						"value": -719.0887368417715
+					},
 					{
 						"columns": [
 							{
 								"columnLabel": "Profit per Order",
 								"columnName": "Profit_per_Order",
-								"columnValue": "132.59"
+								"columnValue": "2.52"
 							}
 						],
-						"value": -110.97804117457281
+						"value": 240.9947845312264
 					},
 					{
 						"columns": [
 							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "22"
+							},
+							{
+								"columnLabel": "Profit per Order",
+								"columnName": "Profit_per_Order",
+								"columnValue": "2.52"
+							}
+						],
+						"value": 135.13027160632397
+					}
+				],
+				"other": 56.52780627732261,
+				"smallTermCount": 2,
+				"total": 89.10361711751972
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DfO3GAK"
+			},
+			"prediction": {
+				"baseLine": 375.5394915444182,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Art"
+							},
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "7"
+							}
+						],
+						"value": -719.0887368417715
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Profit per Order",
+								"columnName": "Profit_per_Order",
+								"columnValue": "1.97"
+							}
+						],
+						"value": 240.9947845312264
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "7"
+							},
+							{
+								"columnLabel": "Profit per Order",
+								"columnName": "Profit_per_Order",
+								"columnValue": "1.97"
+							}
+						],
+						"value": 135.13027160632397
+					}
+				],
+				"other": 56.52780627732261,
+				"smallTermCount": 2,
+				"total": 89.10361711751972
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DfO3GAK"
+			},
+			"prediction": {
+				"baseLine": 375.5394915444182,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Binders"
+							},
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
 								"columnValue": "3"
 							}
 						],
-						"value": 94.18679950654004
+						"value": -719.0887368417715
 					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "3"
-							},
-							{
-								"columnLabel": "Profit per Order",
-								"columnName": "Profit_per_Order",
-								"columnValue": "132.59"
-							}
-						],
-						"value": -10.164341490834488
-					}
-				],
-				"other": 0.0,
-				"smallTermCount": 0,
-				"total": 173.61022528441215
-			},
-			"prescriptions": [],
-			"status": "Success"
-		},
-		{
-			"model": {
-				"id": "1OT5f000000E2MKGA0"
-			},
-			"prediction": {
-				"baseLine": 200.5658084432794,
-				"middleValues": [
 					{
 						"columns": [
 							{
 								"columnLabel": "Profit per Order",
 								"columnName": "Profit_per_Order",
-								"columnValue": "-123.86"
+								"columnValue": "-3.82"
 							}
 						],
-						"value": -110.97804117457281
+						"value": 240.9947845312264
 					},
 					{
 						"columns": [
 							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "5"
-							}
-						],
-						"value": 94.18679950654004
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "5"
-							},
-							{
-								"columnLabel": "Profit per Order",
-								"columnName": "Profit_per_Order",
-								"columnValue": "-123.86"
-							}
-						],
-						"value": -10.164341490834488
-					}
-				],
-				"other": 0.0,
-				"smallTermCount": 0,
-				"total": 173.61022528441215
-			},
-			"prescriptions": [],
-			"status": "Success"
-		},
-		{
-			"model": {
-				"id": "1OT5f000000E2MKGA0"
-			},
-			"prediction": {
-				"baseLine": 200.5658084432794,
-				"middleValues": [
-					{
-						"columns": [
-							{
-								"columnLabel": "Profit per Order",
-								"columnName": "Profit_per_Order",
-								"columnValue": "2.48"
-							}
-						],
-						"value": 318.57486951165915
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "2"
-							},
-							{
-								"columnLabel": "Profit per Order",
-								"columnName": "Profit_per_Order",
-								"columnValue": "2.48"
-							}
-						],
-						"value": -10.164341490834488
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "2"
-							}
-						],
-						"value": -0.8591745493406506
-					}
-				],
-				"other": 5.684341886080802e-14,
-				"smallTermCount": 0,
-				"total": 508.1171619147634
-			},
-			"prescriptions": [],
-			"status": "Success"
-		},
-		{
-			"model": {
-				"id": "1OT5f000000E2MKGA0"
-			},
-			"prediction": {
-				"baseLine": 200.5658084432794,
-				"middleValues": [
-					{
-						"columns": [
-							{
-								"columnLabel": "Profit per Order",
-								"columnName": "Profit_per_Order",
-								"columnValue": "16.01"
-							}
-						],
-						"value": 318.57486951165915
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
+								"columnLabel": "Sales",
+								"columnName": "Sales",
 								"columnValue": "3"
 							},
 							{
 								"columnLabel": "Profit per Order",
 								"columnName": "Profit_per_Order",
-								"columnValue": "16.01"
+								"columnValue": "-3.82"
 							}
 						],
-						"value": -95.09860820395955
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "3"
-							}
-						],
-						"value": 94.18679950654004
+						"value": 135.13027160632397
 					}
 				],
-				"other": 0.0,
-				"smallTermCount": 0,
-				"total": 518.228869257519
+				"other": 56.52780627732261,
+				"smallTermCount": 2,
+				"total": 89.10361711751972
 			},
 			"prescriptions": [],
 			"status": "Success"
 		},
 		{
 			"model": {
-				"id": "1OT5f000000E2MKGA0"
+				"id": "1OT5f000000DfO3GAK"
 			},
 			"prediction": {
-				"baseLine": 200.5658084432794,
+				"baseLine": 375.5394915444182,
 				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Art"
+							},
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "19"
+							}
+						],
+						"value": -719.0887368417715
+					},
 					{
 						"columns": [
 							{
 								"columnLabel": "Profit per Order",
 								"columnName": "Profit_per_Order",
-								"columnValue": "4.22"
+								"columnValue": "5.06"
 							}
 						],
-						"value": 318.57486951165915
+						"value": 240.9947845312264
 					},
 					{
 						"columns": [
 							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "2"
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "19"
 							},
 							{
 								"columnLabel": "Profit per Order",
 								"columnName": "Profit_per_Order",
-								"columnValue": "4.22"
+								"columnValue": "5.06"
 							}
 						],
-						"value": -10.164341490834488
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "2"
-							}
-						],
-						"value": -0.8591745493406506
+						"value": 135.13027160632397
 					}
 				],
-				"other": 5.684341886080802e-14,
-				"smallTermCount": 0,
-				"total": 508.1171619147634
+				"other": 56.52780627732261,
+				"smallTermCount": 2,
+				"total": 89.10361711751972
 			},
 			"prescriptions": [],
 			"status": "Success"
 		},
 		{
 			"model": {
-				"id": "1OT5f000000E2MKGA0"
+				"id": "1OT5f000000DfO3GAK"
 			},
 			"prediction": {
-				"baseLine": 200.5658084432794,
+				"baseLine": 375.5394915444182,
 				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Accessories"
+							},
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "91"
+							}
+						],
+						"value": -719.0887368417715
+					},
 					{
 						"columns": [
 							{
 								"columnLabel": "Profit per Order",
 								"columnName": "Profit_per_Order",
-								"columnValue": "-46.98"
+								"columnValue": "11.77"
 							}
 						],
-						"value": -110.97804117457281
+						"value": 240.9947845312264
 					},
 					{
 						"columns": [
 							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "91"
+							},
+							{
+								"columnLabel": "Profit per Order",
+								"columnName": "Profit_per_Order",
+								"columnValue": "11.77"
+							}
+						],
+						"value": 135.13027160632397
+					}
+				],
+				"other": 56.52780627732261,
+				"smallTermCount": 2,
+				"total": 89.10361711751972
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DfO3GAK"
+			},
+			"prediction": {
+				"baseLine": 375.5394915444182,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Furnishings"
+							},
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "124"
+							}
+						],
+						"value": -719.0887368417715
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Profit per Order",
+								"columnName": "Profit_per_Order",
+								"columnValue": "15.52"
+							}
+						],
+						"value": 240.9947845312264
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "124"
+							},
+							{
+								"columnLabel": "Profit per Order",
+								"columnName": "Profit_per_Order",
+								"columnValue": "15.52"
+							}
+						],
+						"value": 135.13027160632397
+					}
+				],
+				"other": 56.52780627732261,
+				"smallTermCount": 2,
+				"total": 89.10361711751972
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DfO3GAK"
+			},
+			"prediction": {
+				"baseLine": 375.5394915444182,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Envelopes"
+							},
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
 								"columnValue": "3"
 							}
 						],
-						"value": 94.18679950654004
+						"value": -719.0887368417715
 					},
 					{
 						"columns": [
 							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
+								"columnLabel": "Profit per Order",
+								"columnName": "Profit_per_Order",
+								"columnValue": "1.1"
+							}
+						],
+						"value": 240.9947845312264
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
 								"columnValue": "3"
 							},
 							{
 								"columnLabel": "Profit per Order",
 								"columnName": "Profit_per_Order",
-								"columnValue": "-46.98"
+								"columnValue": "1.1"
 							}
 						],
-						"value": -10.164341490834488
+						"value": 135.13027160632397
 					}
 				],
-				"other": 0.0,
-				"smallTermCount": 0,
-				"total": 173.61022528441215
+				"other": 56.52780627732261,
+				"smallTermCount": 2,
+				"total": 89.10361711751972
 			},
 			"prescriptions": [],
 			"status": "Success"
 		},
 		{
 			"model": {
-				"id": "1OT5f000000E2MKGA0"
+				"id": "1OT5f000000DfO3GAK"
 			},
 			"prediction": {
-				"baseLine": 200.5658084432794,
+				"baseLine": 375.5394915444182,
 				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Chairs"
+							},
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "212"
+							}
+						],
+						"value": -719.0887368417715
+					},
 					{
 						"columns": [
 							{
@@ -365,14 +470,14 @@
 								"columnValue": "-15.15"
 							}
 						],
-						"value": 318.57486951165915
+						"value": 240.9947845312264
 					},
 					{
 						"columns": [
 							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "3"
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "212"
 							},
 							{
 								"columnLabel": "Profit per Order",
@@ -380,33 +485,38 @@
 								"columnValue": "-15.15"
 							}
 						],
-						"value": -95.09860820395955
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "3"
-							}
-						],
-						"value": 94.18679950654004
+						"value": 135.13027160632397
 					}
 				],
-				"other": 0.0,
-				"smallTermCount": 0,
-				"total": 518.228869257519
+				"other": 56.52780627732261,
+				"smallTermCount": 2,
+				"total": 89.10361711751972
 			},
 			"prescriptions": [],
 			"status": "Success"
 		},
 		{
 			"model": {
-				"id": "1OT5f000000E2MKGA0"
+				"id": "1OT5f000000DfO3GAK"
 			},
 			"prediction": {
-				"baseLine": 200.5658084432794,
+				"baseLine": 375.5394915444182,
 				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Phones"
+							},
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "147"
+							}
+						],
+						"value": -719.0887368417715
+					},
 					{
 						"columns": [
 							{
@@ -415,24 +525,14 @@
 								"columnValue": "16.56"
 							}
 						],
-						"value": 318.5748695116592
+						"value": 240.9947845312264
 					},
 					{
 						"columns": [
 							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "4"
-							}
-						],
-						"value": 94.18679950654004
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "4"
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "147"
 							},
 							{
 								"columnLabel": "Profit per Order",
@@ -440,23 +540,93 @@
 								"columnValue": "16.56"
 							}
 						],
-						"value": -10.164341490834488
+						"value": 135.13027160632397
 					}
 				],
-				"other": 5.684341886080802e-14,
-				"smallTermCount": 0,
-				"total": 603.1631359706441
+				"other": 56.52780627732261,
+				"smallTermCount": 2,
+				"total": 89.10361711751972
 			},
 			"prescriptions": [],
 			"status": "Success"
 		},
 		{
 			"model": {
-				"id": "1OT5f000000E2MKGA0"
+				"id": "1OT5f000000DfO3GAK"
 			},
 			"prediction": {
-				"baseLine": 200.5658084432794,
+				"baseLine": 375.5394915444182,
 				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Storage"
+							},
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "78"
+							}
+						],
+						"value": -719.0887368417715
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Profit per Order",
+								"columnName": "Profit_per_Order",
+								"columnValue": "3.89"
+							}
+						],
+						"value": 240.9947845312264
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "78"
+							},
+							{
+								"columnLabel": "Profit per Order",
+								"columnName": "Profit_per_Order",
+								"columnValue": "3.89"
+							}
+						],
+						"value": 135.13027160632397
+					}
+				],
+				"other": 56.52780627732261,
+				"smallTermCount": 2,
+				"total": 89.10361711751972
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DfO3GAK"
+			},
+			"prediction": {
+				"baseLine": 375.5394915444182,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Phones"
+							},
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "22"
+							}
+						],
+						"value": -719.0887368417715
+					},
 					{
 						"columns": [
 							{
@@ -465,14 +635,14 @@
 								"columnValue": "6.1"
 							}
 						],
-						"value": 318.57486951165915
+						"value": 240.9947845312264
 					},
 					{
 						"columns": [
 							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "2"
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "22"
 							},
 							{
 								"columnLabel": "Profit per Order",
@@ -480,133 +650,38 @@
 								"columnValue": "6.1"
 							}
 						],
-						"value": -10.164341490834488
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "2"
-							}
-						],
-						"value": -0.8591745493406506
+						"value": 135.13027160632397
 					}
 				],
-				"other": 5.684341886080802e-14,
-				"smallTermCount": 0,
-				"total": 508.1171619147634
+				"other": 56.52780627732261,
+				"smallTermCount": 2,
+				"total": 89.10361711751972
 			},
 			"prescriptions": [],
 			"status": "Success"
 		},
 		{
 			"model": {
-				"id": "1OT5f000000E2MKGA0"
+				"id": "1OT5f000000DfO3GAK"
 			},
 			"prediction": {
-				"baseLine": 200.5658084432794,
+				"baseLine": 375.5394915444182,
 				"middleValues": [
 					{
 						"columns": [
 							{
-								"columnLabel": "Profit per Order",
-								"columnName": "Profit_per_Order",
-								"columnValue": "2.96"
-							}
-						],
-						"value": 318.57486951165915
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "2"
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Paper"
 							},
 							{
-								"columnLabel": "Profit per Order",
-								"columnName": "Profit_per_Order",
-								"columnValue": "2.96"
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "32"
 							}
 						],
-						"value": -10.164341490834488
+						"value": -719.0887368417715
 					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "2"
-							}
-						],
-						"value": -0.8591745493406506
-					}
-				],
-				"other": 5.684341886080802e-14,
-				"smallTermCount": 0,
-				"total": 508.1171619147634
-			},
-			"prescriptions": [],
-			"status": "Success"
-		},
-		{
-			"model": {
-				"id": "1OT5f000000E2MKGA0"
-			},
-			"prediction": {
-				"baseLine": 200.5658084432794,
-				"middleValues": [
-					{
-						"columns": [
-							{
-								"columnLabel": "Profit per Order",
-								"columnName": "Profit_per_Order",
-								"columnValue": "52.14"
-							}
-						],
-						"value": 318.5748695116592
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "6"
-							}
-						],
-						"value": 88.17841646889778
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "6"
-							},
-							{
-								"columnLabel": "Profit per Order",
-								"columnName": "Profit_per_Order",
-								"columnValue": "52.14"
-							}
-						],
-						"value": -10.164341490834488
-					}
-				],
-				"other": 5.684341886080802e-14,
-				"smallTermCount": 0,
-				"total": 597.1547529330019
-			},
-			"prescriptions": [],
-			"status": "Success"
-		},
-		{
-			"model": {
-				"id": "1OT5f000000E2MKGA0"
-			},
-			"prediction": {
-				"baseLine": 200.5658084432794,
-				"middleValues": [
 					{
 						"columns": [
 							{
@@ -615,24 +690,14 @@
 								"columnValue": "15.55"
 							}
 						],
-						"value": 318.5748695116592
+						"value": 240.9947845312264
 					},
 					{
 						"columns": [
 							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "5"
-							}
-						],
-						"value": 94.18679950654004
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "5"
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "32"
 							},
 							{
 								"columnLabel": "Profit per Order",
@@ -640,182 +705,212 @@
 								"columnValue": "15.55"
 							}
 						],
-						"value": -10.164341490834488
+						"value": 135.13027160632397
 					}
 				],
-				"other": 5.684341886080802e-14,
-				"smallTermCount": 0,
-				"total": 603.1631359706441
+				"other": 56.52780627732261,
+				"smallTermCount": 2,
+				"total": 89.10361711751972
 			},
 			"prescriptions": [],
 			"status": "Success"
 		},
 		{
 			"model": {
-				"id": "1OT5f000000E2MKGA0"
+				"id": "1OT5f000000DfO3GAK"
 			},
 			"prediction": {
-				"baseLine": 200.5658084432794,
+				"baseLine": 375.5394915444182,
 				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Paper"
+							},
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "15"
+							}
+						],
+						"value": -719.0887368417715
+					},
 					{
 						"columns": [
 							{
 								"columnLabel": "Profit per Order",
 								"columnName": "Profit_per_Order",
-								"columnValue": "3.3"
+								"columnValue": "6.99"
 							}
 						],
-						"value": 318.57486951165915
+						"value": 240.9947845312264
 					},
 					{
 						"columns": [
 							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "15"
+							},
+							{
+								"columnLabel": "Profit per Order",
+								"columnName": "Profit_per_Order",
+								"columnValue": "6.99"
+							}
+						],
+						"value": 135.13027160632397
+					}
+				],
+				"other": 56.52780627732261,
+				"smallTermCount": 2,
+				"total": 89.10361711751972
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DfO3GAK"
+			},
+			"prediction": {
+				"baseLine": 375.5394915444182,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Art"
+							},
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "2"
+							}
+						],
+						"value": -719.0887368417715
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Profit per Order",
+								"columnName": "Profit_per_Order",
+								"columnValue": "0.84"
+							}
+						],
+						"value": 240.9947845312264
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
 								"columnValue": "2"
 							},
 							{
 								"columnLabel": "Profit per Order",
 								"columnName": "Profit_per_Order",
-								"columnValue": "3.3"
+								"columnValue": "0.84"
 							}
 						],
-						"value": -10.164341490834488
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "2"
-							}
-						],
-						"value": -0.8591745493406506
+						"value": 135.13027160632397
 					}
 				],
-				"other": 5.684341886080802e-14,
-				"smallTermCount": 0,
-				"total": 508.1171619147634
+				"other": 56.52780627732261,
+				"smallTermCount": 2,
+				"total": 89.10361711751972
 			},
 			"prescriptions": [],
 			"status": "Success"
 		},
 		{
 			"model": {
-				"id": "1OT5f000000E2MKGA0"
+				"id": "1OT5f000000DfO3GAK"
 			},
 			"prediction": {
-				"baseLine": 200.5658084432794,
+				"baseLine": 375.5394915444182,
 				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Paper"
+							},
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "19"
+							}
+						],
+						"value": -719.0887368417715
+					},
 					{
 						"columns": [
 							{
 								"columnLabel": "Profit per Order",
 								"columnName": "Profit_per_Order",
-								"columnValue": "111.3"
+								"columnValue": "8.76"
 							}
 						],
-						"value": 706.879276001596
+						"value": 240.9947845312264
 					},
 					{
 						"columns": [
 							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "8"
-							}
-						],
-						"value": 140.51697603388252
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "8"
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "19"
 							},
 							{
 								"columnLabel": "Profit per Order",
 								"columnName": "Profit_per_Order",
-								"columnValue": "111.3"
+								"columnValue": "8.76"
 							}
 						],
-						"value": -10.164341490834488
+						"value": 135.13027160632397
 					}
 				],
-				"other": -1.1368683772161604e-13,
-				"smallTermCount": 0,
-				"total": 1037.7977189879235
+				"other": 56.52780627732261,
+				"smallTermCount": 2,
+				"total": 89.10361711751972
 			},
 			"prescriptions": [],
 			"status": "Success"
 		},
 		{
 			"model": {
-				"id": "1OT5f000000E2MKGA0"
+				"id": "1OT5f000000DfO3GAK"
 			},
 			"prediction": {
-				"baseLine": 200.5658084432794,
+				"baseLine": 375.5394915444182,
 				"middleValues": [
 					{
 						"columns": [
 							{
-								"columnLabel": "Profit per Order",
-								"columnName": "Profit_per_Order",
-								"columnValue": "35.66"
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "832"
 							}
 						],
-						"value": 318.57486951165915
+						"value": 796.8794074437664
 					},
 					{
 						"columns": [
 							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "2"
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Chairs"
 							},
 							{
-								"columnLabel": "Profit per Order",
-								"columnName": "Profit_per_Order",
-								"columnValue": "35.66"
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "832"
 							}
 						],
-						"value": -10.164341490834488
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "2"
-							}
-						],
-						"value": -0.8591745493406506
-					}
-				],
-				"other": 5.684341886080802e-14,
-				"smallTermCount": 0,
-				"total": 508.1171619147634
-			},
-			"prescriptions": [],
-			"status": "Success"
-		},
-		{
-			"model": {
-				"id": "1OT5f000000E2MKGA0"
-			},
-			"prediction": {
-				"baseLine": 200.5658084432794,
-				"middleValues": [
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "8"
-							}
-						],
-						"value": 140.51697603388252
+						"value": -719.0887368417715
 					},
 					{
 						"columns": [
@@ -825,388 +920,698 @@
 								"columnValue": "-114.39"
 							}
 						],
-						"value": -110.97804117457281
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "8"
-							},
-							{
-								"columnLabel": "Profit per Order",
-								"columnName": "Profit_per_Order",
-								"columnValue": "-114.39"
-							}
-						],
-						"value": -10.164341490834488
+						"value": 240.9947845312264
 					}
 				],
-				"other": 0.0,
-				"smallTermCount": 0,
-				"total": 219.9404018117546
+				"other": 249.20079463819605,
+				"smallTermCount": 2,
+				"total": 943.5257413158354
 			},
 			"prescriptions": [],
 			"status": "Success"
 		},
 		{
 			"model": {
-				"id": "1OT5f000000E2MKGA0"
+				"id": "1OT5f000000DfO3GAK"
 			},
 			"prediction": {
-				"baseLine": 200.5658084432794,
+				"baseLine": 375.5394915444182,
 				"middleValues": [
 					{
 						"columns": [
 							{
-								"columnLabel": "Profit per Order",
-								"columnName": "Profit_per_Order",
-								"columnValue": "1.21"
-							}
-						],
-						"value": 318.57486951165915
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "2"
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Labels"
 							},
 							{
-								"columnLabel": "Profit per Order",
-								"columnName": "Profit_per_Order",
-								"columnValue": "1.21"
-							}
-						],
-						"value": -10.164341490834488
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "2"
-							}
-						],
-						"value": -0.8591745493406506
-					}
-				],
-				"other": 5.684341886080802e-14,
-				"smallTermCount": 0,
-				"total": 508.1171619147634
-			},
-			"prescriptions": [],
-			"status": "Success"
-		},
-		{
-			"model": {
-				"id": "1OT5f000000E2MKGA0"
-			},
-			"prediction": {
-				"baseLine": 200.5658084432794,
-				"middleValues": [
-					{
-						"columns": [
-							{
-								"columnLabel": "Profit per Order",
-								"columnName": "Profit_per_Order",
-								"columnValue": "62.81"
-							}
-						],
-						"value": 318.5748695116592
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "7"
-							}
-						],
-						"value": 88.17841646889778
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "7"
-							},
-							{
-								"columnLabel": "Profit per Order",
-								"columnName": "Profit_per_Order",
-								"columnValue": "62.81"
-							}
-						],
-						"value": -10.164341490834488
-					}
-				],
-				"other": 5.684341886080802e-14,
-				"smallTermCount": 0,
-				"total": 597.1547529330019
-			},
-			"prescriptions": [],
-			"status": "Success"
-		},
-		{
-			"model": {
-				"id": "1OT5f000000E2MKGA0"
-			},
-			"prediction": {
-				"baseLine": 200.5658084432794,
-				"middleValues": [
-					{
-						"columns": [
-							{
-								"columnLabel": "Profit per Order",
-								"columnName": "Profit_per_Order",
-								"columnValue": "8.28"
-							}
-						],
-						"value": 318.57486951165915
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "2"
-							},
-							{
-								"columnLabel": "Profit per Order",
-								"columnName": "Profit_per_Order",
-								"columnValue": "8.28"
-							}
-						],
-						"value": -10.164341490834488
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "2"
-							}
-						],
-						"value": -0.8591745493406506
-					}
-				],
-				"other": 5.684341886080802e-14,
-				"smallTermCount": 0,
-				"total": 508.1171619147634
-			},
-			"prescriptions": [],
-			"status": "Success"
-		},
-		{
-			"model": {
-				"id": "1OT5f000000E2MKGA0"
-			},
-			"prediction": {
-				"baseLine": 200.5658084432794,
-				"middleValues": [
-					{
-						"columns": [
-							{
-								"columnLabel": "Profit per Order",
-								"columnName": "Profit_per_Order",
-								"columnValue": "44.03"
-							}
-						],
-						"value": 318.5748695116592
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
+								"columnLabel": "Sales",
+								"columnName": "Sales",
 								"columnValue": "6"
 							}
 						],
-						"value": 88.17841646889778
+						"value": -719.0887368417715
 					},
 					{
 						"columns": [
 							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
+								"columnLabel": "Profit per Order",
+								"columnName": "Profit_per_Order",
+								"columnValue": "2.96"
+							}
+						],
+						"value": 240.9947845312264
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
 								"columnValue": "6"
 							},
 							{
 								"columnLabel": "Profit per Order",
 								"columnName": "Profit_per_Order",
-								"columnValue": "44.03"
+								"columnValue": "2.96"
 							}
 						],
-						"value": -10.164341490834488
+						"value": 135.13027160632397
 					}
 				],
-				"other": 5.684341886080802e-14,
-				"smallTermCount": 0,
-				"total": 597.1547529330019
+				"other": 56.52780627732261,
+				"smallTermCount": 2,
+				"total": 89.10361711751972
 			},
 			"prescriptions": [],
 			"status": "Success"
 		},
 		{
 			"model": {
-				"id": "1OT5f000000E2MKGA0"
+				"id": "1OT5f000000DfO3GAK"
 			},
 			"prediction": {
-				"baseLine": 200.5658084432794,
+				"baseLine": 375.5394915444182,
 				"middleValues": [
 					{
 						"columns": [
 							{
-								"columnLabel": "Profit per Order",
-								"columnName": "Profit_per_Order",
-								"columnValue": "165.38"
-							}
-						],
-						"value": 1913.0206877423635
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "3"
-							}
-						],
-						"value": 94.18679950654004
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "3"
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Paper"
 							},
 							{
-								"columnLabel": "Profit per Order",
-								"columnName": "Profit_per_Order",
-								"columnValue": "165.38"
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "6"
 							}
 						],
-						"value": -10.164341490834488
-					}
-				],
-				"other": 0.0,
-				"smallTermCount": 0,
-				"total": 2197.6089542013485
-			},
-			"prescriptions": [],
-			"status": "Success"
-		},
-		{
-			"model": {
-				"id": "1OT5f000000E2MKGA0"
-			},
-			"prediction": {
-				"baseLine": 200.5658084432794,
-				"middleValues": [
-					{
-						"columns": [
-							{
-								"columnLabel": "Profit per Order",
-								"columnName": "Profit_per_Order",
-								"columnValue": "13.88"
-							}
-						],
-						"value": 318.5748695116592
+						"value": -719.0887368417715
 					},
 					{
 						"columns": [
 							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "4"
+								"columnLabel": "Profit per Order",
+								"columnName": "Profit_per_Order",
+								"columnValue": "3.11"
 							}
 						],
-						"value": 94.18679950654004
+						"value": 240.9947845312264
 					},
 					{
 						"columns": [
 							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "4"
-							},
-							{
-								"columnLabel": "Profit per Order",
-								"columnName": "Profit_per_Order",
-								"columnValue": "13.88"
-							}
-						],
-						"value": -10.164341490834488
-					}
-				],
-				"other": 5.684341886080802e-14,
-				"smallTermCount": 0,
-				"total": 603.1631359706441
-			},
-			"prescriptions": [],
-			"status": "Success"
-		},
-		{
-			"model": {
-				"id": "1OT5f000000E2MKGA0"
-			},
-			"prediction": {
-				"baseLine": 200.5658084432794,
-				"middleValues": [
-					{
-						"columns": [
-							{
-								"columnLabel": "Profit per Order",
-								"columnName": "Profit_per_Order",
-								"columnValue": "-407.68"
-							}
-						],
-						"value": 457.9321668686439
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
+								"columnLabel": "Sales",
+								"columnName": "Sales",
 								"columnValue": "6"
 							},
 							{
 								"columnLabel": "Profit per Order",
 								"columnName": "Profit_per_Order",
-								"columnValue": "-407.68"
+								"columnValue": "3.11"
 							}
 						],
-						"value": 290.62509613725879
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "6"
-							}
-						],
-						"value": 88.17841646889778
+						"value": 135.13027160632397
 					}
 				],
-				"other": 0.0,
-				"smallTermCount": 0,
-				"total": 1037.3014879180799
+				"other": 56.52780627732261,
+				"smallTermCount": 2,
+				"total": 89.10361711751972
 			},
 			"prescriptions": [],
 			"status": "Success"
 		},
 		{
 			"model": {
-				"id": "1OT5f000000E2MKGA0"
+				"id": "1OT5f000000DfO3GAK"
 			},
 			"prediction": {
-				"baseLine": 200.5658084432794,
+				"baseLine": 375.5394915444182,
 				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Furnishings"
+							},
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "53"
+							}
+						],
+						"value": -719.0887368417715
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Profit per Order",
+								"columnName": "Profit_per_Order",
+								"columnValue": "16.54"
+							}
+						],
+						"value": 240.9947845312264
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "53"
+							},
+							{
+								"columnLabel": "Profit per Order",
+								"columnName": "Profit_per_Order",
+								"columnValue": "16.54"
+							}
+						],
+						"value": 135.13027160632397
+					}
+				],
+				"other": 56.52780627732261,
+				"smallTermCount": 2,
+				"total": 89.10361711751972
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DfO3GAK"
+			},
+			"prediction": {
+				"baseLine": 375.5394915444182,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Binders"
+							},
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "33"
+							}
+						],
+						"value": -719.0887368417715
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Profit per Order",
+								"columnName": "Profit_per_Order",
+								"columnValue": "16.15"
+							}
+						],
+						"value": 240.9947845312264
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "33"
+							},
+							{
+								"columnLabel": "Profit per Order",
+								"columnName": "Profit_per_Order",
+								"columnValue": "16.15"
+							}
+						],
+						"value": 135.13027160632397
+					}
+				],
+				"other": 56.52780627732261,
+				"smallTermCount": 2,
+				"total": 89.10361711751972
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DfO3GAK"
+			},
+			"prediction": {
+				"baseLine": 375.5394915444182,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Binders"
+							},
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "6"
+							}
+						],
+						"value": -719.0887368417715
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Profit per Order",
+								"columnName": "Profit_per_Order",
+								"columnValue": "-3.79"
+							}
+						],
+						"value": 240.9947845312264
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "6"
+							},
+							{
+								"columnLabel": "Profit per Order",
+								"columnName": "Profit_per_Order",
+								"columnValue": "-3.79"
+							}
+						],
+						"value": 135.13027160632397
+					}
+				],
+				"other": 56.52780627732261,
+				"smallTermCount": 2,
+				"total": 89.10361711751972
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DfO3GAK"
+			},
+			"prediction": {
+				"baseLine": 375.5394915444182,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Appliances"
+							},
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "78"
+							}
+						],
+						"value": -719.0887368417715
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Profit per Order",
+								"columnName": "Profit_per_Order",
+								"columnValue": "22.59"
+							}
+						],
+						"value": 240.9947845312264
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "78"
+							},
+							{
+								"columnLabel": "Profit per Order",
+								"columnName": "Profit_per_Order",
+								"columnValue": "22.59"
+							}
+						],
+						"value": 135.13027160632397
+					}
+				],
+				"other": 56.52780627732261,
+				"smallTermCount": 2,
+				"total": 89.10361711751972
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DfO3GAK"
+			},
+			"prediction": {
+				"baseLine": 375.5394915444182,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Binders"
+							},
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "2"
+							}
+						],
+						"value": -719.0887368417715
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Profit per Order",
+								"columnName": "Profit_per_Order",
+								"columnValue": "-3.04"
+							}
+						],
+						"value": 240.9947845312264
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "2"
+							},
+							{
+								"columnLabel": "Profit per Order",
+								"columnName": "Profit_per_Order",
+								"columnValue": "-3.04"
+							}
+						],
+						"value": 135.13027160632397
+					}
+				],
+				"other": 56.52780627732261,
+				"smallTermCount": 2,
+				"total": 89.10361711751972
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DfO3GAK"
+			},
+			"prediction": {
+				"baseLine": 375.5394915444182,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Paper"
+							},
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "24"
+							}
+						],
+						"value": -719.0887368417715
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Profit per Order",
+								"columnName": "Profit_per_Order",
+								"columnValue": "11.72"
+							}
+						],
+						"value": 240.9947845312264
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "24"
+							},
+							{
+								"columnLabel": "Profit per Order",
+								"columnName": "Profit_per_Order",
+								"columnValue": "11.72"
+							}
+						],
+						"value": 135.13027160632397
+					}
+				],
+				"other": 56.52780627732261,
+				"smallTermCount": 2,
+				"total": 89.10361711751972
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DfO3GAK"
+			},
+			"prediction": {
+				"baseLine": 375.5394915444182,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Furnishings"
+							},
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "102"
+							}
+						],
+						"value": -719.0887368417715
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Profit per Order",
+								"columnName": "Profit_per_Order",
+								"columnValue": "-3.84"
+							}
+						],
+						"value": 240.9947845312264
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "102"
+							},
+							{
+								"columnLabel": "Profit per Order",
+								"columnName": "Profit_per_Order",
+								"columnValue": "-3.84"
+							}
+						],
+						"value": 135.13027160632397
+					}
+				],
+				"other": 56.52780627732261,
+				"smallTermCount": 2,
+				"total": 89.10361711751972
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DfO3GAK"
+			},
+			"prediction": {
+				"baseLine": 375.5394915444182,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Fasteners"
+							},
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "40"
+							}
+						],
+						"value": -719.0887368417715
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Profit per Order",
+								"columnName": "Profit_per_Order",
+								"columnValue": "14.53"
+							}
+						],
+						"value": 240.9947845312264
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "40"
+							},
+							{
+								"columnLabel": "Profit per Order",
+								"columnName": "Profit_per_Order",
+								"columnValue": "14.53"
+							}
+						],
+						"value": 135.13027160632397
+					}
+				],
+				"other": 56.52780627732261,
+				"smallTermCount": 2,
+				"total": 89.10361711751972
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DfO3GAK"
+			},
+			"prediction": {
+				"baseLine": 375.5394915444182,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Binders"
+							},
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "158"
+							}
+						],
+						"value": -719.0887368417715
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Profit per Order",
+								"columnName": "Profit_per_Order",
+								"columnValue": "-115.72"
+							}
+						],
+						"value": 240.9947845312264
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "158"
+							},
+							{
+								"columnLabel": "Profit per Order",
+								"columnName": "Profit_per_Order",
+								"columnValue": "-115.72"
+							}
+						],
+						"value": 135.13027160632397
+					}
+				],
+				"other": 56.52780627732261,
+				"smallTermCount": 2,
+				"total": 89.10361711751972
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DfO3GAK"
+			},
+			"prediction": {
+				"baseLine": 375.5394915444182,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Binders"
+							},
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "2"
+							}
+						],
+						"value": -719.0887368417715
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Profit per Order",
+								"columnName": "Profit_per_Order",
+								"columnValue": "-1.83"
+							}
+						],
+						"value": 240.9947845312264
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "2"
+							},
+							{
+								"columnLabel": "Profit per Order",
+								"columnName": "Profit_per_Order",
+								"columnValue": "-1.83"
+							}
+						],
+						"value": 135.13027160632397
+					}
+				],
+				"other": 56.52780627732261,
+				"smallTermCount": 2,
+				"total": 89.10361711751972
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DfO3GAK"
+			},
+			"prediction": {
+				"baseLine": 375.5394915444182,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Storage"
+							},
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "244"
+							}
+						],
+						"value": -719.0887368417715
+					},
 					{
 						"columns": [
 							{
@@ -1215,24 +1620,14 @@
 								"columnValue": "30.5"
 							}
 						],
-						"value": 318.5748695116592
+						"value": 240.9947845312264
 					},
 					{
 						"columns": [
 							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "7"
-							}
-						],
-						"value": 88.17841646889778
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "7"
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "244"
 							},
 							{
 								"columnLabel": "Profit per Order",
@@ -1240,123 +1635,158 @@
 								"columnValue": "30.5"
 							}
 						],
-						"value": -10.164341490834488
+						"value": 135.13027160632397
 					}
 				],
-				"other": 5.684341886080802e-14,
-				"smallTermCount": 0,
-				"total": 597.1547529330019
+				"other": 56.52780627732261,
+				"smallTermCount": 2,
+				"total": 89.10361711751972
 			},
 			"prescriptions": [],
 			"status": "Success"
 		},
 		{
 			"model": {
-				"id": "1OT5f000000E2MKGA0"
+				"id": "1OT5f000000DfO3GAK"
 			},
 			"prediction": {
-				"baseLine": 200.5658084432794,
+				"baseLine": 375.5394915444182,
 				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Paper"
+							},
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "78"
+							}
+						],
+						"value": -719.0887368417715
+					},
 					{
 						"columns": [
 							{
 								"columnLabel": "Profit per Order",
 								"columnName": "Profit_per_Order",
-								"columnValue": "6.97"
+								"columnValue": "29.36"
 							}
 						],
-						"value": 318.5748695116592
+						"value": 240.9947845312264
 					},
 					{
 						"columns": [
 							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "9"
-							}
-						],
-						"value": 140.51697603388252
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "9"
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "78"
 							},
 							{
 								"columnLabel": "Profit per Order",
 								"columnName": "Profit_per_Order",
-								"columnValue": "6.97"
+								"columnValue": "29.36"
 							}
 						],
-						"value": -10.164341490834488
+						"value": 135.13027160632397
 					}
 				],
-				"other": 5.684341886080802e-14,
-				"smallTermCount": 0,
-				"total": 649.4933124979866
+				"other": 56.52780627732261,
+				"smallTermCount": 2,
+				"total": 89.10361711751972
 			},
 			"prescriptions": [],
 			"status": "Success"
 		},
 		{
 			"model": {
-				"id": "1OT5f000000E2MKGA0"
+				"id": "1OT5f000000DfO3GAK"
 			},
 			"prediction": {
-				"baseLine": 200.5658084432794,
+				"baseLine": 375.5394915444182,
 				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Furnishings"
+							},
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "43"
+							}
+						],
+						"value": -719.0887368417715
+					},
 					{
 						"columns": [
 							{
 								"columnLabel": "Profit per Order",
 								"columnName": "Profit_per_Order",
-								"columnValue": "5.1"
+								"columnValue": "20.7"
 							}
 						],
-						"value": 318.57486951165915
+						"value": 240.9947845312264
 					},
 					{
 						"columns": [
 							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "3"
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "43"
 							},
 							{
 								"columnLabel": "Profit per Order",
 								"columnName": "Profit_per_Order",
-								"columnValue": "5.1"
+								"columnValue": "20.7"
 							}
 						],
-						"value": -95.09860820395955
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "3"
-							}
-						],
-						"value": 94.18679950654004
+						"value": 135.13027160632397
 					}
 				],
-				"other": 0.0,
-				"smallTermCount": 0,
-				"total": 518.228869257519
+				"other": 56.52780627732261,
+				"smallTermCount": 2,
+				"total": 89.10361711751972
 			},
 			"prescriptions": [],
 			"status": "Success"
 		},
 		{
 			"model": {
-				"id": "1OT5f000000E2MKGA0"
+				"id": "1OT5f000000DfO3GAK"
 			},
 			"prediction": {
-				"baseLine": 200.5658084432794,
+				"baseLine": 375.5394915444182,
 				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "839"
+							}
+						],
+						"value": 796.8794074437664
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Appliances"
+							},
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "839"
+							}
+						],
+						"value": -719.0887368417715
+					},
 					{
 						"columns": [
 							{
@@ -1365,48 +1795,143 @@
 								"columnValue": "218.25"
 							}
 						],
-						"value": 1913.0206877423635
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "3"
-							}
-						],
-						"value": 94.18679950654004
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "3"
-							},
-							{
-								"columnLabel": "Profit per Order",
-								"columnName": "Profit_per_Order",
-								"columnValue": "218.25"
-							}
-						],
-						"value": -10.164341490834488
+						"value": 513.9493155361178
 					}
 				],
-				"other": 0.0,
-				"smallTermCount": 0,
-				"total": 2197.6089542013485
+				"other": 343.1494623991549,
+				"smallTermCount": 2,
+				"total": 1310.4289400816857
 			},
 			"prescriptions": [],
 			"status": "Success"
 		},
 		{
 			"model": {
-				"id": "1OT5f000000E2MKGA0"
+				"id": "1OT5f000000DfO3GAK"
 			},
 			"prediction": {
-				"baseLine": 200.5658084432794,
+				"baseLine": 375.5394915444182,
 				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Phones"
+							},
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "150"
+							}
+						],
+						"value": -719.0887368417715
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Profit per Order",
+								"columnName": "Profit_per_Order",
+								"columnValue": "6"
+							}
+						],
+						"value": 240.9947845312264
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "150"
+							},
+							{
+								"columnLabel": "Profit per Order",
+								"columnName": "Profit_per_Order",
+								"columnValue": "6"
+							}
+						],
+						"value": 135.13027160632397
+					}
+				],
+				"other": 56.52780627732261,
+				"smallTermCount": 2,
+				"total": 89.10361711751972
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DfO3GAK"
+			},
+			"prediction": {
+				"baseLine": 375.5394915444182,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "1952"
+							}
+						],
+						"value": 796.8794074437664
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Chairs"
+							},
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "1952"
+							}
+						],
+						"value": -719.0887368417715
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Profit per Order",
+								"columnName": "Profit_per_Order",
+								"columnValue": "585.55"
+							}
+						],
+						"value": 513.9493155361178
+					}
+				],
+				"other": 343.1494623991549,
+				"smallTermCount": 2,
+				"total": 1310.4289400816857
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DfO3GAK"
+			},
+			"prediction": {
+				"baseLine": 375.5394915444182,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Paper"
+							},
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "58"
+							}
+						],
+						"value": -719.0887368417715
+					},
 					{
 						"columns": [
 							{
@@ -1415,24 +1940,14 @@
 								"columnValue": "26.27"
 							}
 						],
-						"value": 318.5748695116592
+						"value": 240.9947845312264
 					},
 					{
 						"columns": [
 							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "7"
-							}
-						],
-						"value": 88.17841646889778
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "7"
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "58"
 							},
 							{
 								"columnLabel": "Profit per Order",
@@ -1440,223 +1955,363 @@
 								"columnValue": "26.27"
 							}
 						],
-						"value": -10.164341490834488
+						"value": 135.13027160632397
 					}
 				],
-				"other": 5.684341886080802e-14,
-				"smallTermCount": 0,
-				"total": 597.1547529330019
+				"other": 56.52780627732261,
+				"smallTermCount": 2,
+				"total": 89.10361711751972
 			},
 			"prescriptions": [],
 			"status": "Success"
 		},
 		{
 			"model": {
-				"id": "1OT5f000000E2MKGA0"
+				"id": "1OT5f000000DfO3GAK"
 			},
 			"prediction": {
-				"baseLine": 200.5658084432794,
+				"baseLine": 375.5394915444182,
 				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Storage"
+							},
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "81"
+							}
+						],
+						"value": -719.0887368417715
+					},
 					{
 						"columns": [
 							{
 								"columnLabel": "Profit per Order",
 								"columnName": "Profit_per_Order",
-								"columnValue": "48.54"
+								"columnValue": "21.03"
 							}
 						],
-						"value": 318.5748695116592
+						"value": 240.9947845312264
 					},
 					{
 						"columns": [
 							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "4"
-							}
-						],
-						"value": 94.18679950654004
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "4"
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "81"
 							},
 							{
 								"columnLabel": "Profit per Order",
 								"columnName": "Profit_per_Order",
-								"columnValue": "48.54"
+								"columnValue": "21.03"
 							}
 						],
-						"value": -10.164341490834488
+						"value": 135.13027160632397
 					}
 				],
-				"other": 5.684341886080802e-14,
-				"smallTermCount": 0,
-				"total": 603.1631359706441
+				"other": 56.52780627732261,
+				"smallTermCount": 2,
+				"total": 89.10361711751972
 			},
 			"prescriptions": [],
 			"status": "Success"
 		},
 		{
 			"model": {
-				"id": "1OT5f000000E2MKGA0"
+				"id": "1OT5f000000DfO3GAK"
 			},
 			"prediction": {
-				"baseLine": 200.5658084432794,
+				"baseLine": 375.5394915444182,
 				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "945"
+							}
+						],
+						"value": 796.8794074437664
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Phones"
+							},
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "945"
+							}
+						],
+						"value": -719.0887368417715
+					},
 					{
 						"columns": [
 							{
 								"columnLabel": "Profit per Order",
 								"columnName": "Profit_per_Order",
-								"columnValue": "1.36"
+								"columnValue": "236.23"
 							}
 						],
-						"value": 318.57486951165915
+						"value": 513.9493155361178
+					}
+				],
+				"other": 343.1494623991549,
+				"smallTermCount": 2,
+				"total": 1310.4289400816857
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DfO3GAK"
+			},
+			"prediction": {
+				"baseLine": 375.5394915444182,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Envelopes"
+							},
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "28"
+							}
+						],
+						"value": -719.0887368417715
 					},
 					{
 						"columns": [
 							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "2"
+								"columnLabel": "Profit per Order",
+								"columnName": "Profit_per_Order",
+								"columnValue": "13.35"
+							}
+						],
+						"value": 240.9947845312264
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "28"
 							},
 							{
 								"columnLabel": "Profit per Order",
 								"columnName": "Profit_per_Order",
-								"columnValue": "1.36"
+								"columnValue": "13.35"
 							}
 						],
-						"value": -10.164341490834488
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "2"
-							}
-						],
-						"value": -0.8591745493406506
+						"value": 135.13027160632397
 					}
 				],
-				"other": 5.684341886080802e-14,
-				"smallTermCount": 0,
-				"total": 508.1171619147634
+				"other": 56.52780627732261,
+				"smallTermCount": 2,
+				"total": 89.10361711751972
 			},
 			"prescriptions": [],
 			"status": "Success"
 		},
 		{
 			"model": {
-				"id": "1OT5f000000E2MKGA0"
+				"id": "1OT5f000000DfO3GAK"
 			},
 			"prediction": {
-				"baseLine": 200.5658084432794,
+				"baseLine": 375.5394915444182,
 				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Art"
+							},
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "10"
+							}
+						],
+						"value": -719.0887368417715
+					},
 					{
 						"columns": [
 							{
 								"columnLabel": "Profit per Order",
 								"columnName": "Profit_per_Order",
-								"columnValue": "6.81"
+								"columnValue": "2.73"
 							}
 						],
-						"value": 318.5748695116592
+						"value": 240.9947845312264
 					},
 					{
 						"columns": [
 							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "6"
-							}
-						],
-						"value": 88.17841646889778
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "6"
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "10"
 							},
 							{
 								"columnLabel": "Profit per Order",
 								"columnName": "Profit_per_Order",
-								"columnValue": "6.81"
+								"columnValue": "2.73"
 							}
 						],
-						"value": -10.164341490834488
+						"value": 135.13027160632397
 					}
 				],
-				"other": 5.684341886080802e-14,
-				"smallTermCount": 0,
-				"total": 597.1547529330019
+				"other": 56.52780627732261,
+				"smallTermCount": 2,
+				"total": 89.10361711751972
 			},
 			"prescriptions": [],
 			"status": "Success"
 		},
 		{
 			"model": {
-				"id": "1OT5f000000E2MKGA0"
+				"id": "1OT5f000000DfO3GAK"
 			},
 			"prediction": {
-				"baseLine": 200.5658084432794,
+				"baseLine": 375.5394915444182,
 				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Appliances"
+							},
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "52"
+							}
+						],
+						"value": -719.0887368417715
+					},
 					{
 						"columns": [
 							{
 								"columnLabel": "Profit per Order",
 								"columnName": "Profit_per_Order",
-								"columnValue": "1.86"
+								"columnValue": "-131.12"
 							}
 						],
-						"value": 318.57486951165915
+						"value": 240.9947845312264
 					},
 					{
 						"columns": [
 							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "2"
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "52"
 							},
 							{
 								"columnLabel": "Profit per Order",
 								"columnName": "Profit_per_Order",
-								"columnValue": "1.86"
+								"columnValue": "-131.12"
 							}
 						],
-						"value": -10.164341490834488
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "2"
-							}
-						],
-						"value": -0.8591745493406506
+						"value": 135.13027160632397
 					}
 				],
-				"other": 5.684341886080802e-14,
-				"smallTermCount": 0,
-				"total": 508.1171619147634
+				"other": 56.52780627732261,
+				"smallTermCount": 2,
+				"total": 89.10361711751972
 			},
 			"prescriptions": [],
 			"status": "Success"
 		},
 		{
 			"model": {
-				"id": "1OT5f000000E2MKGA0"
+				"id": "1OT5f000000DfO3GAK"
 			},
 			"prediction": {
-				"baseLine": 200.5658084432794,
+				"baseLine": 375.5394915444182,
 				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Appliances"
+							},
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "97"
+							}
+						],
+						"value": -719.0887368417715
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Profit per Order",
+								"columnName": "Profit_per_Order",
+								"columnValue": "-243.16"
+							}
+						],
+						"value": 240.9947845312264
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "97"
+							},
+							{
+								"columnLabel": "Profit per Order",
+								"columnName": "Profit_per_Order",
+								"columnValue": "-243.16"
+							}
+						],
+						"value": 135.13027160632397
+					}
+				],
+				"other": 56.52780627732261,
+				"smallTermCount": 2,
+				"total": 89.10361711751972
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DfO3GAK"
+			},
+			"prediction": {
+				"baseLine": 375.5394915444182,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Accessories"
+							},
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "29"
+							}
+						],
+						"value": -719.0887368417715
+					},
 					{
 						"columns": [
 							{
@@ -1665,14 +2320,14 @@
 								"columnValue": "7.25"
 							}
 						],
-						"value": 318.57486951165915
+						"value": 240.9947845312264
 					},
 					{
 						"columns": [
 							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "2"
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "29"
 							},
 							{
 								"columnLabel": "Profit per Order",
@@ -1680,583 +2335,418 @@
 								"columnValue": "7.25"
 							}
 						],
-						"value": -10.164341490834488
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "2"
-							}
-						],
-						"value": -0.8591745493406506
+						"value": 135.13027160632397
 					}
 				],
-				"other": 5.684341886080802e-14,
-				"smallTermCount": 0,
-				"total": 508.1171619147634
+				"other": 56.52780627732261,
+				"smallTermCount": 2,
+				"total": 89.10361711751972
 			},
 			"prescriptions": [],
 			"status": "Success"
 		},
 		{
 			"model": {
-				"id": "1OT5f000000E2MKGA0"
+				"id": "1OT5f000000DfO3GAK"
 			},
 			"prediction": {
-				"baseLine": 200.5658084432794,
+				"baseLine": 375.5394915444182,
 				"middleValues": [
 					{
 						"columns": [
 							{
-								"columnLabel": "Profit per Order",
-								"columnName": "Profit_per_Order",
-								"columnValue": "24.88"
-							}
-						],
-						"value": 318.5748695116592
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "8"
-							}
-						],
-						"value": 140.51697603388252
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "8"
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Binders"
 							},
 							{
-								"columnLabel": "Profit per Order",
-								"columnName": "Profit_per_Order",
-								"columnValue": "24.88"
-							}
-						],
-						"value": -10.164341490834488
-					}
-				],
-				"other": 5.684341886080802e-14,
-				"smallTermCount": 0,
-				"total": 649.4933124979866
-			},
-			"prescriptions": [],
-			"status": "Success"
-		},
-		{
-			"model": {
-				"id": "1OT5f000000E2MKGA0"
-			},
-			"prediction": {
-				"baseLine": 200.5658084432794,
-				"middleValues": [
-					{
-						"columns": [
-							{
-								"columnLabel": "Profit per Order",
-								"columnName": "Profit_per_Order",
-								"columnValue": "6.79"
-							}
-						],
-						"value": 318.57486951165915
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "3"
-							},
-							{
-								"columnLabel": "Profit per Order",
-								"columnName": "Profit_per_Order",
-								"columnValue": "6.79"
-							}
-						],
-						"value": -95.09860820395955
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "3"
-							}
-						],
-						"value": 94.18679950654004
-					}
-				],
-				"other": 0.0,
-				"smallTermCount": 0,
-				"total": 518.228869257519
-			},
-			"prescriptions": [],
-			"status": "Success"
-		},
-		{
-			"model": {
-				"id": "1OT5f000000E2MKGA0"
-			},
-			"prediction": {
-				"baseLine": 200.5658084432794,
-				"middleValues": [
-					{
-						"columns": [
-							{
-								"columnLabel": "Profit per Order",
-								"columnName": "Profit_per_Order",
-								"columnValue": "-161.88"
-							}
-						],
-						"value": -110.9780411745728
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "2"
-							},
-							{
-								"columnLabel": "Profit per Order",
-								"columnName": "Profit_per_Order",
-								"columnValue": "-161.88"
-							}
-						],
-						"value": -10.164341490834488
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "2"
-							}
-						],
-						"value": -0.8591745493406506
-					}
-				],
-				"other": 0.0,
-				"smallTermCount": 0,
-				"total": 78.56425122853146
-			},
-			"prescriptions": [],
-			"status": "Success"
-		},
-		{
-			"model": {
-				"id": "1OT5f000000E2MKGA0"
-			},
-			"prediction": {
-				"baseLine": 200.5658084432794,
-				"middleValues": [
-					{
-						"columns": [
-							{
-								"columnLabel": "Profit per Order",
-								"columnName": "Profit_per_Order",
-								"columnValue": "35.63"
-							}
-						],
-						"value": 318.57486951165915
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "2"
-							},
-							{
-								"columnLabel": "Profit per Order",
-								"columnName": "Profit_per_Order",
-								"columnValue": "35.63"
-							}
-						],
-						"value": -10.164341490834488
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "2"
-							}
-						],
-						"value": -0.8591745493406506
-					}
-				],
-				"other": 5.684341886080802e-14,
-				"smallTermCount": 0,
-				"total": 508.1171619147634
-			},
-			"prescriptions": [],
-			"status": "Success"
-		},
-		{
-			"model": {
-				"id": "1OT5f000000E2MKGA0"
-			},
-			"prediction": {
-				"baseLine": 200.5658084432794,
-				"middleValues": [
-					{
-						"columns": [
-							{
-								"columnLabel": "Profit per Order",
-								"columnName": "Profit_per_Order",
-								"columnValue": "8.88"
-							}
-						],
-						"value": 318.57486951165915
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "2"
-							},
-							{
-								"columnLabel": "Profit per Order",
-								"columnName": "Profit_per_Order",
-								"columnValue": "8.88"
-							}
-						],
-						"value": -10.164341490834488
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "2"
-							}
-						],
-						"value": -0.8591745493406506
-					}
-				],
-				"other": 5.684341886080802e-14,
-				"smallTermCount": 0,
-				"total": 508.1171619147634
-			},
-			"prescriptions": [],
-			"status": "Success"
-		},
-		{
-			"model": {
-				"id": "1OT5f000000E2MKGA0"
-			},
-			"prediction": {
-				"baseLine": 200.5658084432794,
-				"middleValues": [
-					{
-						"columns": [
-							{
-								"columnLabel": "Profit per Order",
-								"columnName": "Profit_per_Order",
-								"columnValue": "4.48"
-							}
-						],
-						"value": 318.57486951165915
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "2"
-							},
-							{
-								"columnLabel": "Profit per Order",
-								"columnName": "Profit_per_Order",
-								"columnValue": "4.48"
-							}
-						],
-						"value": -10.164341490834488
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "2"
-							}
-						],
-						"value": -0.8591745493406506
-					}
-				],
-				"other": 5.684341886080802e-14,
-				"smallTermCount": 0,
-				"total": 508.1171619147634
-			},
-			"prescriptions": [],
-			"status": "Success"
-		},
-		{
-			"model": {
-				"id": "1OT5f000000E2MKGA0"
-			},
-			"prediction": {
-				"baseLine": 200.5658084432794,
-				"middleValues": [
-					{
-						"columns": [
-							{
-								"columnLabel": "Profit per Order",
-								"columnName": "Profit_per_Order",
-								"columnValue": "0.97"
-							}
-						],
-						"value": 318.57486951165915
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "1"
-							},
-							{
-								"columnLabel": "Profit per Order",
-								"columnName": "Profit_per_Order",
-								"columnValue": "0.97"
-							}
-						],
-						"value": -10.164341490834488
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "1"
-							}
-						],
-						"value": -0.8591745493406506
-					}
-				],
-				"other": 5.684341886080802e-14,
-				"smallTermCount": 0,
-				"total": 508.1171619147634
-			},
-			"prescriptions": [],
-			"status": "Success"
-		},
-		{
-			"model": {
-				"id": "1OT5f000000E2MKGA0"
-			},
-			"prediction": {
-				"baseLine": 200.5658084432794,
-				"middleValues": [
-					{
-						"columns": [
-							{
-								"columnLabel": "Profit per Order",
-								"columnName": "Profit_per_Order",
-								"columnValue": "-12.43"
-							}
-						],
-						"value": 318.5748695116592
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
+								"columnLabel": "Sales",
+								"columnName": "Sales",
 								"columnValue": "7"
 							}
 						],
-						"value": 88.17841646889778
+						"value": -719.0887368417715
 					},
 					{
 						"columns": [
 							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
+								"columnLabel": "Profit per Order",
+								"columnName": "Profit_per_Order",
+								"columnValue": "3.44"
+							}
+						],
+						"value": 240.9947845312264
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
 								"columnValue": "7"
 							},
 							{
 								"columnLabel": "Profit per Order",
 								"columnName": "Profit_per_Order",
-								"columnValue": "-12.43"
+								"columnValue": "3.44"
 							}
 						],
-						"value": -10.164341490834488
+						"value": 135.13027160632397
 					}
 				],
-				"other": 5.684341886080802e-14,
-				"smallTermCount": 0,
-				"total": 597.1547529330019
+				"other": 56.52780627732261,
+				"smallTermCount": 2,
+				"total": 89.10361711751972
 			},
 			"prescriptions": [],
 			"status": "Success"
 		},
 		{
 			"model": {
-				"id": "1OT5f000000E2MKGA0"
+				"id": "1OT5f000000DfO3GAK"
 			},
 			"prediction": {
-				"baseLine": 200.5658084432794,
+				"baseLine": 375.5394915444182,
 				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "899"
+							}
+						],
+						"value": 796.8794074437664
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Bookcases"
+							},
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "899"
+							}
+						],
+						"value": -719.0887368417715
+					},
 					{
 						"columns": [
 							{
 								"columnLabel": "Profit per Order",
 								"columnName": "Profit_per_Order",
-								"columnValue": "-4.68"
+								"columnValue": "112.39"
 							}
 						],
-						"value": 318.57486951165915
+						"value": 513.9493155361178
+					}
+				],
+				"other": 343.1494623991549,
+				"smallTermCount": 2,
+				"total": 1310.4289400816857
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DfO3GAK"
+			},
+			"prediction": {
+				"baseLine": 375.5394915444182,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Art"
+							},
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "6"
+							}
+						],
+						"value": -719.0887368417715
 					},
 					{
 						"columns": [
 							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "3"
+								"columnLabel": "Profit per Order",
+								"columnName": "Profit_per_Order",
+								"columnValue": "1.59"
+							}
+						],
+						"value": 240.9947845312264
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "6"
 							},
 							{
 								"columnLabel": "Profit per Order",
 								"columnName": "Profit_per_Order",
-								"columnValue": "-4.68"
+								"columnValue": "1.59"
 							}
 						],
-						"value": -95.09860820395955
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "3"
-							}
-						],
-						"value": 94.18679950654004
+						"value": 135.13027160632397
 					}
 				],
-				"other": 0.0,
-				"smallTermCount": 0,
-				"total": 518.228869257519
+				"other": 56.52780627732261,
+				"smallTermCount": 2,
+				"total": 89.10361711751972
 			},
 			"prescriptions": [],
 			"status": "Success"
 		},
 		{
 			"model": {
-				"id": "1OT5f000000E2MKGA0"
+				"id": "1OT5f000000DfO3GAK"
 			},
 			"prediction": {
-				"baseLine": 200.5658084432794,
+				"baseLine": 375.5394915444182,
 				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Storage"
+							},
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "84"
+							}
+						],
+						"value": -719.0887368417715
+					},
 					{
 						"columns": [
 							{
 								"columnLabel": "Profit per Order",
 								"columnName": "Profit_per_Order",
-								"columnValue": "-120.51"
+								"columnValue": "5.87"
 							}
 						],
-						"value": -110.97804117457281
+						"value": 240.9947845312264
 					},
 					{
 						"columns": [
 							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "84"
+							},
+							{
+								"columnLabel": "Profit per Order",
+								"columnName": "Profit_per_Order",
+								"columnValue": "5.87"
+							}
+						],
+						"value": 135.13027160632397
+					}
+				],
+				"other": 56.52780627732261,
+				"smallTermCount": 2,
+				"total": 89.10361711751972
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DfO3GAK"
+			},
+			"prediction": {
+				"baseLine": 375.5394915444182,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Fasteners"
+							},
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "52"
+							}
+						],
+						"value": -719.0887368417715
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Profit per Order",
+								"columnName": "Profit_per_Order",
+								"columnValue": "16.21"
+							}
+						],
+						"value": 240.9947845312264
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "52"
+							},
+							{
+								"columnLabel": "Profit per Order",
+								"columnName": "Profit_per_Order",
+								"columnValue": "16.21"
+							}
+						],
+						"value": 135.13027160632397
+					}
+				],
+				"other": 56.52780627732261,
+				"smallTermCount": 2,
+				"total": 89.10361711751972
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DfO3GAK"
+			},
+			"prediction": {
+				"baseLine": 375.5394915444182,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Storage"
+							},
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "93"
+							}
+						],
+						"value": -719.0887368417715
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Profit per Order",
+								"columnName": "Profit_per_Order",
+								"columnValue": "26.06"
+							}
+						],
+						"value": 240.9947845312264
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "93"
+							},
+							{
+								"columnLabel": "Profit per Order",
+								"columnName": "Profit_per_Order",
+								"columnValue": "26.06"
+							}
+						],
+						"value": 135.13027160632397
+					}
+				],
+				"other": 56.52780627732261,
+				"smallTermCount": 2,
+				"total": 89.10361711751972
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DfO3GAK"
+			},
+			"prediction": {
+				"baseLine": 375.5394915444182,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Binders"
+							},
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
 								"columnValue": "5"
 							}
 						],
-						"value": 94.18679950654004
+						"value": -719.0887368417715
 					},
 					{
 						"columns": [
 							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
+								"columnLabel": "Profit per Order",
+								"columnName": "Profit_per_Order",
+								"columnValue": "-3.55"
+							}
+						],
+						"value": 240.9947845312264
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
 								"columnValue": "5"
 							},
 							{
 								"columnLabel": "Profit per Order",
 								"columnName": "Profit_per_Order",
-								"columnValue": "-120.51"
+								"columnValue": "-3.55"
 							}
 						],
-						"value": -10.164341490834488
+						"value": 135.13027160632397
 					}
 				],
-				"other": 0.0,
-				"smallTermCount": 0,
-				"total": 173.61022528441215
+				"other": 56.52780627732261,
+				"smallTermCount": 2,
+				"total": 89.10361711751972
 			},
 			"prescriptions": [],
 			"status": "Success"
 		},
 		{
 			"model": {
-				"id": "1OT5f000000E2MKGA0"
+				"id": "1OT5f000000DfO3GAK"
 			},
 			"prediction": {
-				"baseLine": 200.5658084432794,
+				"baseLine": 375.5394915444182,
 				"middleValues": [
 					{
 						"columns": [
 							{
-								"columnLabel": "Profit per Order",
-								"columnName": "Profit_per_Order",
-								"columnValue": "1.2"
-							}
-						],
-						"value": 318.57486951165915
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "2"
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Storage"
 							},
 							{
-								"columnLabel": "Profit per Order",
-								"columnName": "Profit_per_Order",
-								"columnValue": "1.2"
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "167"
 							}
 						],
-						"value": -10.164341490834488
+						"value": -719.0887368417715
 					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "2"
-							}
-						],
-						"value": -0.8591745493406506
-					}
-				],
-				"other": 5.684341886080802e-14,
-				"smallTermCount": 0,
-				"total": 508.1171619147634
-			},
-			"prescriptions": [],
-			"status": "Success"
-		},
-		{
-			"model": {
-				"id": "1OT5f000000E2MKGA0"
-			},
-			"prediction": {
-				"baseLine": 200.5658084432794,
-				"middleValues": [
 					{
 						"columns": [
 							{
@@ -2265,14 +2755,14 @@
 								"columnValue": "41.68"
 							}
 						],
-						"value": 318.57486951165915
+						"value": 240.9947845312264
 					},
 					{
 						"columns": [
 							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "2"
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "167"
 							},
 							{
 								"columnLabel": "Profit per Order",
@@ -2280,483 +2770,368 @@
 								"columnValue": "41.68"
 							}
 						],
-						"value": -10.164341490834488
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "2"
-							}
-						],
-						"value": -0.8591745493406506
+						"value": 135.13027160632397
 					}
 				],
-				"other": 5.684341886080802e-14,
-				"smallTermCount": 0,
-				"total": 508.1171619147634
+				"other": 56.52780627732261,
+				"smallTermCount": 2,
+				"total": 89.10361711751972
 			},
 			"prescriptions": [],
 			"status": "Success"
 		},
 		{
 			"model": {
-				"id": "1OT5f000000E2MKGA0"
+				"id": "1OT5f000000DfO3GAK"
 			},
 			"prediction": {
-				"baseLine": 200.5658084432794,
+				"baseLine": 375.5394915444182,
 				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Paper"
+							},
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "48"
+							}
+						],
+						"value": -719.0887368417715
+					},
 					{
 						"columns": [
 							{
 								"columnLabel": "Profit per Order",
 								"columnName": "Profit_per_Order",
-								"columnValue": "12.44"
+								"columnValue": "23.94"
 							}
 						],
-						"value": 318.5748695116592
+						"value": 240.9947845312264
 					},
 					{
 						"columns": [
 							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "4"
-							}
-						],
-						"value": 94.18679950654004
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "4"
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "48"
 							},
 							{
 								"columnLabel": "Profit per Order",
 								"columnName": "Profit_per_Order",
-								"columnValue": "12.44"
+								"columnValue": "23.94"
 							}
 						],
-						"value": -10.164341490834488
+						"value": 135.13027160632397
 					}
 				],
-				"other": 5.684341886080802e-14,
-				"smallTermCount": 0,
-				"total": 603.1631359706441
+				"other": 56.52780627732261,
+				"smallTermCount": 2,
+				"total": 89.10361711751972
 			},
 			"prescriptions": [],
 			"status": "Success"
 		},
 		{
 			"model": {
-				"id": "1OT5f000000E2MKGA0"
+				"id": "1OT5f000000DfO3GAK"
 			},
 			"prediction": {
-				"baseLine": 200.5658084432794,
+				"baseLine": 375.5394915444182,
 				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Binders"
+							},
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "18"
+							}
+						],
+						"value": -719.0887368417715
+					},
 					{
 						"columns": [
 							{
 								"columnLabel": "Profit per Order",
 								"columnName": "Profit_per_Order",
-								"columnValue": "3.58"
+								"columnValue": "6.13"
 							}
 						],
-						"value": 318.57486951165915
+						"value": 240.9947845312264
 					},
 					{
 						"columns": [
 							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "1"
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "18"
 							},
 							{
 								"columnLabel": "Profit per Order",
 								"columnName": "Profit_per_Order",
-								"columnValue": "3.58"
+								"columnValue": "6.13"
 							}
 						],
-						"value": -10.164341490834488
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "1"
-							}
-						],
-						"value": -0.8591745493406506
+						"value": 135.13027160632397
 					}
 				],
-				"other": 5.684341886080802e-14,
-				"smallTermCount": 0,
-				"total": 508.1171619147634
+				"other": 56.52780627732261,
+				"smallTermCount": 2,
+				"total": 89.10361711751972
 			},
 			"prescriptions": [],
 			"status": "Success"
 		},
 		{
 			"model": {
-				"id": "1OT5f000000E2MKGA0"
+				"id": "1OT5f000000DfO3GAK"
 			},
 			"prediction": {
-				"baseLine": 200.5658084432794,
+				"baseLine": 375.5394915444182,
 				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Fasteners"
+							},
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "8"
+							}
+						],
+						"value": -719.0887368417715
+					},
 					{
 						"columns": [
 							{
 								"columnLabel": "Profit per Order",
 								"columnName": "Profit_per_Order",
-								"columnValue": "-8.49"
+								"columnValue": "0.3"
 							}
 						],
-						"value": 318.5748695116592
+						"value": 240.9947845312264
 					},
 					{
 						"columns": [
 							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "9"
-							}
-						],
-						"value": 140.51697603388252
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "9"
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "8"
 							},
 							{
 								"columnLabel": "Profit per Order",
 								"columnName": "Profit_per_Order",
-								"columnValue": "-8.49"
+								"columnValue": "0.3"
 							}
 						],
-						"value": -10.164341490834488
+						"value": 135.13027160632397
 					}
 				],
-				"other": 5.684341886080802e-14,
-				"smallTermCount": 0,
-				"total": 649.4933124979866
+				"other": 56.52780627732261,
+				"smallTermCount": 2,
+				"total": 89.10361711751972
 			},
 			"prescriptions": [],
 			"status": "Success"
 		},
 		{
 			"model": {
-				"id": "1OT5f000000E2MKGA0"
+				"id": "1OT5f000000DfO3GAK"
 			},
 			"prediction": {
-				"baseLine": 200.5658084432794,
+				"baseLine": 375.5394915444182,
 				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Envelopes"
+							},
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "58"
+							}
+						],
+						"value": -719.0887368417715
+					},
 					{
 						"columns": [
 							{
 								"columnLabel": "Profit per Order",
 								"columnName": "Profit_per_Order",
-								"columnValue": "6.65"
+								"columnValue": "21.59"
 							}
 						],
-						"value": 318.57486951165915
+						"value": 240.9947845312264
 					},
 					{
 						"columns": [
 							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "3"
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "58"
 							},
 							{
 								"columnLabel": "Profit per Order",
 								"columnName": "Profit_per_Order",
-								"columnValue": "6.65"
+								"columnValue": "21.59"
 							}
 						],
-						"value": -95.09860820395955
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "3"
-							}
-						],
-						"value": 94.18679950654004
+						"value": 135.13027160632397
 					}
 				],
-				"other": 0.0,
-				"smallTermCount": 0,
-				"total": 518.228869257519
+				"other": 56.52780627732261,
+				"smallTermCount": 2,
+				"total": 89.10361711751972
 			},
 			"prescriptions": [],
 			"status": "Success"
 		},
 		{
 			"model": {
-				"id": "1OT5f000000E2MKGA0"
+				"id": "1OT5f000000DfO3GAK"
 			},
 			"prediction": {
-				"baseLine": 200.5658084432794,
+				"baseLine": 375.5394915444182,
 				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Fasteners"
+							},
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "19"
+							}
+						],
+						"value": -719.0887368417715
+					},
 					{
 						"columns": [
 							{
 								"columnLabel": "Profit per Order",
 								"columnName": "Profit_per_Order",
-								"columnValue": "92.37"
+								"columnValue": "6.68"
 							}
 						],
-						"value": 498.8380346240619
+						"value": 240.9947845312264
 					},
 					{
 						"columns": [
 							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "7"
-							}
-						],
-						"value": 88.17841646889778
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "7"
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "19"
 							},
 							{
 								"columnLabel": "Profit per Order",
 								"columnName": "Profit_per_Order",
-								"columnValue": "92.37"
+								"columnValue": "6.68"
 							}
 						],
-						"value": -10.164341490834488
+						"value": 135.13027160632397
 					}
 				],
-				"other": -5.684341886080802e-14,
-				"smallTermCount": 0,
-				"total": 777.4179180454046
+				"other": 56.52780627732261,
+				"smallTermCount": 2,
+				"total": 89.10361711751972
 			},
 			"prescriptions": [],
 			"status": "Success"
 		},
 		{
 			"model": {
-				"id": "1OT5f000000E2MKGA0"
+				"id": "1OT5f000000DfO3GAK"
 			},
 			"prediction": {
-				"baseLine": 200.5658084432794,
+				"baseLine": 375.5394915444182,
 				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Bookcases"
+							},
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "87"
+							}
+						],
+						"value": -719.0887368417715
+					},
 					{
 						"columns": [
 							{
 								"columnLabel": "Profit per Order",
 								"columnName": "Profit_per_Order",
-								"columnValue": "2.32"
+								"columnValue": "-48.7"
 							}
 						],
-						"value": 318.57486951165915
+						"value": 240.9947845312264
 					},
 					{
 						"columns": [
 							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "3"
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "87"
 							},
 							{
 								"columnLabel": "Profit per Order",
 								"columnName": "Profit_per_Order",
-								"columnValue": "2.32"
+								"columnValue": "-48.7"
 							}
 						],
-						"value": -95.09860820395955
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "3"
-							}
-						],
-						"value": 94.18679950654004
+						"value": 135.13027160632397
 					}
 				],
-				"other": 0.0,
-				"smallTermCount": 0,
-				"total": 518.228869257519
+				"other": 56.52780627732261,
+				"smallTermCount": 2,
+				"total": 89.10361711751972
 			},
 			"prescriptions": [],
 			"status": "Success"
 		},
 		{
 			"model": {
-				"id": "1OT5f000000E2MKGA0"
+				"id": "1OT5f000000DfO3GAK"
 			},
 			"prediction": {
-				"baseLine": 200.5658084432794,
+				"baseLine": 375.5394915444182,
 				"middleValues": [
 					{
 						"columns": [
 							{
-								"columnLabel": "Profit per Order",
-								"columnName": "Profit_per_Order",
-								"columnValue": "47.84"
-							}
-						],
-						"value": 318.5748695116592
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "5"
-							}
-						],
-						"value": 94.18679950654004
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "5"
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Furnishings"
 							},
 							{
-								"columnLabel": "Profit per Order",
-								"columnName": "Profit_per_Order",
-								"columnValue": "47.84"
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "218"
 							}
 						],
-						"value": -10.164341490834488
-					}
-				],
-				"other": 5.684341886080802e-14,
-				"smallTermCount": 0,
-				"total": 603.1631359706441
-			},
-			"prescriptions": [],
-			"status": "Success"
-		},
-		{
-			"model": {
-				"id": "1OT5f000000E2MKGA0"
-			},
-			"prediction": {
-				"baseLine": 200.5658084432794,
-				"middleValues": [
-					{
-						"columns": [
-							{
-								"columnLabel": "Profit per Order",
-								"columnName": "Profit_per_Order",
-								"columnValue": "10.89"
-							}
-						],
-						"value": 318.5748695116592
+						"value": -719.0887368417715
 					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "6"
-							}
-						],
-						"value": 88.17841646889778
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "6"
-							},
-							{
-								"columnLabel": "Profit per Order",
-								"columnName": "Profit_per_Order",
-								"columnValue": "10.89"
-							}
-						],
-						"value": -10.164341490834488
-					}
-				],
-				"other": 5.684341886080802e-14,
-				"smallTermCount": 0,
-				"total": 597.1547529330019
-			},
-			"prescriptions": [],
-			"status": "Success"
-		},
-		{
-			"model": {
-				"id": "1OT5f000000E2MKGA0"
-			},
-			"prediction": {
-				"baseLine": 200.5658084432794,
-				"middleValues": [
-					{
-						"columns": [
-							{
-								"columnLabel": "Profit per Order",
-								"columnName": "Profit_per_Order",
-								"columnValue": "-204.31"
-							}
-						],
-						"value": 457.93216686864386
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "5"
-							}
-						],
-						"value": 94.18679950654004
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "5"
-							},
-							{
-								"columnLabel": "Profit per Order",
-								"columnName": "Profit_per_Order",
-								"columnValue": "-204.31"
-							}
-						],
-						"value": -10.164341490834488
-					}
-				],
-				"other": -5.684341886080802e-14,
-				"smallTermCount": 0,
-				"total": 742.5204333276288
-			},
-			"prescriptions": [],
-			"status": "Success"
-		},
-		{
-			"model": {
-				"id": "1OT5f000000E2MKGA0"
-			},
-			"prediction": {
-				"baseLine": 200.5658084432794,
-				"middleValues": [
 					{
 						"columns": [
 							{
@@ -2765,24 +3140,14 @@
 								"columnValue": "-24.56"
 							}
 						],
-						"value": -110.97804117457281
+						"value": 240.9947845312264
 					},
 					{
 						"columns": [
 							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "3"
-							}
-						],
-						"value": 94.18679950654004
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "3"
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "218"
 							},
 							{
 								"columnLabel": "Profit per Order",
@@ -2790,732 +3155,1022 @@
 								"columnValue": "-24.56"
 							}
 						],
-						"value": -10.164341490834488
+						"value": 135.13027160632397
 					}
 				],
-				"other": 0.0,
-				"smallTermCount": 0,
-				"total": 173.61022528441215
+				"other": 56.52780627732261,
+				"smallTermCount": 2,
+				"total": 89.10361711751972
 			},
 			"prescriptions": [],
 			"status": "Success"
 		},
 		{
 			"model": {
-				"id": "1OT5f000000E2MKGA0"
+				"id": "1OT5f000000DfO3GAK"
 			},
 			"prediction": {
-				"baseLine": 200.5658084432794,
+				"baseLine": 375.5394915444182,
 				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Fasteners"
+							},
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "28"
+							}
+						],
+						"value": -719.0887368417715
+					},
 					{
 						"columns": [
 							{
 								"columnLabel": "Profit per Order",
 								"columnName": "Profit_per_Order",
-								"columnValue": "-131.45"
+								"columnValue": "9.3"
 							}
 						],
-						"value": -110.97804117457281
+						"value": 240.9947845312264
 					},
 					{
 						"columns": [
 							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "3"
-							}
-						],
-						"value": 94.18679950654004
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "3"
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "28"
 							},
 							{
 								"columnLabel": "Profit per Order",
 								"columnName": "Profit_per_Order",
-								"columnValue": "-131.45"
+								"columnValue": "9.3"
 							}
 						],
-						"value": -10.164341490834488
+						"value": 135.13027160632397
 					}
 				],
-				"other": 0.0,
-				"smallTermCount": 0,
-				"total": 173.61022528441215
+				"other": 56.52780627732261,
+				"smallTermCount": 2,
+				"total": 89.10361711751972
 			},
 			"prescriptions": [],
 			"status": "Success"
 		},
 		{
 			"model": {
-				"id": "1OT5f000000E2MKGA0"
+				"id": "1OT5f000000DfO3GAK"
 			},
 			"prediction": {
-				"baseLine": 200.5658084432794,
+				"baseLine": 375.5394915444182,
 				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "1082"
+							}
+						],
+						"value": 796.8794074437664
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Storage"
+							},
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "1082"
+							}
+						],
+						"value": -719.0887368417715
+					},
 					{
 						"columns": [
 							{
 								"columnLabel": "Profit per Order",
 								"columnName": "Profit_per_Order",
-								"columnValue": "12.86"
+								"columnValue": "10.82"
 							}
 						],
-						"value": 318.57486951165915
+						"value": 240.9947845312264
+					}
+				],
+				"other": 249.20079463819605,
+				"smallTermCount": 2,
+				"total": 943.5257413158354
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DfO3GAK"
+			},
+			"prediction": {
+				"baseLine": 375.5394915444182,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Paper"
+							},
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "57"
+							}
+						],
+						"value": -719.0887368417715
 					},
 					{
 						"columns": [
 							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "2"
+								"columnLabel": "Profit per Order",
+								"columnName": "Profit_per_Order",
+								"columnValue": "27.32"
+							}
+						],
+						"value": 240.9947845312264
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "57"
 							},
 							{
 								"columnLabel": "Profit per Order",
 								"columnName": "Profit_per_Order",
-								"columnValue": "12.86"
+								"columnValue": "27.32"
 							}
 						],
-						"value": -10.164341490834488
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "2"
-							}
-						],
-						"value": -0.8591745493406506
+						"value": 135.13027160632397
 					}
 				],
-				"other": 5.684341886080802e-14,
-				"smallTermCount": 0,
-				"total": 508.1171619147634
+				"other": 56.52780627732261,
+				"smallTermCount": 2,
+				"total": 89.10361711751972
 			},
 			"prescriptions": [],
 			"status": "Success"
 		},
 		{
 			"model": {
-				"id": "1OT5f000000E2MKGA0"
+				"id": "1OT5f000000DfO3GAK"
 			},
 			"prediction": {
-				"baseLine": 200.5658084432794,
+				"baseLine": 375.5394915444182,
 				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Furnishings"
+							},
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "78"
+							}
+						],
+						"value": -719.0887368417715
+					},
 					{
 						"columns": [
 							{
 								"columnLabel": "Profit per Order",
 								"columnName": "Profit_per_Order",
-								"columnValue": "20.92"
+								"columnValue": "38.02"
 							}
 						],
-						"value": 318.57486951165915
+						"value": 240.9947845312264
 					},
 					{
 						"columns": [
 							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "3"
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "78"
 							},
 							{
 								"columnLabel": "Profit per Order",
 								"columnName": "Profit_per_Order",
-								"columnValue": "20.92"
+								"columnValue": "38.02"
 							}
 						],
-						"value": -95.09860820395955
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "3"
-							}
-						],
-						"value": 94.18679950654004
+						"value": 135.13027160632397
 					}
 				],
-				"other": 0.0,
-				"smallTermCount": 0,
-				"total": 518.228869257519
+				"other": 56.52780627732261,
+				"smallTermCount": 2,
+				"total": 89.10361711751972
 			},
 			"prescriptions": [],
 			"status": "Success"
 		},
 		{
 			"model": {
-				"id": "1OT5f000000E2MKGA0"
+				"id": "1OT5f000000DfO3GAK"
 			},
 			"prediction": {
-				"baseLine": 200.5658084432794,
+				"baseLine": 375.5394915444182,
 				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Paper"
+							},
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "16"
+							}
+						],
+						"value": -719.0887368417715
+					},
 					{
 						"columns": [
 							{
 								"columnLabel": "Profit per Order",
 								"columnName": "Profit_per_Order",
-								"columnValue": "3.59"
+								"columnValue": "5.44"
 							}
 						],
-						"value": 318.5748695116592
+						"value": 240.9947845312264
 					},
 					{
 						"columns": [
 							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "4"
-							}
-						],
-						"value": 94.18679950654004
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "4"
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "16"
 							},
 							{
 								"columnLabel": "Profit per Order",
 								"columnName": "Profit_per_Order",
-								"columnValue": "3.59"
+								"columnValue": "5.44"
 							}
 						],
-						"value": -10.164341490834488
+						"value": 135.13027160632397
 					}
 				],
-				"other": 5.684341886080802e-14,
-				"smallTermCount": 0,
-				"total": 603.1631359706441
+				"other": 56.52780627732261,
+				"smallTermCount": 2,
+				"total": 89.10361711751972
 			},
 			"prescriptions": [],
 			"status": "Success"
 		},
 		{
 			"model": {
-				"id": "1OT5f000000E2MKGA0"
+				"id": "1OT5f000000DfO3GAK"
 			},
 			"prediction": {
-				"baseLine": 200.5658084432794,
+				"baseLine": 375.5394915444182,
 				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Art"
+							},
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "99"
+							}
+						],
+						"value": -719.0887368417715
+					},
 					{
 						"columns": [
 							{
 								"columnLabel": "Profit per Order",
 								"columnName": "Profit_per_Order",
-								"columnValue": "1.71"
+								"columnValue": "8.67"
 							}
 						],
-						"value": 318.57486951165915
+						"value": 240.9947845312264
 					},
 					{
 						"columns": [
 							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "1"
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "99"
 							},
 							{
 								"columnLabel": "Profit per Order",
 								"columnName": "Profit_per_Order",
-								"columnValue": "1.71"
+								"columnValue": "8.67"
 							}
 						],
-						"value": -10.164341490834488
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "1"
-							}
-						],
-						"value": -0.8591745493406506
+						"value": 135.13027160632397
 					}
 				],
-				"other": 5.684341886080802e-14,
-				"smallTermCount": 0,
-				"total": 508.1171619147634
+				"other": 56.52780627732261,
+				"smallTermCount": 2,
+				"total": 89.10361711751972
 			},
 			"prescriptions": [],
 			"status": "Success"
 		},
 		{
 			"model": {
-				"id": "1OT5f000000E2MKGA0"
+				"id": "1OT5f000000DfO3GAK"
 			},
 			"prediction": {
-				"baseLine": 200.5658084432794,
+				"baseLine": 375.5394915444182,
 				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Storage"
+							},
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "44"
+							}
+						],
+						"value": -719.0887368417715
+					},
 					{
 						"columns": [
 							{
 								"columnLabel": "Profit per Order",
 								"columnName": "Profit_per_Order",
-								"columnValue": "129.6"
+								"columnValue": "13.07"
 							}
 						],
-						"value": 706.879276001596
+						"value": 240.9947845312264
 					},
 					{
 						"columns": [
 							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "4"
-							}
-						],
-						"value": 94.18679950654004
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "4"
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "44"
 							},
 							{
 								"columnLabel": "Profit per Order",
 								"columnName": "Profit_per_Order",
-								"columnValue": "129.6"
+								"columnValue": "13.07"
 							}
 						],
-						"value": -10.164341490834488
+						"value": 135.13027160632397
 					}
 				],
-				"other": -1.1368683772161604e-13,
-				"smallTermCount": 0,
-				"total": 991.467542460581
+				"other": 56.52780627732261,
+				"smallTermCount": 2,
+				"total": 89.10361711751972
 			},
 			"prescriptions": [],
 			"status": "Success"
 		},
 		{
 			"model": {
-				"id": "1OT5f000000E2MKGA0"
+				"id": "1OT5f000000DfO3GAK"
 			},
 			"prediction": {
-				"baseLine": 200.5658084432794,
+				"baseLine": 375.5394915444182,
 				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Fasteners"
+							},
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "7"
+							}
+						],
+						"value": -719.0887368417715
+					},
 					{
 						"columns": [
 							{
 								"columnLabel": "Profit per Order",
 								"columnName": "Profit_per_Order",
-								"columnValue": "1"
+								"columnValue": "3.58"
 							}
 						],
-						"value": 318.57486951165915
+						"value": 240.9947845312264
 					},
 					{
 						"columns": [
 							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "1"
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "7"
 							},
 							{
 								"columnLabel": "Profit per Order",
 								"columnName": "Profit_per_Order",
-								"columnValue": "1"
+								"columnValue": "3.58"
 							}
 						],
-						"value": -10.164341490834488
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "1"
-							}
-						],
-						"value": -0.8591745493406506
+						"value": 135.13027160632397
 					}
 				],
-				"other": 5.684341886080802e-14,
-				"smallTermCount": 0,
-				"total": 508.1171619147634
+				"other": 56.52780627732261,
+				"smallTermCount": 2,
+				"total": 89.10361711751972
 			},
 			"prescriptions": [],
 			"status": "Success"
 		},
 		{
 			"model": {
-				"id": "1OT5f000000E2MKGA0"
+				"id": "1OT5f000000DfO3GAK"
 			},
 			"prediction": {
-				"baseLine": 200.5658084432794,
+				"baseLine": 375.5394915444182,
 				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Accessories"
+							},
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "100"
+							}
+						],
+						"value": -719.0887368417715
+					},
 					{
 						"columns": [
 							{
 								"columnLabel": "Profit per Order",
 								"columnName": "Profit_per_Order",
-								"columnValue": "4.49"
+								"columnValue": "35"
 							}
 						],
-						"value": 318.5748695116592
+						"value": 240.9947845312264
 					},
 					{
 						"columns": [
 							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "4"
-							}
-						],
-						"value": 94.18679950654004
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "4"
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "100"
 							},
 							{
 								"columnLabel": "Profit per Order",
 								"columnName": "Profit_per_Order",
-								"columnValue": "4.49"
+								"columnValue": "35"
 							}
 						],
-						"value": -10.164341490834488
+						"value": 135.13027160632397
 					}
 				],
-				"other": 5.684341886080802e-14,
-				"smallTermCount": 0,
-				"total": 603.1631359706441
+				"other": 56.52780627732261,
+				"smallTermCount": 2,
+				"total": 89.10361711751972
 			},
 			"prescriptions": [],
 			"status": "Success"
 		},
 		{
 			"model": {
-				"id": "1OT5f000000E2MKGA0"
+				"id": "1OT5f000000DfO3GAK"
 			},
 			"prediction": {
-				"baseLine": 200.5658084432794,
+				"baseLine": 375.5394915444182,
 				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "787"
+							}
+						],
+						"value": 796.8794074437664
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Chairs"
+							},
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "787"
+							}
+						],
+						"value": -719.0887368417715
+					},
 					{
 						"columns": [
 							{
 								"columnLabel": "Profit per Order",
 								"columnName": "Profit_per_Order",
-								"columnValue": "-17.46"
+								"columnValue": "-258.5"
 							}
 						],
-						"value": 318.57486951165915
+						"value": 240.9947845312264
+					}
+				],
+				"other": 249.20079463819605,
+				"smallTermCount": 2,
+				"total": 943.5257413158354
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DfO3GAK"
+			},
+			"prediction": {
+				"baseLine": 375.5394915444182,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Binders"
+							},
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "38"
+							}
+						],
+						"value": -719.0887368417715
 					},
 					{
 						"columns": [
 							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "3"
+								"columnLabel": "Profit per Order",
+								"columnName": "Profit_per_Order",
+								"columnValue": "-27.69"
+							}
+						],
+						"value": 240.9947845312264
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "38"
 							},
 							{
 								"columnLabel": "Profit per Order",
 								"columnName": "Profit_per_Order",
-								"columnValue": "-17.46"
+								"columnValue": "-27.69"
 							}
 						],
-						"value": -95.09860820395955
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "3"
-							}
-						],
-						"value": 94.18679950654004
+						"value": 135.13027160632397
 					}
 				],
-				"other": 0.0,
-				"smallTermCount": 0,
-				"total": 518.228869257519
+				"other": 56.52780627732261,
+				"smallTermCount": 2,
+				"total": 89.10361711751972
 			},
 			"prescriptions": [],
 			"status": "Success"
 		},
 		{
 			"model": {
-				"id": "1OT5f000000E2MKGA0"
+				"id": "1OT5f000000DfO3GAK"
 			},
 			"prediction": {
-				"baseLine": 200.5658084432794,
+				"baseLine": 375.5394915444182,
 				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Binders"
+							},
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "21"
+							}
+						],
+						"value": -719.0887368417715
+					},
 					{
 						"columns": [
 							{
 								"columnLabel": "Profit per Order",
 								"columnName": "Profit_per_Order",
-								"columnValue": "4.8"
+								"columnValue": "-13.82"
 							}
 						],
-						"value": 318.57486951165915
+						"value": 240.9947845312264
 					},
 					{
 						"columns": [
 							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "3"
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "21"
 							},
 							{
 								"columnLabel": "Profit per Order",
 								"columnName": "Profit_per_Order",
-								"columnValue": "4.8"
+								"columnValue": "-13.82"
 							}
 						],
-						"value": -95.09860820395955
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "3"
-							}
-						],
-						"value": 94.18679950654004
+						"value": 135.13027160632397
 					}
 				],
-				"other": 0.0,
-				"smallTermCount": 0,
-				"total": 518.228869257519
+				"other": 56.52780627732261,
+				"smallTermCount": 2,
+				"total": 89.10361711751972
 			},
 			"prescriptions": [],
 			"status": "Success"
 		},
 		{
 			"model": {
-				"id": "1OT5f000000E2MKGA0"
+				"id": "1OT5f000000DfO3GAK"
 			},
 			"prediction": {
-				"baseLine": 200.5658084432794,
+				"baseLine": 375.5394915444182,
 				"middleValues": [
 					{
 						"columns": [
 							{
-								"columnLabel": "Profit per Order",
-								"columnName": "Profit_per_Order",
-								"columnValue": "11.54"
-							}
-						],
-						"value": 318.57486951165915
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "2"
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Binders"
 							},
 							{
-								"columnLabel": "Profit per Order",
-								"columnName": "Profit_per_Order",
-								"columnValue": "11.54"
-							}
-						],
-						"value": -10.164341490834488
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "2"
-							}
-						],
-						"value": -0.8591745493406506
-					}
-				],
-				"other": 5.684341886080802e-14,
-				"smallTermCount": 0,
-				"total": 508.1171619147634
-			},
-			"prescriptions": [],
-			"status": "Success"
-		},
-		{
-			"model": {
-				"id": "1OT5f000000E2MKGA0"
-			},
-			"prediction": {
-				"baseLine": 200.5658084432794,
-				"middleValues": [
-					{
-						"columns": [
-							{
-								"columnLabel": "Profit per Order",
-								"columnName": "Profit_per_Order",
-								"columnValue": "1.07"
-							}
-						],
-						"value": 318.57486951165915
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "1"
-							},
-							{
-								"columnLabel": "Profit per Order",
-								"columnName": "Profit_per_Order",
-								"columnValue": "1.07"
-							}
-						],
-						"value": -10.164341490834488
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "1"
-							}
-						],
-						"value": -0.8591745493406506
-					}
-				],
-				"other": 5.684341886080802e-14,
-				"smallTermCount": 0,
-				"total": 508.1171619147634
-			},
-			"prescriptions": [],
-			"status": "Success"
-		},
-		{
-			"model": {
-				"id": "1OT5f000000E2MKGA0"
-			},
-			"prediction": {
-				"baseLine": 200.5658084432794,
-				"middleValues": [
-					{
-						"columns": [
-							{
-								"columnLabel": "Profit per Order",
-								"columnName": "Profit_per_Order",
-								"columnValue": "15.82"
-							}
-						],
-						"value": 318.5748695116592
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
+								"columnLabel": "Sales",
+								"columnName": "Sales",
 								"columnValue": "5"
 							}
 						],
-						"value": 94.18679950654004
+						"value": -719.0887368417715
 					},
 					{
 						"columns": [
 							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
+								"columnLabel": "Profit per Order",
+								"columnName": "Profit_per_Order",
+								"columnValue": "1.6"
+							}
+						],
+						"value": 240.9947845312264
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
 								"columnValue": "5"
 							},
 							{
 								"columnLabel": "Profit per Order",
 								"columnName": "Profit_per_Order",
-								"columnValue": "15.82"
+								"columnValue": "1.6"
 							}
 						],
-						"value": -10.164341490834488
+						"value": 135.13027160632397
 					}
 				],
-				"other": 5.684341886080802e-14,
-				"smallTermCount": 0,
-				"total": 603.1631359706441
+				"other": 56.52780627732261,
+				"smallTermCount": 2,
+				"total": 89.10361711751972
 			},
 			"prescriptions": [],
 			"status": "Success"
 		},
 		{
 			"model": {
-				"id": "1OT5f000000E2MKGA0"
+				"id": "1OT5f000000DfO3GAK"
 			},
 			"prediction": {
-				"baseLine": 200.5658084432794,
+				"baseLine": 375.5394915444182,
 				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Art"
+							},
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "18"
+							}
+						],
+						"value": -719.0887368417715
+					},
 					{
 						"columns": [
 							{
 								"columnLabel": "Profit per Order",
 								"columnName": "Profit_per_Order",
-								"columnValue": "0.15"
+								"columnValue": "1.12"
 							}
 						],
-						"value": 318.57486951165915
+						"value": 240.9947845312264
 					},
 					{
 						"columns": [
 							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "2"
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "18"
 							},
 							{
 								"columnLabel": "Profit per Order",
 								"columnName": "Profit_per_Order",
-								"columnValue": "0.15"
+								"columnValue": "1.12"
 							}
 						],
-						"value": -10.164341490834488
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "2"
-							}
-						],
-						"value": -0.8591745493406506
+						"value": 135.13027160632397
 					}
 				],
-				"other": 5.684341886080802e-14,
-				"smallTermCount": 0,
-				"total": 508.1171619147634
+				"other": 56.52780627732261,
+				"smallTermCount": 2,
+				"total": 89.10361711751972
 			},
 			"prescriptions": [],
 			"status": "Success"
 		},
 		{
 			"model": {
-				"id": "1OT5f000000E2MKGA0"
+				"id": "1OT5f000000DfO3GAK"
 			},
 			"prediction": {
-				"baseLine": 200.5658084432794,
+				"baseLine": 375.5394915444182,
 				"middleValues": [
 					{
 						"columns": [
 							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "4"
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Art"
+							},
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "8"
 							}
 						],
-						"value": 94.18679950654004
+						"value": -719.0887368417715
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Profit per Order",
+								"columnName": "Profit_per_Order",
+								"columnValue": "3.1"
+							}
+						],
+						"value": 240.9947845312264
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "8"
+							},
+							{
+								"columnLabel": "Profit per Order",
+								"columnName": "Profit_per_Order",
+								"columnValue": "3.1"
+							}
+						],
+						"value": 135.13027160632397
+					}
+				],
+				"other": 56.52780627732261,
+				"smallTermCount": 2,
+				"total": 89.10361711751972
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DfO3GAK"
+			},
+			"prediction": {
+				"baseLine": 375.5394915444182,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Envelopes"
+							},
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "8"
+							}
+						],
+						"value": -719.0887368417715
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Profit per Order",
+								"columnName": "Profit_per_Order",
+								"columnValue": "3.8"
+							}
+						],
+						"value": 240.9947845312264
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "8"
+							},
+							{
+								"columnLabel": "Profit per Order",
+								"columnName": "Profit_per_Order",
+								"columnValue": "3.8"
+							}
+						],
+						"value": 135.13027160632397
+					}
+				],
+				"other": 56.52780627732261,
+				"smallTermCount": 2,
+				"total": 89.10361711751972
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DfO3GAK"
+			},
+			"prediction": {
+				"baseLine": 375.5394915444182,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "648"
+							}
+						],
+						"value": 796.8794074437664
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Appliances"
+							},
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "648"
+							}
+						],
+						"value": -719.0887368417715
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Profit per Order",
+								"columnName": "Profit_per_Order",
+								"columnValue": "168.44"
+							}
+						],
+						"value": 513.9493155361178
+					}
+				],
+				"other": 343.1494623991549,
+				"smallTermCount": 2,
+				"total": 1310.4289400816857
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DfO3GAK"
+			},
+			"prediction": {
+				"baseLine": 375.5394915444182,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Furnishings"
+							},
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "47"
+							}
+						],
+						"value": -719.0887368417715
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Profit per Order",
+								"columnName": "Profit_per_Order",
+								"columnValue": "20.73"
+							}
+						],
+						"value": 240.9947845312264
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "47"
+							},
+							{
+								"columnLabel": "Profit per Order",
+								"columnName": "Profit_per_Order",
+								"columnValue": "20.73"
+							}
+						],
+						"value": 135.13027160632397
+					}
+				],
+				"other": 56.52780627732261,
+				"smallTermCount": 2,
+				"total": 89.10361711751972
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DfO3GAK"
+			},
+			"prediction": {
+				"baseLine": 375.5394915444182,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "1044"
+							}
+						],
+						"value": 796.8794074437664
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Bookcases"
+							},
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "1044"
+							}
+						],
+						"value": -719.0887368417715
 					},
 					{
 						"columns": [
@@ -3525,88 +4180,468 @@
 								"columnValue": "271.42"
 							}
 						],
-						"value": 88.2545487379021
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "4"
-							},
-							{
-								"columnLabel": "Profit per Order",
-								"columnName": "Profit_per_Order",
-								"columnValue": "271.42"
-							}
-						],
-						"value": -10.164341490834488
+						"value": 513.9493155361178
 					}
 				],
-				"other": 0.0,
-				"smallTermCount": 0,
-				"total": 372.84281519688707
+				"other": 343.1494623991549,
+				"smallTermCount": 2,
+				"total": 1310.4289400816857
 			},
 			"prescriptions": [],
 			"status": "Success"
 		},
 		{
 			"model": {
-				"id": "1OT5f000000E2MKGA0"
+				"id": "1OT5f000000DfO3GAK"
 			},
 			"prediction": {
-				"baseLine": 200.5658084432794,
+				"baseLine": 375.5394915444182,
 				"middleValues": [
 					{
 						"columns": [
 							{
-								"columnLabel": "Profit per Order",
-								"columnName": "Profit_per_Order",
-								"columnValue": "0.92"
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Paper"
+							},
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "26"
 							}
 						],
-						"value": 318.57486951165915
+						"value": -719.0887368417715
 					},
 					{
 						"columns": [
 							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "1"
+								"columnLabel": "Profit per Order",
+								"columnName": "Profit_per_Order",
+								"columnValue": "9.4"
+							}
+						],
+						"value": 240.9947845312264
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "26"
 							},
 							{
 								"columnLabel": "Profit per Order",
 								"columnName": "Profit_per_Order",
-								"columnValue": "0.92"
+								"columnValue": "9.4"
 							}
 						],
-						"value": -10.164341490834488
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "1"
-							}
-						],
-						"value": -0.8591745493406506
+						"value": 135.13027160632397
 					}
 				],
-				"other": 5.684341886080802e-14,
-				"smallTermCount": 0,
-				"total": 508.1171619147634
+				"other": 56.52780627732261,
+				"smallTermCount": 2,
+				"total": 89.10361711751972
 			},
 			"prescriptions": [],
 			"status": "Success"
 		},
 		{
 			"model": {
-				"id": "1OT5f000000E2MKGA0"
+				"id": "1OT5f000000DfO3GAK"
 			},
 			"prediction": {
-				"baseLine": 200.5658084432794,
+				"baseLine": 375.5394915444182,
 				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "1024"
+							}
+						],
+						"value": 796.8794074437664
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Accessories"
+							},
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "1024"
+							}
+						],
+						"value": -719.0887368417715
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Profit per Order",
+								"columnName": "Profit_per_Order",
+								"columnValue": "179.19"
+							}
+						],
+						"value": 513.9493155361178
+					}
+				],
+				"other": 343.1494623991549,
+				"smallTermCount": 2,
+				"total": 1310.4289400816857
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DfO3GAK"
+			},
+			"prediction": {
+				"baseLine": 375.5394915444182,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Binders"
+							},
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "23"
+							}
+						],
+						"value": -719.0887368417715
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Profit per Order",
+								"columnName": "Profit_per_Order",
+								"columnValue": "7.88"
+							}
+						],
+						"value": 240.9947845312264
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "23"
+							},
+							{
+								"columnLabel": "Profit per Order",
+								"columnName": "Profit_per_Order",
+								"columnValue": "7.88"
+							}
+						],
+						"value": 135.13027160632397
+					}
+				],
+				"other": 56.52780627732261,
+				"smallTermCount": 2,
+				"total": 89.10361711751972
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DfO3GAK"
+			},
+			"prediction": {
+				"baseLine": 375.5394915444182,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Accessories"
+							},
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "40"
+							}
+						],
+						"value": -719.0887368417715
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Profit per Order",
+								"columnName": "Profit_per_Order",
+								"columnValue": "13.59"
+							}
+						],
+						"value": 240.9947845312264
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "40"
+							},
+							{
+								"columnLabel": "Profit per Order",
+								"columnName": "Profit_per_Order",
+								"columnValue": "13.59"
+							}
+						],
+						"value": 135.13027160632397
+					}
+				],
+				"other": 56.52780627732261,
+				"smallTermCount": 2,
+				"total": 89.10361711751972
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DfO3GAK"
+			},
+			"prediction": {
+				"baseLine": 375.5394915444182,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "1800"
+							}
+						],
+						"value": 796.8794074437662
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Profit per Order",
+								"columnName": "Profit_per_Order",
+								"columnValue": "701.99"
+							}
+						],
+						"value": 513.9493155361179
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Copiers"
+							},
+							{
+								"columnLabel": "Profit per Order",
+								"columnName": "Profit_per_Order",
+								"columnValue": "701.99"
+							}
+						],
+						"value": 420.7018277535906
+					}
+				],
+				"other": 549.7982059386163,
+				"smallTermCount": 2,
+				"total": 2656.868248216509
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DfO3GAK"
+			},
+			"prediction": {
+				"baseLine": 375.5394915444182,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Supplies"
+							},
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "70"
+							}
+						],
+						"value": -719.0887368417715
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Profit per Order",
+								"columnName": "Profit_per_Order",
+								"columnValue": "21.04"
+							}
+						],
+						"value": 240.9947845312264
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "70"
+							},
+							{
+								"columnLabel": "Profit per Order",
+								"columnName": "Profit_per_Order",
+								"columnValue": "21.04"
+							}
+						],
+						"value": 135.13027160632397
+					}
+				],
+				"other": 56.52780627732261,
+				"smallTermCount": 2,
+				"total": 89.10361711751972
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DfO3GAK"
+			},
+			"prediction": {
+				"baseLine": 375.5394915444182,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Storage"
+							},
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "131"
+							}
+						],
+						"value": -719.0887368417715
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Profit per Order",
+								"columnName": "Profit_per_Order",
+								"columnValue": "-32.78"
+							}
+						],
+						"value": 240.9947845312264
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "131"
+							},
+							{
+								"columnLabel": "Profit per Order",
+								"columnName": "Profit_per_Order",
+								"columnValue": "-32.78"
+							}
+						],
+						"value": 135.13027160632397
+					}
+				],
+				"other": 56.52780627732261,
+				"smallTermCount": 2,
+				"total": 89.10361711751972
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DfO3GAK"
+			},
+			"prediction": {
+				"baseLine": 375.5394915444182,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Accessories"
+							},
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "58"
+							}
+						],
+						"value": -719.0887368417715
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Profit per Order",
+								"columnName": "Profit_per_Order",
+								"columnValue": "0.72"
+							}
+						],
+						"value": 240.9947845312264
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "58"
+							},
+							{
+								"columnLabel": "Profit per Order",
+								"columnName": "Profit_per_Order",
+								"columnValue": "0.72"
+							}
+						],
+						"value": 135.13027160632397
+					}
+				],
+				"other": 56.52780627732261,
+				"smallTermCount": 2,
+				"total": 89.10361711751972
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DfO3GAK"
+			},
+			"prediction": {
+				"baseLine": 375.5394915444182,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Art"
+							},
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "39"
+							}
+						],
+						"value": -719.0887368417715
+					},
 					{
 						"columns": [
 							{
@@ -3615,24 +4650,14 @@
 								"columnValue": "9.77"
 							}
 						],
-						"value": 318.5748695116592
+						"value": 240.9947845312264
 					},
 					{
 						"columns": [
 							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "6"
-							}
-						],
-						"value": 88.17841646889778
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "6"
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "39"
 							},
 							{
 								"columnLabel": "Profit per Order",
@@ -3640,273 +4665,303 @@
 								"columnValue": "9.77"
 							}
 						],
-						"value": -10.164341490834488
+						"value": 135.13027160632397
 					}
 				],
-				"other": 5.684341886080802e-14,
-				"smallTermCount": 0,
-				"total": 597.1547529330019
+				"other": 56.52780627732261,
+				"smallTermCount": 2,
+				"total": 89.10361711751972
 			},
 			"prescriptions": [],
 			"status": "Success"
 		},
 		{
 			"model": {
-				"id": "1OT5f000000E2MKGA0"
+				"id": "1OT5f000000DfO3GAK"
 			},
 			"prediction": {
-				"baseLine": 200.5658084432794,
+				"baseLine": 375.5394915444182,
 				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "1337"
+							}
+						],
+						"value": 796.8794074437664
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Bookcases"
+							},
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "1337"
+							}
+						],
+						"value": -719.0887368417715
+					},
 					{
 						"columns": [
 							{
 								"columnLabel": "Profit per Order",
 								"columnName": "Profit_per_Order",
-								"columnValue": "13.3"
+								"columnValue": "31.45"
 							}
 						],
-						"value": 318.5748695116592
+						"value": 240.9947845312264
+					}
+				],
+				"other": 249.20079463819605,
+				"smallTermCount": 2,
+				"total": 943.5257413158354
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DfO3GAK"
+			},
+			"prediction": {
+				"baseLine": 375.5394915444182,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Chairs"
+							},
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "307"
+							}
+						],
+						"value": -719.0887368417715
 					},
 					{
 						"columns": [
 							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "5"
+								"columnLabel": "Profit per Order",
+								"columnName": "Profit_per_Order",
+								"columnValue": "26.87"
 							}
 						],
-						"value": 94.18679950654004
+						"value": 240.9947845312264
 					},
 					{
 						"columns": [
 							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "5"
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "307"
 							},
 							{
 								"columnLabel": "Profit per Order",
 								"columnName": "Profit_per_Order",
-								"columnValue": "13.3"
+								"columnValue": "26.87"
 							}
 						],
-						"value": -10.164341490834488
+						"value": 135.13027160632397
 					}
 				],
-				"other": 5.684341886080802e-14,
-				"smallTermCount": 0,
-				"total": 603.1631359706441
+				"other": 56.52780627732261,
+				"smallTermCount": 2,
+				"total": 89.10361711751972
 			},
 			"prescriptions": [],
 			"status": "Success"
 		},
 		{
 			"model": {
-				"id": "1OT5f000000E2MKGA0"
+				"id": "1OT5f000000DfO3GAK"
 			},
 			"prediction": {
-				"baseLine": 200.5658084432794,
+				"baseLine": 375.5394915444182,
 				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Accessories"
+							},
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "197"
+							}
+						],
+						"value": -719.0887368417715
+					},
 					{
 						"columns": [
 							{
 								"columnLabel": "Profit per Order",
 								"columnName": "Profit_per_Order",
-								"columnValue": "4.65"
+								"columnValue": "56.57"
 							}
 						],
-						"value": 318.57486951165915
+						"value": 240.9947845312264
 					},
 					{
 						"columns": [
 							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "1"
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "197"
 							},
 							{
 								"columnLabel": "Profit per Order",
 								"columnName": "Profit_per_Order",
-								"columnValue": "4.65"
+								"columnValue": "56.57"
 							}
 						],
-						"value": -10.164341490834488
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "1"
-							}
-						],
-						"value": -0.8591745493406506
+						"value": 135.13027160632397
 					}
 				],
-				"other": 5.684341886080802e-14,
-				"smallTermCount": 0,
-				"total": 508.1171619147634
+				"other": 56.52780627732261,
+				"smallTermCount": 2,
+				"total": 89.10361711751972
 			},
 			"prescriptions": [],
 			"status": "Success"
 		},
 		{
 			"model": {
-				"id": "1OT5f000000E2MKGA0"
+				"id": "1OT5f000000DfO3GAK"
 			},
 			"prediction": {
-				"baseLine": 200.5658084432794,
+				"baseLine": 375.5394915444182,
 				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "866"
+							}
+						],
+						"value": 796.8794074437664
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Chairs"
+							},
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "866"
+							}
+						],
+						"value": -719.0887368417715
+					},
 					{
 						"columns": [
 							{
 								"columnLabel": "Profit per Order",
 								"columnName": "Profit_per_Order",
-								"columnValue": "27.43"
+								"columnValue": "225.26"
 							}
 						],
-						"value": 318.57486951165915
+						"value": 513.9493155361178
+					}
+				],
+				"other": 343.1494623991549,
+				"smallTermCount": 2,
+				"total": 1310.4289400816857
+			},
+			"prescriptions": [],
+			"status": "Success"
+		},
+		{
+			"model": {
+				"id": "1OT5f000000DfO3GAK"
+			},
+			"prediction": {
+				"baseLine": 375.5394915444182,
+				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Furnishings"
+							},
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "28"
+							}
+						],
+						"value": -719.0887368417715
 					},
 					{
 						"columns": [
 							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "1"
+								"columnLabel": "Profit per Order",
+								"columnName": "Profit_per_Order",
+								"columnValue": "11.08"
+							}
+						],
+						"value": 240.9947845312264
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "28"
 							},
 							{
 								"columnLabel": "Profit per Order",
 								"columnName": "Profit_per_Order",
-								"columnValue": "27.43"
+								"columnValue": "11.08"
 							}
 						],
-						"value": -10.164341490834488
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "1"
-							}
-						],
-						"value": -0.8591745493406506
+						"value": 135.13027160632397
 					}
 				],
-				"other": 5.684341886080802e-14,
-				"smallTermCount": 0,
-				"total": 508.1171619147634
+				"other": 56.52780627732261,
+				"smallTermCount": 2,
+				"total": 89.10361711751972
 			},
 			"prescriptions": [],
 			"status": "Success"
 		},
 		{
 			"model": {
-				"id": "1OT5f000000E2MKGA0"
+				"id": "1OT5f000000DfO3GAK"
 			},
 			"prediction": {
-				"baseLine": 200.5658084432794,
+				"baseLine": 375.5394915444182,
 				"middleValues": [
 					{
 						"columns": [
 							{
-								"columnLabel": "Profit per Order",
-								"columnName": "Profit_per_Order",
-								"columnValue": "14.71"
-							}
-						],
-						"value": 318.5748695116592
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "4"
-							}
-						],
-						"value": 94.18679950654004
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "4"
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Art"
 							},
 							{
-								"columnLabel": "Profit per Order",
-								"columnName": "Profit_per_Order",
-								"columnValue": "14.71"
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "7"
 							}
 						],
-						"value": -10.164341490834488
-					}
-				],
-				"other": 5.684341886080802e-14,
-				"smallTermCount": 0,
-				"total": 603.1631359706441
-			},
-			"prescriptions": [],
-			"status": "Success"
-		},
-		{
-			"model": {
-				"id": "1OT5f000000E2MKGA0"
-			},
-			"prediction": {
-				"baseLine": 200.5658084432794,
-				"middleValues": [
-					{
-						"columns": [
-							{
-								"columnLabel": "Profit per Order",
-								"columnName": "Profit_per_Order",
-								"columnValue": "30.1"
-							}
-						],
-						"value": 318.57486951165915
+						"value": -719.0887368417715
 					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "1"
-							},
-							{
-								"columnLabel": "Profit per Order",
-								"columnName": "Profit_per_Order",
-								"columnValue": "30.1"
-							}
-						],
-						"value": -10.164341490834488
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "1"
-							}
-						],
-						"value": -0.8591745493406506
-					}
-				],
-				"other": 5.684341886080802e-14,
-				"smallTermCount": 0,
-				"total": 508.1171619147634
-			},
-			"prescriptions": [],
-			"status": "Success"
-		},
-		{
-			"model": {
-				"id": "1OT5f000000E2MKGA0"
-			},
-			"prediction": {
-				"baseLine": 200.5658084432794,
-				"middleValues": [
 					{
 						"columns": [
 							{
@@ -3915,24 +4970,14 @@
 								"columnValue": "0.5"
 							}
 						],
-						"value": 318.5748695116592
+						"value": 240.9947845312264
 					},
 					{
 						"columns": [
 							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "6"
-							}
-						],
-						"value": 88.17841646889778
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "6"
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "7"
 							},
 							{
 								"columnLabel": "Profit per Order",
@@ -3940,73 +4985,88 @@
 								"columnValue": "0.5"
 							}
 						],
-						"value": -10.164341490834488
+						"value": 135.13027160632397
 					}
 				],
-				"other": 5.684341886080802e-14,
-				"smallTermCount": 0,
-				"total": 597.1547529330019
+				"other": 56.52780627732261,
+				"smallTermCount": 2,
+				"total": 89.10361711751972
 			},
 			"prescriptions": [],
 			"status": "Success"
 		},
 		{
 			"model": {
-				"id": "1OT5f000000E2MKGA0"
+				"id": "1OT5f000000DfO3GAK"
 			},
 			"prediction": {
-				"baseLine": 200.5658084432794,
+				"baseLine": 375.5394915444182,
 				"middleValues": [
 					{
 						"columns": [
 							{
-								"columnLabel": "Profit per Order",
-								"columnName": "Profit_per_Order",
-								"columnValue": "76.64"
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "714"
 							}
 						],
-						"value": 498.8380346240619
+						"value": 796.8794074437664
 					},
 					{
 						"columns": [
 							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "7"
-							}
-						],
-						"value": 88.17841646889778
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "7"
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Storage"
 							},
 							{
-								"columnLabel": "Profit per Order",
-								"columnName": "Profit_per_Order",
-								"columnValue": "76.64"
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "714"
 							}
 						],
-						"value": -10.164341490834488
+						"value": -719.0887368417715
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Profit per Order",
+								"columnName": "Profit_per_Order",
+								"columnValue": "207.15"
+							}
+						],
+						"value": 513.9493155361178
 					}
 				],
-				"other": -5.684341886080802e-14,
-				"smallTermCount": 0,
-				"total": 777.4179180454046
+				"other": 343.1494623991549,
+				"smallTermCount": 2,
+				"total": 1310.4289400816857
 			},
 			"prescriptions": [],
 			"status": "Success"
 		},
 		{
 			"model": {
-				"id": "1OT5f000000E2MKGA0"
+				"id": "1OT5f000000DfO3GAK"
 			},
 			"prediction": {
-				"baseLine": 200.5658084432794,
+				"baseLine": 375.5394915444182,
 				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Binders"
+							},
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "5"
+							}
+						],
+						"value": -719.0887368417715
+					},
 					{
 						"columns": [
 							{
@@ -4015,14 +5075,14 @@
 								"columnValue": "-3.69"
 							}
 						],
-						"value": 318.57486951165915
+						"value": 240.9947845312264
 					},
 					{
 						"columns": [
 							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "2"
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "5"
 							},
 							{
 								"columnLabel": "Profit per Order",
@@ -4030,533 +5090,203 @@
 								"columnValue": "-3.69"
 							}
 						],
-						"value": -10.164341490834488
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "2"
-							}
-						],
-						"value": -0.8591745493406506
+						"value": 135.13027160632397
 					}
 				],
-				"other": 5.684341886080802e-14,
-				"smallTermCount": 0,
-				"total": 508.1171619147634
+				"other": 56.52780627732261,
+				"smallTermCount": 2,
+				"total": 89.10361711751972
 			},
 			"prescriptions": [],
 			"status": "Success"
 		},
 		{
 			"model": {
-				"id": "1OT5f000000E2MKGA0"
+				"id": "1OT5f000000DfO3GAK"
 			},
 			"prediction": {
-				"baseLine": 200.5658084432794,
+				"baseLine": 375.5394915444182,
 				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Furnishings"
+							},
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "3"
+							}
+						],
+						"value": -719.0887368417715
+					},
 					{
 						"columns": [
 							{
 								"columnLabel": "Profit per Order",
 								"columnName": "Profit_per_Order",
-								"columnValue": "43.2"
+								"columnValue": "1.37"
 							}
 						],
-						"value": 318.57486951165915
+						"value": 240.9947845312264
 					},
 					{
 						"columns": [
 							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
+								"columnLabel": "Sales",
+								"columnName": "Sales",
 								"columnValue": "3"
 							},
 							{
 								"columnLabel": "Profit per Order",
 								"columnName": "Profit_per_Order",
-								"columnValue": "43.2"
+								"columnValue": "1.37"
 							}
 						],
-						"value": -95.09860820395955
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "3"
-							}
-						],
-						"value": 94.18679950654004
+						"value": 135.13027160632397
 					}
 				],
-				"other": 0.0,
-				"smallTermCount": 0,
-				"total": 518.228869257519
+				"other": 56.52780627732261,
+				"smallTermCount": 2,
+				"total": 89.10361711751972
 			},
 			"prescriptions": [],
 			"status": "Success"
 		},
 		{
 			"model": {
-				"id": "1OT5f000000E2MKGA0"
+				"id": "1OT5f000000DfO3GAK"
 			},
 			"prediction": {
-				"baseLine": 200.5658084432794,
+				"baseLine": 375.5394915444182,
 				"middleValues": [
+					{
+						"columns": [
+							{
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Appliances"
+							},
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "104"
+							}
+						],
+						"value": -719.0887368417715
+					},
 					{
 						"columns": [
 							{
 								"columnLabel": "Profit per Order",
 								"columnName": "Profit_per_Order",
-								"columnValue": "29.15"
+								"columnValue": "36.37"
 							}
 						],
-						"value": 318.57486951165915
+						"value": 240.9947845312264
 					},
 					{
 						"columns": [
 							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "3"
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "104"
 							},
 							{
 								"columnLabel": "Profit per Order",
 								"columnName": "Profit_per_Order",
-								"columnValue": "29.15"
+								"columnValue": "36.37"
 							}
 						],
-						"value": -95.09860820395955
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "3"
-							}
-						],
-						"value": 94.18679950654004
+						"value": 135.13027160632397
 					}
 				],
-				"other": 0.0,
-				"smallTermCount": 0,
-				"total": 518.228869257519
+				"other": 56.52780627732261,
+				"smallTermCount": 2,
+				"total": 89.10361711751972
 			},
 			"prescriptions": [],
 			"status": "Success"
 		},
 		{
 			"model": {
-				"id": "1OT5f000000E2MKGA0"
+				"id": "1OT5f000000DfO3GAK"
 			},
 			"prediction": {
-				"baseLine": 200.5658084432794,
+				"baseLine": 375.5394915444182,
 				"middleValues": [
 					{
 						"columns": [
 							{
-								"columnLabel": "Profit per Order",
-								"columnName": "Profit_per_Order",
-								"columnValue": "10.58"
-							}
-						],
-						"value": 318.5748695116592
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "7"
-							}
-						],
-						"value": 88.17841646889778
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "7"
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Binders"
 							},
 							{
-								"columnLabel": "Profit per Order",
-								"columnName": "Profit_per_Order",
-								"columnValue": "10.58"
-							}
-						],
-						"value": -10.164341490834488
-					}
-				],
-				"other": 5.684341886080802e-14,
-				"smallTermCount": 0,
-				"total": 597.1547529330019
-			},
-			"prescriptions": [],
-			"status": "Success"
-		},
-		{
-			"model": {
-				"id": "1OT5f000000E2MKGA0"
-			},
-			"prediction": {
-				"baseLine": 200.5658084432794,
-				"middleValues": [
-					{
-						"columns": [
-							{
-								"columnLabel": "Profit per Order",
-								"columnName": "Profit_per_Order",
-								"columnValue": "2.85"
-							}
-						],
-						"value": 318.57486951165915
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "3"
-							},
-							{
-								"columnLabel": "Profit per Order",
-								"columnName": "Profit_per_Order",
-								"columnValue": "2.85"
-							}
-						],
-						"value": -95.09860820395955
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "3"
-							}
-						],
-						"value": 94.18679950654004
-					}
-				],
-				"other": 0.0,
-				"smallTermCount": 0,
-				"total": 518.228869257519
-			},
-			"prescriptions": [],
-			"status": "Success"
-		},
-		{
-			"model": {
-				"id": "1OT5f000000E2MKGA0"
-			},
-			"prediction": {
-				"baseLine": 200.5658084432794,
-				"middleValues": [
-					{
-						"columns": [
-							{
-								"columnLabel": "Profit per Order",
-								"columnName": "Profit_per_Order",
-								"columnValue": "-75.83"
-							}
-						],
-						"value": -110.9780411745728
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "2"
-							},
-							{
-								"columnLabel": "Profit per Order",
-								"columnName": "Profit_per_Order",
-								"columnValue": "-75.83"
-							}
-						],
-						"value": -10.164341490834488
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "2"
-							}
-						],
-						"value": -0.8591745493406506
-					}
-				],
-				"other": 0.0,
-				"smallTermCount": 0,
-				"total": 78.56425122853146
-			},
-			"prescriptions": [],
-			"status": "Success"
-		},
-		{
-			"model": {
-				"id": "1OT5f000000E2MKGA0"
-			},
-			"prediction": {
-				"baseLine": 200.5658084432794,
-				"middleValues": [
-					{
-						"columns": [
-							{
-								"columnLabel": "Profit per Order",
-								"columnName": "Profit_per_Order",
-								"columnValue": "24.91"
-							}
-						],
-						"value": 318.5748695116592
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "4"
-							}
-						],
-						"value": 94.18679950654004
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "4"
-							},
-							{
-								"columnLabel": "Profit per Order",
-								"columnName": "Profit_per_Order",
-								"columnValue": "24.91"
-							}
-						],
-						"value": -10.164341490834488
-					}
-				],
-				"other": 5.684341886080802e-14,
-				"smallTermCount": 0,
-				"total": 603.1631359706441
-			},
-			"prescriptions": [],
-			"status": "Success"
-		},
-		{
-			"model": {
-				"id": "1OT5f000000E2MKGA0"
-			},
-			"prediction": {
-				"baseLine": 200.5658084432794,
-				"middleValues": [
-					{
-						"columns": [
-							{
-								"columnLabel": "Profit per Order",
-								"columnName": "Profit_per_Order",
-								"columnValue": "3.35"
-							}
-						],
-						"value": 318.57486951165915
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "2"
-							},
-							{
-								"columnLabel": "Profit per Order",
-								"columnName": "Profit_per_Order",
-								"columnValue": "3.35"
-							}
-						],
-						"value": -10.164341490834488
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "2"
-							}
-						],
-						"value": -0.8591745493406506
-					}
-				],
-				"other": 5.684341886080802e-14,
-				"smallTermCount": 0,
-				"total": 508.1171619147634
-			},
-			"prescriptions": [],
-			"status": "Success"
-		},
-		{
-			"model": {
-				"id": "1OT5f000000E2MKGA0"
-			},
-			"prediction": {
-				"baseLine": 200.5658084432794,
-				"middleValues": [
-					{
-						"columns": [
-							{
-								"columnLabel": "Profit per Order",
-								"columnName": "Profit_per_Order",
-								"columnValue": "-20.89"
-							}
-						],
-						"value": 318.5748695116592
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
+								"columnLabel": "Sales",
+								"columnName": "Sales",
 								"columnValue": "5"
 							}
 						],
-						"value": 94.18679950654004
+						"value": -719.0887368417715
 					},
 					{
 						"columns": [
 							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
+								"columnLabel": "Profit per Order",
+								"columnName": "Profit_per_Order",
+								"columnValue": "-7.9"
+							}
+						],
+						"value": 240.9947845312264
+					},
+					{
+						"columns": [
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
 								"columnValue": "5"
 							},
 							{
 								"columnLabel": "Profit per Order",
 								"columnName": "Profit_per_Order",
-								"columnValue": "-20.89"
+								"columnValue": "-7.9"
 							}
 						],
-						"value": -10.164341490834488
+						"value": 135.13027160632397
 					}
 				],
-				"other": 5.684341886080802e-14,
-				"smallTermCount": 0,
-				"total": 603.1631359706441
+				"other": 56.52780627732261,
+				"smallTermCount": 2,
+				"total": 89.10361711751972
 			},
 			"prescriptions": [],
 			"status": "Success"
 		},
 		{
 			"model": {
-				"id": "1OT5f000000E2MKGA0"
+				"id": "1OT5f000000DfO3GAK"
 			},
 			"prediction": {
-				"baseLine": 200.5658084432794,
+				"baseLine": 375.5394915444182,
 				"middleValues": [
 					{
 						"columns": [
 							{
-								"columnLabel": "Profit per Order",
-								"columnName": "Profit_per_Order",
-								"columnValue": "-34.76"
-							}
-						],
-						"value": -110.9780411745728
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "2"
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Bookcases"
 							},
 							{
-								"columnLabel": "Profit per Order",
-								"columnName": "Profit_per_Order",
-								"columnValue": "-34.76"
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "223"
 							}
 						],
-						"value": -10.164341490834488
+						"value": -719.0887368417715
 					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "2"
-							}
-						],
-						"value": -0.8591745493406506
-					}
-				],
-				"other": 0.0,
-				"smallTermCount": 0,
-				"total": 78.56425122853146
-			},
-			"prescriptions": [],
-			"status": "Success"
-		},
-		{
-			"model": {
-				"id": "1OT5f000000E2MKGA0"
-			},
-			"prediction": {
-				"baseLine": 200.5658084432794,
-				"middleValues": [
-					{
-						"columns": [
-							{
-								"columnLabel": "Profit per Order",
-								"columnName": "Profit_per_Order",
-								"columnValue": "5.87"
-							}
-						],
-						"value": 318.57486951165915
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "2"
-							},
-							{
-								"columnLabel": "Profit per Order",
-								"columnName": "Profit_per_Order",
-								"columnValue": "5.87"
-							}
-						],
-						"value": -10.164341490834488
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "2"
-							}
-						],
-						"value": -0.8591745493406506
-					}
-				],
-				"other": 5.684341886080802e-14,
-				"smallTermCount": 0,
-				"total": 508.1171619147634
-			},
-			"prescriptions": [],
-			"status": "Success"
-		},
-		{
-			"model": {
-				"id": "1OT5f000000E2MKGA0"
-			},
-			"prediction": {
-				"baseLine": 200.5658084432794,
-				"middleValues": [
 					{
 						"columns": [
 							{
@@ -4565,14 +5295,14 @@
 								"columnValue": "10.48"
 							}
 						],
-						"value": 318.57486951165915
+						"value": 240.9947845312264
 					},
 					{
 						"columns": [
 							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "2"
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "223"
 							},
 							{
 								"columnLabel": "Profit per Order",
@@ -4580,422 +5310,122 @@
 								"columnValue": "10.48"
 							}
 						],
-						"value": -10.164341490834488
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "2"
-							}
-						],
-						"value": -0.8591745493406506
+						"value": 135.13027160632397
 					}
 				],
-				"other": 5.684341886080802e-14,
-				"smallTermCount": 0,
-				"total": 508.1171619147634
+				"other": 56.52780627732261,
+				"smallTermCount": 2,
+				"total": 89.10361711751972
 			},
 			"prescriptions": [],
 			"status": "Success"
 		},
 		{
 			"model": {
-				"id": "1OT5f000000E2MKGA0"
+				"id": "1OT5f000000DfO3GAK"
 			},
 			"prediction": {
-				"baseLine": 200.5658084432794,
+				"baseLine": 375.5394915444182,
 				"middleValues": [
 					{
 						"columns": [
 							{
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Furnishings"
+							},
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "40"
+							}
+						],
+						"value": -719.0887368417715
+					},
+					{
+						"columns": [
+							{
 								"columnLabel": "Profit per Order",
 								"columnName": "Profit_per_Order",
-								"columnValue": "7.18"
+								"columnValue": "19.3"
 							}
 						],
-						"value": 318.5748695116592
+						"value": 240.9947845312264
 					},
 					{
 						"columns": [
 							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "6"
-							}
-						],
-						"value": 88.17841646889778
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "6"
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "40"
 							},
 							{
 								"columnLabel": "Profit per Order",
 								"columnName": "Profit_per_Order",
-								"columnValue": "7.18"
+								"columnValue": "19.3"
 							}
 						],
-						"value": -10.164341490834488
+						"value": 135.13027160632397
 					}
 				],
-				"other": 5.684341886080802e-14,
-				"smallTermCount": 0,
-				"total": 597.1547529330019
+				"other": 56.52780627732261,
+				"smallTermCount": 2,
+				"total": 89.10361711751972
 			},
 			"prescriptions": [],
 			"status": "Success"
 		},
 		{
 			"model": {
-				"id": "1OT5f000000E2MKGA0"
+				"id": "1OT5f000000DfO3GAK"
 			},
 			"prediction": {
-				"baseLine": 200.5658084432794,
+				"baseLine": 375.5394915444182,
 				"middleValues": [
 					{
 						"columns": [
 							{
+								"columnLabel": "Sub-Category",
+								"columnName": "Sub_Category",
+								"columnValue": "Labels"
+							},
+							{
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "30"
+							}
+						],
+						"value": -719.0887368417715
+					},
+					{
+						"columns": [
+							{
 								"columnLabel": "Profit per Order",
 								"columnName": "Profit_per_Order",
-								"columnValue": "17.5"
+								"columnValue": "14.8"
 							}
 						],
-						"value": 318.5748695116592
+						"value": 240.9947845312264
 					},
 					{
 						"columns": [
 							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "5"
-							}
-						],
-						"value": 94.18679950654004
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "5"
+								"columnLabel": "Sales",
+								"columnName": "Sales",
+								"columnValue": "30"
 							},
 							{
 								"columnLabel": "Profit per Order",
 								"columnName": "Profit_per_Order",
-								"columnValue": "17.5"
+								"columnValue": "14.8"
 							}
 						],
-						"value": -10.164341490834488
+						"value": 135.13027160632397
 					}
 				],
-				"other": 5.684341886080802e-14,
-				"smallTermCount": 0,
-				"total": 603.1631359706441
-			},
-			"prescriptions": [],
-			"status": "Success"
-		},
-		{
-			"model": {
-				"id": "1OT5f000000E2MKGA0"
-			},
-			"prediction": {
-				"baseLine": 200.5658084432794,
-				"middleValues": [
-					{
-						"columns": [
-							{
-								"columnLabel": "Profit per Order",
-								"columnName": "Profit_per_Order",
-								"columnValue": "10.4"
-							}
-						],
-						"value": 318.57486951165915
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "2"
-							},
-							{
-								"columnLabel": "Profit per Order",
-								"columnName": "Profit_per_Order",
-								"columnValue": "10.4"
-							}
-						],
-						"value": -10.164341490834488
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "2"
-							}
-						],
-						"value": -0.8591745493406506
-					}
-				],
-				"other": 5.684341886080802e-14,
-				"smallTermCount": 0,
-				"total": 508.1171619147634
-			},
-			"prescriptions": [],
-			"status": "Success"
-		},
-		{
-			"model": {
-				"id": "1OT5f000000E2MKGA0"
-			},
-			"prediction": {
-				"baseLine": 200.5658084432794,
-				"middleValues": [
-					{
-						"columns": [
-							{
-								"columnLabel": "Profit per Order",
-								"columnName": "Profit_per_Order",
-								"columnValue": "8.98"
-							}
-						],
-						"value": 318.5748695116592
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "5"
-							}
-						],
-						"value": 94.18679950654004
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "5"
-							},
-							{
-								"columnLabel": "Profit per Order",
-								"columnName": "Profit_per_Order",
-								"columnValue": "8.98"
-							}
-						],
-						"value": -10.164341490834488
-					}
-				],
-				"other": 5.684341886080802e-14,
-				"smallTermCount": 0,
-				"total": 603.1631359706441
-			},
-			"prescriptions": [],
-			"status": "Success"
-		},
-		{
-			"model": {
-				"id": "1OT5f000000E2MKGA0"
-			},
-			"prediction": {
-				"baseLine": 200.5658084432794,
-				"middleValues": [
-					{
-						"columns": [
-							{
-								"columnLabel": "Profit per Order",
-								"columnName": "Profit_per_Order",
-								"columnValue": "5.09"
-							}
-						],
-						"value": 318.57486951165915
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "3"
-							},
-							{
-								"columnLabel": "Profit per Order",
-								"columnName": "Profit_per_Order",
-								"columnValue": "5.09"
-							}
-						],
-						"value": -95.09860820395955
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "3"
-							}
-						],
-						"value": 94.18679950654004
-					}
-				],
-				"other": 0.0,
-				"smallTermCount": 0,
-				"total": 518.228869257519
-			},
-			"prescriptions": [],
-			"status": "Success"
-		},
-		{
-			"model": {
-				"id": "1OT5f000000E2MKGA0"
-			},
-			"prediction": {
-				"baseLine": 200.5658084432794,
-				"middleValues": [
-					{
-						"columns": [
-							{
-								"columnLabel": "Profit per Order",
-								"columnName": "Profit_per_Order",
-								"columnValue": "13.16"
-							}
-						],
-						"value": 318.57486951165915
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "2"
-							},
-							{
-								"columnLabel": "Profit per Order",
-								"columnName": "Profit_per_Order",
-								"columnValue": "13.16"
-							}
-						],
-						"value": -10.164341490834488
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "2"
-							}
-						],
-						"value": -0.8591745493406506
-					}
-				],
-				"other": 5.684341886080802e-14,
-				"smallTermCount": 0,
-				"total": 508.1171619147634
-			},
-			"prescriptions": [],
-			"status": "Success"
-		},
-		{
-			"model": {
-				"id": "1OT5f000000E2MKGA0"
-			},
-			"prediction": {
-				"baseLine": 200.5658084432794,
-				"middleValues": [
-					{
-						"columns": [
-							{
-								"columnLabel": "Profit per Order",
-								"columnName": "Profit_per_Order",
-								"columnValue": "51.66"
-							}
-						],
-						"value": 318.57486951165915
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "2"
-							},
-							{
-								"columnLabel": "Profit per Order",
-								"columnName": "Profit_per_Order",
-								"columnValue": "51.66"
-							}
-						],
-						"value": -10.164341490834488
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "2"
-							}
-						],
-						"value": -0.8591745493406506
-					}
-				],
-				"other": 5.684341886080802e-14,
-				"smallTermCount": 0,
-				"total": 508.1171619147634
-			},
-			"prescriptions": [],
-			"status": "Success"
-		},
-		{
-			"model": {
-				"id": "1OT5f000000E2MKGA0"
-			},
-			"prediction": {
-				"baseLine": 200.5658084432794,
-				"middleValues": [
-					{
-						"columns": [
-							{
-								"columnLabel": "Profit per Order",
-								"columnName": "Profit_per_Order",
-								"columnValue": "22.87"
-							}
-						],
-						"value": 318.5748695116592
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "9"
-							}
-						],
-						"value": 140.51697603388252
-					},
-					{
-						"columns": [
-							{
-								"columnLabel": "Quantity",
-								"columnName": "Quantity",
-								"columnValue": "9"
-							},
-							{
-								"columnLabel": "Profit per Order",
-								"columnName": "Profit_per_Order",
-								"columnValue": "22.87"
-							}
-						],
-						"value": -10.164341490834488
-					}
-				],
-				"other": 5.684341886080802e-14,
-				"smallTermCount": 0,
-				"total": 649.4933124979866
+				"other": 56.52780627732261,
+				"smallTermCount": 2,
+				"total": 89.10361711751972
 			},
 			"prescriptions": [],
 			"status": "Success"
