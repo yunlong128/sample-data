@@ -1,0 +1,76 @@
+{
+	"models": [
+		{
+			"createdBy": {
+				"id": "0055f000004z8tqAAA",
+				"name": "Integration User",
+				"profilePhotoUrl": "https://tableau676-dev-ed--c.documentforce.com/profilephoto/005/T"
+			},
+			"createdDate": "2021-11-30T19:11:19.000Z",
+			"id": "1OT5f000000DfO3GAK",
+			"input": {
+				"story": {
+					"id": "1Y35f0000008mksCAA"
+				},
+				"storyHistory": {
+					"id": "9B45f0000009T5LCAU"
+				},
+				"type": "Discovery"
+			},
+			"label": "Maximize Sales per Customer",
+			"lastModifiedBy": {
+				"id": "0055f000004z8tqAAA",
+				"name": "Integration User",
+				"profilePhotoUrl": "https://tableau676-dev-ed--c.documentforce.com/profilephoto/005/T"
+			},
+			"lastModifiedDate": "2021-11-30T19:11:20.000Z",
+			"modelFields": [
+				{
+					"label": "Quantity",
+					"name": "Quantity",
+					"type": "Number"
+				},
+				{
+					"label": "Sub-Category",
+					"name": "Sub_Category",
+					"type": "Text"
+				},
+				{
+					"label": "Category",
+					"name": "Category",
+					"type": "Text"
+				},
+				{
+					"label": "Sales",
+					"name": "Sales",
+					"type": "Number"
+				},
+				{
+					"label": "Profit per Order",
+					"name": "Profit_per_Order",
+					"type": "Number"
+				},
+				{
+					"label": "Sales per Customer",
+					"name": "Sales_per_Customer",
+					"type": "Number"
+				}
+			],
+			"modelFileUrl": "/services/data/v53.0/smartdatadiscovery/models/1OT5f000000DfO3GAK/file",
+			"modelRuntime": {
+				"type": "Discovery"
+			},
+			"name": "Maximize_Sales_per_Customer1",
+			"predictedField": "Sales_per_Customer",
+			"predictionProperty": {
+				"algorithmType": "Glm",
+				"type": "Regression"
+			},
+			"status": "Enabled",
+			"url": "/services/data/v53.0/smartdatadiscovery/models/1OT5f000000DfO3GAK",
+			"validationResult": {}
+		}
+	],
+	"totalSize": 1,
+	"url": "/services/data/v53.0/smartdatadiscovery/models?storyHistoryId=9B45f0000009T5LCAU"
+}
