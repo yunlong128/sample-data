@@ -1,6 +1,6 @@
 {
 	"action": "query",
-	"responseId": "4gi2Bp-0pxot1Vl1cN1wdV",
+	"responseId": "4gkDbC6IeFuG4fWObvpGaV",
 	"results": {
 		"metadata": [
 			{
@@ -39,6 +39,39 @@
 									"id": "q.Sales"
 								}
 							]
+						},
+						{
+							"field": {
+								"id": "q.Sales_per_Customer",
+								"type": "numeric"
+							},
+							"inputs": [
+								{
+									"id": "q.Sales_per_Customer"
+								}
+							]
+						},
+						{
+							"field": {
+								"id": "q.Sub_Category",
+								"type": "string"
+							},
+							"inputs": [
+								{
+									"id": "q.Sub_Category"
+								}
+							]
+						},
+						{
+							"field": {
+								"id": "q.Category",
+								"type": "string"
+							},
+							"inputs": [
+								{
+									"id": "q.Category"
+								}
+							]
 						}
 					]
 				},
@@ -47,507 +80,807 @@
 		],
 		"records": [
 			{
-				"Profit_per_Order": 85.31,
-				"Quantity": 9,
-				"Sales": 1706
-			},
-			{
-				"Profit_per_Order": 132.59,
-				"Quantity": 3,
-				"Sales": 408
-			},
-			{
-				"Profit_per_Order": -123.86,
-				"Quantity": 5,
-				"Sales": 69
-			},
-			{
-				"Profit_per_Order": 2.48,
+				"Category": "Office Supplies",
+				"Profit_per_Order": 6.87,
 				"Quantity": 2,
-				"Sales": 9
+				"Sales": 15,
+				"Sales_per_Customer": 14.62,
+				"Sub_Category": "Labels"
 			},
 			{
-				"Profit_per_Order": 16.01,
-				"Quantity": 3,
-				"Sales": 213
-			},
-			{
-				"Profit_per_Order": 4.22,
+				"Category": "Office Supplies",
+				"Profit_per_Order": 2.52,
 				"Quantity": 2,
-				"Sales": 12
+				"Sales": 22,
+				"Sales_per_Customer": 22.37,
+				"Sub_Category": "Storage"
 			},
 			{
-				"Profit_per_Order": -46.98,
+				"Category": "Office Supplies",
+				"Profit_per_Order": 1.97,
+				"Quantity": 4,
+				"Sales": 7,
+				"Sales_per_Customer": 7.28,
+				"Sub_Category": "Art"
+			},
+			{
+				"Category": "Office Supplies",
+				"Profit_per_Order": -3.82,
 				"Quantity": 3,
-				"Sales": 532
+				"Sales": 3,
+				"Sales_per_Customer": 2.54,
+				"Sub_Category": "Binders"
 			},
 			{
+				"Category": "Office Supplies",
+				"Profit_per_Order": 5.06,
+				"Quantity": 7,
+				"Sales": 19,
+				"Sales_per_Customer": 19.46,
+				"Sub_Category": "Art"
+			},
+			{
+				"Category": "Technology",
+				"Profit_per_Order": 11.77,
+				"Quantity": 3,
+				"Sales": 91,
+				"Sales_per_Customer": 90.57,
+				"Sub_Category": "Accessories"
+			},
+			{
+				"Category": "Furniture",
+				"Profit_per_Order": 15.52,
+				"Quantity": 3,
+				"Sales": 124,
+				"Sales_per_Customer": 124.2,
+				"Sub_Category": "Furnishings"
+			},
+			{
+				"Category": "Office Supplies",
+				"Profit_per_Order": 1.1,
+				"Quantity": 2,
+				"Sales": 3,
+				"Sales_per_Customer": 3.26,
+				"Sub_Category": "Envelopes"
+			},
+			{
+				"Category": "Furniture",
 				"Profit_per_Order": -15.15,
 				"Quantity": 3,
-				"Sales": 212
+				"Sales": 212,
+				"Sales_per_Customer": 212.06,
+				"Sub_Category": "Chairs"
 			},
 			{
+				"Category": "Technology",
 				"Profit_per_Order": 16.56,
 				"Quantity": 4,
-				"Sales": 147
+				"Sales": 147,
+				"Sales_per_Customer": 147.17,
+				"Sub_Category": "Phones"
 			},
 			{
+				"Category": "Office Supplies",
+				"Profit_per_Order": 3.89,
+				"Quantity": 2,
+				"Sales": 78,
+				"Sales_per_Customer": 77.88,
+				"Sub_Category": "Storage"
+			},
+			{
+				"Category": "Technology",
 				"Profit_per_Order": 6.1,
 				"Quantity": 2,
-				"Sales": 22
+				"Sales": 22,
+				"Sales_per_Customer": 21.8,
+				"Sub_Category": "Phones"
 			},
 			{
-				"Profit_per_Order": 2.96,
-				"Quantity": 2,
-				"Sales": 6
-			},
-			{
-				"Profit_per_Order": 52.14,
-				"Quantity": 6,
-				"Sales": 209
-			},
-			{
+				"Category": "Office Supplies",
 				"Profit_per_Order": 15.55,
 				"Quantity": 5,
-				"Sales": 32
+				"Sales": 32,
+				"Sales_per_Customer": 32.4,
+				"Sub_Category": "Paper"
 			},
 			{
-				"Profit_per_Order": 3.3,
+				"Category": "Office Supplies",
+				"Profit_per_Order": 6.99,
 				"Quantity": 2,
-				"Sales": 30
+				"Sales": 15,
+				"Sales_per_Customer": 14.56,
+				"Sub_Category": "Paper"
 			},
 			{
-				"Profit_per_Order": 111.3,
-				"Quantity": 8,
-				"Sales": 1113
+				"Category": "Office Supplies",
+				"Profit_per_Order": 0.84,
+				"Quantity": 1,
+				"Sales": 2,
+				"Sales_per_Customer": 1.68,
+				"Sub_Category": "Art"
 			},
 			{
-				"Profit_per_Order": 35.66,
-				"Quantity": 2,
-				"Sales": 76
+				"Category": "Office Supplies",
+				"Profit_per_Order": 8.76,
+				"Quantity": 3,
+				"Sales": 19,
+				"Sales_per_Customer": 19.05,
+				"Sub_Category": "Paper"
 			},
 			{
+				"Category": "Furniture",
 				"Profit_per_Order": -114.39,
 				"Quantity": 8,
-				"Sales": 832
+				"Sales": 832,
+				"Sales_per_Customer": 831.94,
+				"Sub_Category": "Chairs"
 			},
 			{
-				"Profit_per_Order": 1.21,
+				"Category": "Office Supplies",
+				"Profit_per_Order": 2.96,
 				"Quantity": 2,
-				"Sales": 97
+				"Sales": 6,
+				"Sales_per_Customer": 6.16,
+				"Sub_Category": "Labels"
 			},
 			{
-				"Profit_per_Order": 62.81,
-				"Quantity": 7,
-				"Sales": 201
+				"Category": "Office Supplies",
+				"Profit_per_Order": 3.11,
+				"Quantity": 1,
+				"Sales": 6,
+				"Sales_per_Customer": 6.48,
+				"Sub_Category": "Paper"
 			},
 			{
-				"Profit_per_Order": 8.28,
-				"Quantity": 2,
-				"Sales": 74
-			},
-			{
-				"Profit_per_Order": 44.03,
-				"Quantity": 6,
-				"Sales": 130
-			},
-			{
-				"Profit_per_Order": 165.38,
+				"Category": "Furniture",
+				"Profit_per_Order": 16.54,
 				"Quantity": 3,
-				"Sales": 788
+				"Sales": 53,
+				"Sales_per_Customer": 53.34,
+				"Sub_Category": "Furnishings"
 			},
 			{
-				"Profit_per_Order": 13.88,
-				"Quantity": 4,
-				"Sales": 31
+				"Category": "Office Supplies",
+				"Profit_per_Order": 16.15,
+				"Quantity": 2,
+				"Sales": 33,
+				"Sales_per_Customer": 32.96,
+				"Sub_Category": "Binders"
 			},
 			{
-				"Profit_per_Order": -407.68,
+				"Category": "Office Supplies",
+				"Profit_per_Order": -3.79,
+				"Quantity": 1,
+				"Sales": 6,
+				"Sales_per_Customer": 5.68,
+				"Sub_Category": "Binders"
+			},
+			{
+				"Category": "Office Supplies",
+				"Profit_per_Order": 22.59,
 				"Quantity": 6,
-				"Sales": 618
+				"Sales": 78,
+				"Sales_per_Customer": 77.88,
+				"Sub_Category": "Appliances"
 			},
 			{
+				"Category": "Office Supplies",
+				"Profit_per_Order": -3.04,
+				"Quantity": 3,
+				"Sales": 2,
+				"Sales_per_Customer": 1.79,
+				"Sub_Category": "Binders"
+			},
+			{
+				"Category": "Office Supplies",
+				"Profit_per_Order": 11.72,
+				"Quantity": 4,
+				"Sales": 24,
+				"Sales_per_Customer": 23.92,
+				"Sub_Category": "Paper"
+			},
+			{
+				"Category": "Furniture",
+				"Profit_per_Order": -3.84,
+				"Quantity": 3,
+				"Sales": 102,
+				"Sales_per_Customer": 102.36,
+				"Sub_Category": "Furnishings"
+			},
+			{
+				"Category": "Office Supplies",
+				"Profit_per_Order": 14.53,
+				"Quantity": 14,
+				"Sales": 40,
+				"Sales_per_Customer": 40.1,
+				"Sub_Category": "Fasteners"
+			},
+			{
+				"Category": "Office Supplies",
+				"Profit_per_Order": -115.72,
+				"Quantity": 1,
+				"Sales": 158,
+				"Sales_per_Customer": 157.79,
+				"Sub_Category": "Binders"
+			},
+			{
+				"Category": "Office Supplies",
+				"Profit_per_Order": -1.83,
+				"Quantity": 2,
+				"Sales": 2,
+				"Sales_per_Customer": 2.39,
+				"Sub_Category": "Binders"
+			},
+			{
+				"Category": "Office Supplies",
 				"Profit_per_Order": 30.5,
 				"Quantity": 7,
-				"Sales": 244
+				"Sales": 244,
+				"Sales_per_Customer": 243.99,
+				"Sub_Category": "Storage"
 			},
 			{
-				"Profit_per_Order": 6.97,
-				"Quantity": 9,
-				"Sales": 21
+				"Category": "Office Supplies",
+				"Profit_per_Order": 29.36,
+				"Quantity": 2,
+				"Sales": 78,
+				"Sales_per_Customer": 78.3,
+				"Sub_Category": "Paper"
 			},
 			{
-				"Profit_per_Order": 5.1,
-				"Quantity": 3,
-				"Sales": 11
+				"Category": "Furniture",
+				"Profit_per_Order": 20.7,
+				"Quantity": 14,
+				"Sales": 43,
+				"Sales_per_Customer": 43.12,
+				"Sub_Category": "Furnishings"
 			},
 			{
+				"Category": "Office Supplies",
 				"Profit_per_Order": 218.25,
 				"Quantity": 3,
-				"Sales": 839
+				"Sales": 839,
+				"Sales_per_Customer": 839.43,
+				"Sub_Category": "Appliances"
 			},
 			{
+				"Category": "Technology",
+				"Profit_per_Order": 6.0,
+				"Quantity": 3,
+				"Sales": 150,
+				"Sales_per_Customer": 149.97,
+				"Sub_Category": "Phones"
+			},
+			{
+				"Category": "Furniture",
+				"Profit_per_Order": 585.55,
+				"Quantity": 8,
+				"Sales": 1952,
+				"Sales_per_Customer": 1951.84,
+				"Sub_Category": "Chairs"
+			},
+			{
+				"Category": "Office Supplies",
 				"Profit_per_Order": 26.27,
 				"Quantity": 7,
-				"Sales": 58
+				"Sales": 58,
+				"Sales_per_Customer": 58.38,
+				"Sub_Category": "Paper"
 			},
 			{
-				"Profit_per_Order": 48.54,
-				"Quantity": 4,
-				"Sales": 106
-			},
-			{
-				"Profit_per_Order": 1.36,
-				"Quantity": 2,
-				"Sales": 54
-			},
-			{
-				"Profit_per_Order": 6.81,
+				"Category": "Office Supplies",
+				"Profit_per_Order": 21.03,
 				"Quantity": 6,
-				"Sales": 32
+				"Sales": 81,
+				"Sales_per_Customer": 80.88,
+				"Sub_Category": "Storage"
 			},
 			{
-				"Profit_per_Order": 1.86,
+				"Category": "Technology",
+				"Profit_per_Order": 236.23,
+				"Quantity": 7,
+				"Sales": 945,
+				"Sales_per_Customer": 944.93,
+				"Sub_Category": "Phones"
+			},
+			{
+				"Category": "Office Supplies",
+				"Profit_per_Order": 13.35,
+				"Quantity": 5,
+				"Sales": 28,
+				"Sales_per_Customer": 28.4,
+				"Sub_Category": "Envelopes"
+			},
+			{
+				"Category": "Office Supplies",
+				"Profit_per_Order": 2.73,
+				"Quantity": 3,
+				"Sales": 10,
+				"Sales_per_Customer": 9.94,
+				"Sub_Category": "Art"
+			},
+			{
+				"Category": "Office Supplies",
+				"Profit_per_Order": -131.12,
 				"Quantity": 2,
-				"Sales": 25
+				"Sales": 52,
+				"Sales_per_Customer": 52.45,
+				"Sub_Category": "Appliances"
 			},
 			{
+				"Category": "Office Supplies",
+				"Profit_per_Order": -243.16,
+				"Quantity": 4,
+				"Sales": 97,
+				"Sales_per_Customer": 97.26,
+				"Sub_Category": "Appliances"
+			},
+			{
+				"Category": "Technology",
 				"Profit_per_Order": 7.25,
 				"Quantity": 2,
-				"Sales": 29
+				"Sales": 29,
+				"Sales_per_Customer": 29.0,
+				"Sub_Category": "Accessories"
 			},
 			{
-				"Profit_per_Order": 24.88,
-				"Quantity": 8,
-				"Sales": 52
+				"Category": "Office Supplies",
+				"Profit_per_Order": 3.44,
+				"Quantity": 2,
+				"Sales": 7,
+				"Sales_per_Customer": 7.16,
+				"Sub_Category": "Binders"
 			},
 			{
-				"Profit_per_Order": 6.79,
+				"Category": "Furniture",
+				"Profit_per_Order": 112.39,
+				"Quantity": 4,
+				"Sales": 899,
+				"Sales_per_Customer": 899.14,
+				"Sub_Category": "Bookcases"
+			},
+			{
+				"Category": "Office Supplies",
+				"Profit_per_Order": 1.59,
 				"Quantity": 3,
-				"Sales": 22
+				"Sales": 6,
+				"Sales_per_Customer": 6.05,
+				"Sub_Category": "Art"
 			},
 			{
-				"Profit_per_Order": -161.88,
+				"Category": "Office Supplies",
+				"Profit_per_Order": 5.87,
+				"Quantity": 4,
+				"Sales": 84,
+				"Sales_per_Customer": 83.92,
+				"Sub_Category": "Storage"
+			},
+			{
+				"Category": "Office Supplies",
+				"Profit_per_Order": 16.21,
+				"Quantity": 9,
+				"Sales": 52,
+				"Sales_per_Customer": 52.29,
+				"Sub_Category": "Fasteners"
+			},
+			{
+				"Category": "Office Supplies",
+				"Profit_per_Order": 26.06,
+				"Quantity": 6,
+				"Sales": 93,
+				"Sales_per_Customer": 93.06,
+				"Sub_Category": "Storage"
+			},
+			{
+				"Category": "Office Supplies",
+				"Profit_per_Order": -3.55,
 				"Quantity": 2,
-				"Sales": 219
+				"Sales": 5,
+				"Sales_per_Customer": 5.33,
+				"Sub_Category": "Binders"
 			},
 			{
-				"Profit_per_Order": 35.63,
-				"Quantity": 2,
-				"Sales": 132
-			},
-			{
-				"Profit_per_Order": 8.88,
-				"Quantity": 2,
-				"Sales": 24
-			},
-			{
-				"Profit_per_Order": 4.48,
-				"Quantity": 2,
-				"Sales": 90
-			},
-			{
-				"Profit_per_Order": 0.97,
-				"Quantity": 1,
-				"Sales": 2
-			},
-			{
-				"Profit_per_Order": -12.43,
-				"Quantity": 7,
-				"Sales": 19
-			},
-			{
-				"Profit_per_Order": -4.68,
-				"Quantity": 3,
-				"Sales": 12
-			},
-			{
-				"Profit_per_Order": -120.51,
-				"Quantity": 5,
-				"Sales": 177
-			},
-			{
-				"Profit_per_Order": 1.2,
-				"Quantity": 2,
-				"Sales": 7
-			},
-			{
+				"Category": "Office Supplies",
 				"Profit_per_Order": 41.68,
 				"Quantity": 2,
-				"Sales": 167
+				"Sales": 167,
+				"Sales_per_Customer": 166.72,
+				"Sub_Category": "Storage"
 			},
 			{
-				"Profit_per_Order": 12.44,
-				"Quantity": 4,
-				"Sales": 26
-			},
-			{
-				"Profit_per_Order": 3.58,
-				"Quantity": 1,
-				"Sales": 8
-			},
-			{
-				"Profit_per_Order": -8.49,
-				"Quantity": 9,
-				"Sales": 12
-			},
-			{
-				"Profit_per_Order": 6.65,
-				"Quantity": 3,
-				"Sales": 222
-			},
-			{
-				"Profit_per_Order": 92.37,
-				"Quantity": 7,
-				"Sales": 210
-			},
-			{
-				"Profit_per_Order": 2.32,
-				"Quantity": 3,
-				"Sales": 5
-			},
-			{
-				"Profit_per_Order": 47.84,
-				"Quantity": 5,
-				"Sales": 142
-			},
-			{
-				"Profit_per_Order": 10.89,
+				"Category": "Office Supplies",
+				"Profit_per_Order": 23.94,
 				"Quantity": 6,
-				"Sales": 31
+				"Sales": 48,
+				"Sales_per_Customer": 47.88,
+				"Sub_Category": "Paper"
 			},
 			{
-				"Profit_per_Order": -204.31,
+				"Category": "Office Supplies",
+				"Profit_per_Order": 6.13,
 				"Quantity": 5,
-				"Sales": 961
+				"Sales": 18,
+				"Sales_per_Customer": 17.52,
+				"Sub_Category": "Binders"
 			},
 			{
+				"Category": "Office Supplies",
+				"Profit_per_Order": 0.3,
+				"Quantity": 6,
+				"Sales": 8,
+				"Sales_per_Customer": 7.56,
+				"Sub_Category": "Fasteners"
+			},
+			{
+				"Category": "Office Supplies",
+				"Profit_per_Order": 21.59,
+				"Quantity": 3,
+				"Sales": 58,
+				"Sales_per_Customer": 57.58,
+				"Sub_Category": "Envelopes"
+			},
+			{
+				"Category": "Office Supplies",
+				"Profit_per_Order": 6.68,
+				"Quantity": 7,
+				"Sales": 19,
+				"Sales_per_Customer": 19.1,
+				"Sub_Category": "Fasteners"
+			},
+			{
+				"Category": "Furniture",
+				"Profit_per_Order": -48.7,
+				"Quantity": 3,
+				"Sales": 87,
+				"Sales_per_Customer": 86.97,
+				"Sub_Category": "Bookcases"
+			},
+			{
+				"Category": "Furniture",
 				"Profit_per_Order": -24.56,
 				"Quantity": 3,
-				"Sales": 218
+				"Sales": 218,
+				"Sales_per_Customer": 218.35,
+				"Sub_Category": "Furnishings"
 			},
 			{
-				"Profit_per_Order": -131.45,
+				"Category": "Office Supplies",
+				"Profit_per_Order": 9.3,
 				"Quantity": 3,
-				"Sales": 219
+				"Sales": 28,
+				"Sales_per_Customer": 27.55,
+				"Sub_Category": "Fasteners"
 			},
 			{
-				"Profit_per_Order": 12.86,
-				"Quantity": 2,
-				"Sales": 27
+				"Category": "Office Supplies",
+				"Profit_per_Order": 10.82,
+				"Quantity": 8,
+				"Sales": 1082,
+				"Sales_per_Customer": 1082.48,
+				"Sub_Category": "Storage"
 			},
 			{
-				"Profit_per_Order": 20.92,
+				"Category": "Office Supplies",
+				"Profit_per_Order": 27.32,
 				"Quantity": 3,
-				"Sales": 45
+				"Sales": 57,
+				"Sales_per_Customer": 56.91,
+				"Sub_Category": "Paper"
 			},
 			{
-				"Profit_per_Order": 3.59,
+				"Category": "Furniture",
+				"Profit_per_Order": 38.02,
 				"Quantity": 4,
-				"Sales": 15
+				"Sales": 78,
+				"Sales_per_Customer": 77.6,
+				"Sub_Category": "Furnishings"
 			},
 			{
-				"Profit_per_Order": 1.71,
-				"Quantity": 1,
-				"Sales": 15
-			},
-			{
-				"Profit_per_Order": 129.6,
-				"Quantity": 4,
-				"Sales": 360
-			},
-			{
-				"Profit_per_Order": 1.0,
-				"Quantity": 1,
-				"Sales": 16
-			},
-			{
-				"Profit_per_Order": 4.49,
-				"Quantity": 4,
-				"Sales": 14
-			},
-			{
-				"Profit_per_Order": -17.46,
+				"Category": "Office Supplies",
+				"Profit_per_Order": 5.44,
 				"Quantity": 3,
-				"Sales": 698
+				"Sales": 16,
+				"Sales_per_Customer": 15.55,
+				"Sub_Category": "Paper"
 			},
 			{
-				"Profit_per_Order": 4.8,
-				"Quantity": 3,
-				"Sales": 48
+				"Category": "Office Supplies",
+				"Profit_per_Order": 8.67,
+				"Quantity": 4,
+				"Sales": 99,
+				"Sales_per_Customer": 99.14,
+				"Sub_Category": "Art"
 			},
 			{
-				"Profit_per_Order": 11.54,
-				"Quantity": 2,
-				"Sales": 25
-			},
-			{
-				"Profit_per_Order": 1.07,
+				"Category": "Office Supplies",
+				"Profit_per_Order": 13.07,
 				"Quantity": 1,
-				"Sales": 3
+				"Sales": 44,
+				"Sales_per_Customer": 43.57,
+				"Sub_Category": "Storage"
 			},
 			{
-				"Profit_per_Order": 15.82,
-				"Quantity": 5,
-				"Sales": 34
-			},
-			{
-				"Profit_per_Order": 0.15,
+				"Category": "Office Supplies",
+				"Profit_per_Order": 3.58,
 				"Quantity": 2,
-				"Sales": 7
+				"Sales": 7,
+				"Sales_per_Customer": 7.16,
+				"Sub_Category": "Fasteners"
 			},
 			{
+				"Category": "Technology",
+				"Profit_per_Order": 35.0,
+				"Quantity": 1,
+				"Sales": 100,
+				"Sales_per_Customer": 99.99,
+				"Sub_Category": "Accessories"
+			},
+			{
+				"Category": "Furniture",
+				"Profit_per_Order": -258.5,
+				"Quantity": 4,
+				"Sales": 787,
+				"Sales_per_Customer": 786.74,
+				"Sub_Category": "Chairs"
+			},
+			{
+				"Category": "Office Supplies",
+				"Profit_per_Order": -27.69,
+				"Quantity": 6,
+				"Sales": 38,
+				"Sales_per_Customer": 37.76,
+				"Sub_Category": "Binders"
+			},
+			{
+				"Category": "Office Supplies",
+				"Profit_per_Order": -13.82,
+				"Quantity": 2,
+				"Sales": 21,
+				"Sales_per_Customer": 20.72,
+				"Sub_Category": "Binders"
+			},
+			{
+				"Category": "Office Supplies",
+				"Profit_per_Order": 1.6,
+				"Quantity": 1,
+				"Sales": 5,
+				"Sales_per_Customer": 4.75,
+				"Sub_Category": "Binders"
+			},
+			{
+				"Category": "Office Supplies",
+				"Profit_per_Order": 1.12,
+				"Quantity": 4,
+				"Sales": 18,
+				"Sales_per_Customer": 17.86,
+				"Sub_Category": "Art"
+			},
+			{
+				"Category": "Office Supplies",
+				"Profit_per_Order": 3.1,
+				"Quantity": 3,
+				"Sales": 8,
+				"Sales_per_Customer": 7.56,
+				"Sub_Category": "Art"
+			},
+			{
+				"Category": "Office Supplies",
+				"Profit_per_Order": 3.8,
+				"Quantity": 2,
+				"Sales": 8,
+				"Sales_per_Customer": 8.26,
+				"Sub_Category": "Envelopes"
+			},
+			{
+				"Category": "Office Supplies",
+				"Profit_per_Order": 168.44,
+				"Quantity": 8,
+				"Sales": 648,
+				"Sales_per_Customer": 647.84,
+				"Sub_Category": "Appliances"
+			},
+			{
+				"Category": "Furniture",
+				"Profit_per_Order": 20.73,
+				"Quantity": 8,
+				"Sales": 47,
+				"Sales_per_Customer": 47.12,
+				"Sub_Category": "Furnishings"
+			},
+			{
+				"Category": "Furniture",
 				"Profit_per_Order": 271.42,
 				"Quantity": 4,
-				"Sales": 1044
+				"Sales": 1044,
+				"Sales_per_Customer": 1043.92,
+				"Sub_Category": "Bookcases"
 			},
 			{
-				"Profit_per_Order": 0.92,
-				"Quantity": 1,
-				"Sales": 9
+				"Category": "Office Supplies",
+				"Profit_per_Order": 9.4,
+				"Quantity": 5,
+				"Sales": 26,
+				"Sales_per_Customer": 25.92,
+				"Sub_Category": "Paper"
 			},
 			{
+				"Category": "Technology",
+				"Profit_per_Order": 179.19,
+				"Quantity": 8,
+				"Sales": 1024,
+				"Sales_per_Customer": 1023.94,
+				"Sub_Category": "Accessories"
+			},
+			{
+				"Category": "Office Supplies",
+				"Profit_per_Order": 7.88,
+				"Quantity": 4,
+				"Sales": 23,
+				"Sales_per_Customer": 23.36,
+				"Sub_Category": "Binders"
+			},
+			{
+				"Category": "Technology",
+				"Profit_per_Order": 13.59,
+				"Quantity": 2,
+				"Sales": 40,
+				"Sales_per_Customer": 39.98,
+				"Sub_Category": "Accessories"
+			},
+			{
+				"Category": "Technology",
+				"Profit_per_Order": 701.99,
+				"Quantity": 3,
+				"Sales": 1800,
+				"Sales_per_Customer": 1799.97,
+				"Sub_Category": "Copiers"
+			},
+			{
+				"Category": "Office Supplies",
+				"Profit_per_Order": 21.04,
+				"Quantity": 4,
+				"Sales": 70,
+				"Sales_per_Customer": 70.12,
+				"Sub_Category": "Supplies"
+			},
+			{
+				"Category": "Office Supplies",
+				"Profit_per_Order": -32.78,
+				"Quantity": 4,
+				"Sales": 131,
+				"Sales_per_Customer": 131.14,
+				"Sub_Category": "Storage"
+			},
+			{
+				"Category": "Technology",
+				"Profit_per_Order": 0.72,
+				"Quantity": 2,
+				"Sales": 58,
+				"Sales_per_Customer": 57.58,
+				"Sub_Category": "Accessories"
+			},
+			{
+				"Category": "Office Supplies",
 				"Profit_per_Order": 9.77,
 				"Quantity": 6,
-				"Sales": 39
+				"Sales": 39,
+				"Sales_per_Customer": 39.07,
+				"Sub_Category": "Art"
 			},
 			{
-				"Profit_per_Order": 13.3,
-				"Quantity": 5,
-				"Sales": 27
+				"Category": "Furniture",
+				"Profit_per_Order": 31.45,
+				"Quantity": 17,
+				"Sales": 1337,
+				"Sales_per_Customer": 1336.83,
+				"Sub_Category": "Bookcases"
 			},
 			{
-				"Profit_per_Order": 4.65,
-				"Quantity": 1,
-				"Sales": 10
-			},
-			{
-				"Profit_per_Order": 27.43,
-				"Quantity": 1,
-				"Sales": 56
-			},
-			{
-				"Profit_per_Order": 14.71,
+				"Category": "Furniture",
+				"Profit_per_Order": 26.87,
 				"Quantity": 4,
-				"Sales": 57
+				"Sales": 307,
+				"Sales_per_Customer": 307.14,
+				"Sub_Category": "Chairs"
 			},
 			{
-				"Profit_per_Order": 30.1,
-				"Quantity": 1,
-				"Sales": 70
+				"Category": "Technology",
+				"Profit_per_Order": 56.57,
+				"Quantity": 6,
+				"Sales": 197,
+				"Sales_per_Customer": 196.75,
+				"Sub_Category": "Accessories"
 			},
 			{
+				"Category": "Furniture",
+				"Profit_per_Order": 225.26,
+				"Quantity": 4,
+				"Sales": 866,
+				"Sales_per_Customer": 866.4,
+				"Sub_Category": "Chairs"
+			},
+			{
+				"Category": "Furniture",
+				"Profit_per_Order": 11.08,
+				"Quantity": 2,
+				"Sales": 28,
+				"Sales_per_Customer": 28.4,
+				"Sub_Category": "Furnishings"
+			},
+			{
+				"Category": "Office Supplies",
 				"Profit_per_Order": 0.5,
 				"Quantity": 6,
-				"Sales": 7
+				"Sales": 7,
+				"Sales_per_Customer": 6.67,
+				"Sub_Category": "Art"
 			},
 			{
-				"Profit_per_Order": 76.64,
-				"Quantity": 7,
-				"Sales": 409
+				"Category": "Office Supplies",
+				"Profit_per_Order": 207.15,
+				"Quantity": 5,
+				"Sales": 714,
+				"Sales_per_Customer": 714.3,
+				"Sub_Category": "Storage"
 			},
 			{
+				"Category": "Office Supplies",
 				"Profit_per_Order": -3.69,
 				"Quantity": 2,
-				"Sales": 5
+				"Sales": 5,
+				"Sales_per_Customer": 4.81,
+				"Sub_Category": "Binders"
 			},
 			{
-				"Profit_per_Order": 43.2,
-				"Quantity": 3,
-				"Sales": 1008
+				"Category": "Furniture",
+				"Profit_per_Order": 1.37,
+				"Quantity": 1,
+				"Sales": 3,
+				"Sales_per_Customer": 2.91,
+				"Sub_Category": "Furnishings"
 			},
 			{
-				"Profit_per_Order": 29.15,
-				"Quantity": 3,
-				"Sales": 243
-			},
-			{
-				"Profit_per_Order": 10.58,
-				"Quantity": 7,
-				"Sales": 22
-			},
-			{
-				"Profit_per_Order": 2.85,
-				"Quantity": 3,
-				"Sales": 10
-			},
-			{
-				"Profit_per_Order": -75.83,
-				"Quantity": 2,
-				"Sales": 284
-			},
-			{
-				"Profit_per_Order": 24.91,
+				"Category": "Office Supplies",
+				"Profit_per_Order": 36.37,
 				"Quantity": 4,
-				"Sales": 64
+				"Sales": 104,
+				"Sales_per_Customer": 103.92,
+				"Sub_Category": "Appliances"
 			},
 			{
-				"Profit_per_Order": 3.35,
-				"Quantity": 2,
-				"Sales": 9
+				"Category": "Office Supplies",
+				"Profit_per_Order": -7.9,
+				"Quantity": 3,
+				"Sales": 5,
+				"Sales_per_Customer": 4.79,
+				"Sub_Category": "Binders"
 			},
 			{
-				"Profit_per_Order": -20.89,
-				"Quantity": 5,
-				"Sales": 28
-			},
-			{
-				"Profit_per_Order": -34.76,
-				"Quantity": 2,
-				"Sales": 185
-			},
-			{
-				"Profit_per_Order": 5.87,
-				"Quantity": 2,
-				"Sales": 78
-			},
-			{
+				"Category": "Furniture",
 				"Profit_per_Order": 10.48,
 				"Quantity": 2,
-				"Sales": 223
+				"Sales": 223,
+				"Sales_per_Customer": 222.67,
+				"Sub_Category": "Bookcases"
 			},
 			{
-				"Profit_per_Order": 7.18,
-				"Quantity": 6,
-				"Sales": 96
-			},
-			{
-				"Profit_per_Order": 17.5,
-				"Quantity": 5,
-				"Sales": 280
-			},
-			{
-				"Profit_per_Order": 10.4,
-				"Quantity": 2,
-				"Sales": 64
-			},
-			{
-				"Profit_per_Order": 8.98,
-				"Quantity": 5,
-				"Sales": 449
-			},
-			{
-				"Profit_per_Order": 5.09,
+				"Category": "Furniture",
+				"Profit_per_Order": 19.3,
 				"Quantity": 3,
-				"Sales": 11
+				"Sales": 40,
+				"Sales_per_Customer": 40.2,
+				"Sub_Category": "Furnishings"
 			},
 			{
-				"Profit_per_Order": 13.16,
+				"Category": "Office Supplies",
+				"Profit_per_Order": 14.8,
 				"Quantity": 2,
-				"Sales": 94
-			},
-			{
-				"Profit_per_Order": 51.66,
-				"Quantity": 2,
-				"Sales": 105
-			},
-			{
-				"Profit_per_Order": 22.87,
-				"Quantity": 9,
-				"Sales": 69
+				"Sales": 30,
+				"Sales_per_Customer": 29.6,
+				"Sub_Category": "Labels"
 			}
 		]
 	},
-	"query": "\n\t\tq = load \"0Fb5f000000tgtZCAQ/0Fc5f000001IpeICAS\" sample(20);\n\t\tq = foreach q generate 'Profit_per_Order', 'Quantity', 'Sales';\n\t\t\n\t\tq = filter q by 'Profit_per_Order' in [-3701.89..1480.47] || 'Profit_per_Order' is null; q = filter q by 'Quantity' in [1..17] || 'Quantity' is null; q = filter q by 'Sales' in [0..3339.3324948066424]; \n\t\t\n\t\tq = limit q 100;\n\t",
-	"responseTime": 39
+	"query": "\n\t\tq = load \"0Fb5f000000tgtZCAQ/0Fc5f000001IpeICAS\" sample(20);\n\t\tq = foreach q generate 'Profit_per_Order', 'Quantity', 'Sales', 'Sales_per_Customer', 'Sub_Category', 'Category';\n\t\t\n\t\tq = filter q by 'Profit_per_Order' in [-6599.98..8399.98] || 'Profit_per_Order' is null; q = filter q by 'Quantity' in [1..17] || 'Quantity' is null; q = filter q by 'Sales' in [0..22638] || 'Sales' is null; q = filter q by 'Sales_per_Customer' in [0.44..22638.48]; \n\t\t\n\t\tq = limit q 100;\n\t",
+	"responseTime": 80
 }
