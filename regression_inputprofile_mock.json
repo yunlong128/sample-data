@@ -1,35 +1,155 @@
 {
-  "fields": [
-    {
-      "associationToOutcome": {
-        "value": 0.03907301722386558
-      },
-      "name": "Quantity"
-    },
-    {
-      "associationToOutcome": {
-        "value": 0.19923225440322767
-      },
-      "name": "Sub_Category"
-    },
-    {
-      "associationToOutcome": {
-        "value": 0.050406387597317304
-      },
-      "name": "Category"
-    },
-    {
-      "associationToOutcome": {
-        "value": 0.4179076391876323
-      },
-      "name": "Sales"
-    },
-    {
-      "associationToOutcome": {
-        "value": 0.25446011273825886
-      },
-      "name": "Profit_per_Order"
-    }
-  ],
-  "url": "/services/data/v53.0/smartdatadiscovery/analyses/9B45f0000009T5LCAU/input-profile"
+	"fields": [
+		{
+			"associationToOutcome": {
+				"value": 0.8506835137484596
+			},
+			"name": "enginesize"
+		},
+		{
+			"associationToOutcome": {
+				"value": 0.38209029768335237
+			},
+			"name": "boreratio"
+		},
+		{
+			"associationToOutcome": {
+				"value": 0.6640433098367282
+			},
+			"name": "horsepower"
+		},
+		{
+			"associationToOutcome": {
+				"value": 0.6496235085271473
+			},
+			"name": "carwidth"
+		},
+		{
+			"associationToOutcome": {
+				"value": 0.5955104130059694
+			},
+			"name": "carlength"
+		},
+		{
+			"associationToOutcome": {
+				"value": 0.5968539312741709
+			},
+			"name": "citympg"
+		},
+		{
+			"associationToOutcome": {
+				"value": 0.06911128159053726
+			},
+			"name": "peakrpm"
+		},
+		{
+			"associationToOutcome": {
+				"value": 0.0718362724843753
+			},
+			"name": "stroke"
+		},
+		{
+			"associationToOutcome": {
+				"value": 0.16842619389440029
+			},
+			"name": "compressionratio"
+		},
+		{
+			"associationToOutcome": {
+				"value": 0.3859886517971216
+			},
+			"name": "wheelbase"
+		},
+		{
+			"associationToOutcome": {
+				"value": 0.13223652327347203
+			},
+			"name": "symboling"
+		},
+		{
+			"associationToOutcome": {
+				"value": 0.12677465208185635
+			},
+			"name": "carheight"
+		},
+		{
+			"associationToOutcome": {
+				"value": 0.6960240826706695
+			},
+			"name": "curbweight"
+		},
+		{
+			"associationToOutcome": {
+				"value": 0.24847282600522148
+			},
+			"name": "car_ID"
+		},
+		{
+			"associationToOutcome": {
+				"value": 0.5501303930462816
+			},
+			"name": "highwaympg"
+		},
+		{
+			"associationToOutcome": {
+				"value": 0.01036291533139233
+			},
+			"name": "fueltype"
+		},
+		{
+			"associationToOutcome": {
+				"value": 0.10487931387996152
+			},
+			"name": "enginelocation"
+		},
+		{
+			"associationToOutcome": {
+				"value": 0.135592679514843
+			},
+			"name": "carbody"
+		},
+		{
+			"associationToOutcome": {
+				"value": 0.03086918908359193
+			},
+			"name": "aspiration"
+		},
+		{
+			"associationToOutcome": {
+				"value": 0.3544758302382539
+			},
+			"name": "fuelsystem"
+		},
+		{
+			"associationToOutcome": {
+				"value": 0.00019997721673048474
+			},
+			"name": "doornumber"
+		},
+		{
+			"associationToOutcome": {
+				"value": 0.4095009173609755
+			},
+			"name": "drivewheel"
+		},
+		{
+			"associationToOutcome": {
+				"value": 0.013703750730228559
+			},
+			"name": "CarName"
+		},
+		{
+			"associationToOutcome": {
+				"value": 0.5919150280145229
+			},
+			"name": "cylindernumber"
+		},
+		{
+			"associationToOutcome": {
+				"value": 0.19723647848520288
+			},
+			"name": "enginetype"
+		}
+	],
+	"url": "/services/data/v54.0/smartdatadiscovery/analyses/9B4B00000004rV8KAI/input-profile"
 }
