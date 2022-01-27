@@ -1,76 +1,178 @@
 {
-	"models": [
-		{
-			"createdBy": {
-				"id": "0055f000004z8tqAAA",
-				"name": "Integration User",
-				"profilePhotoUrl": "https://tableau676-dev-ed--c.documentforce.com/profilephoto/005/T"
-			},
-			"createdDate": "2021-11-30T19:11:19.000Z",
-			"id": "1OT5f000000DfO3GAK",
-			"input": {
-				"story": {
-					"id": "1Y35f0000008mksCAA"
-				},
-				"storyHistory": {
-					"id": "9B45f0000009T5LCAU"
-				},
-				"type": "Discovery"
-			},
-			"label": "Maximize Sales per Customer",
-			"lastModifiedBy": {
-				"id": "0055f000004z8tqAAA",
-				"name": "Integration User",
-				"profilePhotoUrl": "https://tableau676-dev-ed--c.documentforce.com/profilephoto/005/T"
-			},
-			"lastModifiedDate": "2021-11-30T19:11:20.000Z",
-			"modelFields": [
-				{
-					"label": "Quantity",
-					"name": "Quantity",
-					"type": "Number"
-				},
-				{
-					"label": "Sub-Category",
-					"name": "Sub_Category",
-					"type": "Text"
-				},
-				{
-					"label": "Category",
-					"name": "Category",
-					"type": "Text"
-				},
-				{
-					"label": "Sales",
-					"name": "Sales",
-					"type": "Number"
-				},
-				{
-					"label": "Profit per Order",
-					"name": "Profit_per_Order",
-					"type": "Number"
-				},
-				{
-					"label": "Sales per Customer",
-					"name": "Sales_per_Customer",
-					"type": "Number"
-				}
-			],
-			"modelFileUrl": "/services/data/v53.0/smartdatadiscovery/models/1OT5f000000DfO3GAK/file",
-			"modelRuntime": {
-				"type": "Discovery"
-			},
-			"name": "Maximize_Sales_per_Customer1",
-			"predictedField": "Sales_per_Customer",
-			"predictionProperty": {
-				"algorithmType": "Glm",
-				"type": "Regression"
-			},
-			"status": "Enabled",
-			"url": "/services/data/v53.0/smartdatadiscovery/models/1OT5f000000DfO3GAK",
-			"validationResult": {}
-		}
-	],
-	"totalSize": 1,
-	"url": "/services/data/v53.0/smartdatadiscovery/models?storyHistoryId=9B45f0000009T5LCAU"
+    "models": [
+        {
+            "createdBy": {
+                "id": "005B0000006wvfPIAQ",
+                "name": "Integration User",
+                "profilePhotoUrl": "https://tableaueinstein--c.documentforce.com/profilephoto/005/T"
+            },
+            "createdDate": "2022-01-27T16:17:53.000Z",
+            "id": "1OTB00000004jm0OAA",
+            "input": {
+                "story": {
+                    "id": "1Y3B0000000TjrUKAS"
+                },
+                "storyHistory": {
+                    "id": "9B4B00000004rV8KAI"
+                },
+                "type": "Discovery"
+            },
+            "label": "Minimize price",
+            "lastModifiedBy": {
+                "id": "005B0000006wvfPIAQ",
+                "name": "Integration User",
+                "profilePhotoUrl": "https://tableaueinstein--c.documentforce.com/profilephoto/005/T"
+            },
+            "lastModifiedDate": "2022-01-27T16:17:54.000Z",
+            "metricsUrl": "/services/data/v54.0/smartdatadiscovery/models/1OTB00000004jm0OAA/metrics",
+            "modelFields": [
+                {
+                    "label": "carwidth",
+                    "name": "carwidth",
+                    "type": "Number"
+                },
+                {
+                    "label": "citympg",
+                    "name": "citympg",
+                    "type": "Number"
+                },
+                {
+                    "label": "stroke",
+                    "name": "stroke",
+                    "type": "Number"
+                },
+                {
+                    "label": "drivewheel",
+                    "name": "drivewheel",
+                    "type": "Text"
+                },
+                {
+                    "label": "enginesize",
+                    "name": "enginesize",
+                    "type": "Number"
+                },
+                {
+                    "label": "highwaympg",
+                    "name": "highwaympg",
+                    "type": "Number"
+                },
+                {
+                    "label": "compressionratio",
+                    "name": "compressionratio",
+                    "type": "Number"
+                },
+                {
+                    "label": "carbody",
+                    "name": "carbody",
+                    "type": "Text"
+                },
+                {
+                    "label": "boreratio",
+                    "name": "boreratio",
+                    "type": "Number"
+                },
+                {
+                    "label": "curbweight",
+                    "name": "curbweight",
+                    "type": "Number"
+                },
+                {
+                    "label": "doornumber",
+                    "name": "doornumber",
+                    "type": "Text"
+                },
+                {
+                    "label": "wheelbase",
+                    "name": "wheelbase",
+                    "type": "Number"
+                },
+                {
+                    "label": "enginetype",
+                    "name": "enginetype",
+                    "type": "Text"
+                },
+                {
+                    "label": "fuelsystem",
+                    "name": "fuelsystem",
+                    "type": "Text"
+                },
+                {
+                    "label": "fueltype",
+                    "name": "fueltype",
+                    "type": "Text"
+                },
+                {
+                    "label": "carheight",
+                    "name": "carheight",
+                    "type": "Number"
+                },
+                {
+                    "label": "enginelocation",
+                    "name": "enginelocation",
+                    "type": "Text"
+                },
+                {
+                    "label": "cylindernumber",
+                    "name": "cylindernumber",
+                    "type": "Text"
+                },
+                {
+                    "label": "price",
+                    "name": "price",
+                    "type": "Number"
+                },
+                {
+                    "label": "horsepower",
+                    "name": "horsepower",
+                    "type": "Number"
+                },
+                {
+                    "label": "carlength",
+                    "name": "carlength",
+                    "type": "Number"
+                },
+                {
+                    "label": "CarName",
+                    "name": "CarName",
+                    "type": "Text"
+                },
+                {
+                    "label": "car_ID",
+                    "name": "car_ID",
+                    "type": "Number"
+                },
+                {
+                    "label": "aspiration",
+                    "name": "aspiration",
+                    "type": "Text"
+                },
+                {
+                    "label": "symboling",
+                    "name": "symboling",
+                    "type": "Text"
+                },
+                {
+                    "label": "peakrpm",
+                    "name": "peakrpm",
+                    "type": "Number"
+                }
+            ],
+            "modelFileUrl": "/services/data/v54.0/smartdatadiscovery/models/1OTB00000004jm0OAA/file",
+            "modelRuntime": {
+                "type": "Discovery"
+            },
+            "name": "Minimize_price",
+            "predictedField": "price",
+            "predictionProperty": {
+                "algorithmType": "Glm",
+                "type": "Regression"
+            },
+            "status": "Enabled",
+            "transformations": [],
+            "url": "/services/data/v54.0/smartdatadiscovery/models/1OTB00000004jm0OAA",
+            "validationResult": {}
+        }
+    ],
+    "totalSize": 1,
+    "url": "/services/data/v54.0/smartdatadiscovery/models?storyHistoryId=9B4B00000004rV8KAI"
 }
