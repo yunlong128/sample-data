@@ -1,313 +1,837 @@
 {
-  "alertsUrl": "/services/data/v53.0/smartdatadiscovery/stories/1Y35f0000008mksCAA/histories/9B45f0000009T5LCAU/alerts",
-  "createdBy": {
-    "id": "0055f0000042CLKAA2",
-    "name": "Johnny ZHANG",
-    "profilePhotoUrl": "https://tableau676-dev-ed--c.documentforce.com/profilephoto/005/T"
-  },
-  "createdDate": "2021-11-30T19:09:58.000Z",
-  "folder": {
-    "id": "0055f0000042CLKAA2",
-    "label": "Johnny ZHANG",
-    "url": "/services/data/v53.0/wave/folders/0055f0000042CLKAA2"
-  },
-  "id": "9B45f0000009T5LCAU",
-  "input": {
-    "dataset": {
-      "id": "0Fb5f000000tgtZCAQ",
-      "url": "/services/data/v53.0/wave/datasets/0Fb5f000000tgtZCAQ"
-    },
-    "datasetVersion": {
-      "id": "0Fc5f000001IpeICAS",
-      "url": "/services/data/v53.0/wave/datasets/0Fb5f000000tgtZCAQ/versions/0Fc5f000001IpeICAS"
-    },
-    "type": "AnalyticsDataset"
-  },
-  "inputProfile": {
-    "url": "/services/data/v53.0/smartdatadiscovery/analyses/9B45f0000009T5LCAU/input-profile"
-  },
-  "label": "superstore-orders",
-  "lastModifiedBy": {
-    "id": "0055f000004z8tqAAA",
-    "name": "Integration User",
-    "profilePhotoUrl": "https://tableau676-dev-ed--c.documentforce.com/profilephoto/005/T"
-  },
-  "lastModifiedDate": "2021-11-30T19:11:22.000Z",
-  "outcome": {
-    "goal": "Maximize",
-    "label": "Sales per Customer",
-    "name": "Sales_per_Customer",
-    "type": "Number"
-  },
-  "setup": {
-    "fields": [
-      {
-        "displayName": "Profit per Order",
-        "ignored": false,
-        "protected": false,
-        "sensitive": false,
-        "min": -6599.98,
-        "max": 8399.98,
-        "bucketingStrategy": "PERCENTILE",
-        "numBuckets": 10,
-        "uniqueEquivalent": false,
-        "highCardinality": false,
-        "name": "Profit_per_Order",
-        "type": "number"
-      },
-      {
-        "displayName": "Quantity",
-        "ignored": false,
-        "protected": false,
-        "sensitive": false,
-        "min": 1,
-        "max": 17,
-        "bucketingStrategy": "PERCENTILE",
-        "numBuckets": 10,
-        "uniqueEquivalent": false,
-        "highCardinality": false,
-        "name": "Quantity",
-        "type": "number"
-      },
-      {
-        "displayName": "Sales",
-        "ignored": false,
-        "protected": false,
-        "sensitive": false,
-        "min": 0,
-        "max": 22638,
-        "bucketingStrategy": "PERCENTILE",
-        "numBuckets": 10,
-        "uniqueEquivalent": false,
-        "highCardinality": false,
-        "name": "Sales",
-        "type": "number"
-      },
-      {
-        "displayName": "Sales per Customer",
-        "ignored": false,
-        "protected": false,
-        "sensitive": false,
-        "min": 0.44,
-        "max": 22638.48,
-        "bucketingStrategy": "PERCENTILE",
-        "numBuckets": 10,
-        "uniqueEquivalent": false,
-        "highCardinality": false,
-        "name": "Sales_per_Customer",
-        "type": "number"
-      },
-      {
-        "displayName": "Sub-Category",
-        "ignored": false,
-        "protected": false,
-        "sensitive": false,
-        "highCardinality": false,
-        "ordering": "OCCURRENCE",
-        "includeOther": true,
-        "support": 24,
-        "balanced": false,
-        "uniqueEquivalent": false,
-        "name": "Sub_Category",
-        "type": "text",
-        "values": [
-          {
-            "name": "Binders",
-            "displayName": "Binders",
-            "ignored": false,
-            "count": 1522
-          },
-          {
-            "name": "Paper",
-            "displayName": "Paper",
-            "ignored": false,
-            "count": 1366
-          },
-          {
-            "name": "Furnishings",
-            "displayName": "Furnishings",
-            "ignored": false,
-            "count": 956
-          },
-          {
-            "name": "Phones",
-            "displayName": "Phones",
-            "ignored": false,
-            "count": 888
-          },
-          {
-            "name": "Storage",
-            "displayName": "Storage",
-            "ignored": false,
-            "count": 844
-          },
-          {
-            "name": "Art",
-            "displayName": "Art",
-            "ignored": false,
-            "count": 795
-          },
-          {
-            "name": "Accessories",
-            "displayName": "Accessories",
-            "ignored": false,
-            "count": 771
-          },
-          {
-            "name": "Chairs",
-            "displayName": "Chairs",
-            "ignored": false,
-            "count": 613
-          },
-          {
-            "name": "Appliances",
-            "displayName": "Appliances",
-            "ignored": false,
-            "count": 465
-          },
-          {
-            "name": "Labels",
-            "displayName": "Labels",
-            "ignored": false,
-            "count": 364
-          },
-          {
-            "name": "Tables",
-            "displayName": "Tables",
-            "ignored": false,
-            "count": 319
-          },
-          {
-            "name": "Envelopes",
-            "displayName": "Envelopes",
-            "ignored": false,
-            "count": 253
-          },
-          {
-            "name": "Bookcases",
-            "displayName": "Bookcases",
-            "ignored": false,
-            "count": 227
-          },
-          {
-            "name": "Fasteners",
-            "displayName": "Fasteners",
-            "ignored": false,
-            "count": 217
-          },
-          {
-            "name": "Supplies",
-            "displayName": "Supplies",
-            "ignored": false,
-            "count": 190
-          },
-          {
-            "name": "Machines",
-            "displayName": "Machines",
-            "ignored": false,
-            "count": 115
-          },
-          {
-            "name": "Copiers",
-            "displayName": "Copiers",
-            "ignored": false,
-            "count": 68
-          }
-        ]
-      },
-      {
-        "displayName": "Category",
-        "ignored": false,
-        "protected": false,
-        "sensitive": false,
-        "highCardinality": false,
-        "ordering": "OCCURRENCE",
-        "includeOther": true,
-        "support": 24,
-        "balanced": false,
-        "uniqueEquivalent": false,
-        "name": "Category",
-        "type": "text",
-        "values": [
-          {
-            "name": "Office Supplies",
-            "displayName": "Office Supplies",
-            "ignored": false,
-            "count": 6016
-          },
-          {
-            "name": "Furniture",
-            "displayName": "Furniture",
-            "ignored": false,
-            "count": 2115
-          },
-          {
-            "name": "Technology",
-            "displayName": "Technology",
-            "ignored": false,
-            "count": 1842
-          }
-        ]
-      }
-    ],
-    "name": "superstore-orders",
-    "outcome": {
-      "name": "Sales_per_Customer",
-      "displayName": "Sales per Customer",
-      "type": "number",
-      "goal": "MAXIMIZE",
-      "min": 0.44,
-      "max": 22638.48,
-      "predictionType": "Numeric"
-    },
-    "validationDataConfiguration": null,
-    "downSampleSize": -1,
-    "modelConfiguration": {
-      "modelAlgType": "GLM"
-    },
-    "transformations": [],
-    "overrides": {
-      "fields": [
-        {
-          "name": "Profit_per_Order",
-          "type": "number"
-        },
-        {
-          "name": "Quantity",
-          "type": "number"
-        },
-        {
-          "name": "Sales",
-          "type": "number"
-        },
-        {
-          "name": "Sales_per_Customer",
-          "type": "number"
-        },
-        {
-          "name": "Sub_Category",
-          "type": "text"
-        },
-        {
-          "name": "Category",
-          "type": "text"
-        }
-      ],
-      "outcome": {
-        "name": "Sales_per_Customer",
-        "displayName": "Sales per Customer",
-        "type": "number",
-        "goal": "MAXIMIZE",
-        "predictionType": "Numeric"
-      },
-      "transformations": [],
-      "downSampleSize": -1,
-      "validationDataConfiguration": null,
-      "modelConfiguration": {
-        "modelAlgType": "GLM"
-      }
-    }
-  },
-  "status": "Success",
-  "url": "/services/data/v53.0/smartdatadiscovery/analyses/9B45f0000009T5LCAU"
+	"alertsUrl": "/services/data/v54.0/smartdatadiscovery/stories/1Y3B0000000TjrUKAS/histories/9B4B00000004rV8KAI/alerts",
+	"createdBy": {
+		"id": "005B0000006wvarIAA",
+		"name": "Admin User",
+		"profilePhotoUrl": "https://tableaueinstein--c.documentforce.com/profilephoto/729B0000000IC2n/T"
+	},
+	"createdDate": "2022-01-27T16:16:39.000Z",
+	"fields": [],
+	"folder": {
+		"id": "005B0000006wvarIAA",
+		"label": "Admin User",
+		"url": "/services/data/v54.0/wave/folders/005B0000006wvarIAA"
+	},
+	"id": "9B4B00000004rV8KAI",
+	"input": {
+		"dataset": {
+			"id": "0FbB000000049HjKAI",
+			"url": "/services/data/v54.0/wave/datasets/0FbB000000049HjKAI"
+		},
+		"datasetVersion": {
+			"id": "0FcB0000005ZrX7KAK",
+			"url": "/services/data/v54.0/wave/datasets/0FbB000000049HjKAI/versions/0FcB0000005ZrX7KAK"
+		},
+		"type": "AnalyticsDataset"
+	},
+	"inputProfile": {
+		"url": "/services/data/v54.0/smartdatadiscovery/analyses/9B4B00000004rV8KAI/input-profile"
+	},
+	"label": "CarPrices",
+	"lastModifiedBy": {
+		"id": "005B0000006wvfPIAQ",
+		"name": "Integration User",
+		"profilePhotoUrl": "https://tableaueinstein--c.documentforce.com/profilephoto/005/T"
+	},
+	"lastModifiedDate": "2022-01-27T16:17:56.000Z",
+	"outcome": {
+		"goal": "Minimize",
+		"label": "price",
+		"name": "price",
+		"type": "Number"
+	},
+	"setup": {
+		"outcome": {
+			"type": "number",
+			"name": "price",
+			"displayName": "price",
+			"predictionType": "Numeric",
+			"goal": "Minimize",
+			"max": 45400,
+			"min": 5118
+		},
+		"fields": [
+			{
+				"type": "number",
+				"name": "highwaympg",
+				"displayName": "highwaympg",
+				"ignored": false,
+				"protected": false,
+				"sensitive": false,
+				"min": 16,
+				"max": 54,
+				"bucketingStrategy": "PERCENTILE",
+				"numBuckets": 10,
+				"uniqueEquivalent": false,
+				"highCardinality": false
+			},
+			{
+				"type": "number",
+				"name": "car_ID",
+				"displayName": "car_ID",
+				"ignored": false,
+				"protected": false,
+				"sensitive": false,
+				"min": 1,
+				"max": 205,
+				"bucketingStrategy": "PERCENTILE",
+				"numBuckets": 10,
+				"uniqueEquivalent": false,
+				"highCardinality": false
+			},
+			{
+				"type": "number",
+				"name": "symboling",
+				"displayName": "symboling",
+				"ignored": false,
+				"protected": false,
+				"sensitive": false,
+				"min": -2,
+				"max": 3,
+				"bucketingStrategy": "PERCENTILE",
+				"numBuckets": 10,
+				"uniqueEquivalent": false,
+				"highCardinality": false
+			},
+			{
+				"type": "number",
+				"name": "price",
+				"displayName": "price",
+				"ignored": false,
+				"protected": false,
+				"sensitive": false,
+				"min": 5118,
+				"max": 45400,
+				"bucketingStrategy": "PERCENTILE",
+				"numBuckets": 10,
+				"uniqueEquivalent": false,
+				"highCardinality": false
+			},
+			{
+				"type": "number",
+				"name": "curbweight",
+				"displayName": "curbweight",
+				"ignored": false,
+				"protected": false,
+				"sensitive": false,
+				"min": 1488,
+				"max": 4066,
+				"bucketingStrategy": "PERCENTILE",
+				"numBuckets": 10,
+				"uniqueEquivalent": false,
+				"highCardinality": false
+			},
+			{
+				"type": "number",
+				"name": "carheight",
+				"displayName": "carheight",
+				"ignored": false,
+				"protected": false,
+				"sensitive": false,
+				"min": 47.8,
+				"max": 59.8,
+				"bucketingStrategy": "PERCENTILE",
+				"numBuckets": 10,
+				"uniqueEquivalent": false,
+				"highCardinality": false
+			},
+			{
+				"type": "number",
+				"name": "wheelbase",
+				"displayName": "wheelbase",
+				"ignored": false,
+				"protected": false,
+				"sensitive": false,
+				"min": 86.6,
+				"max": 120.9,
+				"bucketingStrategy": "PERCENTILE",
+				"numBuckets": 10,
+				"uniqueEquivalent": false,
+				"highCardinality": false
+			},
+			{
+				"type": "number",
+				"name": "enginesize",
+				"displayName": "enginesize",
+				"ignored": false,
+				"protected": false,
+				"sensitive": false,
+				"min": 61,
+				"max": 326,
+				"bucketingStrategy": "PERCENTILE",
+				"numBuckets": 10,
+				"uniqueEquivalent": false,
+				"highCardinality": false
+			},
+			{
+				"type": "number",
+				"name": "horsepower",
+				"displayName": "horsepower",
+				"ignored": false,
+				"protected": false,
+				"sensitive": false,
+				"min": 48,
+				"max": 288,
+				"bucketingStrategy": "PERCENTILE",
+				"numBuckets": 10,
+				"uniqueEquivalent": false,
+				"highCardinality": false
+			},
+			{
+				"type": "number",
+				"name": "boreratio",
+				"displayName": "boreratio",
+				"ignored": false,
+				"protected": false,
+				"sensitive": false,
+				"min": 2.54,
+				"max": 3.94,
+				"bucketingStrategy": "PERCENTILE",
+				"numBuckets": 10,
+				"uniqueEquivalent": false,
+				"highCardinality": false
+			},
+			{
+				"type": "number",
+				"name": "carlength",
+				"displayName": "carlength",
+				"ignored": false,
+				"protected": false,
+				"sensitive": false,
+				"min": 141.1,
+				"max": 208.1,
+				"bucketingStrategy": "PERCENTILE",
+				"numBuckets": 10,
+				"uniqueEquivalent": false,
+				"highCardinality": false
+			},
+			{
+				"type": "number",
+				"name": "carwidth",
+				"displayName": "carwidth",
+				"ignored": false,
+				"protected": false,
+				"sensitive": false,
+				"min": 60.3,
+				"max": 72.3,
+				"bucketingStrategy": "PERCENTILE",
+				"numBuckets": 10,
+				"uniqueEquivalent": false,
+				"highCardinality": false
+			},
+			{
+				"type": "number",
+				"name": "peakrpm",
+				"displayName": "peakrpm",
+				"ignored": false,
+				"protected": false,
+				"sensitive": false,
+				"min": 4150,
+				"max": 6600,
+				"bucketingStrategy": "PERCENTILE",
+				"numBuckets": 10,
+				"uniqueEquivalent": false,
+				"highCardinality": false
+			},
+			{
+				"type": "number",
+				"name": "citympg",
+				"displayName": "citympg",
+				"ignored": false,
+				"protected": false,
+				"sensitive": false,
+				"min": 13,
+				"max": 49,
+				"bucketingStrategy": "PERCENTILE",
+				"numBuckets": 10,
+				"uniqueEquivalent": false,
+				"highCardinality": false
+			},
+			{
+				"type": "number",
+				"name": "compressionratio",
+				"displayName": "compressionratio",
+				"ignored": false,
+				"protected": false,
+				"sensitive": false,
+				"min": 7,
+				"max": 23,
+				"bucketingStrategy": "PERCENTILE",
+				"numBuckets": 10,
+				"uniqueEquivalent": false,
+				"highCardinality": false
+			},
+			{
+				"type": "number",
+				"name": "stroke",
+				"displayName": "stroke",
+				"ignored": false,
+				"protected": false,
+				"sensitive": false,
+				"min": 2.07,
+				"max": 4.17,
+				"bucketingStrategy": "PERCENTILE",
+				"numBuckets": 10,
+				"uniqueEquivalent": false,
+				"highCardinality": false
+			},
+			{
+				"type": "text",
+				"name": "fueltype",
+				"displayName": "fueltype",
+				"ignored": false,
+				"protected": false,
+				"sensitive": false,
+				"highCardinality": false,
+				"ordering": "OCCURRENCE",
+				"includeOther": true,
+				"support": 24,
+				"balanced": false,
+				"values": [
+					{
+						"name": "gas",
+						"displayName": "gas",
+						"ignored": false,
+						"count": 1110
+					},
+					{
+						"name": "diesel",
+						"displayName": "diesel",
+						"ignored": false,
+						"count": 120
+					}
+				],
+				"uniqueEquivalent": false
+			},
+			{
+				"type": "text",
+				"name": "carbody",
+				"displayName": "carbody",
+				"ignored": false,
+				"protected": false,
+				"sensitive": false,
+				"highCardinality": false,
+				"ordering": "OCCURRENCE",
+				"includeOther": true,
+				"support": 24,
+				"balanced": false,
+				"values": [
+					{
+						"name": "sedan",
+						"displayName": "sedan",
+						"ignored": false,
+						"count": 576
+					},
+					{
+						"name": "hatchback",
+						"displayName": "hatchback",
+						"ignored": false,
+						"count": 420
+					},
+					{
+						"name": "wagon",
+						"displayName": "wagon",
+						"ignored": false,
+						"count": 150
+					},
+					{
+						"name": "hardtop",
+						"displayName": "hardtop",
+						"ignored": false,
+						"count": 48
+					},
+					{
+						"name": "convertible",
+						"displayName": "convertible",
+						"ignored": false,
+						"count": 36
+					}
+				],
+				"uniqueEquivalent": false
+			},
+			{
+				"type": "text",
+				"name": "enginelocation",
+				"displayName": "enginelocation",
+				"ignored": false,
+				"protected": false,
+				"sensitive": false,
+				"highCardinality": false,
+				"ordering": "OCCURRENCE",
+				"includeOther": true,
+				"support": 24,
+				"balanced": false,
+				"values": [
+					{
+						"name": "front",
+						"displayName": "front",
+						"ignored": false,
+						"count": 1212
+					}
+				],
+				"uniqueEquivalent": false
+			},
+			{
+				"type": "text",
+				"name": "aspiration",
+				"displayName": "aspiration",
+				"ignored": false,
+				"protected": false,
+				"sensitive": false,
+				"highCardinality": false,
+				"ordering": "OCCURRENCE",
+				"includeOther": true,
+				"support": 24,
+				"balanced": false,
+				"values": [
+					{
+						"name": "std",
+						"displayName": "std",
+						"ignored": false,
+						"count": 1008
+					},
+					{
+						"name": "turbo",
+						"displayName": "turbo",
+						"ignored": false,
+						"count": 222
+					}
+				],
+				"uniqueEquivalent": false
+			},
+			{
+				"type": "text",
+				"name": "fuelsystem",
+				"displayName": "fuelsystem",
+				"ignored": false,
+				"protected": false,
+				"sensitive": false,
+				"highCardinality": false,
+				"ordering": "OCCURRENCE",
+				"includeOther": true,
+				"support": 24,
+				"balanced": false,
+				"values": [
+					{
+						"name": "mpfi",
+						"displayName": "mpfi",
+						"ignored": false,
+						"count": 564
+					},
+					{
+						"name": "2bbl",
+						"displayName": "2bbl",
+						"ignored": false,
+						"count": 396
+					},
+					{
+						"name": "idi",
+						"displayName": "idi",
+						"ignored": false,
+						"count": 120
+					},
+					{
+						"name": "1bbl",
+						"displayName": "1bbl",
+						"ignored": false,
+						"count": 66
+					},
+					{
+						"name": "spdi",
+						"displayName": "spdi",
+						"ignored": false,
+						"count": 54
+					}
+				],
+				"uniqueEquivalent": false
+			},
+			{
+				"type": "text",
+				"name": "doornumber",
+				"displayName": "doornumber",
+				"ignored": false,
+				"protected": false,
+				"sensitive": false,
+				"highCardinality": false,
+				"ordering": "OCCURRENCE",
+				"includeOther": true,
+				"support": 24,
+				"balanced": false,
+				"values": [
+					{
+						"name": "four",
+						"displayName": "four",
+						"ignored": false,
+						"count": 690
+					},
+					{
+						"name": "two",
+						"displayName": "two",
+						"ignored": false,
+						"count": 540
+					}
+				],
+				"uniqueEquivalent": false
+			},
+			{
+				"type": "text",
+				"name": "drivewheel",
+				"displayName": "drivewheel",
+				"ignored": false,
+				"protected": false,
+				"sensitive": false,
+				"highCardinality": false,
+				"ordering": "OCCURRENCE",
+				"includeOther": true,
+				"support": 24,
+				"balanced": false,
+				"values": [
+					{
+						"name": "fwd",
+						"displayName": "fwd",
+						"ignored": false,
+						"count": 720
+					},
+					{
+						"name": "rwd",
+						"displayName": "rwd",
+						"ignored": false,
+						"count": 456
+					},
+					{
+						"name": "4wd",
+						"displayName": "4wd",
+						"ignored": false,
+						"count": 54
+					}
+				],
+				"uniqueEquivalent": false
+			},
+			{
+				"type": "text",
+				"name": "cylindernumber",
+				"displayName": "cylindernumber",
+				"ignored": false,
+				"protected": false,
+				"sensitive": false,
+				"highCardinality": false,
+				"ordering": "OCCURRENCE",
+				"includeOther": true,
+				"support": 24,
+				"balanced": false,
+				"values": [
+					{
+						"name": "four",
+						"displayName": "four",
+						"ignored": false,
+						"count": 954
+					},
+					{
+						"name": "six",
+						"displayName": "six",
+						"ignored": false,
+						"count": 144
+					},
+					{
+						"name": "five",
+						"displayName": "five",
+						"ignored": false,
+						"count": 66
+					},
+					{
+						"name": "eight",
+						"displayName": "eight",
+						"ignored": false,
+						"count": 30
+					}
+				],
+				"uniqueEquivalent": false
+			},
+			{
+				"type": "text",
+				"name": "CarName",
+				"displayName": "CarName",
+				"ignored": false,
+				"protected": false,
+				"sensitive": false,
+				"highCardinality": false,
+				"ordering": "OCCURRENCE",
+				"includeOther": true,
+				"support": 24,
+				"balanced": false,
+				"values": [
+					{
+						"name": "peugeot 504",
+						"displayName": "peugeot 504",
+						"ignored": false,
+						"count": 36
+					},
+					{
+						"name": "toyota corolla",
+						"displayName": "toyota corolla",
+						"ignored": false,
+						"count": 36
+					},
+					{
+						"name": "toyota corona",
+						"displayName": "toyota corona",
+						"ignored": false,
+						"count": 36
+					}
+				],
+				"uniqueEquivalent": false
+			},
+			{
+				"type": "text",
+				"name": "enginetype",
+				"displayName": "enginetype",
+				"ignored": false,
+				"protected": false,
+				"sensitive": false,
+				"highCardinality": false,
+				"ordering": "OCCURRENCE",
+				"includeOther": true,
+				"support": 24,
+				"balanced": false,
+				"values": [
+					{
+						"name": "ohc",
+						"displayName": "ohc",
+						"ignored": false,
+						"count": 888
+					},
+					{
+						"name": "ohcf",
+						"displayName": "ohcf",
+						"ignored": false,
+						"count": 90
+					},
+					{
+						"name": "ohcv",
+						"displayName": "ohcv",
+						"ignored": false,
+						"count": 78
+					},
+					{
+						"name": "dohc",
+						"displayName": "dohc",
+						"ignored": false,
+						"count": 72
+					},
+					{
+						"name": "l",
+						"displayName": "l",
+						"ignored": false,
+						"count": 72
+					}
+				],
+				"uniqueEquivalent": false
+			}
+		],
+		"modelConfiguration": {
+			"modelAlgType": "GLM"
+		},
+		"transformations": [],
+		"overrides": {
+			"outcome": {
+				"type": "number",
+				"name": "price",
+				"displayName": "price",
+				"predictionType": "Numeric",
+				"goal": "Minimize"
+			},
+			"fields": [
+				{
+					"type": "number",
+					"name": "highwaympg",
+					"protected": false,
+					"uniqueEquivalent": false,
+					"highCardinality": false
+				},
+				{
+					"type": "number",
+					"name": "car_ID",
+					"protected": false,
+					"uniqueEquivalent": false,
+					"highCardinality": false
+				},
+				{
+					"type": "number",
+					"name": "symboling",
+					"protected": false,
+					"uniqueEquivalent": false,
+					"highCardinality": false
+				},
+				{
+					"type": "number",
+					"name": "price",
+					"protected": false,
+					"uniqueEquivalent": false,
+					"highCardinality": false
+				},
+				{
+					"type": "number",
+					"name": "curbweight",
+					"protected": false,
+					"uniqueEquivalent": false,
+					"highCardinality": false
+				},
+				{
+					"type": "number",
+					"name": "carheight",
+					"protected": false,
+					"uniqueEquivalent": false,
+					"highCardinality": false
+				},
+				{
+					"type": "number",
+					"name": "wheelbase",
+					"protected": false,
+					"uniqueEquivalent": false,
+					"highCardinality": false
+				},
+				{
+					"type": "number",
+					"name": "enginesize",
+					"protected": false,
+					"uniqueEquivalent": false,
+					"highCardinality": false
+				},
+				{
+					"type": "number",
+					"name": "horsepower",
+					"protected": false,
+					"uniqueEquivalent": false,
+					"highCardinality": false
+				},
+				{
+					"type": "number",
+					"name": "boreratio",
+					"protected": false,
+					"uniqueEquivalent": false,
+					"highCardinality": false
+				},
+				{
+					"type": "number",
+					"name": "carlength",
+					"protected": false,
+					"uniqueEquivalent": false,
+					"highCardinality": false
+				},
+				{
+					"type": "number",
+					"name": "carwidth",
+					"protected": false,
+					"uniqueEquivalent": false,
+					"highCardinality": false
+				},
+				{
+					"type": "number",
+					"name": "peakrpm",
+					"protected": false,
+					"uniqueEquivalent": false,
+					"highCardinality": false
+				},
+				{
+					"type": "number",
+					"name": "citympg",
+					"protected": false,
+					"uniqueEquivalent": false,
+					"highCardinality": false
+				},
+				{
+					"type": "number",
+					"name": "compressionratio",
+					"protected": false,
+					"uniqueEquivalent": false,
+					"highCardinality": false
+				},
+				{
+					"type": "number",
+					"name": "stroke",
+					"protected": false,
+					"uniqueEquivalent": false,
+					"highCardinality": false
+				},
+				{
+					"type": "text",
+					"name": "fueltype",
+					"protected": false,
+					"highCardinality": false,
+					"uniqueEquivalent": false
+				},
+				{
+					"type": "text",
+					"name": "carbody",
+					"protected": false,
+					"highCardinality": false,
+					"uniqueEquivalent": false
+				},
+				{
+					"type": "text",
+					"name": "enginelocation",
+					"protected": false,
+					"highCardinality": false,
+					"uniqueEquivalent": false
+				},
+				{
+					"type": "text",
+					"name": "aspiration",
+					"protected": false,
+					"highCardinality": false,
+					"uniqueEquivalent": false
+				},
+				{
+					"type": "text",
+					"name": "fuelsystem",
+					"protected": false,
+					"highCardinality": false,
+					"uniqueEquivalent": false
+				},
+				{
+					"type": "text",
+					"name": "doornumber",
+					"protected": false,
+					"highCardinality": false,
+					"uniqueEquivalent": false
+				},
+				{
+					"type": "text",
+					"name": "drivewheel",
+					"protected": false,
+					"highCardinality": false,
+					"uniqueEquivalent": false
+				},
+				{
+					"type": "text",
+					"name": "cylindernumber",
+					"protected": false,
+					"highCardinality": false,
+					"uniqueEquivalent": false
+				},
+				{
+					"type": "text",
+					"name": "CarName",
+					"protected": false,
+					"highCardinality": false,
+					"uniqueEquivalent": false
+				},
+				{
+					"type": "text",
+					"name": "enginetype",
+					"protected": false,
+					"highCardinality": false,
+					"uniqueEquivalent": false
+				}
+			],
+			"modelConfiguration": {
+				"modelAlgType": "GLM"
+			},
+			"transformations": [],
+			"downSampleSize": -1
+		},
+		"downSampleSize": -1
+	},
+	"status": "Success",
+	"url": "/services/data/v54.0/smartdatadiscovery/analyses/9B4B00000004rV8KAI"
 }
