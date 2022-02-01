@@ -1,0 +1,1095 @@
+{
+	"alerts": [
+		{
+			"accepted": false,
+			"applicable": true,
+			"dismissed": false,
+			"id": "1ODB0000000L8vkOAC",
+			"key": "Rsquared",
+			"lastApplicableVersion": 1,
+			"lastStatusChangeBy": {},
+			"message": "This high score indicates that the model performs so well that data leakage might be a factor. Investigate and remove any variables that could contribute to data leakage.",
+			"subject": "R² > 0.95",
+			"type": "Rsquared",
+			"url": "/services/data/v54.0/smartdatadiscovery/stories/1Y3B0000000TjrUKAS/histories/9B4B00000004rV8KAI/alerts/1ODB0000000L8vkOAC"
+		},
+		{
+			"accepted": false,
+			"applicable": true,
+			"dismissed": false,
+			"id": "1ODB0000000L8v4OAC",
+			"key": "fuelsystem",
+			"lastApplicableVersion": 1,
+			"lastStatusChangeBy": {},
+			"message": "fuelsystem explains 35% of the variation in price. Such a high correlation might indicate possible data leakage. Investigate fuelsystem to determine whether it contains the information you are trying to predict. If data leakage is found, exclude fuelsystem from the story.",
+			"subject": "High Correlation",
+			"type": "ObviousPredictor",
+			"url": "/services/data/v54.0/smartdatadiscovery/stories/1Y3B0000000TjrUKAS/histories/9B4B00000004rV8KAI/alerts/1ODB0000000L8v4OAC"
+		},
+		{
+			"accepted": false,
+			"applicable": true,
+			"dismissed": false,
+			"id": "1ODB0000000L8v1OAC",
+			"key": "boreratio",
+			"lastApplicableVersion": 1,
+			"lastStatusChangeBy": {},
+			"message": "boreratio explains 38% of the variation in price. Such a high correlation might indicate possible data leakage. Investigate boreratio to determine whether it contains the information you are trying to predict. If data leakage is found, exclude boreratio from the story.",
+			"subject": "High Correlation",
+			"type": "ObviousPredictor",
+			"url": "/services/data/v54.0/smartdatadiscovery/stories/1Y3B0000000TjrUKAS/histories/9B4B00000004rV8KAI/alerts/1ODB0000000L8v1OAC"
+		},
+		{
+			"accepted": false,
+			"applicable": true,
+			"dismissed": false,
+			"id": "1ODB0000000L8v3OAC",
+			"key": "wheelbase",
+			"lastApplicableVersion": 1,
+			"lastStatusChangeBy": {},
+			"message": "wheelbase explains 39% of the variation in price. Such a high correlation might indicate possible data leakage. Investigate wheelbase to determine whether it contains the information you are trying to predict. If data leakage is found, exclude wheelbase from the story.",
+			"subject": "High Correlation",
+			"type": "ObviousPredictor",
+			"url": "/services/data/v54.0/smartdatadiscovery/stories/1Y3B0000000TjrUKAS/histories/9B4B00000004rV8KAI/alerts/1ODB0000000L8v3OAC"
+		},
+		{
+			"accepted": false,
+			"applicable": true,
+			"dismissed": false,
+			"id": "1ODB0000000L8uyOAC",
+			"key": "drivewheel",
+			"lastApplicableVersion": 1,
+			"lastStatusChangeBy": {},
+			"message": "drivewheel explains 41% of the variation in price. Such a high correlation might indicate possible data leakage. Investigate drivewheel to determine whether it contains the information you are trying to predict. If data leakage is found, exclude drivewheel from the story.",
+			"subject": "High Correlation",
+			"type": "ObviousPredictor",
+			"url": "/services/data/v54.0/smartdatadiscovery/stories/1Y3B0000000TjrUKAS/histories/9B4B00000004rV8KAI/alerts/1ODB0000000L8uyOAC"
+		},
+		{
+			"accepted": false,
+			"applicable": true,
+			"dismissed": false,
+			"id": "1ODB0000000L8v0OAC",
+			"key": "highwaympg",
+			"lastApplicableVersion": 1,
+			"lastStatusChangeBy": {},
+			"message": "highwaympg explains 55% of the variation in price. Such a high correlation might indicate possible data leakage. Investigate highwaympg to determine whether it contains the information you are trying to predict. If data leakage is found, exclude highwaympg from the story.",
+			"subject": "High Correlation",
+			"type": "ObviousPredictor",
+			"url": "/services/data/v54.0/smartdatadiscovery/stories/1Y3B0000000TjrUKAS/histories/9B4B00000004rV8KAI/alerts/1ODB0000000L8v0OAC"
+		},
+		{
+			"accepted": false,
+			"applicable": true,
+			"dismissed": false,
+			"id": "1ODB0000000L8v7OAC",
+			"key": "cylindernumber",
+			"lastApplicableVersion": 1,
+			"lastStatusChangeBy": {},
+			"message": "cylindernumber explains 59% of the variation in price. Such a high correlation might indicate possible data leakage. Investigate cylindernumber to determine whether it contains the information you are trying to predict. If data leakage is found, exclude cylindernumber from the story.",
+			"subject": "High Correlation",
+			"type": "ObviousPredictor",
+			"url": "/services/data/v54.0/smartdatadiscovery/stories/1Y3B0000000TjrUKAS/histories/9B4B00000004rV8KAI/alerts/1ODB0000000L8v7OAC"
+		},
+		{
+			"accepted": false,
+			"applicable": true,
+			"dismissed": false,
+			"id": "1ODB0000000L8v6OAC",
+			"key": "carlength",
+			"lastApplicableVersion": 1,
+			"lastStatusChangeBy": {},
+			"message": "carlength explains 60% of the variation in price. Such a high correlation might indicate possible data leakage. Investigate carlength to determine whether it contains the information you are trying to predict. If data leakage is found, exclude carlength from the story.",
+			"subject": "High Correlation",
+			"type": "ObviousPredictor",
+			"url": "/services/data/v54.0/smartdatadiscovery/stories/1Y3B0000000TjrUKAS/histories/9B4B00000004rV8KAI/alerts/1ODB0000000L8v6OAC"
+		},
+		{
+			"accepted": false,
+			"applicable": true,
+			"dismissed": false,
+			"id": "1ODB0000000L8uxOAC",
+			"key": "citympg",
+			"lastApplicableVersion": 1,
+			"lastStatusChangeBy": {},
+			"message": "citympg explains 60% of the variation in price. Such a high correlation might indicate possible data leakage. Investigate citympg to determine whether it contains the information you are trying to predict. If data leakage is found, exclude citympg from the story.",
+			"subject": "High Correlation",
+			"type": "ObviousPredictor",
+			"url": "/services/data/v54.0/smartdatadiscovery/stories/1Y3B0000000TjrUKAS/histories/9B4B00000004rV8KAI/alerts/1ODB0000000L8uxOAC"
+		},
+		{
+			"accepted": false,
+			"applicable": true,
+			"dismissed": false,
+			"id": "1ODB0000000L8uwOAC",
+			"key": "carwidth",
+			"lastApplicableVersion": 1,
+			"lastStatusChangeBy": {},
+			"message": "carwidth explains 65% of the variation in price. Such a high correlation might indicate possible data leakage. Investigate carwidth to determine whether it contains the information you are trying to predict. If data leakage is found, exclude carwidth from the story.",
+			"subject": "High Correlation",
+			"type": "ObviousPredictor",
+			"url": "/services/data/v54.0/smartdatadiscovery/stories/1Y3B0000000TjrUKAS/histories/9B4B00000004rV8KAI/alerts/1ODB0000000L8uwOAC"
+		},
+		{
+			"accepted": false,
+			"applicable": true,
+			"dismissed": false,
+			"id": "1ODB0000000L8v5OAC",
+			"key": "horsepower",
+			"lastApplicableVersion": 1,
+			"lastStatusChangeBy": {},
+			"message": "horsepower explains 66% of the variation in price. Such a high correlation might indicate possible data leakage. Investigate horsepower to determine whether it contains the information you are trying to predict. If data leakage is found, exclude horsepower from the story.",
+			"subject": "High Correlation",
+			"type": "ObviousPredictor",
+			"url": "/services/data/v54.0/smartdatadiscovery/stories/1Y3B0000000TjrUKAS/histories/9B4B00000004rV8KAI/alerts/1ODB0000000L8v5OAC"
+		},
+		{
+			"accepted": false,
+			"applicable": true,
+			"dismissed": false,
+			"id": "1ODB0000000L8v2OAC",
+			"key": "curbweight",
+			"lastApplicableVersion": 1,
+			"lastStatusChangeBy": {},
+			"message": "curbweight explains 70% of the variation in price. Such a high correlation might indicate possible data leakage. Investigate curbweight to determine whether it contains the information you are trying to predict. If data leakage is found, exclude curbweight from the story.",
+			"subject": "High Correlation",
+			"type": "ObviousPredictor",
+			"url": "/services/data/v54.0/smartdatadiscovery/stories/1Y3B0000000TjrUKAS/histories/9B4B00000004rV8KAI/alerts/1ODB0000000L8v2OAC"
+		},
+		{
+			"accepted": false,
+			"applicable": true,
+			"dismissed": false,
+			"id": "1ODB0000000L8uzOAC",
+			"key": "enginesize",
+			"lastApplicableVersion": 1,
+			"lastStatusChangeBy": {},
+			"message": "enginesize explains 85% of the variation in price. Such a high correlation might indicate possible data leakage. Investigate enginesize to determine whether it contains the information you are trying to predict. If data leakage is found, exclude enginesize from the story.",
+			"subject": "High Correlation",
+			"type": "ObviousPredictor",
+			"url": "/services/data/v54.0/smartdatadiscovery/stories/1Y3B0000000TjrUKAS/histories/9B4B00000004rV8KAI/alerts/1ODB0000000L8uzOAC"
+		},
+		{
+			"accepted": false,
+			"applicable": true,
+			"dismissed": false,
+			"id": "1ODB0000000L8vFOAS",
+			"key": "boreratio",
+			"lastApplicableVersion": 1,
+			"lastStatusChangeBy": {},
+			"message": "boreratio and drivewheel are 52% similar and might have a redundant impact on price. Investigate these variables for multicollinearity. If found, keep the one that best explains the outcome and exclude the other from the story. To improve results and make insights easier to interpret, consider removing the least descriptive variable from the story.",
+			"subject": "Multicollinearity",
+			"type": "CollinearFields",
+			"url": "/services/data/v54.0/smartdatadiscovery/stories/1Y3B0000000TjrUKAS/histories/9B4B00000004rV8KAI/alerts/1ODB0000000L8vFOAS"
+		},
+		{
+			"accepted": false,
+			"applicable": true,
+			"dismissed": false,
+			"id": "1ODB0000000L8vAOAS",
+			"key": "curbweight",
+			"lastApplicableVersion": 1,
+			"lastStatusChangeBy": {},
+			"message": "curbweight and enginesize are 52% similar and might have a redundant impact on price. Investigate these variables for multicollinearity. If found, keep the one that best explains the outcome and exclude the other from the story. To improve results and make insights easier to interpret, consider removing the least descriptive variable from the story.",
+			"subject": "Multicollinearity",
+			"type": "CollinearFields",
+			"url": "/services/data/v54.0/smartdatadiscovery/stories/1Y3B0000000TjrUKAS/histories/9B4B00000004rV8KAI/alerts/1ODB0000000L8vAOAS"
+		},
+		{
+			"accepted": false,
+			"applicable": true,
+			"dismissed": false,
+			"id": "1ODB0000000L8vIOAS",
+			"key": "peakrpm",
+			"lastApplicableVersion": 1,
+			"lastStatusChangeBy": {},
+			"message": "peakrpm and fueltype are 53% similar and might have a redundant impact on price. Investigate these variables for multicollinearity. If found, keep the one that best explains the outcome and exclude the other from the story. To improve results and make insights easier to interpret, consider removing the least descriptive variable from the story.",
+			"subject": "Multicollinearity",
+			"type": "CollinearFields",
+			"url": "/services/data/v54.0/smartdatadiscovery/stories/1Y3B0000000TjrUKAS/histories/9B4B00000004rV8KAI/alerts/1ODB0000000L8vIOAS"
+		},
+		{
+			"accepted": false,
+			"applicable": true,
+			"dismissed": false,
+			"id": "1ODB0000000L8vSOAS",
+			"key": "enginetype",
+			"lastApplicableVersion": 1,
+			"lastStatusChangeBy": {},
+			"message": "enginetype and cylindernumber are 53% similar and might have a redundant impact on price. Investigate these variables for multicollinearity. If found, keep the one that best explains the outcome and exclude the other from the story. To improve results and make insights easier to interpret, consider removing the least descriptive variable from the story.",
+			"subject": "Multicollinearity",
+			"type": "CollinearFields",
+			"url": "/services/data/v54.0/smartdatadiscovery/stories/1Y3B0000000TjrUKAS/histories/9B4B00000004rV8KAI/alerts/1ODB0000000L8vSOAS"
+		},
+		{
+			"accepted": false,
+			"applicable": true,
+			"dismissed": false,
+			"id": "1ODB0000000L8vHOAS",
+			"key": "carwidth",
+			"lastApplicableVersion": 1,
+			"lastStatusChangeBy": {},
+			"message": "carwidth and 3 other variables are highly correlated and might have a redundant impact on price. Investigate these variables for multicollinearity. If found, keep the one that best explains or predicts the outcome and exclude the other from the story.",
+			"relatedData": {
+				"collinearFields": [
+					{
+						"fieldLabel": "drivewheel",
+						"score": 0.5274169782490565
+					},
+					{
+						"fieldLabel": "wheelbase",
+						"score": 0.5061152440287093
+					},
+					{
+						"fieldLabel": "carlength",
+						"score": 0.5363960717539248
+					}
+				],
+				"referenceField": {
+					"label": "carwidth"
+				}
+			},
+			"subject": "Multicollinearity",
+			"type": "CollinearFields",
+			"url": "/services/data/v54.0/smartdatadiscovery/stories/1Y3B0000000TjrUKAS/histories/9B4B00000004rV8KAI/alerts/1ODB0000000L8vHOAS"
+		},
+		{
+			"accepted": false,
+			"applicable": true,
+			"dismissed": false,
+			"id": "1ODB0000000L8vCOAS",
+			"key": "wheelbase",
+			"lastApplicableVersion": 1,
+			"lastStatusChangeBy": {},
+			"message": "wheelbase and 2 other variables are highly correlated and might have a redundant impact on price. Investigate these variables for multicollinearity. If found, keep the one that best explains or predicts the outcome and exclude the other from the story.",
+			"relatedData": {
+				"collinearFields": [
+					{
+						"fieldLabel": "carwidth",
+						"score": 0.5061152440287093
+					},
+					{
+						"fieldLabel": "carlength",
+						"score": 0.5515708282229499
+					}
+				],
+				"referenceField": {
+					"label": "wheelbase"
+				}
+			},
+			"subject": "Multicollinearity",
+			"type": "CollinearFields",
+			"url": "/services/data/v54.0/smartdatadiscovery/stories/1Y3B0000000TjrUKAS/histories/9B4B00000004rV8KAI/alerts/1ODB0000000L8vCOAS"
+		},
+		{
+			"accepted": false,
+			"applicable": true,
+			"dismissed": false,
+			"id": "1ODB0000000L8vGOAS",
+			"key": "carlength",
+			"lastApplicableVersion": 1,
+			"lastStatusChangeBy": {},
+			"message": "carlength and 4 other variables are highly correlated and might have a redundant impact on price. Investigate these variables for multicollinearity. If found, keep the one that best explains or predicts the outcome and exclude the other from the story.",
+			"relatedData": {
+				"collinearFields": [
+					{
+						"fieldLabel": "carwidth",
+						"score": 0.5363960717539248
+					},
+					{
+						"fieldLabel": "drivewheel",
+						"score": 0.5285881275465457
+					},
+					{
+						"fieldLabel": "doornumber",
+						"score": 0.5289945070866271
+					},
+					{
+						"fieldLabel": "wheelbase",
+						"score": 0.5515708282229499
+					}
+				],
+				"referenceField": {
+					"label": "carlength"
+				}
+			},
+			"subject": "Multicollinearity",
+			"type": "CollinearFields",
+			"url": "/services/data/v54.0/smartdatadiscovery/stories/1Y3B0000000TjrUKAS/histories/9B4B00000004rV8KAI/alerts/1ODB0000000L8vGOAS"
+		},
+		{
+			"accepted": false,
+			"applicable": true,
+			"dismissed": false,
+			"id": "1ODB0000000L8vEOAS",
+			"key": "horsepower",
+			"lastApplicableVersion": 1,
+			"lastStatusChangeBy": {},
+			"message": "horsepower and 3 other variables are highly correlated and might have a redundant impact on price. Investigate these variables for multicollinearity. If found, keep the one that best explains or predicts the outcome and exclude the other from the story.",
+			"relatedData": {
+				"collinearFields": [
+					{
+						"fieldLabel": "citympg",
+						"score": 0.5368506674039323
+					},
+					{
+						"fieldLabel": "enginesize",
+						"score": 0.5054986589817097
+					},
+					{
+						"fieldLabel": "highwaympg",
+						"score": 0.5608238909514499
+					}
+				],
+				"referenceField": {
+					"label": "horsepower"
+				}
+			},
+			"subject": "Multicollinearity",
+			"type": "CollinearFields",
+			"url": "/services/data/v54.0/smartdatadiscovery/stories/1Y3B0000000TjrUKAS/histories/9B4B00000004rV8KAI/alerts/1ODB0000000L8vEOAS"
+		},
+		{
+			"accepted": false,
+			"applicable": true,
+			"dismissed": false,
+			"id": "1ODB0000000L8vBOAS",
+			"key": "carheight",
+			"lastApplicableVersion": 1,
+			"lastStatusChangeBy": {},
+			"message": "carheight and doornumber are 56% similar and might have a redundant impact on price. Investigate these variables for multicollinearity. If found, keep the one that best explains the outcome and exclude the other from the story. To improve results and make insights easier to interpret, consider removing the least descriptive variable from the story.",
+			"subject": "Multicollinearity",
+			"type": "CollinearFields",
+			"url": "/services/data/v54.0/smartdatadiscovery/stories/1Y3B0000000TjrUKAS/histories/9B4B00000004rV8KAI/alerts/1ODB0000000L8vBOAS"
+		},
+		{
+			"accepted": false,
+			"applicable": true,
+			"dismissed": false,
+			"id": "1ODB0000000L8vQOAS",
+			"key": "drivewheel",
+			"lastApplicableVersion": 1,
+			"lastStatusChangeBy": {},
+			"message": "drivewheel and 5 other variables are highly correlated and might have a redundant impact on price. Investigate these variables for multicollinearity. If found, keep the one that best explains or predicts the outcome and exclude the other from the story.",
+			"relatedData": {
+				"collinearFields": [
+					{
+						"fieldLabel": "carwidth",
+						"score": 0.5274169782490565
+					},
+					{
+						"fieldLabel": "enginesize",
+						"score": 0.5702625865861151
+					},
+					{
+						"fieldLabel": "highwaympg",
+						"score": 0.5053489719925484
+					},
+					{
+						"fieldLabel": "boreratio",
+						"score": 0.5166279666137538
+					},
+					{
+						"fieldLabel": "carlength",
+						"score": 0.5285881275465457
+					}
+				],
+				"referenceField": {
+					"label": "drivewheel"
+				}
+			},
+			"subject": "Multicollinearity",
+			"type": "CollinearFields",
+			"url": "/services/data/v54.0/smartdatadiscovery/stories/1Y3B0000000TjrUKAS/histories/9B4B00000004rV8KAI/alerts/1ODB0000000L8vQOAS"
+		},
+		{
+			"accepted": false,
+			"applicable": true,
+			"dismissed": false,
+			"id": "1ODB0000000L8vDOAS",
+			"key": "enginesize",
+			"lastApplicableVersion": 1,
+			"lastStatusChangeBy": {},
+			"message": "enginesize and 4 other variables are highly correlated and might have a redundant impact on price. Investigate these variables for multicollinearity. If found, keep the one that best explains or predicts the outcome and exclude the other from the story.",
+			"relatedData": {
+				"collinearFields": [
+					{
+						"fieldLabel": "drivewheel",
+						"score": 0.5702625865861151
+					},
+					{
+						"fieldLabel": "curbweight",
+						"score": 0.5210269232385343
+					},
+					{
+						"fieldLabel": "horsepower",
+						"score": 0.5054986589817097
+					},
+					{
+						"fieldLabel": "cylindernumber",
+						"score": 0.5752091530938919
+					}
+				],
+				"referenceField": {
+					"label": "enginesize"
+				}
+			},
+			"subject": "Multicollinearity",
+			"type": "CollinearFields",
+			"url": "/services/data/v54.0/smartdatadiscovery/stories/1Y3B0000000TjrUKAS/histories/9B4B00000004rV8KAI/alerts/1ODB0000000L8vDOAS"
+		},
+		{
+			"accepted": false,
+			"applicable": true,
+			"dismissed": false,
+			"id": "1ODB0000000L8vROAS",
+			"key": "cylindernumber",
+			"lastApplicableVersion": 1,
+			"lastStatusChangeBy": {},
+			"message": "cylindernumber and 2 other variables are highly correlated and might have a redundant impact on price. Investigate these variables for multicollinearity. If found, keep the one that best explains or predicts the outcome and exclude the other from the story.",
+			"relatedData": {
+				"collinearFields": [
+					{
+						"fieldLabel": "enginesize",
+						"score": 0.5752091530938919
+					},
+					{
+						"fieldLabel": "enginetype",
+						"score": 0.5333167700007895
+					}
+				],
+				"referenceField": {
+					"label": "cylindernumber"
+				}
+			},
+			"subject": "Multicollinearity",
+			"type": "CollinearFields",
+			"url": "/services/data/v54.0/smartdatadiscovery/stories/1Y3B0000000TjrUKAS/histories/9B4B00000004rV8KAI/alerts/1ODB0000000L8vROAS"
+		},
+		{
+			"accepted": false,
+			"applicable": true,
+			"dismissed": false,
+			"id": "1ODB0000000L8v8OAC",
+			"key": "highwaympg",
+			"lastApplicableVersion": 1,
+			"lastStatusChangeBy": {},
+			"message": "highwaympg and 3 other variables are highly correlated and might have a redundant impact on price. Investigate these variables for multicollinearity. If found, keep the one that best explains or predicts the outcome and exclude the other from the story.",
+			"relatedData": {
+				"collinearFields": [
+					{
+						"fieldLabel": "citympg",
+						"score": 0.6959467335361111
+					},
+					{
+						"fieldLabel": "drivewheel",
+						"score": 0.5053489719925484
+					},
+					{
+						"fieldLabel": "horsepower",
+						"score": 0.5608238909514499
+					}
+				],
+				"referenceField": {
+					"label": "highwaympg"
+				}
+			},
+			"subject": "Multicollinearity",
+			"type": "CollinearFields",
+			"url": "/services/data/v54.0/smartdatadiscovery/stories/1Y3B0000000TjrUKAS/histories/9B4B00000004rV8KAI/alerts/1ODB0000000L8v8OAC"
+		},
+		{
+			"accepted": false,
+			"applicable": true,
+			"dismissed": false,
+			"id": "1ODB0000000L8vJOAS",
+			"key": "citympg",
+			"lastApplicableVersion": 1,
+			"lastStatusChangeBy": {},
+			"message": "citympg and 2 other variables are highly correlated and might have a redundant impact on price. Investigate these variables for multicollinearity. If found, keep the one that best explains or predicts the outcome and exclude the other from the story.",
+			"relatedData": {
+				"collinearFields": [
+					{
+						"fieldLabel": "highwaympg",
+						"score": 0.6959467335361111
+					},
+					{
+						"fieldLabel": "horsepower",
+						"score": 0.5368506674039323
+					}
+				],
+				"referenceField": {
+					"label": "citympg"
+				}
+			},
+			"subject": "Multicollinearity",
+			"type": "CollinearFields",
+			"url": "/services/data/v54.0/smartdatadiscovery/stories/1Y3B0000000TjrUKAS/histories/9B4B00000004rV8KAI/alerts/1ODB0000000L8vJOAS"
+		},
+		{
+			"accepted": false,
+			"applicable": true,
+			"dismissed": false,
+			"id": "1ODB0000000L8v9OAC",
+			"key": "symboling",
+			"lastApplicableVersion": 1,
+			"lastStatusChangeBy": {},
+			"message": "symboling and doornumber are 70% similar and might have a redundant impact on price. Investigate these variables for multicollinearity. If found, keep the one that best explains the outcome and exclude the other from the story. To improve results and make insights easier to interpret, consider removing the least descriptive variable from the story.",
+			"subject": "Multicollinearity",
+			"type": "CollinearFields",
+			"url": "/services/data/v54.0/smartdatadiscovery/stories/1Y3B0000000TjrUKAS/histories/9B4B00000004rV8KAI/alerts/1ODB0000000L8v9OAC"
+		},
+		{
+			"accepted": false,
+			"applicable": true,
+			"dismissed": false,
+			"id": "1ODB0000000L8vNOAS",
+			"key": "aspiration",
+			"lastApplicableVersion": 1,
+			"lastStatusChangeBy": {},
+			"message": "aspiration and 2 other variables are highly correlated and might have a redundant impact on price. Investigate these variables for multicollinearity. If found, keep the one that best explains or predicts the outcome and exclude the other from the story.",
+			"relatedData": {
+				"collinearFields": [
+					{
+						"fieldLabel": "compressionratio",
+						"score": 0.7085630805731936
+					},
+					{
+						"fieldLabel": "fuelsystem",
+						"score": 0.6121524722655711
+					}
+				],
+				"referenceField": {
+					"label": "aspiration"
+				}
+			},
+			"subject": "Multicollinearity",
+			"type": "CollinearFields",
+			"url": "/services/data/v54.0/smartdatadiscovery/stories/1Y3B0000000TjrUKAS/histories/9B4B00000004rV8KAI/alerts/1ODB0000000L8vNOAS"
+		},
+		{
+			"accepted": false,
+			"applicable": true,
+			"dismissed": false,
+			"id": "1ODB0000000L8vMOAS",
+			"key": "carbody",
+			"lastApplicableVersion": 1,
+			"lastStatusChangeBy": {},
+			"message": "carbody and doornumber are 75% similar and might have a redundant impact on price. Investigate these variables for multicollinearity. If found, keep the one that best explains the outcome and exclude the other from the story. To improve results and make insights easier to interpret, consider removing the least descriptive variable from the story.",
+			"subject": "Multicollinearity",
+			"type": "CollinearFields",
+			"url": "/services/data/v54.0/smartdatadiscovery/stories/1Y3B0000000TjrUKAS/histories/9B4B00000004rV8KAI/alerts/1ODB0000000L8vMOAS"
+		},
+		{
+			"accepted": false,
+			"applicable": true,
+			"dismissed": false,
+			"id": "1ODB0000000L8vPOAS",
+			"key": "doornumber",
+			"lastApplicableVersion": 1,
+			"lastStatusChangeBy": {},
+			"message": "doornumber and 4 other variables are highly correlated and might have a redundant impact on price. Investigate these variables for multicollinearity. If found, keep the one that best explains or predicts the outcome and exclude the other from the story.",
+			"relatedData": {
+				"collinearFields": [
+					{
+						"fieldLabel": "carbody",
+						"score": 0.7505606312777119
+					},
+					{
+						"fieldLabel": "carheight",
+						"score": 0.5616835614933932
+					},
+					{
+						"fieldLabel": "carlength",
+						"score": 0.5289945070866271
+					},
+					{
+						"fieldLabel": "symboling",
+						"score": 0.6975498303164784
+					}
+				],
+				"referenceField": {
+					"label": "doornumber"
+				}
+			},
+			"subject": "Multicollinearity",
+			"type": "CollinearFields",
+			"url": "/services/data/v54.0/smartdatadiscovery/stories/1Y3B0000000TjrUKAS/histories/9B4B00000004rV8KAI/alerts/1ODB0000000L8vPOAS"
+		},
+		{
+			"accepted": false,
+			"applicable": true,
+			"dismissed": false,
+			"id": "1ODB0000000L8vKOAS",
+			"key": "compressionratio",
+			"lastApplicableVersion": 1,
+			"lastStatusChangeBy": {},
+			"message": "compressionratio and 3 other variables are highly correlated and might have a redundant impact on price. Investigate these variables for multicollinearity. If found, keep the one that best explains or predicts the outcome and exclude the other from the story.",
+			"relatedData": {
+				"collinearFields": [
+					{
+						"fieldLabel": "fuelsystem",
+						"score": 0.581242109697143
+					},
+					{
+						"fieldLabel": "fueltype",
+						"score": 0.9971457638014117
+					},
+					{
+						"fieldLabel": "aspiration",
+						"score": 0.7085630805731936
+					}
+				],
+				"referenceField": {
+					"label": "compressionratio"
+				}
+			},
+			"subject": "Multicollinearity",
+			"type": "CollinearFields",
+			"url": "/services/data/v54.0/smartdatadiscovery/stories/1Y3B0000000TjrUKAS/histories/9B4B00000004rV8KAI/alerts/1ODB0000000L8vKOAS"
+		},
+		{
+			"accepted": false,
+			"applicable": true,
+			"dismissed": false,
+			"id": "1ODB0000000L8vLOAS",
+			"key": "fueltype",
+			"lastApplicableVersion": 1,
+			"lastStatusChangeBy": {},
+			"message": "fueltype and 3 other variables are highly correlated and might have a redundant impact on price. Investigate these variables for multicollinearity. If found, keep the one that best explains or predicts the outcome and exclude the other from the story.",
+			"relatedData": {
+				"collinearFields": [
+					{
+						"fieldLabel": "compressionratio",
+						"score": 0.9971457638014117
+					},
+					{
+						"fieldLabel": "fuelsystem",
+						"score": 0.9983700070664043
+					},
+					{
+						"fieldLabel": "peakrpm",
+						"score": 0.527317496081127
+					}
+				],
+				"referenceField": {
+					"label": "fueltype"
+				}
+			},
+			"subject": "Multicollinearity",
+			"type": "CollinearFields",
+			"url": "/services/data/v54.0/smartdatadiscovery/stories/1Y3B0000000TjrUKAS/histories/9B4B00000004rV8KAI/alerts/1ODB0000000L8vLOAS"
+		},
+		{
+			"accepted": false,
+			"applicable": true,
+			"dismissed": false,
+			"id": "1ODB0000000L8vOOAS",
+			"key": "fuelsystem",
+			"lastApplicableVersion": 1,
+			"lastStatusChangeBy": {},
+			"message": "fuelsystem and 3 other variables are highly correlated and might have a redundant impact on price. Investigate these variables for multicollinearity. If found, keep the one that best explains or predicts the outcome and exclude the other from the story.",
+			"relatedData": {
+				"collinearFields": [
+					{
+						"fieldLabel": "compressionratio",
+						"score": 0.581242109697143
+					},
+					{
+						"fieldLabel": "fueltype",
+						"score": 0.9983700070664043
+					},
+					{
+						"fieldLabel": "aspiration",
+						"score": 0.6121524722655711
+					}
+				],
+				"referenceField": {
+					"label": "fuelsystem"
+				}
+			},
+			"subject": "Multicollinearity",
+			"type": "CollinearFields",
+			"url": "/services/data/v54.0/smartdatadiscovery/stories/1Y3B0000000TjrUKAS/histories/9B4B00000004rV8KAI/alerts/1ODB0000000L8vOOAS"
+		},
+		{
+			"accepted": false,
+			"applicable": true,
+			"dismissed": false,
+			"id": "1ODB0000000L8vdOAC",
+			"key": "boreratio",
+			"lastApplicableVersion": 1,
+			"lastStatusChangeBy": {},
+			"message": "For boreratio, consider using the following buckets. Determine whether grouping data in this way improves the interpretability of story insights.",
+			"relatedData": {
+				"recommendedBuckets": [
+					"2.54 to 2.79",
+					"2.8 to 3.07",
+					"3.08 to 3.49",
+					"3.5 to 3.94"
+				]
+			},
+			"subject": "Suggested Buckets",
+			"type": "RecommendedBuckets",
+			"url": "/services/data/v54.0/smartdatadiscovery/stories/1Y3B0000000TjrUKAS/histories/9B4B00000004rV8KAI/alerts/1ODB0000000L8vdOAC"
+		},
+		{
+			"accepted": false,
+			"applicable": true,
+			"dismissed": false,
+			"id": "1ODB0000000L8vXOAS",
+			"key": "car_ID",
+			"lastApplicableVersion": 1,
+			"lastStatusChangeBy": {},
+			"message": "For car_ID, consider using the following buckets. Determine whether grouping data in this way improves the interpretability of story insights.",
+			"relatedData": {
+				"recommendedBuckets": [
+					"1 to 73",
+					"74 to 76",
+					"77 to 78",
+					"79 to 80",
+					"81 to 82",
+					"83 to 84",
+					"85 to 86",
+					"87 to 88",
+					"89 to 90",
+					"91 to 92",
+					"93 to 94",
+					"95 to 96",
+					"97 to 98",
+					"99 to 100",
+					"101 to 102",
+					"103 to 104",
+					"105 to 106",
+					"107 to 108",
+					"109 to 110",
+					"111 to 112",
+					"113 to 114",
+					"115 to 116",
+					"117 to 118",
+					"119 to 120",
+					"121 to 122",
+					"123 to 124",
+					"125 to 126",
+					"127 to 128",
+					"129 to 130",
+					"131 to 132",
+					"133 to 205"
+				]
+			},
+			"subject": "Suggested Buckets",
+			"type": "RecommendedBuckets",
+			"url": "/services/data/v54.0/smartdatadiscovery/stories/1Y3B0000000TjrUKAS/histories/9B4B00000004rV8KAI/alerts/1ODB0000000L8vXOAS"
+		},
+		{
+			"accepted": false,
+			"applicable": true,
+			"dismissed": false,
+			"id": "1ODB0000000L8vZOAS",
+			"key": "carheight",
+			"lastApplicableVersion": 1,
+			"lastStatusChangeBy": {},
+			"message": "For carheight, consider using the following buckets. Determine whether grouping data in this way improves the interpretability of story insights.",
+			"relatedData": {
+				"recommendedBuckets": [
+					"47.8 to 51.5",
+					"51.6 to 53.2",
+					"53.3 to 55.2",
+					"55.3 to 57.9",
+					"58 to 59.8"
+				]
+			},
+			"subject": "Suggested Buckets",
+			"type": "RecommendedBuckets",
+			"url": "/services/data/v54.0/smartdatadiscovery/stories/1Y3B0000000TjrUKAS/histories/9B4B00000004rV8KAI/alerts/1ODB0000000L8vZOAS"
+		},
+		{
+			"accepted": false,
+			"applicable": true,
+			"dismissed": false,
+			"id": "1ODB0000000L8veOAC",
+			"key": "carlength",
+			"lastApplicableVersion": 1,
+			"lastStatusChangeBy": {},
+			"message": "For carlength, consider using the following buckets. Determine whether grouping data in this way improves the interpretability of story insights.",
+			"relatedData": {
+				"recommendedBuckets": [
+					"141.1 to 160.9",
+					"161 to 182.4",
+					"182.5 to 195.4",
+					"195.5 to 208.1"
+				]
+			},
+			"subject": "Suggested Buckets",
+			"type": "RecommendedBuckets",
+			"url": "/services/data/v54.0/smartdatadiscovery/stories/1Y3B0000000TjrUKAS/histories/9B4B00000004rV8KAI/alerts/1ODB0000000L8veOAC"
+		},
+		{
+			"accepted": false,
+			"applicable": true,
+			"dismissed": false,
+			"id": "1ODB0000000L8vfOAC",
+			"key": "carwidth",
+			"lastApplicableVersion": 1,
+			"lastStatusChangeBy": {},
+			"message": "For carwidth, consider using the following buckets. Determine whether grouping data in this way improves the interpretability of story insights.",
+			"relatedData": {
+				"recommendedBuckets": [
+					"60.3 to 64.7",
+					"64.8 to 66",
+					"66.1 to 67.5",
+					"67.6 to 69.9",
+					"70 to 70.8",
+					"70.9 to 72.3"
+				]
+			},
+			"subject": "Suggested Buckets",
+			"type": "RecommendedBuckets",
+			"url": "/services/data/v54.0/smartdatadiscovery/stories/1Y3B0000000TjrUKAS/histories/9B4B00000004rV8KAI/alerts/1ODB0000000L8vfOAC"
+		},
+		{
+			"accepted": false,
+			"applicable": true,
+			"dismissed": false,
+			"id": "1ODB0000000L8vhOAC",
+			"key": "citympg",
+			"lastApplicableVersion": 1,
+			"lastStatusChangeBy": {},
+			"message": "For citympg, consider using the following buckets. Determine whether grouping data in this way improves the interpretability of story insights.",
+			"relatedData": {
+				"recommendedBuckets": [
+					"13 to 22",
+					"23 to 29",
+					"30 to 35",
+					"36 to 42",
+					"43 to 49"
+				]
+			},
+			"subject": "Suggested Buckets",
+			"type": "RecommendedBuckets",
+			"url": "/services/data/v54.0/smartdatadiscovery/stories/1Y3B0000000TjrUKAS/histories/9B4B00000004rV8KAI/alerts/1ODB0000000L8vhOAC"
+		},
+		{
+			"accepted": false,
+			"applicable": true,
+			"dismissed": false,
+			"id": "1ODB0000000L8viOAC",
+			"key": "compressionratio",
+			"lastApplicableVersion": 1,
+			"lastStatusChangeBy": {},
+			"message": "For compressionratio, consider using the following buckets. Determine whether grouping data in this way improves the interpretability of story insights.",
+			"relatedData": {
+				"recommendedBuckets": [
+					"7 to 7.75",
+					"7.76 to 8.2",
+					"8.21 to 8.75",
+					"8.76 to 9.25",
+					"9.26 to 9.8",
+					"9.81 to 16.25",
+					"16.26 to 21.25",
+					"21.26 to 21.7",
+					"21.71 to 22.25",
+					"22.26 to 22.85",
+					"22.86 to 23"
+				]
+			},
+			"subject": "Suggested Buckets",
+			"type": "RecommendedBuckets",
+			"url": "/services/data/v54.0/smartdatadiscovery/stories/1Y3B0000000TjrUKAS/histories/9B4B00000004rV8KAI/alerts/1ODB0000000L8viOAC"
+		},
+		{
+			"accepted": false,
+			"applicable": true,
+			"dismissed": false,
+			"id": "1ODB0000000L8vYOAS",
+			"key": "curbweight",
+			"lastApplicableVersion": 1,
+			"lastStatusChangeBy": {},
+			"message": "For curbweight, consider using the following buckets. Determine whether grouping data in this way improves the interpretability of story insights.",
+			"relatedData": {
+				"recommendedBuckets": [
+					"1,488 to 2,102",
+					"2,103 to 2,846",
+					"2,847 to 3,600",
+					"3,601 to 4,066"
+				]
+			},
+			"subject": "Suggested Buckets",
+			"type": "RecommendedBuckets",
+			"url": "/services/data/v54.0/smartdatadiscovery/stories/1Y3B0000000TjrUKAS/histories/9B4B00000004rV8KAI/alerts/1ODB0000000L8vYOAS"
+		},
+		{
+			"accepted": false,
+			"applicable": true,
+			"dismissed": false,
+			"id": "1ODB0000000L8vbOAC",
+			"key": "enginesize",
+			"lastApplicableVersion": 1,
+			"lastStatusChangeBy": {},
+			"message": "For enginesize, consider using the following buckets. Determine whether grouping data in this way improves the interpretability of story insights.",
+			"relatedData": {
+				"recommendedBuckets": [
+					"61 to 168",
+					"169 to 222",
+					"223 to 281",
+					"282 to 326"
+				]
+			},
+			"subject": "Suggested Buckets",
+			"type": "RecommendedBuckets",
+			"url": "/services/data/v54.0/smartdatadiscovery/stories/1Y3B0000000TjrUKAS/histories/9B4B00000004rV8KAI/alerts/1ODB0000000L8vbOAC"
+		},
+		{
+			"accepted": false,
+			"applicable": true,
+			"dismissed": false,
+			"id": "1ODB0000000L8vWOAS",
+			"key": "highwaympg",
+			"lastApplicableVersion": 1,
+			"lastStatusChangeBy": {},
+			"message": "For highwaympg, consider using the following buckets. Determine whether grouping data in this way improves the interpretability of story insights.",
+			"relatedData": {
+				"recommendedBuckets": [
+					"16 to 26",
+					"27 to 35",
+					"36 to 52",
+					"53 to 54"
+				]
+			},
+			"subject": "Suggested Buckets",
+			"type": "RecommendedBuckets",
+			"url": "/services/data/v54.0/smartdatadiscovery/stories/1Y3B0000000TjrUKAS/histories/9B4B00000004rV8KAI/alerts/1ODB0000000L8vWOAS"
+		},
+		{
+			"accepted": false,
+			"applicable": true,
+			"dismissed": false,
+			"id": "1ODB0000000L8vcOAC",
+			"key": "horsepower",
+			"lastApplicableVersion": 1,
+			"lastStatusChangeBy": {},
+			"message": "For horsepower, consider using the following buckets. Determine whether grouping data in this way improves the interpretability of story insights.",
+			"relatedData": {
+				"recommendedBuckets": [
+					"48 to 83",
+					"84 to 104",
+					"105 to 135",
+					"136 to 175",
+					"176 to 192",
+					"193 to 235",
+					"236 to 288"
+				]
+			},
+			"subject": "Suggested Buckets",
+			"type": "RecommendedBuckets",
+			"url": "/services/data/v54.0/smartdatadiscovery/stories/1Y3B0000000TjrUKAS/histories/9B4B00000004rV8KAI/alerts/1ODB0000000L8vcOAC"
+		},
+		{
+			"accepted": false,
+			"applicable": true,
+			"dismissed": false,
+			"id": "1ODB0000000L8vgOAC",
+			"key": "peakrpm",
+			"lastApplicableVersion": 1,
+			"lastStatusChangeBy": {},
+			"message": "For peakrpm, consider using the following buckets. Determine whether grouping data in this way improves the interpretability of story insights.",
+			"relatedData": {
+				"recommendedBuckets": [
+					"4,150 to 4,575",
+					"4,576 to 5,050",
+					"5,051 to 5,350",
+					"5,351 to 5,675",
+					"5,676 to 6,600"
+				]
+			},
+			"subject": "Suggested Buckets",
+			"type": "RecommendedBuckets",
+			"url": "/services/data/v54.0/smartdatadiscovery/stories/1Y3B0000000TjrUKAS/histories/9B4B00000004rV8KAI/alerts/1ODB0000000L8vgOAC"
+		},
+		{
+			"accepted": false,
+			"applicable": true,
+			"dismissed": false,
+			"id": "1ODB0000000L8vjOAC",
+			"key": "stroke",
+			"lastApplicableVersion": 1,
+			"lastStatusChangeBy": {},
+			"message": "For stroke, consider using the following buckets. Determine whether grouping data in this way improves the interpretability of story insights.",
+			"relatedData": {
+				"recommendedBuckets": [
+					"2.07 to 2.5",
+					"2.501 to 2.78",
+					"2.781 to 3.32",
+					"3.321 to 3.75",
+					"3.751 to 4.17"
+				]
+			},
+			"subject": "Suggested Buckets",
+			"type": "RecommendedBuckets",
+			"url": "/services/data/v54.0/smartdatadiscovery/stories/1Y3B0000000TjrUKAS/histories/9B4B00000004rV8KAI/alerts/1ODB0000000L8vjOAC"
+		},
+		{
+			"accepted": false,
+			"applicable": true,
+			"dismissed": false,
+			"id": "1ODB0000000L8vaOAC",
+			"key": "wheelbase",
+			"lastApplicableVersion": 1,
+			"lastStatusChangeBy": {},
+			"message": "For wheelbase, consider using the following buckets. Determine whether grouping data in this way improves the interpretability of story insights.",
+			"relatedData": {
+				"recommendedBuckets": [
+					"86.6 to 90.4",
+					"90.5 to 101.6",
+					"101.7 to 106.3",
+					"106.4 to 111",
+					"111.1 to 120.9"
+				]
+			},
+			"subject": "Suggested Buckets",
+			"type": "RecommendedBuckets",
+			"url": "/services/data/v54.0/smartdatadiscovery/stories/1Y3B0000000TjrUKAS/histories/9B4B00000004rV8KAI/alerts/1ODB0000000L8vaOAC"
+		},
+		{
+			"accepted": false,
+			"applicable": true,
+			"dismissed": false,
+			"id": "1ODB0000000L8vTOAS",
+			"key": "fueltype",
+			"lastApplicableVersion": 1,
+			"lastStatusChangeBy": {},
+			"message": "90% of fueltype values are gas. Evaluate whether fueltype contributes meaningfully to the analysis. If not, consider removing it from the story.",
+			"subject": "High Frequency Values",
+			"type": "SingleValueWithOther",
+			"url": "/services/data/v54.0/smartdatadiscovery/stories/1Y3B0000000TjrUKAS/histories/9B4B00000004rV8KAI/alerts/1ODB0000000L8vTOAS"
+		},
+		{
+			"accepted": false,
+			"applicable": true,
+			"dismissed": false,
+			"id": "1ODB0000000L8vVOAS",
+			"key": "CarName",
+			"lastApplicableVersion": 1,
+			"lastStatusChangeBy": {},
+			"message": "91% of CarName values are Other. Evaluate whether CarName contributes meaningfully to the analysis. If not, consider removing it from the story.",
+			"subject": "High Frequency Values",
+			"type": "SingleValueWithOther",
+			"url": "/services/data/v54.0/smartdatadiscovery/stories/1Y3B0000000TjrUKAS/histories/9B4B00000004rV8KAI/alerts/1ODB0000000L8vVOAS"
+		},
+		{
+			"accepted": false,
+			"applicable": true,
+			"dismissed": false,
+			"id": "1ODB0000000L8vUOAS",
+			"key": "enginelocation",
+			"lastApplicableVersion": 1,
+			"lastStatusChangeBy": {},
+			"message": "99% of enginelocation values are front. Evaluate whether enginelocation contributes meaningfully to the analysis. If not, consider removing it from the story.",
+			"subject": "High Frequency Values",
+			"type": "SingleValueWithOther",
+			"url": "/services/data/v54.0/smartdatadiscovery/stories/1Y3B0000000TjrUKAS/histories/9B4B00000004rV8KAI/alerts/1ODB0000000L8vUOAS"
+		}
+	],
+	"totalSize": 51,
+	"url": "/services/data/v53.0/smartdatadiscovery/stories/1Y35f0000008nO5CAI/histories/9B45f0000009pzwCAA/alerts"
+}
