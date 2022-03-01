@@ -1,228 +1,228 @@
 {
-    "action": "query",
-    "responseId": "4hVSDLqEq6najkl1cKMZrV",
-    "results": {
-        "metadata": [
-            {
-                "lineage": {
-                    "type": "union",
-                    "inputs": [
-                        {
-                            "type": "foreach",
-                            "projections": [
-                                {
-                                    "field": {
-                                        "id": "q0.bin",
-                                        "type": "numeric"
-                                    }
-                                },
-                                {
-                                    "field": {
-                                        "id": "q0.count",
-                                        "type": "numeric"
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "type": "foreach",
-                            "projections": [
-                                {
-                                    "field": {
-                                        "id": "q1.bin",
-                                        "type": "numeric"
-                                    }
-                                },
-                                {
-                                    "field": {
-                                        "id": "q1.count",
-                                        "type": "numeric"
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "type": "foreach",
-                            "projections": [
-                                {
-                                    "field": {
-                                        "id": "q2.bin",
-                                        "type": "numeric"
-                                    }
-                                },
-                                {
-                                    "field": {
-                                        "id": "q2.count",
-                                        "type": "numeric"
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "type": "foreach",
-                            "projections": [
-                                {
-                                    "field": {
-                                        "id": "q3.bin",
-                                        "type": "numeric"
-                                    }
-                                },
-                                {
-                                    "field": {
-                                        "id": "q3.count",
-                                        "type": "numeric"
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "type": "foreach",
-                            "projections": [
-                                {
-                                    "field": {
-                                        "id": "q4.bin",
-                                        "type": "numeric"
-                                    }
-                                },
-                                {
-                                    "field": {
-                                        "id": "q4.count",
-                                        "type": "numeric"
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "type": "foreach",
-                            "projections": [
-                                {
-                                    "field": {
-                                        "id": "q5.bin",
-                                        "type": "numeric"
-                                    }
-                                },
-                                {
-                                    "field": {
-                                        "id": "q5.count",
-                                        "type": "numeric"
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "type": "foreach",
-                            "projections": [
-                                {
-                                    "field": {
-                                        "id": "q6.bin",
-                                        "type": "numeric"
-                                    }
-                                },
-                                {
-                                    "field": {
-                                        "id": "q6.count",
-                                        "type": "numeric"
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "type": "foreach",
-                            "projections": [
-                                {
-                                    "field": {
-                                        "id": "q7.bin",
-                                        "type": "numeric"
-                                    }
-                                },
-                                {
-                                    "field": {
-                                        "id": "q7.count",
-                                        "type": "numeric"
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "type": "foreach",
-                            "projections": [
-                                {
-                                    "field": {
-                                        "id": "q8.bin",
-                                        "type": "numeric"
-                                    }
-                                },
-                                {
-                                    "field": {
-                                        "id": "q8.count",
-                                        "type": "numeric"
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "type": "foreach",
-                            "projections": [
-                                {
-                                    "field": {
-                                        "id": "q9.bin",
-                                        "type": "numeric"
-                                    }
-                                },
-                                {
-                                    "field": {
-                                        "id": "q9.count",
-                                        "type": "numeric"
-                                    }
-                                }
-                            ]
-                        }
-                    ]
-                },
-                "queryLanguage": "SAQL"
-            }
-        ],
-        "records": [
-            {
-                "bin": 0,
-                "count": 16955
-            },
-            {
-                "bin": 1,
-                "count": 5747
-            },
-            {
-                "bin": 2,
-                "count": 918
-            },
-            {
-                "bin": 3,
-                "count": 88
-            },
-            {
-                "bin": 4,
-                "count": 500
-            },
-            {
-                "bin": 5,
-                "count": 2147
-            },
-            {
-                "bin": 6,
-                "count": 3226
-            },
-            {
-                "bin": 7,
-                "count": 2176
-            },
-            {
-                "bin": 8,
-                "count": 421
-            },
-            {
-                "bin": 9,
-                "count": 34
-            }
-        ]
-    }
+	"action": "query",
+	"responseId": "4hVdx_STdA7W4-l1cKMedV",
+	"results": {
+		"metadata": [
+			{
+				"lineage": {
+					"type": "union",
+					"inputs": [
+						{
+							"type": "foreach",
+							"projections": [
+								{
+									"field": {
+										"id": "q0.bin",
+										"type": "numeric"
+									}
+								},
+								{
+									"field": {
+										"id": "q0.count",
+										"type": "numeric"
+									}
+								}
+							]
+						},
+						{
+							"type": "foreach",
+							"projections": [
+								{
+									"field": {
+										"id": "q1.bin",
+										"type": "numeric"
+									}
+								},
+								{
+									"field": {
+										"id": "q1.count",
+										"type": "numeric"
+									}
+								}
+							]
+						},
+						{
+							"type": "foreach",
+							"projections": [
+								{
+									"field": {
+										"id": "q2.bin",
+										"type": "numeric"
+									}
+								},
+								{
+									"field": {
+										"id": "q2.count",
+										"type": "numeric"
+									}
+								}
+							]
+						},
+						{
+							"type": "foreach",
+							"projections": [
+								{
+									"field": {
+										"id": "q3.bin",
+										"type": "numeric"
+									}
+								},
+								{
+									"field": {
+										"id": "q3.count",
+										"type": "numeric"
+									}
+								}
+							]
+						},
+						{
+							"type": "foreach",
+							"projections": [
+								{
+									"field": {
+										"id": "q4.bin",
+										"type": "numeric"
+									}
+								},
+								{
+									"field": {
+										"id": "q4.count",
+										"type": "numeric"
+									}
+								}
+							]
+						},
+						{
+							"type": "foreach",
+							"projections": [
+								{
+									"field": {
+										"id": "q5.bin",
+										"type": "numeric"
+									}
+								},
+								{
+									"field": {
+										"id": "q5.count",
+										"type": "numeric"
+									}
+								}
+							]
+						},
+						{
+							"type": "foreach",
+							"projections": [
+								{
+									"field": {
+										"id": "q6.bin",
+										"type": "numeric"
+									}
+								},
+								{
+									"field": {
+										"id": "q6.count",
+										"type": "numeric"
+									}
+								}
+							]
+						},
+						{
+							"type": "foreach",
+							"projections": [
+								{
+									"field": {
+										"id": "q7.bin",
+										"type": "numeric"
+									}
+								},
+								{
+									"field": {
+										"id": "q7.count",
+										"type": "numeric"
+									}
+								}
+							]
+						},
+						{
+							"type": "foreach",
+							"projections": [
+								{
+									"field": {
+										"id": "q8.bin",
+										"type": "numeric"
+									}
+								},
+								{
+									"field": {
+										"id": "q8.count",
+										"type": "numeric"
+									}
+								}
+							]
+						},
+						{
+							"type": "foreach",
+							"projections": [
+								{
+									"field": {
+										"id": "q9.bin",
+										"type": "numeric"
+									}
+								},
+								{
+									"field": {
+										"id": "q9.count",
+										"type": "numeric"
+									}
+								}
+							]
+						}
+					]
+				},
+				"queryLanguage": "SAQL"
+			}
+		],
+		"records": [
+			{
+				"bin": 0,
+				"count": 8258
+			},
+			{
+				"bin": 1,
+				"count": 904
+			},
+			{
+				"bin": 2,
+				"count": 351
+			},
+			{
+				"bin": 3,
+				"count": 168
+			},
+			{
+				"bin": 4,
+				"count": 100
+			},
+			{
+				"bin": 5,
+				"count": 56
+			},
+			{
+				"bin": 6,
+				"count": 24
+			},
+			{
+				"bin": 7,
+				"count": 28
+			},
+			{
+				"bin": 8,
+				"count": 22
+			},
+			{
+				"bin": 9,
+				"count": 9
+			}
+		]
+	}
 }
