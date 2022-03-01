@@ -1,0 +1,63 @@
+{
+    "action": "query",
+    "responseId": "4hVTBWlSLaqpJvWObv4NA-",
+    "results": {
+        "metadata": [
+            {
+                "lineage": {
+                    "type": "foreach",
+                    "projections": [
+                        {
+                            "field": {
+                                "id": "q.Distributor",
+                                "type": "string"
+                            },
+                            "inputs": [
+                                {
+                                    "id": "q.Distributor"
+                                }
+                            ]
+                        },
+                        {
+                            "field": {
+                                "id": "q.count",
+                                "type": "numeric"
+                            }
+                        }
+                    ],
+                    "input": {
+                        "type": "group",
+                        "groups": [
+                            {
+                                "id": "q.Distributor"
+                            }
+                        ]
+                    }
+                },
+                "queryLanguage": "SAQL"
+            }
+        ],
+        "records": [
+            {
+                "Distributor": "APPLIC IND",
+                "count": 417
+            },
+            {
+                "Distributor": "BDINC",
+                "count": 3025
+            },
+            {
+                "Distributor": "DIMAGO",
+                "count": 1459
+            },
+            {
+                "Distributor": "Nisizu",
+                "count": 11523
+            },
+            {
+                "Distributor": "Nokemi",
+                "count": 14475
+            }
+        ]
+    }
+}
